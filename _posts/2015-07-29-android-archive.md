@@ -1,18 +1,16 @@
 ---
-title: 'Archive of My Android Development'
-date: 2015-07-29
-permalink: /2015-Android-Development/
-tags:
-  - android development
-  - xda-developers forum
-  - xda-forum
-  - lenovo NBD newglass c100
-  - github
+layout: post
+title: archive of my Android development
+date: 2015-07-29 21:01:00
+description: this is a post dedicated to my discontinued Android development projects
+tags: android development
+categories: development
+thumbnail: assets/img/9.jpg
 ---
 I was an active Android developer at various forums from 2011 to 2015 before I entered academia. This post serves as an archive and a commemoration for my development projects.
 
 Communities
-===========
+---------------
 
 1. World's First 100 Developers for Lenovo NBD newglass C100 smartglass, Lenovo (awarded a C100 dev model)
 2. Moderator, Lenovo NBD Forums (closed).
@@ -26,7 +24,7 @@ Communities
    * MoKee Open Source Project (closed)
 
 Projects (still accessible/existing)
-========
+---------------
 
 * Repositories for development (Original developement/Fork/What's left of the projects (imcomplete): Remix Ultratablet/A1_07/RAZR V) [TWSK/TerenceWSK](https://github.com/TerenceWSK?tab=repositories)
 * Lenovo NBD newglass C100
