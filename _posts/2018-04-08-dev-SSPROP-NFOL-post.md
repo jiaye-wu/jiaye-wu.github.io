@@ -1,16 +1,22 @@
 ---
-title: 'Academic Tool: SSPROP-NFOL Project'
-date: 2018-04-08
-permalink: /2018-SSPROP-NFOL/
-tags:
+layout: post
+title: "[Academic Tool] SSPROP-NFOL Project"
+date: 2018-04-08 23:05:00
+description: a MATLAB-based academic tool for split-step Fourier transform simulations in photonics
+tags: 
   - academic tool
   - open source
   - github
   - nonlinear optics
   - split-step Fourier method
+  - software  
+categories: 
+  - development
+  - research blog
+thumbnail: assets/img/github.png
 ---
 
-An enhanced open source MATLAB project for general-purpose symmetrized split-step software.
+An enhanced open source MATLAB project for general-purpose symmetrized split-step software. The repository is [here](https://github.com/jiaye-wu/SSPROP-NFOL).
 
 # SSPROP-NFOL
 

@@ -1,14 +1,24 @@
 ---
-title: 'Academic Tool: QUICKphotonics Project'
-date: 2024-06-25
-permalink: /2024-QUICKphotonics-project/
-tags:
+layout: post
+title: "[Academic Tool] QUICKphotonics Project"
+date: 2024-06-25 13:06:00
+description: a MATLAB-based academic tool for unit conversions in photonics
+tags: 
   - academic tool
-  - free software
   - github
-  - optics and photonics
+  - nonlinear optics
+  - nanophotonics
+  - software  
+  - commandline tool
   - unit conversion
+  - quick calculation
+categories: 
+  - development
+  - research blog
+thumbnail: assets/img/github.png
 ---
+
+The repository is held [here](https://github.com/jiaye-wu/QUICKphotonics).
 
 **QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
