@@ -18,10 +18,18 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to my personal academic page! In academia, the information is quite scattered across various academic websites, which all have their specialized focuses with limited flexibility. A personal academic information hub website allows me to freely communicate science as I wish.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Biography
+==============================
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Jiaye is currently a PhD researcher and doctoral assistant at Photonic Systems Laboratory (PHOSL), Institute of Electrical and Micro Engineering (IEM), School of Engineering (STI), <img src="/assets/img/EPFL.png" style="height: 0.8em; ">[École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/) (EPFL, Swiss Federal Institute of Technology Lausanne). His expertise and current research interests span ultrafast light-matter-interactions, nonlinear optics and nanophotonics in epsilon-near-zero materials, fibre, fibre laser, and waveguide network design, functional thin film design, and non-Hermitian optics. He received M.Sc. degree in Microelectronics and Solid-State Electronics (Integrated Photonic Devices) from <img src="/assets/img/PKU.png" style="height: 1.1em; ">[Peking University](https://www.pku.edu.cn/) in 2021 with the highest honours, and B.Sc. degree in Optical Information Science and Technology (Xiangqin Optoelectronic Creative Class) from <img src="/assets/img/SCNU.png" style="height: 1.1em; ">[South China Normal University](https://www.scnu.edu.cn/) in 2018 with distinction. Throughout his academic trajectory, he has consistently exemplified a commitment to outstanding scholarship. His prolific publications include 20+ academic papers <a href='https://scholar.google.com/citations?user=D2n8tswAAAAAJ'><img src="https://assets/img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fjiaye-wu%2Fjiaye-wu.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> (incl. 16+ as first author and 3 as corresponding author) in peer-reviewed esteemed journals such as *Nature Communications*, *Laser & Photonics Reviews*, *Communications Physics*, *Photonics Research*, *ACS Applied Materials & Interfaces*, etc. He served as a peer-reviewer for *Communications Physics*, *Optics Express*, *Optics Letters*, *Optics & Laser Technology*, etc., and a co-reviewer for *Nature*, *Light: Science & Applications*, etc. He is an active member of <img src="/assets/img/Elsevier.png" style="height: 1.1em; ">Elsevier Advisory Panel, <img src="/assets/img/OPTICA.png" style="height: 1.1em; ">OPTICA (formerly OSA, the Optical Society) and <img src="/assets/img/IPS.jpeg" style="height: 1.1em; ">IEEE Photonics Society. He was the founding president of <img src="/assets/img/IPS.jpeg" style="height: 1.1em; ">IEEE Photonics Society PKUSZ branch chapter and the president of <img src="/assets/img/OPTICA.png" style="height: 1.1em; ">OSA PKUSZ chapter. 
 
-Yes?
+<!-- <span class='show_paper_citations' data='D2n8tswAAAAJ:r0BpntZqJG4C'></span>  -->
+
+Research Interests
+==============================
+
+Ultrafast light-matter-interactions, nonlinear optics and nanophotonics in epsilon-near-zero materials, fibre, fibre laser, and waveguide network design, functional thin film design, and non-Hermitian optics. Integrated optics of silicon nitride, transparent conducting oxides.
+
+**Call for collaboration:** Cross- and multidiscipline research on semiconductor optics (micro- nano-devices), electro-optic integration, MEMS, photonics-related lab-on-a-chip; biophotonics; photonic computing.
