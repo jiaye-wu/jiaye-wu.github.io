@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Assistant-Doctorant at <a href='https://www.epfl.ch/labs/phosl/'>Photonic Systems Laboratory (PHOSL), École Polytechnique Fédérale de Lausanne (EPFL)</a>
 
 profile:
   align: right
