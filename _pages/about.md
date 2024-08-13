@@ -6,7 +6,7 @@ subtitle: Assistant-Doctorant at <a href='https://www.epfl.ch/labs/phosl/'>Photo
 
 profile:
   align: right
-  image: my_photo.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>ELB 135, Station 11,</p>
