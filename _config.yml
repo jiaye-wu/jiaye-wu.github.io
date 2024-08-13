@@ -320,7 +320,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["epsilon-near-zero", "integtated photonics", "nonlinear optics", "nanophotonics", "conference talk", "invited talk", "software"] # these tags will be displayed on the front page of your blog
+display_tags: ["epsilon-near-zero", "integrated photonics", "nonlinear optics", "nanophotonics", "conference talk", "invited talk", "software"] # these tags will be displayed on the front page of your blog
 display_categories: ["research blog","talks","milestone","development","archive"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
