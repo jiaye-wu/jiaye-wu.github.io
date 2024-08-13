@@ -251,6 +251,7 @@ exclude:
   - vendor
   - Windows_local_build_docker.cmd
   - Windows_local_build_launch_browser.cmd
+  - _site/
 keep_files:
   - CNAME
   - .nojekyll
