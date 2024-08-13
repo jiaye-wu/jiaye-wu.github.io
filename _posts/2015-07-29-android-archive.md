@@ -6,7 +6,7 @@ description: this is a post dedicated to my discontinued Android development pro
 tags: 
    - android
    - open source
-   - free software
+   - software
 categories: 
    - development
    - archive
