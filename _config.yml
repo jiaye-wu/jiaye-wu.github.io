@@ -246,6 +246,8 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
+  - Windows_local_build_docker.cmd
+  - Windows_local_build_launch_browser.cmd
 keep_files:
   - CNAME
   - .nojekyll
