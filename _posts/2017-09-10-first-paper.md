@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Milestone -- genesis of my research career
+title: "Milestone: genesis of my research career"
 date: 2017-09-10 9:00:00
 description: my first scientific research paper
 tags: 
