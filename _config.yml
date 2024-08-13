@@ -712,3 +712,10 @@ jsonresume:
   - languages
   - interests
   - references
+
+
+# safe: false
+# watch: true
+# livereload: true
+# incremental: true
+# quiet: true
