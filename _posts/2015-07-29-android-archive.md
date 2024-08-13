@@ -1,11 +1,14 @@
 ---
 layout: post
-title: archive of my Android development
+title: Archive of my Android development
 date: 2015-07-29 21:01:00
 description: this is a post dedicated to my discontinued Android development projects
-tags: android development
+tags: 
+   - android development
+   - open source
+   - free software
 categories: development
-thumbnail: assets/img/9.jpg
+thumbnail: assets/img/android.png
 ---
 I was an active Android developer at various forums from 2011 to 2015 before I entered academia. This post serves as an archive and a commemoration for my development projects.
 
