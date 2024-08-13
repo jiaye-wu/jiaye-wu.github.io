@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Milestone: genesis of my research career"
+title: "[Milestone] Genesis of my research career"
 date: 2017-09-10 9:00:00
 description: my first scientific research paper
 tags: 
@@ -10,7 +10,8 @@ tags:
   - nanophotonics 
   - radiative cooling  
 categories: 
-   - milestone
+  - milestone
+  - research blog
 thumbnail: assets/img/research.jpg
 ---
 
