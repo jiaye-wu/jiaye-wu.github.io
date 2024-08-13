@@ -6,12 +6,12 @@ subtitle: Assistant-Doctorant at <a href='https://www.epfl.ch/labs/phosl/'>Photo
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>ELB 135, Station 11</p>
+    <p>STI-IEM, EPFL</p>
+    <p>Lausanne 1015, Switzerland</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
