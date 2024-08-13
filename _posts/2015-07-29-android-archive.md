@@ -4,7 +4,7 @@ title: Archive of my Android development
 date: 2015-07-29 21:01:00
 description: this is a post dedicated to my discontinued Android development projects
 tags: 
-   - android development
+   - android
    - open source
    - free software
 categories: development
