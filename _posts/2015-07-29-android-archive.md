@@ -7,7 +7,9 @@ tags:
    - android
    - open source
    - free software
-categories: development
+categories: 
+   - development
+   - archive
 thumbnail: assets/img/android.png
 ---
 I was an active Android developer at various forums from 2011 to 2015 before I entered academia. This post serves as an archive and a commemoration for my development projects.
