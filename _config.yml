@@ -318,8 +318,8 @@ display_categories: ["research blog","talks","milestone","development","archive"
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Wu]
-  first_name: [Jiaye]
+  last_name: ["Wu","吴"]
+  first_name: ["Jiaye","Jia-Ye","吴嘉野","嘉野"]
 
   style: apa
   locale: en
