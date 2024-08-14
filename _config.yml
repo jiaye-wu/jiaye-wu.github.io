@@ -253,6 +253,7 @@ exclude:
   - Windows_local_build_launch_browser.cmd
   - _site/
   - _post_examples/
+  - _project_examples/
 keep_files:
   - CNAME
   - .nojekyll
