@@ -1,11 +1,20 @@
 ---
 layout: page
-permalink: /positipns/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /positions/
+title: open positions
+description: information for joining our lab.
 nav: false
 nav_order: 6
 ---
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Oh, congratulations that you have reached this under-construction page!
 
-Organize your courses by years, topics, or universities, however you like!
+Nothing to see here for now, please wait until I have a research group of my own. Stay tuned!
+
+master students
+-------------------
+
+doctoral students
+-------------------
+
+post-doctoral fellows
+-------------------
