@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: a collection of our ongoing and archived research projects.
+description: a collection of our ongoing and archived research projects (themes). I tend to combine small projects into systematic descriptions of my academic directions/preferences. 
 nav: true
 nav_order: 3
 display_categories: [ongoing, non-active]
