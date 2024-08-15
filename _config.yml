@@ -254,6 +254,7 @@ exclude:
   - _site/
   - _post_examples/
   - _project_examples/
+  - _news_examples/
 keep_files:
   - CNAME
   - .nojekyll
