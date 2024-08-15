@@ -2,10 +2,39 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: courses and lectures.
 nav: true
 nav_order: 4
 ---
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### École Polytechnique Fédérale de Lausanne (EPFL) 瑞士洛桑联邦理工学院
 
-Organize your courses by years, topics, or universities, however you like!!
+[Teaching assistant] **EE-440 Photonic Systems & Technology** by Assoc. Prof. Camille-Sophie Brès
+
+- [Coursebook](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
+- 4 ECTS Master's level
+- 2022 spring semester & 2024 spring semester
+
+[Teaching assistant] **BIOENG-445 Biomedical Optics** by Dr. Georges Wagnières
+
+- [Coursebook](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
+- 3 ECTS Master's level
+- 2022 autumn semester & 2023 autumn semester
+
+### Peking University (PKU) 北京大学
+
+[Teaching assistant] **04711202 光纤通信 Optical Fiber Communications** by Assoc. Prof. Qian Li 李倩 副教授
+
+- 3 Credits Master's level
+- 2019 spring semester
+
+[Teaching assistant] **04711182 光电子学 Photonics** by Assoc. Prof. Qian Li 李倩 副教授
+
+- 3 Credits Master's level
+- 2018 autumn semester
+
+### South China Normal University (SCNU) 华南师范大学
+
+[Teaching assistant] **41E42780 高级英语 Advanced English** by Mr. George Mckibbens
+
+- 2 Credits Bachelor's level
+- 2015 spring semester
