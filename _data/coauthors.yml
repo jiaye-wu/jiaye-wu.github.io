@@ -1,31 +1,91 @@
 "bres":
   - firstname: ["Camille", "Camille-Sophie"]
-    url: https://scholar.google.com/citations?user=ekPiTVcAAAAJ
+    url: https://orcid.org/0000-0003-2804-1675
 
 "li":
   - firstname: ["Qian"]
-    url: https://scholar.google.com/citations?user=cLmQZJ0AAAAJ
+    url: https://orcid.org/0000-0002-2396-7041
+
+"fu":
+  - firstname: ["Hongyan","H. Y.","HY","H.Y."]
+    url: https://orcid.org/0000-0002-4276-0011
+
+"yang":
+  - firstname: ["Xiangbo","Xiang-Bo"]
+    url: https://orcid.org/0009-0003-2027-9168
+
+"dai":
+  - firstname: ["Qiaofeng","Qiao-Feng"]
+    url: https://orcid.org/0000-0003-3054-0238
 
 "malomed":
   - firstname: ["Boris","Boris A."]
-    url: https://scholar.google.com/citations?user=-zgxVEUAAAAJ
+    url: https://orcid.org/0000-0001-5323-1847
 
 "chang":
   - firstname: ["Kuan-Chang"]
-    url: https://scholar.google.com/citations?user=Z7n-4dwAAAAJ
+    url: https://orcid.org/0000-0001-5056-0047
 
 "clementi":
   - firstname: ["Marco"]
-    url: https://scholar.google.com/citations?user=qS7jZRMAAAAJ
+    url: https://orcid.org/0000-0003-4034-4337
 
 "lu":
   - firstname: ["Lei"]
-    url: https://scholar.google.com/citations?user=loWewCkAAAAJ
+    url: https://orcid.org/0000-0001-5275-2181
+
+"zhang":
+  - firstname: ["Shengdong"]
+    url: https://orcid.org/0000-0002-1815-8661
 
 "hu":
   - firstname: ["Jianqi"]
-    url: https://scholar.google.com/citations?user=LYfEMQYAAAAJ
+    url: https://orcid.org/0000-0002-2018-253X
 
 "lafforgue":
   - firstname: ["Christian"]
-    url: https://scholar.google.com/citations?user=N4n1qIoAAAAJ
+    url: https://orcid.org/0009-0003-2027-9168
+
+"liu":
+  - firstname: ["Xuanyi"]
+    url: https://orcid.org/0000-0001-7542-3882
+
+"huang":
+  - firstname: ["Chenxingyu"]
+    url: https://orcid.org/0000-0003-0095-6523
+
+"xie":
+  - firstname: ["Ze Tao","Zetao"]
+    url: https://orcid.org/0000-0001-6489-4638
+
+"sha":
+  - firstname: ["Yanhua"]
+    url: https://orcid.org/0000-0002-6176-4296
+
+"ye":
+  - firstname: ["Feng"]
+    url: https://orcid.org/0000-0002-1147-3271
+
+"zhou":
+  - firstname: ["Ji"]
+    url: https://orcid.org/0000-0001-8044-4426
+
+"zhao":
+  - firstname: ["Minghe"]
+    url: https://orcid.org/0000-0002-8846-1105
+
+"qi":
+  - firstname: ["Kang"]
+    url: https://orcid.org/0000-0002-4997-0871
+
+"wang":
+  - firstname: ["Yuqing"]
+    url: https://orcid.org/0000-0002-0130-3965
+  - firstname: ["Zimiao"]
+    url: https://orcid.org/0000-0001-6225-2113
+  - firstname: ["Gang"]
+    url: https://orcid.org/0009-0007-4891-2892
+
+"chen":
+  - firstname: ["Yuxuan"]
+    url: https://orcid.org/0000-0002-9056-3821
