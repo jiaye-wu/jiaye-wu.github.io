@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2017-06-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+2nd Prize of Provincial Challenge Cup Academic Contest of Guangdong Province 第十四届挑战杯广东大学生课外学术科研作品竞赛二等奖
