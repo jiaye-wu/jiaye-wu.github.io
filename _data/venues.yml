@@ -1,12 +1,15 @@
 "Chinese Invention Patent":
-  # url: https://journals.aps.org/
+  url: https://www.cnipa.gov.cn/
   color: "#203485"
 
 "B.Sc. Thesis":
+  url: https://ioe.scnu.edu.cn/
   color: "#02406a"
 
 "M.Sc. Thesis":
+  url: https://ece.pku.edu.cn/
   color: "#930b11"
 
 "Ph.D. Thesis":
+  url: https://www.epfl.ch/phosl/
   color: "#fe0f17"
