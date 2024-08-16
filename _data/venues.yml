@@ -1,9 +1,12 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Chinese Invention Patent":
+  # url: https://journals.aps.org/
+  color: "#203485"
 
-"PhysRevA":
-  url: https://journals.aps.org/
+"B.Sc. Thesis":
+  color: "#02406a"
 
-"Vision":
-  color: "#009f36"
+"M.Sc. Thesis":
+  color: "#930b11"
+
+"Ph.D. Thesis":
+  color: "#fe0f17"
