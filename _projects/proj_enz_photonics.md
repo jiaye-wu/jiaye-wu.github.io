@@ -1,81 +1,37 @@
 ---
 layout: page
 title: near-zero-index nonlinear nanophotonics
-description: light-matter interaction at the fingertip
-img: assets/img/cover_pic.jpg
+description: exploring the exotic physical and optical phenomena
+img: assets/img/cover_enz.jpg
 importance: 1
 category: ongoing
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Photonic media with near-zero refractive index exhibits various extraordinary linear and nonlinear properties {% cite Wu2021 %}.
+Our studies can be sorted into four categories, namely,
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+1. **fabrication**: fabrication methods, protocols, and for special needs (e.g., {% cite Huang2023 %}).
+2. **integration**: prerequisite studies, design references, and hybrid integration (e.g., {% cite Wu2024a %}).
+3. **new phenomena**: new linear and nonlinear phenomena that has great potential (e.g., {% cite Wu2024a Wu2022 Wu2021a %}).
+4. **applications: nano- and integrated devices**: useful for photonic computing, telecommunications, optical signal processing, etc (e.g., {% cite Xie2020a Sha2022 Xie2022 Sha2021%}).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/proj_enz_0.jpg" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/proj_enz_3.png" title="project image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/proj_enz_laser_1.jpg" title="project image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-3 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/proj_enz_4.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Near-zero-index photonic media: fabrication, prerequisite studies, new phenomena, and applications.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+We also aim to develop and introduce new techniques {% cite Wu2021b Wang2021 Huang2022%} in a multi- and inter-disciplinary way, and are active on theories and simulations {% cite Wu2021b Wu2020a%}.  
