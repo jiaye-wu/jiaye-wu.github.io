@@ -8,15 +8,13 @@ nav_order: 4
 ---
 ### École Polytechnique Fédérale de Lausanne (EPFL) 瑞士洛桑联邦理工学院
 
-[Teaching assistant] **EE-440 Photonic Systems & Technology** by Assoc. Prof. Camille-Sophie Brès
+[Teaching assistant] [**EE-440 Photonic Systems & Technology**](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440) by Assoc. Prof. Camille-Sophie Brès
 
-- [Coursebook](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
 - 4 ECTS Master's level
 - 2022 spring semester & 2024 spring semester
 
-[Teaching assistant] **BIOENG-445 Biomedical Optics** by Dr. Georges Wagnières
+[Teaching assistant] [**BIOENG-445 Biomedical Optics**](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445) by Dr. Georges Wagnières
 
-- [Coursebook](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
 - 3 ECTS Master's level
 - 2022 autumn semester & 2023 autumn semester
 
