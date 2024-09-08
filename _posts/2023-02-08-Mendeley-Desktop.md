@@ -26,18 +26,16 @@ I am sharing the old installers for free as an internet archive, hosted in my Gi
 Microsoft Windows (X86/X64)
 -----------
 
-[Mendeley Desktop 1.19.8](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/Mendeley-Desktop-1.19.8-win32.exe)
+[Mendeley Desktop 1.19.8](https://pan.baidu.com/s/1AR1WFE0uawl_Z6eckJ_OPw?pwd=13pw)
 
 Apple macOS (X86/X64)
 -----------
 
-[Mendeley Desktop 1.19.2](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/Mendeley-Desktop-1.19.2-OSX-Universal.dmg)
+[Mendeley Desktop 1.19.2](https://pan.baidu.com/s/1AR1WFE0uawl_Z6eckJ_OPw?pwd=13pw)
 
 GNU/Linux: Debian packages (X86/X64)
 -----------
 
 Unzip in the same folder:
 
-Mendeley Desktop 1.19.8 original official version [Part 1](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8-stable_amd64.zip) [Part 2](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8-stable_amd64.z01) [Part 3](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8-stable_amd64.z02)
-
-Mendeley Desktop 1.19.8 modified for dependencies in Ubuntu 22.04+ [Part 1](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8_for_ubuntu_22.04.zip) [Part 2](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8_for_ubuntu_22.04.z01) [Part 3](https://github.com/jiaye-wu/discontinued.jiaye-wu.github.io/tree/master/files/mendeleydesktop_1.19.8_for_ubuntu_22.04.z02)
+[Mendeley Desktop 1.19.8 original official version](https://pan.baidu.com/s/1AR1WFE0uawl_Z6eckJ_OPw?pwd=13pw)
