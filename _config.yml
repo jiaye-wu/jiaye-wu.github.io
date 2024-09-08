@@ -7,13 +7,7 @@ first_name: Jiaye
 middle_name:
 last_name: Wu
 email: jiaye.wu@epfl.ch
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  This website is based on [*folio](https://github.com/bogoli/-folio) design.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: personal website, academic-website, portfolio-website, lab-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jiaye-wu.github.io # the base hostname & protocol for your site
@@ -110,9 +104,6 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: jiayewu # your zotero username
 
-contact_note: >
-  Contact language: English, Chinese (Simplified, Traditional)
-
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
@@ -132,8 +123,6 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Espace Sci # blog_name will be displayed in your blog page
-blog_description: academic and personal blog posts
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -323,7 +312,7 @@ jekyll-archives:
     category: "/blog/category/:name/"
 
 display_tags: ["epsilon-near-zero", "integrated photonics", "nonlinear optics", "nanophotonics", "conference talk", "invited talk", "software"] # these tags will be displayed on the front page of your blog
-display_categories: ["research blog","talks","milestone","development","archive"] # these categories will be displayed on the front page of your blog
+display_categories: ["research blog","talks","news","milestone","development","archive"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
@@ -411,12 +400,12 @@ external_links:
 # Jekyll Polyglot
 # -----------------------------------------------------------------------------
 
-languages: ["en-us", "pt-br", "fr-ca"]
+languages: ["en-us", "zh-cn"]
 default_lang: "en-us"
 exclude_from_localization: ["assets"]
 lang_from_path: true
-country_flag: false # set true for allowing flag symbol in language toggle
-parallel_localization: false
+country_flag: true # set true for allowing flag symbol in language toggle
+parallel_localization: true
 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
@@ -701,7 +690,6 @@ jekyll_get_json:
     json: assets/json/resume_en-us.json # it can also be an url
   - data: resume_pt-br
     json: assets/json/resume_pt-br.json # it can also be an url
-
 jsonresume:
   - basics
   - work
@@ -715,10 +703,3 @@ jsonresume:
   - languages
   - interests
   - references
-
-
-# safe: false
-# watch: true
-# livereload: true
-# incremental: true
-# quiet: true

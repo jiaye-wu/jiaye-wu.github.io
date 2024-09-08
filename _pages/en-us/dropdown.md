@@ -6,12 +6,18 @@ nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: publications
-    permalink: /publications/
+  - title: news feed
+    permalink: /news/
   - title: divider
-  - title: projects
-    permalink: /projects/
+  - title: links
+    permalink: /links/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  # - title: people
+  #   permalink: /people/
+  # - title: divider
+  # - title: open positions
+  #   permalink: /positions/
+  # - title: divider
+  - title: useful repositories
+    permalink: /repositories/
 ---
