@@ -23,6 +23,7 @@ Note that throughout the [README.md](README.md) and [CUSTOMIZE.md](CUSTOMIZE.md)
     - [Backend](#backend)
     - [Build and Deployment](#build-and-deployment)
     - [Key Integration Points](#key-integration-points)
+  - [Displaying countries flags](#displaying-countries-flags)
   - [Modifying the CV information](#modifying-the-cv-information)
   - [Modifying the user and repository information](#modifying-the-user-and-repository-information)
     - [Configuring external service URLs](#configuring-external-service-urls)
@@ -271,6 +272,11 @@ Understanding how these technologies work together will help you customize al-fo
 4. **Bibliography**: BibTeX files are processed by jekyll-scholar to generate publication pages
 5. **Static Site Generation**: Jekyll builds all files into static HTML
 6. **Deployment**: GitHub Actions automatically deploys the built site to GitHub Pages
+## Displaying countries flags
+
+To display countries flags instead of the language initials in the header, you can set `country_flag: true` in the [\_config.yml](_config.yml) file. You should also add the countries' svg flags in the [assets/img/flags/](assets/img/flags/) directory. You can find the flags in the [flag-icons repository](https://github.com/lipis/flag-icons/tree/main/flags). When selecting the flags, the code uses the last part (after the `-`) of the site languages. So when looking for the flag of the language `pt-br`, the code will look for the file `br.svg` in the [assets/img/flags/](assets/img/flags/) directory.
+
+![Use country flag instead of language name](readme_preview/country_flag.png)
 
 ## Modifying the CV information
 

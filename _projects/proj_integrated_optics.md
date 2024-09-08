@@ -1,4 +1,5 @@
 ---
+page_id: project_pic  
 layout: page
 title: novel integrated photonic nanodevices, chips, & circuits
 description: unconventional light-matter interactions at the fingertip
