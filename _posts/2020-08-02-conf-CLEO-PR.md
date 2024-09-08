@@ -10,6 +10,7 @@ tags:
   - ellipsometry
   - microelectronics
   - nonlinear optics
+  - conference talks
 categories: 
   - talks
   - research blog
