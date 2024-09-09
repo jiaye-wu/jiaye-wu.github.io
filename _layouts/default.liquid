@@ -31,13 +31,12 @@
 
     <style>
       .banner-container {
-        width: 1000px; /* 与网站宽度一致 */
+        width: 1280px; /* 与网站宽度一致 */
         margin: 0 auto; /* 水平居中 */
         position: relative; /* 相对定位 */
       }
 
       .banner {
-        /* background-color: #ffffff;  */
         width: 100%; /* 横幅占满整个屏幕宽度 */
         height: 50px; /* 固定高度 */
         display: flex;
@@ -48,6 +47,9 @@
         position: fixed;
         top: 0;
         /*left: 0;*/
+        background-color: var(--global-bg-color); /* inerit 继承父元素的背景颜色，根据亮暗模式变化 */
+        opacity: 0.9; /* 设置透明度，只影响背景 */
+        backdrop-filter: blur(100px);  可选：模糊效果，增强视觉效果 */
       }
 
       .banner img {
