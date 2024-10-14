@@ -12,8 +12,8 @@ related_publications: true
 Photonic media with near-zero refractive index exhibits various extraordinary linear and nonlinear properties {% cite Wu2021 %}.
 Our studies can be sorted into four categories, namely,
 
-1. **fabrication**: fabrication methods, protocols, and for special needs (e.g., {% cite Huang2023 %}).
-2. **integration**: prerequisite studies, design references, and hybrid integration (e.g., {% cite Wu2024a %}).
+1. **fabrication**: fabrication methods, protocols, and for special needs (e.g., {% cite Huang2023 Wu2021b%}).
+2. **integration**: prerequisite studies, design references, and hybrid integration (e.g., {% cite Wu2024a Sha2022%}).
 3. **new phenomena**: new linear and nonlinear phenomena that has great potential (e.g., {% cite Wu2024a Wu2022 Wu2021a %}).
 4. **applications: nano- and integrated devices**: useful for photonic computing, telecommunications, optical signal processing, etc (e.g., {% cite Xie2020a Sha2022 Xie2022 Sha2021%}).
 
