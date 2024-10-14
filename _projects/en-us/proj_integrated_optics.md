@@ -30,6 +30,6 @@ An example of the 1st point: we introduced the novel *temporal Talbot effect of 
     The integrated chip with temporal Talbot effect.
 </div>
 
-One example of the 2nd point is the enhanced thermo-optic effects in epsilon-near-zero materials {% cite Wu2024a %}, which are also CMOS-compatible (see [near-zero-index nonlinear nanophotonics project]({% link _projects/proj_enz_photonics.md %})).
+One example of the 2nd point is the enhanced thermo-optic effects in epsilon-near-zero materials {% cite Wu2024a %}, which are also CMOS-compatible (see [near-zero-index nonlinear nanophotonics project]({% link _projects/en-us/proj_enz_photonics.md %})).
 Introducing the state-of-the-art microelectronic technique can lead to unexpected interesting new findings, for instance, we applied the supercritical fluid technique to degenerate semiconductor photonic material for the first time {% cite Wu2021b %}.
 We also aim to employ our early theoretical works (see [publications](/publications/)) into **integrated nanodevices (nanostructure, thin-film device, metasurface), chips (hybrid & novel materials), and circuits (networks with certain topology)** with our newly developed technique and in collaboration with our sister labs and colleagues around the world.
