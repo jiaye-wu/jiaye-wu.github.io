@@ -20,10 +20,10 @@ We are working in the following categories:
 4. **photonic design for computations and neural networks**: photonic-enabled AI platforms (e.g., {% cite Wu2022%}).
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_TBA.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
