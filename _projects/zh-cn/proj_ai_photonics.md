@@ -20,10 +20,10 @@ related_publications: true
 4. **用于计算和神经网络的光子设计**：基于光子学的人工智能平台（例如，{% cite Wu2022%}）。
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_TBA.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
