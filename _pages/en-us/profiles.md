@@ -1,9 +1,9 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /members/
+title: members
+description: our lab and research group
 nav: false
 nav_order: 5
 

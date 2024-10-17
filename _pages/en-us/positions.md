@@ -2,7 +2,7 @@
 id: positions
 layout: page
 permalink: /positions/
-title: open positions
+title: positions
 description: information for joining our lab.
 nav: false
 nav_order: 6
