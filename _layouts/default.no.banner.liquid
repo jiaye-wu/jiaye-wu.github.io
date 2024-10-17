@@ -22,55 +22,6 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- 横幅代码 -->
-    <div class="banner-container">
-      <div class="banner">
-        <img src="{{ '/assets/img/banners/banner.png' | relative_url }}" alt="Banner Image">
-      </div>
-    </div>
-
-    <style>
-      .banner-container {
-        width: 1280px; /* 与网站宽度一致 */
-        margin: 0 auto; /* 水平居中 */
-        position: relative; /* 相对定位 */
-      }
-
-      .banner {
-        width: 100%; /* 横幅占满整个屏幕宽度 */
-        height: 40px; /* 固定高度 */
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        overflow: hidden;
-        z-index: 1050;
-        position: fixed;
-        top: 0;
-        /*left: 0;*/
-        background-color: var(--global-bg-color); /* inerit 继承父元素的背景颜色，根据亮暗模式变化 */
-        opacity: 0.9; /* 设置透明度，只影响背景 */
-        backdrop-filter: blur(100px);  可选：模糊效果，增强视觉效果 */
-      }
-
-      .banner img {
-        height: 100%; /* 图片高度为横幅高度 */
-        width: auto; /* 宽度自动适应比例 */
-      }
-
-      /* 针对小屏设备的样式 */
-      @media (max-width: 768px) {
-        .banner img {
-          width: auto; /* 当屏幕宽度小于768px时，图片宽度100% */
-          height: 40px; /* 高度自动调整，保持图片比例 auto */
-        }
-      }
-
-      #navbar {
-      z-index: 1000; /* 导航栏的 z-index 设置比横幅低 */
-      margin-top: 40px; /* 确保导航栏不会遮盖横幅 */
-      }
-
-    </style>
 
     <!-- Header -->
     {% include header.liquid %}
