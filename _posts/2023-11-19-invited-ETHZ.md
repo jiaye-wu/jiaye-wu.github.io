@@ -12,7 +12,7 @@ tags:
 categories: 
    - talks
    - research blog
-thumbnail: assets/img/ETHZ.jpg
+thumbnail: assets/img/ETHZ.png
 related_publications: true
 ---
 
