@@ -12,7 +12,7 @@ tags:
 categories: 
    - talks
    - research blog
-thumbnail: assets/img/PKU-H.jpg
+thumbnail: assets/img/PKU-H.png
 related_publications: true
 ---
 

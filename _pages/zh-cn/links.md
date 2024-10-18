@@ -18,7 +18,7 @@ nav_order: 98
 
 ---
 
-[瑞士洛桑联邦理工学院（EPFL）](https://www.epfl.ch/)
+[瑞士洛桑联邦理工大学（EPFL）](https://www.epfl.ch/)
 
 ## 友情链接
 

@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-### <img src="/assets/img/EPFL.png" style="height: 0.8em; "> 瑞士洛桑联邦理工学院
+### <img src="/assets/img/EPFL.png" style="height: 0.8em; "> 瑞士洛桑联邦理工大学
 
 ---
 
