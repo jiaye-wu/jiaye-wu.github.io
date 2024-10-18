@@ -18,7 +18,7 @@ categories:
 thumbnail: assets/img/github.png
 ---
 
-The repository is held [here](https://github.com/jiaye-wu/QUICKphotonics).
+The repository is held on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
 
 # QUICKphotonics - Quick UnIt Conversion Kit for Photonics
 
