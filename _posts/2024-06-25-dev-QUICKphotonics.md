@@ -2,7 +2,7 @@
 layout: post
 title: "[Academic Tool] QUICKphotonics Project"
 date: 2024-06-25 13:06:00
-description: a MATLAB-based academic tool for unit conversions in photonics
+description: an Excel and MATLAB-based academic tool for unit conversions in photonics
 tags: 
   - academic tool
   - github
