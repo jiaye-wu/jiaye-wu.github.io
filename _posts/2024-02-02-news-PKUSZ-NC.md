@@ -12,6 +12,6 @@ tags:
   - nanophotonics
 categories: 
   - news
-thumbnail: assets/img/PKU-H.jpg
+thumbnail: assets/img/PKU-H.png
 ---
 
