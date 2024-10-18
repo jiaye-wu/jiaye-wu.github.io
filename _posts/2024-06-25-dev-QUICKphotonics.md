@@ -20,15 +20,26 @@ thumbnail: assets/img/github.png
 
 The repository is held [here](https://github.com/jiaye-wu/QUICKphotonics).
 
-**QUICKphotonics** (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
+# QUICKphotonics - Quick UnIt Conversion Kit for Photonics
+
+## Introduction
+
+[**QUICKphotonics.mlappinstall**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics.mlappinstall) (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
 
 - To use this MATLAB Toolbox App binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
-- Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ```QUICK``` in the command window to start.
+- Install **QUICKphotonics.mlappinstall** and type ``QUICKphotonics`` or ``QUICK`` in the command window to start.
 - In some cases, after restarting MATLAB, you need to manually find and click this application in the *APP* tab > *My app* on the top to (re)-enable it.
 
-## What problems/pain spots does it solve? Why do I make this tool?
+[**QUICKphotonics Excel.xltx**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics%20Excel.xltx) is the Excel version of the MATLAB app. 
 
-The purpose of this software is to **enable quick lookup** of values in experiments or academic discussions.
+- This Excel calculator is macro-free. All features are realized by Excel functions.
+- To use the tool, an office suite (Microsoft Office/WPS Office/LibreOffice, etc.) must be installed. Recommend using Microsoft Office 365 for the best compatibility.
+- The tool starts as an Excel template (.xltx) which means creating a new file (.xlsx) each time. You can save the .xlsx file to your working directory. The changes are not saved to the template.
+- **Usage:** download the **QUICKphotonics Excel.xltx** file to use it, or in **QUICKphotonics MATLAB** use command ``Excel`` or ``excel``.
+
+## What problems/pain spots does it solve? Why would I need this tool?
+
+The purpose of this software is to **enable quick lookup** of values **in experiments or academic discussions.**
 
 The common conversions and calculations in optics & photonics such as "frequency difference to wavelength difference at a certain band", "photon energy", "Fresnel reflection at an angle", etc., are simple, **yet**:
 
@@ -36,16 +47,27 @@ The common conversions and calculations in optics & photonics such as "frequency
 - Subsequently, your function files could become too many and non-centralized. You might not remember where to find them in a later project.
 - Every time you use your old scripts, you might have to check your previous definitions (function names, units used, order of the values). If not careful enough, the results can be orders of magnitude off.
 
-With the QUICKphotonics MATLAB Toolbox: 
+With the QUICKphotonics MATLAB Toolbox:
 
-- You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ```QUICK``` in the command window, or find it in your *MATLAB apps* tab.
-- The commands are flexibly spelt with auto-recognized units, which is very intuitive to use.
+- You do not need to remember where you put the files. Once installed, just call the toolbox using ``QUICKphotonics`` or ``QUICK`` in the command window, or find it in your *MATLAB apps* tab.
+- You do not need to remember the commands and deal with units. The commands are **flexibly spelt with auto-recognized units**, which is very intuitive to use.
 
-## Feedbacks & downloads
+## Feedbacks & credits
 
 Bug reports and feature requests are open on my [GitHub project page](https://github.com/jiaye-wu/QUICKphotonics).
 
-If you find my tool useful, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+This toolkit is framework-based and modular. *New feature requests are considered if*:
+
+- It is commonly used.
+- It does not involve complex algorithm and computational power.
+- It requires the number of input parameters fewer than 4. (1--3 are considered, to make it easy to remember.)
+
+**If you find my tool useful**, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+
+**Note:** 
+
+- The author takes **NO** responsibility for any calculation errors.
+- The rest of this markdown file is for QUICKphotonics **MATLAB version only**.
 
 ## Feature: introducing the *flexiCommand*
 
@@ -71,10 +93,18 @@ For example, ``wlnm2freqTHz 1550``, ``nmTHzwl2freq 1550``, ``wl2freqTHznm 1550``
 
 ## Simple commmands:
 
+- To launch **QUICKphotonics Excel**: ``excel`` / ``Excel``
+- To check for updates: ``update`` / ``upgrade``
+- To visit project GitHub page: ``github`` / ``GitHub`` / ``project``
+- To visit prioject blog: ``blog``
+- For current version: ``version`` / ``ver`` 
 - For changelog: ``changelog``
-- For help and supported functions: ``help`` / ``functions`` / ``commands`` / ``flexiCommand`` / ``flexiCMD``
+- For help and supported functions printed **in command line**: ``help`` / ``functions`` / ``commands`` / ``flexiCommand`` / ``flexiCMD``
+- For help and supported functions **markdown file**: ``help-md`` / ``help-markdown``. Please **DO NOT** modify the contents of this file!
+- For help and supported functions **online**: ``help-ol`` / ``help-online``
 - For optical constants: ``constants``
 - For author info/credits/licence/important notes: ``about`` / ``info`` / ``credits`` / ``license`` / ``licence``
+- For restarting or returning to title page: ``restart`` / ``clear``
 - For closing/terminating the programme: ``close`` / ``exit``
 
 ## Unit conversions & calculations
@@ -120,6 +150,8 @@ For photon energy, one can use either ``*J`` (like ``mJ``, ``uJ``, etc) or ``eV`
 For back-conversion, the cammand is similar: ``photonfreq(freq_unit)2E(energy_unit) <freq_value>`` or ``photonwl(wl_unit)2E(energy_unit) <wl_value>``.
 
 For angular frequency, replace ``freq`` by ``afreq``, and the units are omitted (default: rad/s)
+
+For back conversion, ``photonE(energy_unit)2wl(wl_unit) <wl_value>``, ``photonE(energy_unit)2freq(freq_unit) <freq_value>``, ``photonE(energy_unit)2afreq <afreq_value>``.
 
 #### 1.6 Energy conversion between *J and eV: ``energyeV2(energy_unit) <value>`` and ``energy(energy_unit)2eV <value>``
 
@@ -198,3 +230,4 @@ For example, ``peak2pavgGWpsMHz 0.5 1 16`` means the input has a peak power of 0
 - **logarithmic scale:** dB, dBm
 - **photon energy:** *J (fJ to GJ), eV
 - **wavelength/cavity length:** *m (am to Gm)
+
