@@ -15,7 +15,7 @@ tags:
 categories: 
   - development
   - research blog
-thumbnail: assets/img/github.png
+thumbnail: assets/img/QUICKphotonics.png
 ---
 
 The repository is held on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
