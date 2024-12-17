@@ -23,5 +23,5 @@ related_publications: true
     基于波导网络的光开关的理论和概念设计。
 </div>
 
-这些研究有两个分支，即非厄米或宇称-时间对称（$$\mathcal{PT}$$对称）{% cite Wu2024a Zhi2018 Wu2019f %} 和经典电介质 {% cite Wu2019 %}。  
+这些研究有两个分支，即非厄米或宇称-时间对称（$$\mathcal{PT}$$对称）{% cite Li2020 Zhi2018 Wu2019f Jia-YeWu2019 Wu2017%} 和经典电介质 {% cite Wu2019 %}。  
 它们都是[新型集成光子纳米器件、芯片和光路]({% link _projects/zh-cn/proj_integrated_optics.md %}) 项目中的良好候选者。
