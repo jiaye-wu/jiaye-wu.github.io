@@ -23,5 +23,5 @@ Inspired by the classic quantum mechanics and the electric trasmission line, a n
     An optical switch composed of a network of waveguide.
 </div>
 
-The studies have two branches, namely the non-Hermitian or parity-time symmetric ($$\mathcal{PT}$$-symmetric) {% cite Wu2024a Zhi2018 Wu2019f %} and the classical dielectric {% cite Wu2019 %}.
+The studies have two branches, namely the non-Hermitian or parity-time symmetric ($$\mathcal{PT}$$-symmetric) {% cite Li2020 Zhi2018 Wu2019f Jia-YeWu2019 Wu2017%} and the classical dielectric {% cite Wu2019 %}.
 They are both good candidates in the project [novel integrated photonic nanodevices, chips, & circuits]({% link _projects/en-us/proj_integrated_optics.md %}).

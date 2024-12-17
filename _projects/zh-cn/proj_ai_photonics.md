@@ -1,7 +1,7 @@
 ---
 page_id: project_ai_photonics
 layout: page
-title: AI4tonics - AI 光子学
+title: AI 辅助光子学及面向AI应用的光子学
 description: 算法驱动的优化与设计
 img: assets/img/cover_ai.png
 importance: 1
@@ -17,14 +17,14 @@ related_publications: true
 1. **算法辅助光子设计**：结构设计和优化（例如，{% cite Wu2020d Wang2021 Huang2022%}）。
 2. **逆向设计**：用于光信号处理和变换的新颖设计。
 3. **结合物理约束的机器学习**：拥有更快速度和预测的计算光子学。
-4. **用于计算和神经网络的光子设计**：基于光子学的人工智能平台（例如，{% cite Wu2022%}）。
+4. **非冯诺依曼架构存算一体光计算**：基于光子学的光计算新平台（例如，{% cite Wu2022 Wu2024c Wu2024d%}）。
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proj_ai_TBA.png" title="project image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj_ai_2.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
