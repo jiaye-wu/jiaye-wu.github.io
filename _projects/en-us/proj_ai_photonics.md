@@ -1,7 +1,7 @@
 ---
 page_id: project_ai_photonics
 layout: page
-title: AI4tonics - AI for photonics
+title: AI for photonics & photonics for AI
 description: optimization and design enpowered by algorithms 
 img: assets/img/cover_ai.png
 importance: 1
@@ -17,14 +17,14 @@ We are working in the following categories:
 1. **algoritm-assisted photonic designs**: structural designs and optimizations (e.g., {% cite Wu2020d Wang2021 Huang2022%}).
 2. **inverse design**: novel design for optical signal processing and transformations.
 3. **machine learning with physical constraints**: computational photonics with faster speed and predictions.
-4. **photonic design for computations and neural networks**: photonic-enabled AI platforms (e.g., {% cite Wu2022%}).
+4. **non-von-Neumann architecture photonic computations**: photonic-enabled AI platforms (e.g., {% cite Wu2022 Wu2024c Wu2024d%}).
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proj_ai_TBA.png" title="project image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/proj_ai_2.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
