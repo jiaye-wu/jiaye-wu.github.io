@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-2023 Chinese Government Award for Outstanding Self-financed Students Abroad.
+2023 Award for Outstanding Self-financed Students Abroad, Department of Education.
