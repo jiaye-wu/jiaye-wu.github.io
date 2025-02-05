@@ -12,6 +12,6 @@ tags:
   - nanophotonics
 categories: 
   - journal cover
-thumbnail: assets/img/publication_preview/ACSP-MyCover20250219.jpg
+thumbnail: assets/img/ACSP.png
 ---
 
