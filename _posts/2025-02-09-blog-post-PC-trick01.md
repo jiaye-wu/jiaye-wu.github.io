@@ -24,7 +24,7 @@ Your data and document files are valuable, and invaluable. The most famous princ
 
 - **3**: *Three* backups.
 - **2**: *Two different* media. **HDDs** (mechanical hard drives) offer longer storage time for cold data, but with much lower read/write speed. They are less resilient to shocks (fall, vibration). **SSDs** (solid-state drives) are fast and light, and more robust. However they can lose data if you don't connect it to a computer for a long time for refresh. It is not recommened to use them for your cold data and archive. **Conventional flash drives** (USB thumb disks) are only suitable for data transfer in small sizes. They are not for data storage since they are prone to fail and have a much shorter lifespan. A convenient option for your daily data storage is the high-speed **USSDs** (SSD in USB thumb disk form), but you will still need to back it up regularly to the *Two different* media (HDD and SSD).
-- **1**: At least **one** remote copy. Local copies can fail due to theft, unintentially lost, and natural disasters. The remote copy can be physically located in another place, or on cloud. Always remember that, except for personal NAS (Network-Attached Storage), the data on cloud is *not truly yours*.
+- **1**: At least *one* remote copy. Local copies can fail due to theft, unintentially lost, and natural disasters. The remote copy can be physically located in another place, or on cloud. Always remember that, except for personal NAS (Network-Attached Storage), the data on cloud is *not truly yours*.
 
 ## File Synchronization
 
