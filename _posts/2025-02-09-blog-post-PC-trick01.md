@@ -32,9 +32,9 @@ Your data and document files are valuable, and invaluable. The most famous princ
 
 **Computers to Android phones/tablets**: [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=en), a free/paid Android app allows you to visit and access your files (e.g., your published works, your unfinished literature, and your CVs) on your phones and tablets. The trick is that you put your files for your portable devices in a dedicated folder in OneDrive, and in the app, pair a corresponding local folder with the OneDrive folder. You can enable "allow deletion" in the settings according to your needs.
 
-##  Some of my PCs have only one drive (C:) and some of them have multiple (C:, D:, ...), what are the solutions for the file paths for file sync & consistency?
+##  Some of my PCs have only one drive (``C:\``) and some of them have multiple (``C:\, D:\``, ...), what are the solutions to the file paths for file sync & consistency?
 
-On *Microsoft Windows* platform, many people are used to separate their operating system OS (C:) from their data/document files (D:, E:), when an addtional drive letter (e.g., D:) is available. 
+On *Microsoft Windows* platform, many people are used to separate their operating system OS (``C:\``) from their data/document files (``D:\, E:\``), when an addtional drive letter (e.g., ``D:\``) is available. 
 
 If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (consistency through file path, the need for different versions of file-sync configurations and you need to sync the change between the configs).
 
@@ -42,7 +42,7 @@ If you have more than one physical drive in your system, having additoinal lette
 
 You can go to disk management and partition your drive into two letters, one for your OS and one for your files. Then you can use one sync-configuration file for all your PCs.
 
-However, this method has a significant problem: you cannot foresee how much space you should assign to C: and D: partitions. What if you installed a lot of software and you don't have enough space in C:? What happens if you collected too much data to fit in D:? When that happens, it is usually too late to re-assign the partition spaces, since you will need a third physical drive to move your data before they can be moved back-in.
+However, this method has a significant problem: you cannot foresee how much space you should assign to ``C:\`` and ``D:\`` partitions. What if you installed a lot of software and you don't have enough space in ``C:\``? What happens if you collected too much data to fit in ``D:\``? When that happens, it is usually too late to re-assign the partition spaces, since you will need a third physical drive to move your data before they can be moved back-in.
 
 ### Solution 2: staying with the only drive (recommended)
 
@@ -50,15 +50,16 @@ This solution is more flexible. Now your focus should **not** be separating the 
 
 #### 2.1 Using the ``subst`` command (not recommended)
 
-1. Create a cmd file, say, ``MountDisk.bat`` in the root of C:. and inside type the command, something like:
+1. Create a cmd file, say, ``MountDisk.bat`` in the root of ``C:\``. and inside type the command, something like:
 
     ``` subst D: "C:\Users\your-profile-name\Documents\My Work Folder" ```
 
 2. Press ``ctrl+R `` and type ``taskschd.msc``.
 3. Create a new scheduled task, set it to run upon user login.
 4. Set trigger as when system boots and when user login.
-5. The operation is to run a programme, in that you create a task that points to the ``.bat`` file.
-6. Reboot the computer and you shall have your new disk created.
+5. The operation is to run a programme, in that you create a task that points to the ``.bat`` file. 
+6. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
+7. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
 The issue with this method is that ``subst`` does not support **recycle bin** and no programme (``*.exe``) can be launched from the new path. Due to the lack of recycle bin, it is **very unsafe** to use the path in file-sync software.
 
@@ -91,7 +92,8 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 8. Set trigger as when system boots and when user login.
 9. The operation is to run a programme, in that you create a task that points to the ``.bat`` file.
 10. Confirm your changes and type in your login password.
-11. Reboot the computer and you shall have your new disk created.
+11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
+12. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
 This method is perpetual and supports all functions including recycle bin in the ``NTFS`` file system.
 
@@ -101,4 +103,4 @@ A note is that, remember to exclude the ``VHDX`` file shall it exist in the path
 
 Instead, you can abandon the ``mklink`` command and put all your files in a sufficiently big  ``VHDX`` virtual disk file (in 2.2 select a big enough size in Step 1 and skip Step 3) and mount it on boot.
 
-However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data.
+This method is also flexible on the partition size, and you can enjoy the functionality of recycle bin and running programmes. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data.
