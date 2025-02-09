@@ -48,7 +48,7 @@ However, this method has a significant problem: you cannot foresee how much spac
 
 This solution is more flexible. Now your focus should **not** be separating the OS with your data, **but rather**, creating a virtual D: disk to quickly access your data without going through layers and layers of folders, and you can still use the configuration files for your other multiple-drive computers.
 
-#### 2.1 Using the ``subst`` command (not recommended)
+#### 2.1 Using the ``subst`` command on boot (not recommended)
 
 1. Create a cmd file, say, ``MountDisk.bat`` in the root of ``C:\``. and inside type the command, something like:
 
@@ -63,7 +63,7 @@ This solution is more flexible. Now your focus should **not** be separating the 
 
 The issue with this method is that ``subst`` does not support **recycle bin** and no programme (``*.exe``) can be launched from the new path. Due to the lack of recycle bin, it is **very unsafe** to use the path in file-sync software.
 
-#### 2.2 ``VHDX`` + ``mklink`` command (recommended)
+#### 2.2 Directory junction ``mklink /j`` in a automatically-mounted virtual disk ``VHDX`` (recommended)
 
 1. Go to disk management and create a ``.vhdx`` virtual disk. Use a small size, like 100 MB or 1 GB. The real size occupied is only relevent to the sizes of files that are put inside.
 2. Initiate the virtual disk, format it as ``NTFS`` and assign it a letter D.
