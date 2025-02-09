@@ -36,7 +36,7 @@ Your data and document files are valuable, and invaluable. The most famous princ
 
 On *Microsoft Windows* platform, many people are used to separate their operating system OS (``C:\``) from their data/document files (``D:\, E:\``), when an addtional drive letter (e.g., ``D:\``) is available. 
 
-If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (consistency through file path, the need for different versions of file-sync configurations and you need to sync the change between the configs).
+If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (**consistency through file path, the need for keeping and maintaining different versions of file-sync configurations and keeping track of the change between the configurations**).
 
 ### Solution 1: partitioning the only drive (not recommended)
 
@@ -46,7 +46,7 @@ However, this method has a significant problem: you cannot foresee how much spac
 
 ### Solution 2: staying with the only drive (recommended)
 
-This solution is more flexible. Now your focus should **not** be separating the OS with your data, **but rather**, creating a virtual D: disk to quickly access your data without going through layers and layers of folders, and you can still use the configuration files for your other multiple-drive computers.
+This solution is more flexible. Now your focus should **not** be separating the OS with your data, **but rather**, creating a virtual ``D:\`` disk to quickly access your data without going through layers and layers of folders, and you can still use the configuration files for your other multiple-drive computers.
 
 #### 2.1 Using the ``subst`` command on boot (not recommended)
 
@@ -63,7 +63,7 @@ This solution is more flexible. Now your focus should **not** be separating the 
 
 The issue with this method is that ``subst`` does not support **recycle bin** and no programme (``*.exe``) can be launched from the new path. Due to the lack of recycle bin, it is **very unsafe** to use the path in file-sync software.
 
-#### 2.2 Directory junction ``mklink /j`` in an automatically-mounted virtual disk ``VHDX`` (recommended)
+#### 2.2 Directory junction ``mklink /j`` in an automatically-mounted virtual disk ``.vhdx`` (recommended)
 
 1. Go to disk management and create a ``.vhdx`` virtual disk. Use a small size, like 100 MB or 1 GB. The real size occupied is only relevent to the sizes of files that are put inside.
 2. Initiate the virtual disk, format it as ``NTFS`` and assign it a letter D.
@@ -71,7 +71,7 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 
     ```mklink /J "D:\sub-folder" "C:\Users\your-profile-name\Documents\My Work Folder\subfolder"```
 
-    you can mutilpicate the command for all subfolders, and save the commands in a ``.cmd`` file for future use on another computer. Now the link is saved on your ``VHDX`` disk. In theory, if your Work Folder's path is the same on the other computer, you can simply copy-paste-mount this ``VHDX`` file.
+    you can mutilpicate the command for all subfolders, and save the commands in a ``.cmd`` file for future use on another computer. Now the link is saved on your ``.vhdx`` disk. In theory, if your Work Folder's path is the same on the other computer, you can simply copy-paste-mount this ``.vhdx`` file.
 
 4. Creat somewhere convenient a ``.bat`` file with command like:
 
@@ -88,19 +88,19 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 ```
 
 6. Press ``ctrl+R `` and type ``taskschd.msc``.
-7. Create a new scheduled task, set it to run **regardless** of user login.
+7. Create a new scheduled task, set it to run **regardless** of user login. Opt to run as **adminstrator** with compatibility selected as *Windows 10*.
 8. Set trigger as when system boots and when user login.
-9. The operation is to run a programme, in that you create a task that points to the ``.bat`` file.
+9. The operation is to run a programme, in that dialogue page you create a task that points to the ``.bat`` file in Step 4.
 10. Confirm your changes and type in your login password.
-11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
+11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 8.
 12. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
 This method is perpetual and supports all functions including recycle bin in the ``NTFS`` file system.
 
-A note is that, remember to exclude the ``VHDX`` file shall it exist in the path of file-sync, since they are changed independely across your different computers.
+A note is that, remember to exclude the ``.vhdx`` file shall it exist in the path of file-sync, since they are changed independely across your different computers.
 
-#### 2.3 All work files in ``VHDX`` virtual disk (not recommended)
+#### 2.3 All work files in ``.vhdx`` virtual disk (not recommended)
 
-Instead, you can abandon the ``mklink`` command and put all your files in a sufficiently big  ``VHDX`` virtual disk file (in 2.2 select a big enough size in Step 1 and skip Step 3) and mount it on boot.
+Instead, you can abandon the ``mklink`` command and put all your files in a sufficiently big  ``.vhdx`` virtual disk file (in 2.2 select a big enough size in Step 1 and skip Step 3) and mount it on boot.
 
-This method is also flexible on the partition size, and you can enjoy the functionality of recycle bin and running programmes. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data.
+This method is also flexible in partition size, and you can enjoy the functionality of *recycle bin* and *running ``.exe`` programmes*. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data. It is also *hard* and *not safe* to move such a huge file around.
