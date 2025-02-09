@@ -38,7 +38,7 @@ On *Microsoft Windows* platform, many people are used to separate their operatin
 
 If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (consistency through file path, the need for different versions of file-sync configurations and you need to sync the change between the configs).
 
-### Solution 1: partioning the only drive (not recommended)
+### Solution 1: partitioning the only drive (not recommended)
 
 You can go to disk management and partition your drive into two letters, one for your OS and one for your files. Then you can use one sync-configuration file for all your PCs.
 
