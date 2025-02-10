@@ -107,9 +107,9 @@ Instead, you can abandon the ``mklink`` command and put all your files in a suff
 
 This method is also flexible in partition size, and you can enjoy the functionality of *recycle bin* and *running ``.exe`` programmes*. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data. It is also *hard* and *not safe* to move such a huge file around.
 
-#### Comparison between these methods
+#### 2.4 Comparison among these methods
 
-| Functions | Partitioning the disk | Use the ``subst`` command | Small ``.vhdx`` + ``mklink /j`` | All files in a large ``.vhdx``  |
+| Functions | Disk partitioning | Use the ``subst`` command | Small ``.vhdx`` + ``mklink /j`` | All files in a large ``.vhdx``  |
 |:----- | :-----:  | :-----:  | :-----:  | :-----:  |
 | Require maintaining a different sync config | **No** | Yes  | **No**  | **No**  |
 | Support for recycle bin | **Yes** | No  | **Yes**  | **Yes**  |
@@ -117,6 +117,6 @@ This method is also flexible in partition size, and you can enjoy the functional
 | Required disk space | Need to plan ahead  | **negligible**  | **100 MB -- 1 GB**  | larger than all your data |
 | Flexibility of adjusting space | Very low  | **high (no need)**  | **high (almost no need)**  | Low |
 | First-time setup difficulty | moderate  | **easy**  | **easy to moderate**  | **easy to moderate** |
-| Persistent after reboot | **Yes**  | **scheduled-task-remount by a script**  | **scheduled-task-remount by a script**  | **scheduled-task-remount by a script** |
+| Persistent after reboot | **Yes**  | **scheduled-task-remount by a script**  | **scheduled-task remount**  | **scheduled-task remount** |
 | Migrate to other system | hard  | **easy, re-do all steps**  | **copy-paste**  | sometimes too large to move |
 | Risk of data lost | partition at your own risk!  | **Almost no risk**  | **Almost no risk**  | ``.vhdx`` file corruption = lose all your data |
