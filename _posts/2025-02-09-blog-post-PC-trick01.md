@@ -38,6 +38,8 @@ On *Microsoft Windows* platform, many people are used to separate their operatin
 
 If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (**consistency through file path, the need for keeping and maintaining different versions of file-sync configurations and keeping track of the change between the configurations**).
 
+**Note**: the file name and the path in the following tutorial can be arbitrary. You can change them at will according to your specific use-case scenario.
+
 ### Solution 1: partitioning the only drive (not recommended)
 
 You can go to disk management and partition your drive into two letters, one for your OS and one for your files. Then you can use one sync-configuration file for all your PCs.
@@ -57,7 +59,7 @@ This solution is more flexible. Now your focus should **not** be separating the 
 2. Press ``ctrl+R `` and type ``taskschd.msc``.
 3. Create a new scheduled task, set it to run upon user login.
 4. Set trigger as when system boots and when user login.
-5. The operation is to run a programme, in that you create a task that points to the ``.bat`` file. 
+5. The operation is to run a programme, in that you create a task that points to the ``MountDisk.bat`` file. 
 6. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
 7. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
@@ -65,7 +67,7 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 
 #### 2.2 Directory junction ``mklink /j`` in an automatically-mounted virtual disk ``.vhdx`` (recommended)
 
-1. Go to disk management and create a ``.vhdx`` virtual disk. Use a small size, like 100 MB or 1 GB. The real size occupied is only relevent to the sizes of files that are put inside.
+1. Go to disk management and create a ``D-VDisk.vhdx`` virtual disk. Use a small size, like 100 MB or 1 GB. The real size occupied is only relevent to the sizes of files that are put inside.
 2. Initiate the virtual disk, format it as ``NTFS`` and assign it a letter D.
 3. Open a command window (PowerShell or CMD) and type a command like:
 
@@ -73,14 +75,14 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 
     you can mutilpicate the command for all subfolders, and save the commands in a ``.cmd`` file for future use on another computer. Now the link is saved on your ``.vhdx`` disk. In theory, if your Work Folder's path is the same on the other computer, you can simply copy-paste-mount this ``.vhdx`` file.
 
-4. Creat somewhere convenient a ``.bat`` file with command like:
+4. Creat somewhere convenient, a ``MountDDisk.bat`` file with command like:
 
     ```diskpart /s "C:\Users\your-profile-name\Documents\DiskpartCMD.txt"```
 
 5. In the path of the 4th step (i.e., here ``C:\Users\your-profile-name\Documents\``), create a ``DiskpartCMD.txt`` file, type:
 
 ```
-    select vdisk file="C:\Users\jiaye\Documents\My Workspace\Programmes\Mount Virtual D Disk\D-VDisk.vhdx"
+    select vdisk file="C:\your-vhdx-path-in-step-1\D-VDisk.vhdx"
 
     attach vdisk
 
@@ -90,7 +92,7 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 6. Press ``ctrl+R `` and type ``taskschd.msc``.
 7. Create a new scheduled task, set it to run **regardless** of user login. Opt to run as **adminstrator** with compatibility selected as *Windows 10*.
 8. Set trigger as when system boots and when user login.
-9. The operation is to run a programme, in that dialogue page you create a task that points to the ``.bat`` file in Step 4.
+9. The operation is to run a programme, in that dialogue page you create a task that points to the ``MountDDisk.bat`` file in Step 4.
 10. Confirm your changes and type in your login password.
 11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 8.
 12. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
@@ -104,3 +106,17 @@ A note is that, remember to exclude the ``.vhdx`` file shall it exist in the pat
 Instead, you can abandon the ``mklink`` command and put all your files in a sufficiently big  ``.vhdx`` virtual disk file (in 2.2 select a big enough size in Step 1 and skip Step 3) and mount it on boot.
 
 This method is also flexible in partition size, and you can enjoy the functionality of *recycle bin* and *running ``.exe`` programmes*. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data. It is also *hard* and *not safe* to move such a huge file around.
+
+#### Comparison between these methods
+
+| Functions | Partitioning the disk | Use the ``subst`` command | Small ``.vhdx`` + ``mklink /j`` | All files in a large ``.vhdx``  |
+|:----- | :-----:  | :-----:  | :-----:  | :-----:  |
+| Require maintaining a different sync config | **No** | Yes  | **No**  | **No**  |
+| Support for recycle bin | **Yes** | No  | **Yes**  | **Yes**  |
+| Support for running ``.exe`` | **Yes** | No  | **Yes**  | **Yes**  |
+| Required disk space | Need to plan ahead  | **negligible**  | **100 MB -- 1 GB**  | larger than all your data |
+| Flexibility of adjusting space | Very low  | **high (no need)**  | **high (almost no need)**  | Low |
+| First-time setup difficulty | moderate  | **easy**  | **easy to moderate**  | **easy to moderate** |
+| Persistent after reboot | **Yes**  | **scheduled-task-remount by a script**  | **scheduled-task-remount by a script**  | **scheduled-task-remount by a script** |
+| Migrate to other system | hard  | **easy, re-do all steps**  | **copy-paste**  | sometimes too large to move |
+| Risk of data lost | partition at your own risk!  | **Almost no risk**  | **Almost no risk**  | ``.vhdx`` file corruption = lose all your data |
