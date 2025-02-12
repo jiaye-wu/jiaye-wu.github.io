@@ -1,12 +1,14 @@
 ---
-page_id: teaching
+page_id: services
 layout: page
-permalink: /teaching/
-title: teaching
-description: courses and lectures.
+permalink: /services/
+title: community services
+description: courses, lectures, peer reviews, and editorial services.
 nav: true
 nav_order: 4
 ---
+
+## teaching
 
 ### <img src="/assets/img/EPFL.png" style="height: 0.8em; "> École Polytechnique Fédérale de Lausanne (EPFL)
 
@@ -48,3 +50,21 @@ nav_order: 4
 
 - 2 Credits Bachelor's level
 - 2015 spring semester
+
+## peer review
+
+**Springer-Nature:** *Nature*, *Nature Nanotechnology*, *Light: Science & Applications*, *Communications Physics*, *Optical and Quantum Electronics*.
+
+**Optica Publishing Group:** *Optics Letters*, *Optics Express*, *Optical Materials Express*, *Jouranl of the Optical Society of America B*, *Applied Optics*, *OSA Continuum* (*Optica Continuum*).
+
+**Wiley:** *Laser & Photonics Reviews*.
+
+**Elsevier:** *Optics & Laser Technology*, *Results in Physics*, *Surface & Coatings Technology*, *Thin Solid Films*, *Optics Communications*.
+
+**IOP:** *Journal of Physics: Photonics*, *Journal of Optics*, *Physica Scripta*.
+
+**AIP:** *Applied Physics Letters*.
+
+**CAS:** *Acta Physica Sinica*.
+
+**MDPI:** *Sensors*.
