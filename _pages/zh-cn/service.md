@@ -16,12 +16,12 @@ nav_order: 4
 
 ---
 
-#### [教学助理] [**EE-440 光子学系统与技术**](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)，Camille-Sophie Brès副教授
+[教学助理] [**EE-440 光子学系统与技术**](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)，Camille-Sophie Brès副教授
 
 - 4 ECTS 学分硕士课程
 - 2022 及 2024 春学期
 
-#### [教学助理] [**BIOENG-445 生物医学光学**](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)，Georges Wagnières博士
+[教学助理] [**BIOENG-445 生物医学光学**](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)，Georges Wagnières博士
 
 - 3 ECTS 学分硕士课程
 - 2022 及 2023 秋学期
@@ -32,12 +32,12 @@ nav_order: 4
 
 ---
 
-#### [教学助理] **04711202 光纤通信**，李倩 副教授
+[教学助理] **04711202 光纤通信**，李倩 副教授
 
 - 3 学分硕士课程
 - 2019 春学期
 
-#### [教学助理] **04711182 光电子学**，李倩 副教授
+[教学助理] **04711182 光电子学**，李倩 副教授
 
 - 3 学分硕士课程
 - 2018 秋学期
@@ -48,7 +48,7 @@ nav_order: 4
 
 ---
 
-#### [Teaching assistant] **41E42780 高级英语**，George Mckibbens老师
+[Teaching assistant] **41E42780 高级英语**，George Mckibbens老师
 
 - 2 学分本科课程
 - 2015 春学期
