@@ -80,17 +80,6 @@ ninja.data = [{
           window.open("https://actu.epfl.ch/news/effiencient-epsilon-near-zero-intracavity-dual-r-2/", "_blank");
         
       },
-    },{id: "post-a-post-with-image-galleries",
-      
-        title: "a post with image galleries",
-      
-      description: "this is what included image galleries could look like",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2024/photo-gallery/";
-        
-      },
     },{id: "post-conference-ipc-versatile-and-efficient-dual-range-frequency-shifts-by-intracavity-epsilon-near-zero-nanolayers",
       
         title: "[Conference] IPC: Versatile and Efficient Dual-Range Frequency Shifts by Intracavity Epsilon-Near-Zero Nanolayers",
