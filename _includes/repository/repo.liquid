@@ -9,11 +9,13 @@
 {% if lang == 'pt' %}
   {% assign lang = site.active_lang %}
 {% endif %}
-{% if site.active_lang == 'zh-cn' or site.active_lang == 'zh-sg' or site.active_lang == 'zh-my' or site.active_lang == 'zh-hans' %}
-  {% assign lang = 'cn' %}
-{% endif %}
-{% if site.active_lang == 'zh-tw' or site.active_lang == 'zh-hk' or site.active_lang == 'zh-mo' or site.active_lang == 'zh-hant' %}
-  {% assign lang = 'zh-tw' %}
+{% if lang == 'zh' %}
+  {% assign lang_last = site.active_lang | split: '-' | last %}
+  {% if lang_last == 'cn' or lang_last == 'sg' or lang_last == 'my' or lang_last == 'hans' %}
+    {% assign lang = 'cn' %}
+  {% elsif  lang_last == 'tw' or lang_last == 'hk' or lang_last == 'mo' or lang_last == 'hant' %}
+    {% assign lang = 'zh-tw' %}
+  {% endif %}
 {% endif %}
 
 {% if site.data.repositories.repo_description_lines_max %}
