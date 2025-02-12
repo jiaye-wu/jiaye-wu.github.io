@@ -1,4 +1,1 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://jiaye-wu.github.io/sitemap.xml
+User-agent: * Disallow: Sitemap: https://jiaye-wu.github.io/sitemap.xml
