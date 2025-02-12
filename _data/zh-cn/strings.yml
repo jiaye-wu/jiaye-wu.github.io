@@ -1,6 +1,18 @@
 archive_category: 在此分类下的文章
 archive_tag: 在此标签下的文章
 archive_year: 在此年份内发布的文章
+bibliography:
+  abstract: Abs
+  awarded: Awarded
+  blog: Blog
+  book_prefix: In
+  code: Code
+  last_author_prefix: and
+  poster: Poster
+  slides: Slides
+  supp: Supp
+  video: Video
+  website: Website
 blog:
   navigation_title: 博客
 categories:
@@ -42,6 +54,7 @@ cv:
   phone: 电话
   position: 职位
   postalCode: 邮政编码
+  present: 至今
   profiles: 档案
   projects: 项目
   publications: 学术出版物
@@ -61,6 +74,9 @@ cv:
   username: 用户名
   volunteer: 志愿者
   work: 工作
+footer:
+  copyright: 版权所有
+  last_updated: 最后更新于：
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   本网站基于<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>主题<a href="https://github.com/alshedivat/al-folio">al-folio</a>和<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>制作。
   网站服务由<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>支持。
@@ -102,6 +118,7 @@ newsletter:
   too_many_signups: 操作过于频繁，请稍后再试。
   wait: 请稍候……
 no_news: 目前为止无新闻
+no_posts: 目前为止无新帖
 pagination:
   newer: 更新
   older: 更旧
