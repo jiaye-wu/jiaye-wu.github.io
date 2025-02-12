@@ -6,10 +6,13 @@
 {% endif %}
 
 {% assign lang = site.active_lang | split: '-' | first %}
-{% if lang == 'zh-cn' or lang == 'zh-sg' or lang == 'zh-my' or lang == 'zh-hans' %}
+{% if lang == 'pt' %}
+  {% assign lang = site.active_lang %}
+{% endif %}
+{% if site.active_lang == 'zh-cn' or site.active_lang == 'zh-sg' or site.active_lang == 'zh-my' or site.active_lang == 'zh-hans' %}
   {% assign lang = 'cn' %}
 {% endif %}
-{% if lang == 'zh-tw' or lang == 'zh-hk' or lang == 'zh-mo' or lang == 'zh-hant' %}
+{% if site.active_lang == 'zh-tw' or site.active_lang == 'zh-hk' or site.active_lang == 'zh-mo' or site.active_lang == 'zh-hant' %}
   {% assign lang = 'zh-tw' %}
 {% endif %}
 
