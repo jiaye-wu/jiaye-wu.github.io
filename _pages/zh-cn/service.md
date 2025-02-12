@@ -1,12 +1,14 @@
 ---
-page_id: teaching
+page_id: services
 layout: page
-permalink: /teaching/
-title: 教学课程
-description: 课程教学及讲座信息
+permalink: /services/
+title: 学界服务
+description: 课程教学、讲座、同行评议及编辑服务
 nav: true
 nav_order: 4
 ---
+
+## 教学课程
 
 ### <img src="/assets/img/EPFL.png" style="height: 0.8em; "> 瑞士洛桑联邦理工大学
 
@@ -48,3 +50,21 @@ nav_order: 4
 
 - 2 学分本科课程
 - 2015 春学期
+
+## 同行评议
+
+**Springer-Nature:** *Nature*, *Nature Nanotechnology*, *Light: Science & Applications*, *Communications Physics*, *Optical and Quantum Electronics*.
+
+**Optica Publishing Group:** *Optics Letters*, *Optics Express*, *Optical Materials Express*, *Jouranl of the Optical Society of America B*, *Applied Optics*, *OSA Continuum* (*Optica Continuum*).
+
+**Wiley:** *Laser & Photonics Reviews*.
+
+**Elsevier:** *Optics & Laser Technology*, *Results in Physics*, *Surface & Coatings Technology*, *Thin Solid Films*, *Optics Communications*.
+
+**IOP:** *Journal of Physics: Photonics*, *Journal of Optics*, *Physica Scripta*.
+
+**AIP:** *Applied Physics Letters*.
+
+**CAS:** *Acta Physica Sinica*.
+
+**MDPI:** *Sensors*.
