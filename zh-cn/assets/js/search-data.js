@@ -69,9 +69,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn";
               },
-            },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices-文件管理强迫症福音",
+            },{id: "post-档案-文件管理强迫症福音",
       
-        title: "[Archive] Tricks to keep all files the same &amp; synced across your devices...",
+        title: "[档案] 文件管理强迫症福音",
       
       description: "experience sharing and personal notes",
       section: "博文",
@@ -91,11 +91,11 @@ ninja.data = [{
           window.open("https://actu.epfl.ch/news/effiencient-epsilon-near-zero-intracavity-dual-r-2/", "_blank");
         
       },
-    },{id: "post-conference-ipc-versatile-and-efficient-dual-range-frequency-shifts-by-intracavity-epsilon-near-zero-nanolayers",
+    },{id: "post-学术会议报告-ipc-versatile-and-efficient-dual-range-frequency-shifts-by-intracavity-epsilon-near-zero-nanolayers",
       
-        title: "[Conference] IPC: Versatile and Efficient Dual-Range Frequency Shifts by Intracavity Epsilon-Near-Zero Nanolayers",
+        title: "[学术会议报告] IPC: Versatile and Efficient Dual-Range Frequency Shifts by Intracavity Epsilon-Near-Zero Nanolayers",
       
-      description: "conference presentation at Rome, Italy",
+      description: "在意大利罗马举办的IPC会议上作学术报告",
       section: "博文",
       handler: () => {
         
@@ -104,13 +104,13 @@ ninja.data = [{
       },
     },{id: "post-archive-run-linux-desktop-on-android-tablets",
       
-        title: '[Archive] Run Linux Desktop on Android Tablets <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: "[Archive] Run Linux Desktop on Android Tablets",
       
       description: "a personal note on running Linux dektop on Android",
       section: "博文",
       handler: () => {
         
-          window.open("https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/tree/main", "_blank");
+          window.location.href = "/zh-cn/blog/2024/blog-Linux-on-Android/";
         
       },
     },{id: "post-pob-seminar-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
@@ -124,11 +124,11 @@ ninja.data = [{
           window.open("https://memento.epfl.ch/event/pob-seminar-enhancement-of-linear-and-nonlinear-th/", "_blank");
         
       },
-    },{id: "post-academic-tool-quickphotonics-project",
+    },{id: "post-学术工具-quickphotonics项目",
       
-        title: "[Academic Tool] QUICKphotonics Project",
+        title: "[学术工具] QUICKphotonics项目",
       
-      description: "an Excel and MATLAB-based academic tool for unit conversions in photonics",
+      description: "基于Excel和MATLAB的光子学单位换算工具",
       section: "博文",
       handler: () => {
         
@@ -146,11 +146,11 @@ ninja.data = [{
           window.location.href = "/zh-cn/blog/2024/invited-PKU/";
         
       },
-    },{id: "post-conference-piers-epsilon-near-zero-enhancement-of-linear-and-nonlinear-thermo-optic-effects",
+    },{id: "post-学术会议报告-piers-epsilon-near-zero-enhancement-of-linear-and-nonlinear-thermo-optic-effects",
       
-        title: "[Conference] PIERS: Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects",
+        title: "[学术会议报告] PIERS: Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects",
       
-      description: "conference presentation at Chengdu, Sichuan, China",
+      description: "在中国四川省成都市举办的PIERS会议上作学术报告",
       section: "博文",
       handler: () => {
         
@@ -245,11 +245,11 @@ ninja.data = [{
           window.open("https://mp.weixin.qq.com/s/4pYgeCCHyVhg7pzyQyMSsQ", "_blank");
         
       },
-    },{id: "post-archive-mendeley-desktop",
+    },{id: "post-档案-mendeley-desktop收藏",
       
-        title: "[Archive] Mendeley Desktop",
+        title: "[档案] Mendeley Desktop收藏",
       
-      description: "an archive of the deprecated Mendely Desktop",
+      description: "已停止更新的Mendely Desktop文献管理软件收藏档案",
       section: "博文",
       handler: () => {
         
@@ -267,99 +267,99 @@ ninja.data = [{
           window.open("https://web.pkusz.edu.cn/lnfo/%e5%8c%97%e4%ba%ac%e5%a4%a7%e5%ad%a6%e6%9d%8e%e5%80%a9%e8%af%be%e9%a2%98%e7%bb%84%e3%80%81%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e4%bb%98%e7%ba%a2%e5%b2%a9%e8%af%be%e9%a2%98%e7%bb%84-lpr-%ef%bc%9a/", "_blank");
         
       },
-    },{id: "post-conference-cleo-demonstration-of-temporal-talbot-effect-of-dark-pulse-trains",
+    },{id: "post-学术会议报告-cleo-demonstration-of-temporal-talbot-effect-of-dark-pulse-trains",
       
-        title: "[Conference] CLEO: Demonstration of Temporal Talbot Effect of Dark Pulse Trains",
+        title: "[学术会议报告] CLEO: Demonstration of Temporal Talbot Effect of Dark Pulse Trains",
       
-      description: "conference presentation at San Jose, California, United States",
+      description: "在美国加利福尼亚圣何塞举办的CLEO会议上作学术报告",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2022/conf-CLEO/";
         
       },
-    },{id: "post-milestone-a-cross-disciplinary-experiment",
+    },{id: "post-里程碑-一项交叉学科研究",
       
-        title: "[Milestone] A cross-disciplinary experiment",
+        title: "[里程碑] 一项交叉学科研究",
       
-      description: "one of my personal favourite: a cross-disciplinary experiment",
+      description: "个人最喜爱的研究之一：一项交叉学科实验",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2021/ENZ-SCF/";
         
       },
-    },{id: "post-conference-icait-high-order-harmonic-generations-in-epsilon-near-zero-aluminum-doped-zinc-oxide-nanopyramid-array",
+    },{id: "post-学术会议报告-icait-high-order-harmonic-generations-in-epsilon-near-zero-aluminum-doped-zinc-oxide-nanopyramid-array",
       
-        title: "[Conference] ICAIT: High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array",
+        title: "[学术会议报告] ICAIT: High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array",
       
-      description: "conference presentation at ICAIT, Macau SAR, China",
+      description: "在中国澳门特别行政区举办的ICAIT会议上作学术报告",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2020/conf-ICAIT/";
         
       },
-    },{id: "post-conference-cleo-pr-precise-tuning-of-epsilon-near-zero-properties-in-indium-tin-oxide-nanolayer-by-supercritical-carbon-dioxide",
+    },{id: "post-学术会议报告-cleo-pr-precise-tuning-of-epsilon-near-zero-properties-in-indium-tin-oxide-nanolayer-by-supercritical-carbon-dioxide",
       
-        title: "[Conference] CLEO-PR: Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by...",
+        title: "[学术会议报告] CLEO-PR: Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by...",
       
-      description: "conference presentation at CLEO-PR, Sydney, NSW, Australia",
+      description: "在澳大利亚悉尼举办的CLEO-PR会议上作学术报告",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2020/conf-CLEO-PR/";
         
       },
-    },{id: "post-academic-tool-ssprop-nfol-project",
+    },{id: "post-学术工具-ssprop-nfol项目",
       
-        title: "[Academic Tool] SSPROP-NFOL Project",
+        title: "[学术工具] SSPROP-NFOL项目",
       
-      description: "a MATLAB-based academic tool for split-step Fourier transform simulations in photonics",
+      description: "基于MATLAB的光学分步傅里叶变换仿真学术工具",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2018/dev-SSPROP-NFOL-post/";
         
       },
-    },{id: "post-invited-talk-science-literacy-experiences-in-scientific-research-and-literature-search",
+    },{id: "post-受邀讲座-科学素养-科研学习经验分享与sci文献检索",
       
-        title: "[Invited Talk] Science Literacy: Experiences in scientific research and literature search",
+        title: "[受邀讲座] 科学素养：科研学习经验分享与SCI文献检索",
       
-      description: "an invited talk on science literacy",
+      description: "科学素养系列受邀讲座",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2017/invited-SCNU2/";
         
       },
-    },{id: "post-milestone-genesis-of-my-research-career",
+    },{id: "post-里程碑-我科研之路的开端",
       
-        title: "[Milestone] Genesis of my research career",
+        title: "[里程碑] 我科研之路的开端",
       
-      description: "my first scientific research paper",
+      description: "我的第一项研究",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2017/first-paper/";
         
       },
-    },{id: "post-invited-talk-science-literacy-fundamentals-and-basics-in-natural-science-research",
+    },{id: "post-受邀讲座-科学素养-自然科学类科研基础知识",
       
-        title: "[Invited Talk] Science Literacy: Fundamentals and basics in natural science research",
+        title: "[受邀讲座] 科学素养：自然科学类科研基础知识",
       
-      description: "an invited talk on science literacy",
+      description: "科学素养系列受邀讲座",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2017/invited-SCNU1/";
         
       },
-    },{id: "post-archive-my-android-development",
+    },{id: "post-档案-过往android开发归档",
       
-        title: "[Archive] My Android development",
+        title: "[档案] 过往Android开发归档",
       
-      description: "this is a post dedicated to my discontinued Android development projects",
+      description: "此帖纪念过往的Android开发项目",
       section: "博文",
       handler: () => {
         

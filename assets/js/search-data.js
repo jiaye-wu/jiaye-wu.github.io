@@ -69,7 +69,7 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices-文件管理强迫症福音",
+            },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices",
       
         title: "[Archive] Tricks to keep all files the same &amp; synced across your devices...",
       
@@ -104,13 +104,13 @@ ninja.data = [{
       },
     },{id: "post-archive-run-linux-desktop-on-android-tablets",
       
-        title: '[Archive] Run Linux Desktop on Android Tablets <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: "[Archive] Run Linux Desktop on Android Tablets",
       
       description: "a personal note on running Linux dektop on Android",
       section: "Posts",
       handler: () => {
         
-          window.open("https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/tree/main", "_blank");
+          window.location.href = "/blog/2024/blog-Linux-on-Android/";
         
       },
     },{id: "post-pob-seminar-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
