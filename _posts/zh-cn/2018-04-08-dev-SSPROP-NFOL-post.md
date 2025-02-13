@@ -16,9 +16,9 @@ categories:
 thumbnail: assets/img/github.png
 ---
 
-由于项目涉及光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
+由于项目涉及大量光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
 
-An enhanced open source MATLAB project for general-purpose symmetrized split-step software. The repository is [here](https://github.com/jiaye-wu/SSPROP-NFOL).
+开源的通用型对称分步傅里叶算法MATLAB项目。本项目的代码仓库位于[这里](https://github.com/jiaye-wu/SSPROP-NFOL).
 
 # SSPROP-NFOL
 

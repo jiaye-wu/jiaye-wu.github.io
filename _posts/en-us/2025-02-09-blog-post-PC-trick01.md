@@ -36,7 +36,7 @@ Your data and document files are valuable, and invaluable. The most famous princ
 
 On *Microsoft Windows* platform, many people are used to separate their operating system OS (``C:\``) from their data/document files (``D:\, E:\``), when an addtional drive letter (e.g., ``D:\``) is available. 
 
-If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (**consistency through file path, the need for keeping and maintaining different versions of file-sync configurations and keeping track of the change between the configurations**).
+If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (**consistency through file path, the need for keeping and maintaining different versions of file-sync configurations and keeping track of the change between the configurations, path too long such that some files cannot be opened or hard to be accessed**).
 
 **Note**: the file name and the path in the following tutorial can be arbitrary. You can change them at will according to your specific use-case scenario.
 
@@ -61,7 +61,7 @@ This solution is more flexible. Now your focus should **not** be separating the 
 4. Set trigger as when system boots and when user login.
 5. The operation is to run a programme, in that you create a task that points to the ``MountDisk.bat`` file. 
 6. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
-7. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
+7. [optional] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
 The issue with this method is that ``subst`` does not support **recycle bin** and no programme (``*.exe``) can be launched from the new path. Due to the lack of recycle bin, it is **very unsafe** to use the path in file-sync software.
 
@@ -95,11 +95,11 @@ The issue with this method is that ``subst`` does not support **recycle bin** an
 9. The operation is to run a programme, in that dialogue page you create a task that points to the ``MountDDisk.bat`` file in Step 4.
 10. Confirm your changes and type in your login password.
 11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 8.
-12. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
+12. [optional] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
 
 This method is perpetual and supports all functions including recycle bin in the ``NTFS`` file system.
 
-A note is that, remember to exclude the ``.vhdx`` file shall it exist in the path of file-sync, since they are changed independely across your different computers.
+A note is that, remember to exclude the ``.vhdx`` file shall it exist in the path of file-sync, since they are changed independently across your different computers.
 
 #### 2.3 All work files in ``.vhdx`` virtual disk (not recommended)
 
@@ -117,6 +117,6 @@ This method is also flexible in partition size, and you can enjoy the functional
 | Required disk space | Need to plan ahead  | **negligible**  | **100 MB -- 1 GB**  | larger than all your data |
 | Flexibility of adjusting space | Very low  | **high (no need)**  | **high (almost no need)**  | Low |
 | First-time setup difficulty | moderate  | **easy**  | **easy to moderate**  | **easy to moderate** |
-| Persistent after reboot | **Yes**  | **scheduled-task-remount by a script**  | **scheduled-task remount**  | **scheduled-task remount** |
+| Persistent after reboot | **Yes**  | **scheduled-task remount**  | **scheduled-task remount**  | **scheduled-task remount** |
 | Migrate to other system | hard  | **easy, re-do all steps**  | **copy-paste**  | sometimes too large to move |
 | Risk of data lost | partition at your own risk!  | **Almost no risk**  | **Almost no risk**  | ``.vhdx`` file corruption = lose all your data |
