@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Archive] Run Linux Desktop on Android Tablets"
+title: "[档案] 在Android平板电脑上运行Linux桌面发行版"
 date: 2024-09-29 21:01:00
-description: a personal note on running Linux dektop on Android
+description: 在Android上运行Linux桌面的个人笔记
 tags: 
    - android
    - open source
@@ -13,7 +13,9 @@ categories:
 thumbnail: assets/img/android.png
 ---
 
-This project is hosted at [https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/](https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/).
+由于项目涉及大量计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
+
+本项目的代码仓库位于[https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/](https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/)。
 
 # Android-Termux-Subsystem-for-Linux
 

@@ -2,7 +2,7 @@
 layout: post
 title: "[档案] 文件管理强迫症福音"
 date: 2025-02-09 20:05:00
-description: experience sharing and personal notes
+description: 经验分享和个人笔记
 tags: 
   - software
   - miciroft windows
@@ -16,107 +16,107 @@ categories:
 thumbnail: assets/img/Computers.png
 ---
 
-If you have the habit of keeping all your files the same (file & file structures) and synced across all your gadgets (especially for Windows PCs and Android Phones/Talbets), this is the correct article for you. This article mainly serves as a personal note for myself, and I hold no responsibility for any potential file lost (in theory it shouldn't be) in your system shall you decide to try out these methods yourself.
+如果你有将所有文件和目录结构在你的个人设备之间（特指Windows个人电脑和Android手机与平板）保持相同和同步的习惯，这篇笔记就是为你准备的。本文是我的个人笔记，如果你决定尝试实践此方法，本人不对由此可能造成的任何潜在的数据损失负责。
 
-## Backup principles
+## 备份原则：最佳实践
 
-Your data and document files are valuable, and invaluable. The most famous principles for file backup is the "3-2-1 rule".
+你的数据和文档是无价的。在此领域最著名的准则便是“3-2-1原则”
 
-- **3**: *Three* backups.
-- **2**: *Two different* media. **HDDs** (mechanical hard drives) offer longer storage time for cold data, but with much lower read/write speed. They are less resilient to shocks (fall, vibration). **SSDs** (solid-state drives) are fast and light, and more robust. However they can lose data if you don't connect it to a computer for a long time for refresh. It is not recommened to use them for your cold data and archive. **Conventional flash drives** (USB thumb disks) are only suitable for data transfer in small sizes. They are not for data storage since they are prone to fail and have a much shorter lifespan. A convenient option for your daily data storage is the high-speed **USSDs** (SSD in USB thumb disk form), but you will still need to back it up regularly to the *Two different* media (HDD and SSD).
-- **1**: At least *one* remote copy. Local copies can fail due to theft, unintentially lost, and natural disasters. The remote copy can be physically located in another place, or on cloud. Always remember that, except for personal NAS (Network-Attached Storage), the data on cloud is *not truly yours*.
+- **3**：*三个*备份.
+- **2**：*两种不同*介质。**机械硬盘**（HDD）对于冷数据有更长的存储寿命，但读写速度相对较慢。这类介质对冲击敏感（跌落和振动），容易损坏。**固态硬盘**（SSD）快速而轻便，比机械硬盘更加坚固，然而长久不连接电脑进行刷新的话，数据很容易损坏，一旦损坏很难恢复（对比机械硬盘）。因此它们不适合存储冷数据和归档。**传统的U盘闪存**只适合小尺寸文件和数据的交换，并不适合用于长期存储数据，因为它们普遍寿命偏短，容易损坏。一种便携的日常数据备份存储介质是被称为**固态U盘**（USSD，U盘大小的固态硬盘）的东西，但是也需要经常向*两种不同介质*（即固态硬盘和机械硬盘）备份。
+- **1**：至少有*一份*异地备份。本地备份容易在遭受盗窃、遗失和自然灾害后丢失。异地备份可以是存在于其它地方或者存在云端。但永远要记住，除了个人NAS（私有云网络存储）之外，你的数据*并不真正*掌握在你手中。
 
-## File Synchronization
+## 文件同步
 
-**Computers to computers** (Windows/Linux/macOS): [FreeFileSync](https://freefilesync.org/download.php) is a free, high-qulity, open-sourced software. A trick here is to store your FFS configuration files (``*.ffs_gui``) on OneDrive, then you can load them on all your computers. Also, by this method the changes to the configuration files themselves can be synced through OneDrive. *With this software you can keep your files and file structures the same across your computers.*
+**计算机到计算机** (Windows/Linux/macOS)：[FreeFileSync](https://freefilesync.org/download.php)是一种免费、高质量的开源软件。一个技巧是将FFS配置文件(``*.ffs_gui``)保存到OneDrive上，这样你所有的计算机都能同步访问同一份配置文件。*这样你也能使用此配置保持所有电脑的文件和目录结构相同。*
 
-**Computers to Android phones/tablets**: [FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=en), a free/paid Android app allows you to visit and access your files (e.g., your published works, your unfinished literature, and your CVs) on your phones and tablets. The trick is that you put your files for your portable devices in a dedicated folder in OneDrive, and in the app, pair a corresponding local folder with the OneDrive folder. You can enable "allow deletion" in the settings according to your needs.
+**计算机到Android手机/平板**：[FolderSync](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=en)是一款免费/付费Android应用程序，能够使你在手机平板上同步并本地访问你的文件（例如用于同步你已经发表的文章、待阅读的文献和自己的简历）。技巧是在OneDrive上设立移动设备专用的同步文件夹，然后在应用上创建同步文件夹对，连接到此OneDrive文件夹。配置时，根据需要勾选”允许删除“选项。
 
-##  Some of my PCs have only one drive (``C:\``) and some of them have multiple (``C:\, D:\``, ...), what are the solutions to the file paths for file sync & consistency?
+##  我的某些电脑只有一块物理磁盘一个存储分区(``C:\``)，而另一些却有多快硬盘多个资料分区(``C:\, D:\``, ...)，我如何保持文件路径一致性？
 
-On *Microsoft Windows* platform, many people are used to separate their operating system OS (``C:\``) from their data/document files (``D:\, E:\``), when an addtional drive letter (e.g., ``D:\``) is available. 
+*微软 Windows*操作系统中，在有额外盘符（例如``D:\``）时，很多人习惯于将操作系统(``C:\``)和资料、数据、文档(``D:\, E:\``)用不同盘符分开。
 
-If you have more than one physical drive in your system, having additoinal letters is natural. However, some systems have only one physical drive, problems can exist with file management (**consistency through file path, the need for keeping and maintaining different versions of file-sync configurations and keeping track of the change between the configurations**).
+如果你的计算机中拥有多于一块的物理硬盘，那么有额外盘符是很自然的一件事情。然而，对于只有一块物理硬盘的电脑，文件统一管理可能会遇到麻烦（例如**文件路径一致性、需要保存和同步维护多个不同文件同步配置文件、文件路径过长打不开文件或者难找**等）。
 
-**Note**: the file name and the path in the following tutorial can be arbitrary. You can change them at will according to your specific use-case scenario.
+**注意**：在接下来教程中的文件名和路径都可以根据实际情况调整，是任意的。
 
-### Solution 1: partitioning the only drive (not recommended)
+### 解决方案1：将仅有的硬盘进行分区操作（不推荐）
 
-You can go to disk management and partition your drive into two letters, one for your OS and one for your files. Then you can use one sync-configuration file for all your PCs.
+进入磁盘管理，将你仅有的硬盘分成两个不同盘符的分区，一个是你的操作系统，另一个用于你的文件。这样你就可以用同一个同步配置文件管理你所有的电脑。
 
-However, this method has a significant problem: you cannot foresee how much space you should assign to ``C:\`` and ``D:\`` partitions. What if you installed a lot of software and you don't have enough space in ``C:\``? What happens if you collected too much data to fit in ``D:\``? When that happens, it is usually too late to re-assign the partition spaces, since you will need a third physical drive to move your data before they can be moved back-in.
+然而此方法有一个显著问题：你不能预见你需要向``C:\``和``D:\``分区分配多少磁盘空间。如果你后续安装了过多的软件， ``C:\``盘空间就会吃紧；如果你的后续文件资料过多，``D:\``盘就会不够用。当这些情况发生时，重新分配磁盘空间往往比较麻烦，因为需要额外的一块硬盘来腾资料（分区剩余空间不能支持直接的资料转移）。
 
-### Solution 2: staying with the only drive (recommended)
+### 解决方案2：维持单个分区（推荐）
 
-This solution is more flexible. Now your focus should **not** be separating the OS with your data, **but rather**, creating a virtual ``D:\`` disk to quickly access your data without going through layers and layers of folders, and you can still use the configuration files for your other multiple-drive computers.
+这种解决方案非常灵活。此时你**不应当**再执着于将操作系统和资料分开，**而是**着眼于建立一块虚拟的``D:\``盘来快速访问你的文件，而不需要在多个目录层级间翻动。这种方法也可以使你只用一种文件同步配置文件来管理你的文件，就像在多硬盘计算机上一样。
 
-#### 2.1 Using the ``subst`` command on boot (not recommended)
+#### 2.1 使用开机执行的``subst``命令（不推荐）
 
-1. Create a cmd file, say, ``MountDisk.bat`` in the root of ``C:\``. and inside type the command, something like:
+1. 在``C:\``盘根目录建立一个新的命令行脚本，例如``MountDisk.bat``，在其中输入命令（路径尽量不要有中文）：
 
-    ``` subst D: "C:\Users\your-profile-name\Documents\My Work Folder" ```
+    ``` subst D: "C:\Users\你的用户名\Documents\你的工作目录" ```
 
-2. Press ``ctrl+R `` and type ``taskschd.msc``.
-3. Create a new scheduled task, set it to run upon user login.
-4. Set trigger as when system boots and when user login.
-5. The operation is to run a programme, in that you create a task that points to the ``MountDisk.bat`` file. 
-6. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 4.
-7. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
+2. 按组合键``ctrl+R ``然后输入``taskschd.msc``。
+3. 创建一个计划任务，设置在用户登录时执行。
+4. 设置触发器为系统启动和用户登录时执行。
+5. 执行的操作为运行程序。程序指向刚刚的``MountDisk.bat``脚本。
+6. 重启电脑，你应该能看到新的磁盘被创建了。如果出问题，请回到第4步尝试其他触发条件。
+7. [可选]成功后可以将计划任务导出为``.xml``文件以便在其他类似的电脑上设置。 
 
-The issue with this method is that ``subst`` does not support **recycle bin** and no programme (``*.exe``) can be launched from the new path. Due to the lack of recycle bin, it is **very unsafe** to use the path in file-sync software.
+这种方法的问题在于，``subst``命令不支持**回收站**以及在新路径上运行程序(``*.exe``)。由于缺乏回收站功能，在新路径上进行文件同步**非常危险**（误删文件后无法恢复）。
 
-#### 2.2 Directory junction ``mklink /j`` in an automatically-mounted virtual disk ``.vhdx`` (recommended)
+#### 2.2 在自动挂在的``.vhdx``虚拟磁盘里使用目录连接``mklink /j``（推荐）
 
-1. Go to disk management and create a ``D-VDisk.vhdx`` virtual disk. Use a small size, like 100 MB or 1 GB. The real size occupied is only relevent to the sizes of files that are put inside.
-2. Initiate the virtual disk, format it as ``NTFS`` and assign it a letter D.
-3. Open a command window (PowerShell or CMD) and type a command like:
+1. 进入磁盘管理，创建一个虚拟磁盘文件，例如``D-VDisk.vhdx``。创建大小可以很小，例如100 MB或1 GB。文件实际占用的空间只和被放入其中的文件大小有关，与创建时填写的大小无关（不会超出此大小）。
+2. 初始化虚拟磁盘，格式化到``NTFS``，挂载并分配盘符D。
+3. 打开命令行窗口（PowerShell或CMD）然后输入命令（路径尽量不要有中文）：
 
-    ```mklink /J "D:\sub-folder" "C:\Users\your-profile-name\Documents\My Work Folder\subfolder"```
+    ```mklink /J "D:\sub-folder" "C:\Users\你的用户名\Documents\你的工作目录\子目录"```
 
-    you can mutilpicate the command for all subfolders, and save the commands in a ``.cmd`` file for future use on another computer. Now the link is saved on your ``.vhdx`` disk. In theory, if your Work Folder's path is the same on the other computer, you can simply copy-paste-mount this ``.vhdx`` file.
+    你可以复制这个命令应用于工作目录的所有子目录上，然后保存为一个``.cmd``文件以便在其他计算机上配置时使用。命令执行完后，你的目录连接就已经被保存在``.vhdx``虚拟磁盘里了。理论上，只要你的工作目录的路径在其他电脑上是一样的，你只需要复制粘贴``.vhdx``文件即可。
 
-4. Creat somewhere convenient, a ``MountDDisk.bat`` file with command like:
+4. 在方便合适的地方创建``MountDDisk.bat``并输入以下命令（路径尽量不要有中文）：
 
-    ```diskpart /s "C:\Users\your-profile-name\Documents\DiskpartCMD.txt"```
+    ```diskpart /s "C:\Users\你的用户名\Documents\DiskpartCMD.txt"```
 
-5. In the path of the 4th step (i.e., here ``C:\Users\your-profile-name\Documents\``), create a ``DiskpartCMD.txt`` file, type:
+5. 在第四步中命令里提到的路径下（此处即是``C:\Users\你的用户名\Documents\``）创建一个``DiskpartCMD.txt``文件，在里面写入（路径尽量不要有中文）：
 
 ```
-    select vdisk file="C:\your-vhdx-path-in-step-1\D-VDisk.vhdx"
+    select vdisk file="C:\你的虚拟磁盘文件路径\D-VDisk.vhdx"
 
     attach vdisk
 
     assign letter=D
 ```
 
-6. Press ``ctrl+R `` and type ``taskschd.msc``.
-7. Create a new scheduled task, set it to run **regardless** of user login. Opt to run as **adminstrator** with compatibility selected as *Windows 10*.
-8. Set trigger as when system boots and when user login.
-9. The operation is to run a programme, in that dialogue page you create a task that points to the ``MountDDisk.bat`` file in Step 4.
-10. Confirm your changes and type in your login password.
-11. Reboot the computer and you shall have your new disk created. If not, tweak the trigger conditions in Step 8.
-12. [optinal] When succeed, you can export the scheduled task rule as a ``.xml`` file for setup in other computers.
+6. 使用组合键``ctrl+R ``然后输入``taskschd.msc``。
+7. 创建计划任务，设置其**无论**用户是否登录都要执行。选择以**管理员权限**运行，兼容性选择*Windows 10*。
+8. 设置触发器为系统启动和用户登录时执行。
+9. 执行的操作为运行程序。程序指向刚刚第4步的``MountDDisk.bat``脚本。
+10. 确认应用更改，然后输入用户登录密码。
+11. 重启电脑，你应该能看到新的磁盘被创建了。如果出问题，请回到第8步尝试其他触发条件。
+12. [可选]成功后可以将计划任务导出为``.xml``文件以便在其他类似的电脑上设置。 
 
-This method is perpetual and supports all functions including recycle bin in the ``NTFS`` file system.
+此方法是半永久的，而且支持包含回收站在内的所有``NTFS``文件系统功能。
 
-A note is that, remember to exclude the ``.vhdx`` file shall it exist in the path of file-sync, since they are changed independely across your different computers.
+提示：如果你的 ``.vhdx``虚拟磁盘文件在同步文件的路径上，请在同步规则里将它排除，因为每台电脑的的此文件都独立发生更改。
 
-#### 2.3 All work files in ``.vhdx`` virtual disk (not recommended)
+#### 2.3 将所有工作文件放入``.vhdx``虚拟磁盘并挂载（不推荐）
 
-Instead, you can abandon the ``mklink`` command and put all your files in a sufficiently big  ``.vhdx`` virtual disk file (in 2.2 select a big enough size in Step 1 and skip Step 3) and mount it on boot.
+其实，你可以抛弃``mklink``指令然后将你的所有工作文件资料放入一个足够大的``.vhdx``虚拟磁盘里（在2.2的第1步里创建足够大的虚拟磁盘，并忽略第3步），然后使用上面的方法开机挂载此磁盘。
 
-This method is also flexible in partition size, and you can enjoy the functionality of *recycle bin* and *running ``.exe`` programmes*. However, if all files are packaged in one giant file, any corrption on the virtual disk file will result in the loss of your data. It is also *hard* and *not safe* to move such a huge file around.
+这种方法对于分区空间调整也很灵活，而且你也能够享受*回收站*和运行``.exe``程序的功能。然而如果所有文件都包装在一个巨大的单体文件里，只要此文件有一丁点损坏，都会导致虚拟磁盘不可读，从而丢失数据。而且同步和移动这么大的一个文件既**困难**又**不安全**。
 
-#### 2.4 Comparison among these methods
+#### 2.4 方法对比
 
-| Functions | Disk partitioning | Use the ``subst`` command | Small ``.vhdx`` + ``mklink /j`` | All files in a large ``.vhdx``  |
+| 功能需求 | 磁盘分区 | 使用``subst``命令 | 小尺寸``.vhdx`` + ``mklink /j`` | 所有文件放在大``.vhdx``里  |
 |:----- | :-----:  | :-----:  | :-----:  | :-----:  |
-| Require maintaining a different sync config | **No** | Yes  | **No**  | **No**  |
-| Support for recycle bin | **Yes** | No  | **Yes**  | **Yes**  |
-| Support for running ``.exe`` | **Yes** | No  | **Yes**  | **Yes**  |
-| Required disk space | Need to plan ahead  | **negligible**  | **100 MB -- 1 GB**  | larger than all your data |
-| Flexibility of adjusting space | Very low  | **high (no need)**  | **high (almost no need)**  | Low |
-| First-time setup difficulty | moderate  | **easy**  | **easy to moderate**  | **easy to moderate** |
-| Persistent after reboot | **Yes**  | **scheduled-task-remount by a script**  | **scheduled-task remount**  | **scheduled-task remount** |
-| Migrate to other system | hard  | **easy, re-do all steps**  | **copy-paste**  | sometimes too large to move |
-| Risk of data lost | partition at your own risk!  | **Almost no risk**  | **Almost no risk**  | ``.vhdx`` file corruption = lose all your data |
+| 需要维护不同版本的同步配置文件 | **否** | 是  | **否**  | **否**  |
+| 支持回收站功能 | **是** | 否  | **是**  | **是**  |
+| 支持运行``.exe`` | **是** | 否  | **是**  | **是**  |
+| 所需磁盘空间 | 需要提前规划  | **可忽略**  | **100 MB -- 1 GB**  | 大于你所有数据的大小总和 |
+| 调整磁盘空间的灵活性 | 非常低  | **高（无需）**  | **高（几乎无需）**  | 低 |
+| 初次设置的难度 | 中等  | **容易**  | **容易到中等**  | **容易到中等** |
+| 重启后能维持状态 | **是**  | **使用计划任务和脚本重新挂载**  | **使用计划任务和脚本重新挂载**  | **使用计划任务和脚本重新挂载** |
+| 迁移到其他设备难度 | 难  | **容易，重做所有步骤**  | **复制粘贴即可**  | 文件太大时很难移动 |
+| 丢失数据的风险 | 分区有风险！  | **几乎无风险**  | **几乎无风险**  | ``.vhdx``文件一但损坏=丢失所有数据 |

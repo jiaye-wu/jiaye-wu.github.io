@@ -18,9 +18,9 @@ categories:
 thumbnail: assets/img/QUICKphotonics.png
 ---
 
-由于项目涉及光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
+由于项目涉及大量光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
 
-The repository is held on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
+本项目的代码仓库位于[GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
 
 # QUICKphotonics - Quick UnIt Conversion Kit for Photonics
 
