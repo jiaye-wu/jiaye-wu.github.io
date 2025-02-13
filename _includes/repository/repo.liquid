@@ -13,7 +13,7 @@
   {% assign lang_last = site.active_lang | split: '-' | last %}
   {% if lang_last == 'cn' or lang_last == 'sg' or lang_last == 'my' or lang_last == 'hans' %}
     {% assign lang = 'cn' %}
-  {% elsif  lang_last == 'tw' or lang_last == 'hk' or lang_last == 'mo' or lang_last == 'hant' %}
+  {% else if  lang_last == 'tw' or lang_last == 'hk' or lang_last == 'mo' or lang_last == 'hant' %}
     {% assign lang = 'zh-tw' %}
   {% endif %}
 {% endif %}
