@@ -28,7 +28,7 @@ nav_order: 4
 
 ---
 
-### <img src="/assets/img/PKU.png" style="height: 1.1em; "> Peking University (PKU) 
+### <img src="/assets/img/PKU.png" style="height: 1.1em; "> Peking University (PKU)
 
 ---
 
@@ -59,18 +59,18 @@ nav_order: 4
 
 ---
 
-**Springer-Nature:** *Nature*, *Nature Nanotechnology*, *Light: Science & Applications*, *Communications Physics*, *Optical and Quantum Electronics*.
+**Springer-Nature:** _Nature_, _Nature Nanotechnology_, _Light: Science & Applications_, _Communications Physics_, _Optical and Quantum Electronics_.
 
-**Optica Publishing Group:** *Optics Letters*, *Optics Express*, *Optical Materials Express*, *Jouranl of the Optical Society of America B*, *Applied Optics*, *OSA Continuum* (*Optica Continuum*).
+**Optica Publishing Group:** _Optics Letters_, _Optics Express_, _Optical Materials Express_, _Jouranl of the Optical Society of America B_, _Applied Optics_, _OSA Continuum_ (_Optica Continuum_).
 
-**Wiley:** *Laser & Photonics Reviews*.
+**Wiley:** _Laser & Photonics Reviews_.
 
-**Elsevier:** *Optics & Laser Technology*, *Results in Physics*, *Surface & Coatings Technology*, *Thin Solid Films*, *Optics Communications*.
+**Elsevier:** _Optics & Laser Technology_, _Results in Physics_, _Surface & Coatings Technology_, _Thin Solid Films_, _Optics Communications_.
 
-**Institute of Physics (IOP):** *Journal of Physics: Photonics*, *Journal of Optics*, *Physica Scripta*.
+**Institute of Physics (IOP):** _Journal of Physics: Photonics_, _Journal of Optics_, _Physica Scripta_.
 
-**American Institute of Physics (AIP):** *Applied Physics Letters*.
+**American Institute of Physics (AIP):** _Applied Physics Letters_.
 
-**Chinese Academy of Sciences (CAS):** *Acta Physica Sinica*.
+**Chinese Academy of Sciences (CAS):** _Acta Physica Sinica_.
 
-**MDPI:** *Sensors*.
+**MDPI:** _Sensors_.

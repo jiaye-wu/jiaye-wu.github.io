@@ -3,15 +3,15 @@ layout: post
 title: "[受邀讲座] 光与物质相互作用：集成光芯片与微纳薄膜器件中超快光脉冲串的腔外腔内操控新技术"
 date: 2023-11-19 9:00:00
 description: 腔外与腔内脉冲操控系列受邀讲座
-tags: 
-   - epsilon-near-zero
-   - integrated photonics
-   - nonlinear optics
-   - nanophotonics
-   - invited talk
-categories: 
-   - talks
-   - research blog
+tags:
+  - epsilon-near-zero
+  - integrated photonics
+  - nonlinear optics
+  - nanophotonics
+  - invited talk
+categories:
+  - talks
+  - research blog
 thumbnail: assets/img/ETHZ.png
 related_publications: true
 ---

@@ -1,5 +1,5 @@
 ---
-page_id: project_rc   
+page_id: project_rc
 layout: page
 title: radiative cooling & photonic crystal designs
 description: nanophotonic design for energy and sustainability
@@ -9,7 +9,8 @@ category: non-active
 related_publications: true
 ---
 
-Photonic radiative cooling is a passive cooling technology that leverages the principles of photonics to dissipate heat by emitting infrared radiation. This approach involves designing materials or structures, often with engineered photonic properties, that can radiate thermal energy at specific wavelengths (usually in the mid-infrared range) directly into outer space. By optimizing these materials to have high emissivity in the atmospheric transparency window (8-13 micrometers) and low absorption in the solar spectrum, they can achieve cooling below ambient temperatures without consuming energy. Photonic radiative cooling has promising applications in building energy efficiency, outdoor equipment cooling, and even enhanced thermal management for photovoltaic cells. 
+Photonic radiative cooling is a passive cooling technology that leverages the principles of photonics to dissipate heat by emitting infrared radiation. This approach involves designing materials or structures, often with engineered photonic properties, that can radiate thermal energy at specific wavelengths (usually in the mid-infrared range) directly into outer space. By optimizing these materials to have high emissivity in the atmospheric transparency window (8-13 micrometers) and low absorption in the solar spectrum, they can achieve cooling below ambient temperatures without consuming energy. Photonic radiative cooling has promising applications in building energy efficiency, outdoor equipment cooling, and even enhanced thermal management for photovoltaic cells.
+
 <!-- (Note: this introductory information is summarized by GPT-4o) -->
 
 Such studies possess potential in applications related to building, energy, sustainability, and aesthetic needs {% cite Wu2017a Wu2020d %}.

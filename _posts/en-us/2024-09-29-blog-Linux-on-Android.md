@@ -3,13 +3,13 @@ layout: post
 title: "[Archive] Run Linux Desktop on Android Tablets"
 date: 2024-09-29 21:01:00
 description: a personal note on running Linux dektop on Android
-tags: 
-   - android
-   - open source
-   - software
-categories: 
-   - development
-   - archive
+tags:
+  - android
+  - open source
+  - software
+categories:
+  - development
+  - archive
 thumbnail: assets/img/android.png
 ---
 
@@ -20,6 +20,7 @@ This project is hosted at [https://github.com/TerenceWSK/Android-Termux-Subsyste
 This repository is the personal collection of configurations for running Linux on Android **without root**. Transform your Android tablet into a (more portable) ARM64 Linux laptop!
 
 This tutorial provides solutions for:
+
 - **Native** Android-Termux-based Linux Desktop environment
 - Termux-based **PRoot** Linux Distros (in this article, we select Ubuntu as an example)
 
@@ -27,7 +28,7 @@ The **native** solution is faster but **PRoot** has much more Linux apps support
 
 ## References & Credits
 
-Many tutorials exist on how to run Linux on Android. However, depending on the **version of Android you are using** and the **version of Linux you installed** (and also it depends on the **time you decide to try** -- some services might have changed), **your mileage may vary**. 
+Many tutorials exist on how to run Linux on Android. However, depending on the **version of Android you are using** and the **version of Linux you installed** (and also it depends on the **time you decide to try** -- some services might have changed), **your mileage may vary**.
 I followed the listed tutorials and adapted them to my needs.
 I wrote this tutorial as my personal note & script-bakcups as well as a reference for future readers.
 
@@ -55,7 +56,7 @@ I wrote this tutorial as my personal note & script-bakcups as well as a referenc
 
 #### 1.1.1 Install Termux apps
 
-**DO NOT** download from *Google Play Store* since the versions are outdated.
+**DO NOT** download from _Google Play Store_ since the versions are outdated.
 
 - [Termux](https://github.com/termux/termux-app/releases)
 - [Termux:X11](https://github.com/termux/termux-x11/releases/tag/nightly) to display your desktop environment
@@ -112,7 +113,7 @@ pkg install git
 
 #### 1.1.3 Settings for Termux:X11 app:
 
-If there is no ```preference``` button, take a look at your notification list in Android. Change the preference default settings: 
+If there is no `preference` button, take a look at your notification list in Android. Change the preference default settings:
 
 - **Display resolution mode:** scaled
 - **Fullscreen on device display:** on
@@ -122,7 +123,7 @@ If there is no ```preference``` button, take a look at your notification list in
 - **Capture external mouse when possible:** on
 - **Show additional keyboard:** off
 
-Connecting to a (wireless) keyboard and mouse is recommended. 
+Connecting to a (wireless) keyboard and mouse is recommended.
 
 ### 1.2 Disable Android phantom process killer
 
@@ -140,15 +141,15 @@ An note for HarmonyOS (1.x--4.x) users: HarmonyOS does not display Android versi
 
 **ONLY for Android version >= 14**
 
-Enable toggle once at ```Android Settings -> System -> Developer options -> Disable child process restrictions``` to disable killing of **extra phantom processes > 32** and processes using excessive cpu. You will need to enable Developer options first on your device for it to show in ```System``` settings page, and it can usually be done by tapping ```Android Settings -> About -> Build number``` field **7** times.
+Enable toggle once at `Android Settings -> System -> Developer options -> Disable child process restrictions` to disable killing of **extra phantom processes > 32** and processes using excessive cpu. You will need to enable Developer options first on your device for it to show in `System` settings page, and it can usually be done by tapping `Android Settings -> About -> Build number` field **7** times.
 
-If you disable ```Developer options``` again, then ```Disable child process restrictions``` toggle will be disabled again automatically and killing of phantom processes will be enabled again. 
+If you disable `Developer options` again, then `Disable child process restrictions` toggle will be disabled again automatically and killing of phantom processes will be enabled again.
 
 #### 1.2.3 Method 2: Wireless ADB debugging (NOT recommended)
 
 **For Android 12L & 13+**
 
-The wireless adb debugging is also in ```Developer options```. Assuming there is no root access, the commands should be re-enabled on each reboot.
+The wireless adb debugging is also in `Developer options`. Assuming there is no root access, the commands should be re-enabled on each reboot.
 
 On some devices, such as the one I am testing with, the method using adb wireless debugging do not work due to unknown reason.
 
@@ -188,13 +189,13 @@ pkg install xfce4
 pkg install tur-repo
 ```
 
-**Chromium:** 
+**Chromium:**
 
 ```
 pkg install chromium
 ```
 
-*Known issue:* crash on Google account login. To launch it, later in graphical interface: add ```--no-sandbox``` after launch command.
+_Known issue:_ crash on Google account login. To launch it, later in graphical interface: add `--no-sandbox` after launch command.
 
 **Code-oss:** (open source project of Visual Studio Code)
 
@@ -202,7 +203,7 @@ pkg install chromium
 pkg install code-oss
 ```
 
-*Known issue:* cannot sync with Microsoft.
+_Known issue:_ cannot sync with Microsoft.
 
 ### 2.3 Add script for launching desktop environment
 
@@ -218,7 +219,7 @@ OR, here is a backup if the original script no longer accessible:
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startxfce4_termux.sh
 ```
 
-Copy the scrupt to ```./.shortcuts/``` to be accessible with Termux:Widget
+Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
 
 ```
 cp ./startxfce4_termux.sh ./shortcuts/
@@ -234,9 +235,9 @@ chmod +x ./.shortcuts/startxfce4_termux.sh
 
 - Long click/hold on the blank places on any Android home screen (launcher)
 - Add a **Android Widget "Termux:Widget"**
-- You should find the ```startxfce4_termux.sh```
+- You should find the `startxfce4_termux.sh`
 - Click on it and you should be able to lanch **Termux:X11**.
-- Otherwise, in Termux terminal, use ```sh ./startxfce4_termux.sh```
+- Otherwise, in Termux terminal, use `sh ./startxfce4_termux.sh`
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -246,11 +247,11 @@ chmod +x ./.shortcuts/startxfce4_termux.sh
 
 ### 2.5 File sharing with Android
 
-In Termux native desktop, you can access your user files and folders of Android host machine mounted at ```~/Desktop/shared/``` or ```/data/data/com.termux/files/home/Desktop/shared```. You can make a link on desktop or pin it to the sidebar of the file manager.
+In Termux native desktop, you can access your user files and folders of Android host machine mounted at `~/Desktop/shared/` or `/data/data/com.termux/files/home/Desktop/shared`. You can make a link on desktop or pin it to the sidebar of the file manager.
 
 ## 3. Termux-based PRoot Linux Distros (Ubuntu)
 
-The Ubuntu system installation part is mostly based on [Ivon's blog](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/), the software installation part is *my collection and adaptation from various sources to make things work*.
+The Ubuntu system installation part is mostly based on [Ivon's blog](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/), the software installation part is _my collection and adaptation from various sources to make things work_.
 
 ### 3.1 Ubuntu setup
 
@@ -395,8 +396,8 @@ sudo apt install locales fonts-noto-cjk
 vim /etc/locale.gen
 ```
 
-将其中```zh_CN.UTF-8 UTF-8```前的#号移除
-使用```:wq!```退出vim
+将其中`zh_CN.UTF-8 UTF-8`前的#号移除
+使用`:wq!`退出vim
 
 **生成语言：**
 
@@ -418,7 +419,7 @@ sudo apt purge ibus
 
 ```
 apt install fcitx fcitx-pinyin
-``` 
+```
 
 ```
 fcitx-googlepinyin
@@ -434,7 +435,7 @@ Download the script:
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startproot_ubuntu.sh
 ```
 
-Copy the scrupt to ```./.shortcuts/``` to be accessible with Termux:Widget
+Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
 
 ```
 cp ./startproot_ubuntu.sh ./shortcuts/
@@ -450,9 +451,9 @@ chmod +x ./.shortcuts/startproot_ubuntu.sh
 
 - Long click/hold on the blank places on any Android home screen (launcher)
 - Add a Android Widget "Termux:Widget"
-- You should find the ```startproot_ubuntu.sh```
+- You should find the `startproot_ubuntu.sh`
 - Click on it and you should be able to lanch Termux:X11.
-- Otherwise, in Termux terminal, use ```sh ./startproot_ubuntu.sh```
+- Otherwise, in Termux terminal, use `sh ./startproot_ubuntu.sh`
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -462,15 +463,15 @@ chmod +x ./.shortcuts/startproot_ubuntu.sh
 
 ### 3.5 File sharing with Android
 
-In Termux native desktop, you can access your user files and folders of Android host machine mounted at ```/storage/emulated/0```. You can make a link on desktop or pin it to the sidebar of the file manager.
+In Termux native desktop, you can access your user files and folders of Android host machine mounted at `/storage/emulated/0`. You can make a link on desktop or pin it to the sidebar of the file manager.
 
 ### 3.6 Ubuntu softwares
 
 #### Tested to work directly:
 
 - GIMP (pre-installed)
-- Octave (```sudo apt install octave```)
-- TeX Live (```sudo apt install texlive```)
+- Octave (`sudo apt install octave`)
+- TeX Live (`sudo apt install texlive`)
 
 #### Does not work:
 
@@ -480,10 +481,11 @@ In Termux native desktop, you can access your user files and folders of Android 
 #### Visual Studio Code
 
 - Go to [VS Code download page](https://code.visualstudio.com/download#) and select Linux Arm64.
-- In ```Downloads``` folder: ```sudo dpkg -i code*.deb```
-- In the properties of the VS Code launch icon: add ```--no-sandbox```
+- In `Downloads` folder: `sudo dpkg -i code*.deb`
+- In the properties of the VS Code launch icon: add `--no-sandbox`
 
 #### Chromium
+
 On September 2024, the method introduced in the tutorial video ["How to install Chromium in Ubuntu | Termux" by Technical Bot](https://www.youtube.com/watch?v=SA03NwenOck) can no longer work smoothly, mainly due to gpg key management issue due to the current server conditions and the updated software.
 
 **Check if gpg is installed:**
@@ -498,7 +500,7 @@ sudo apt install gnupg
 echo "deb http://ftp.debian.org/debian buster main" >> /etc/apt/sources.list
 ```
 
-``` 
+```
 sudo apt update
 ```
 
@@ -547,8 +549,9 @@ Then
 ```
 sudo apt update
 ```
+
 ```
 sudo apt install chromium
 ```
 
-In the properties of the VS Code launch icon: add ```--no-sandbox```
+In the properties of the VS Code launch icon: add `--no-sandbox`

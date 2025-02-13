@@ -3,15 +3,15 @@ layout: post
 title: "[受邀讲座] 基于集成光芯片和微纳光器件平台的超快光脉冲腔外腔内操控"
 date: 2024-05-07 9:00:00
 description: 腔外与腔内脉冲操控系列受邀讲座
-tags: 
-   - epsilon-near-zero
-   - integrated photonics
-   - nonlinear optics
-   - nanophotonics
-   - invited talk
-categories: 
-   - talks
-   - research blog
+tags:
+  - epsilon-near-zero
+  - integrated photonics
+  - nonlinear optics
+  - nanophotonics
+  - invited talk
+categories:
+  - talks
+  - research blog
 thumbnail: assets/img/PKU-H.png
 related_publications: true
 ---
