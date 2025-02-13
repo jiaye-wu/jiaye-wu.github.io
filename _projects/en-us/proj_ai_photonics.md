@@ -2,14 +2,15 @@
 page_id: project_ai_photonics
 layout: page
 title: AI for photonics & photonics for AI
-description: optimization and design enpowered by algorithms 
+description: optimization and design enpowered by algorithms
 img: assets/img/cover_ai.png
 importance: 1
 category: ongoing
 related_publications: true
 ---
 
-Photonics involves the manipulation of light to create advanced technologies for communication, sensing, and imaging. Traditionally, designing photonic components, such as waveguides, filters, and lasers, relied heavily on trial-and-error methods and expert intuition. However, with the advent of AI, these processes have become more efficient and streamlined. AI-driven tools enable generative design approaches, where the system autonomously explores a vast design space, producing innovative solutions that push the boundaries of traditional photonic design. As a result, the collaboration between AI and photonics is paving the way for the development of next-generation optical technologies, enhancing capabilities across various applications, for example, from telecommunications to medical diagnostics. 
+Photonics involves the manipulation of light to create advanced technologies for communication, sensing, and imaging. Traditionally, designing photonic components, such as waveguides, filters, and lasers, relied heavily on trial-and-error methods and expert intuition. However, with the advent of AI, these processes have become more efficient and streamlined. AI-driven tools enable generative design approaches, where the system autonomously explores a vast design space, producing innovative solutions that push the boundaries of traditional photonic design. As a result, the collaboration between AI and photonics is paving the way for the development of next-generation optical technologies, enhancing capabilities across various applications, for example, from telecommunications to medical diagnostics.
+
 <!-- (Note: this introductory information is summarized by GPT-4o) -->
 
 We are working in the following categories:

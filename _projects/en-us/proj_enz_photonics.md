@@ -35,4 +35,4 @@ Our studies can be sorted into four categories, namely,
     Near-zero-index photonic media: fabrication, prerequisite studies, new phenomena, and applications.
 </div>
 
-We also aim to develop and introduce new techniques {% cite Wu2021b Wang2021 Huang2022%} in a multi- and inter-disciplinary way, and are active on theories and simulations {% cite Wu2021b Wu2020a%}.  
+We also aim to develop and introduce new techniques {% cite Wu2021b Wang2021 Huang2022%} in a multi- and inter-disciplinary way, and are active on theories and simulations {% cite Wu2021b Wu2020a%}.

@@ -4,13 +4,12 @@ title: "[光学前沿评论] 腔内近零介电常数效应光纤激光器中类
 date: 2023-07-28 03:01:00
 description: 微信公众号推送
 redirect: https://mp.weixin.qq.com/s/4pYgeCCHyVhg7pzyQyMSsQ
-tags: 
+tags:
   - epsilon-near-zero
   - plasmonics
   - nonlinear optics
   - nanophotonics
-categories: 
+categories:
   - news
 thumbnail: assets/img/research.jpg
 ---
-

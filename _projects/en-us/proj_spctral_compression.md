@@ -1,5 +1,5 @@
 ---
-page_id: project_sc   
+page_id: project_sc
 layout: page
 title: spectral & pulse compression in nonlinear optical fibers
 description: shorter, faster, brighter, stronger
@@ -16,6 +16,7 @@ In nonlinear optics, spectral compression and pulse compression are key processe
 - **Pulse Compression**: Pulse compression involves shortening the temporal width of an optical pulse, often leading to ultrashort pulses. This is usually achieved through dispersive elements or nonlinear effects like chirped pulse amplification (CPA) and SPM. Pulse compression is widely used in generating high-intensity ultrafast pulses for applications in microscopy, material processing, and laser-driven particle acceleration.
 
 Both concepts play a crucial role in enhancing the performance of optical systems and enabling advanced photonic applications.
+
 <!-- (Note: this introductory information is summarized by GPT-4o) -->
 
 The original project is maintained by Prof. Qian Li's group {% cite Wu2019d %}.

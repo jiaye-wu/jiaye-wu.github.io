@@ -1,17 +1,22 @@
 <header>
-  {% comment %} 
-  navbar-expand-
-  sm: 576px
-  md: 768px
-  lg: 992px
-  xl: 1200px 
+  {% comment %}
+    navbar-expand-
+    sm: 576px
+    md: 768px
+    lg: 992px
+    xl: 1200px
   {% endcomment %}
 
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-        <img src="{{ '/assets/img/banners/banner.png' | relative_url }}" alt="Banner Image" class="img-fluid" style="max-width: 100%; width: auto; height: 40px;" />        
-        {% if site.enable_navbar_social %}
+      <img
+        src="{{ '/assets/img/banners/banner.png' | relative_url }}"
+        alt="Banner Image"
+        class="img-fluid"
+        style="max-width: 100%; width: auto; height: 40px;"
+      >
+      {% if site.enable_navbar_social %}
         <!-- Social Icons -->
         <div class="navbar-brand social">{% include social.liquid %}</div>
       {% endif %}
