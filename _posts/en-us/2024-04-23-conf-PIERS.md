@@ -17,7 +17,7 @@ thumbnail: assets/img/PIERS.png
 related_publications: true
 ---
 
-Oral presentation entitled *Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects* at [PhotonIcs and Electromagnetics Research Symposium (Progress In Electromagnetics Research Symposium, PIERS) 2024](https://opg.optica.org/conference.cfm?meetingid=124&yr=2022](https://cd2024.piers.org/)), Chengdu, Sichuan, China. {% cite Wu2024b Wu2024a %}
+Oral presentation entitled *Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects* at [PhotonIcs and Electromagnetics Research Symposium (Progress In Electromagnetics Research Symposium, PIERS) 2024](https://opg.optica.org/conference.cfm?meetingid=124&yr=2022)[https://cd2024.piers.org/](https://cd2024.piers.org/), Chengdu, Sichuan, China. {% cite Wu2024b Wu2024a %}
 
 Published version: [10.1109/PIERS62282.2024.10618156](https://doi.org/10.1109/PIERS62282.2024.10618156). 
 
