@@ -15,7 +15,6 @@ thumbnail: assets/img/SIOM.png
 related_publications: true
 ---
 
-On **December 26th, 2023**, I was Invited by **The 2nd International Laser Forum for Young Scholars, Shanghai Institute of Optics and Fine Machines (SIOM), Chinese Academy of Sciences (CAS)** to present a talk on *Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions* at **SIOM, CAS, Shanghai, China**. 
 **2023年12月26日**，应**第二届国际激光青年学者论坛**邀请，于**中国科学院上海光学精密机械研究所**开展题为《近零介电常数条件下的线性与非线性热光效应增强》的讲座。{% cite Wu2024a Wu2024b %}
 
 此次讲座基于近期在[*Nature Communications*](https://www.nature.com/articles/s41467-024-45054-z)上发表的最新研究。
