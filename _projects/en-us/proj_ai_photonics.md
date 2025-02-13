@@ -21,10 +21,10 @@ We are working in the following categories:
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_contents/proj_ai_1.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/proj_ai_2.png" title="project image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/project_contents/proj_ai_2.png" title="project image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">

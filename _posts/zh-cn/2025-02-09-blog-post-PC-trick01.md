@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Archive] Tricks to keep all files the same & synced across your devices 文件管理强迫症福音"
+title: "[档案] 文件管理强迫症福音"
 date: 2025-02-09 20:05:00
 description: experience sharing and personal notes
 tags: 
