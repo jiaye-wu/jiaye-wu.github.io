@@ -73,7 +73,7 @@ ninja.data = [{
       
         title: "[档案] 文件管理强迫症福音",
       
-      description: "experience sharing and personal notes",
+      description: "经验分享和个人笔记",
       section: "博文",
       handler: () => {
         
@@ -102,11 +102,11 @@ ninja.data = [{
           window.location.href = "/zh-cn/blog/2024/conf-IPC/";
         
       },
-    },{id: "post-archive-run-linux-desktop-on-android-tablets",
+    },{id: "post-档案-在android平板电脑上运行linux桌面发行版",
       
-        title: "[Archive] Run Linux Desktop on Android Tablets",
+        title: "[档案] 在Android平板电脑上运行Linux桌面发行版",
       
-      description: "a personal note on running Linux dektop on Android",
+      description: "在Android上运行Linux桌面的个人笔记",
       section: "博文",
       handler: () => {
         
@@ -135,11 +135,11 @@ ninja.data = [{
           window.location.href = "/zh-cn/blog/2024/dev-QUICKphotonics/";
         
       },
-    },{id: "post-invited-talk-extra-and-intra-cavity-manipulation-of-ultrashort-optical-pulses-on-integrated-and-nano-photonic-platforms",
+    },{id: "post-受邀讲座-基于集成光芯片和微纳光器件平台的超快光脉冲腔外腔内操控",
       
-        title: "[Invited Talk] Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and...",
+        title: "[受邀讲座] 基于集成光芯片和微纳光器件平台的超快光脉冲腔外腔内操控",
       
-      description: "an invited talk on extra- and intra-cavity pulse manipulation",
+      description: "腔外与腔内脉冲操控系列受邀讲座",
       section: "博文",
       handler: () => {
         
@@ -168,9 +168,9 @@ ninja.data = [{
           window.open("https://mp.weixin.qq.com/s/JNNqS0skF1zTUaG5XaYGqg", "_blank");
         
       },
-    },{id: "post-blog-blog-post-in-spring-nature-research-communities-following-publication-in-nature-communications",
+    },{id: "post-博客文章-施普林格-自然科研社区有关近期本人团队-自然-通信-研究的博客文章报道",
       
-        title: "[Blog] Blog post in Spring-Nature Research Communities following publication in Nature Communications",
+        title: "[博客文章] 施普林格·自然科研社区有关近期本人团队《自然·通信》研究的博客文章报道",
       
       description: "behind the paper series",
       section: "博文",
@@ -212,22 +212,22 @@ ninja.data = [{
           window.open("https://communities.springernature.com/posts/towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer", "_blank");
         
       },
-    },{id: "post-invited-talk-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
+    },{id: "post-受邀讲座-近零介电常数条件下的线性与非线性热光效应增强",
       
-        title: "[Invited Talk] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions",
+        title: "[受邀讲座] 近零介电常数条件下的线性与非线性热光效应增强",
       
-      description: "an invited talk on epsilon-near-zero photonics",
+      description: "近零介电常数光子学系列受邀讲座",
       section: "博文",
       handler: () => {
         
           window.location.href = "/zh-cn/blog/2023/invited-SIOM/";
         
       },
-    },{id: "post-invited-talk-light-matter-interactions-novel-technologies-for-extra-and-intra-cavity-manipulations-of-ultrafast-optical-pulses-in-integrated-photonic-chips-and-nanophotonic-thin-film-devices",
+    },{id: "post-受邀讲座-光与物质相互作用-集成光芯片与微纳薄膜器件中超快光脉冲串的腔外腔内操控新技术",
       
-        title: "[Invited Talk] Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast...",
+        title: "[受邀讲座] 光与物质相互作用：集成光芯片与微纳薄膜器件中超快光脉冲串的腔外腔内操控新技术",
       
-      description: "an invited talk on extra- and intra-cavity pulse manipulation",
+      description: "腔外与腔内脉冲操控系列受邀讲座",
       section: "博文",
       handler: () => {
         
