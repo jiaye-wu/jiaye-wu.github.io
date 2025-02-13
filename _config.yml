@@ -114,12 +114,12 @@ giscus:
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 # external_sources:
-#   - name: 
-#     rss_url: 
-#   - name: 
+#   - name:
+#     rss_url:
+#   - name:
 #     posts:
-#       - url: 
-#         published_date: 
+#       - url:
+#         published_date:
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -258,15 +258,15 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["epsilon-near-zero", "integrated photonics", "nonlinear optics", "nanophotonics", "conference talk", "invited talk", "software"] # these tags will be displayed on the front page of your blog
-display_categories: ["journal cover","research blog","talks","news","milestone","development","archive"] # these categories will be displayed on the front page of your blog
+display_categories: ["journal cover", "research blog", "talks", "news", "milestone", "development", "archive"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: ["Wu","吴"]
-  first_name: ["Jiaye","Jia-Ye","吴嘉野","嘉野"]
+  last_name: ["Wu", "吴"]
+  first_name: ["Jiaye", "Jia-Ye", "吴嘉野", "嘉野"]
 
   style: apa
   locale: en

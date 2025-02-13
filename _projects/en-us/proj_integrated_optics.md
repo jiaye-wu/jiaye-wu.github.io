@@ -1,5 +1,5 @@
 ---
-page_id: project_pic  
+page_id: project_pic
 layout: page
 title: novel integrated photonic nanodevices, chips, & circuits
 description: unconventional light-matter interactions at the fingertip
@@ -14,9 +14,9 @@ Aiming to replace the electronic universal computing as its destiny, the integra
 1. introducing novel optical phenomena and materials into integrated photonics
 2. investigating the essential/critical prerequisites before (large-scale) photonic integration
 3. introducing techniques in the state-of-the-art microelectronics into on-chip photonic integration
-4. realizing theoretical works that have great potential yet overlooked. 
+4. realizing theoretical works that have great potential yet overlooked.
 
-An example of the 1st point: we introduced the novel *temporal Talbot effect of dark pulse trains* {% cite Wu2022a %} into integrated optics {% cite Wu2023 %}.
+An example of the 1st point: we introduced the novel _temporal Talbot effect of dark pulse trains_ {% cite Wu2022a %} into integrated optics {% cite Wu2023 %}.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">

@@ -3,12 +3,12 @@ layout: post
 title: "[受邀讲座] 科学素养：科研学习经验分享与SCI文献检索"
 date: 2017-10-11 9:25:00
 description: 科学素养系列受邀讲座
-tags: 
-   - science literacy
-   - invited talk
-categories: 
-   - talks
-   - research blog
+tags:
+  - science literacy
+  - invited talk
+categories:
+  - talks
+  - research blog
 thumbnail: assets/img/SCNU-H.png
 ---
 
