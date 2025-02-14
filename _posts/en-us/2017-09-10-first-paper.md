@@ -20,6 +20,12 @@ April 1st, 2015 was the date that I began to consider my first academic supervis
 
 In this paper, an optical radiative cooler with quasi-Cantor structure is theoretically proposed and analyzed. This simple and symmetrically designed optical structure operates upon continuous thermal sources in diurnal subtropical conditions, and its efficiency is much higher than natural cooling, for instance, when operating upon a typical 323.15 K continuous thermal source with a wind speed at 3 m/s, it can generate a net cooling power of 363.68 W/m², which is 18.26% higher than that of non-radiative heat exchange (natural cooling) under the same conditions. Additionally, several aspects are considered in its design to ensure a low cost in application, which is of great economical and environmental significance. {% cite Wu2017a %}
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/post_contents/Milestone-01.png" class="img-fluid rounded z-depth-1" zoomable=false %}
+    </div>
+</div>
+
 ## Cited as
 
 J.-Y. Wu, et al., "Diurnal cooling for continuous thermal sources under direct subtropical sunlight produced by quasi-Cantor structure", _Chinese Physics B_ **26**(10): 104201, 2017.

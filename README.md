@@ -7,13 +7,20 @@ Welcome to the repository of my personal academic page!
 - This website is held on [Github Pages](https://pages.github.com/).
 - The template is primarily based on [multi-language-al-folio
   ](https://github.com/george-gca/multi-language-al-folio) and [al-folio](https://github.com/alshedivat/al-folio), a fork of [\*folio](https://github.com/bogoli/-folio). ([Demo webpage](https://alshedivat.github.io/al-folio/))
-- The original README file is [here](https://github.com/jiaye-wu/jiaye-wu.github.io/blob/master/README.al-folio.md)
 
 ## Build locally to avoid Google Scholar HTTP error "too many requests"
 
 in `_config.yml` line 342 set `google_scholar: false`.
 
+## Status of my website
+
+[![Check for broken links on site](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/broken-links-site.yml/badge.svg)](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/broken-links-site.yml) [![Deploy site](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/deploy.yml) [![Prettier code formatter](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/prettier.yml/badge.svg)](https://github.com/jiaye-wu/jiaye-wu.github.io/actions/workflows/prettier.yml)
+
+---
+
 **Original `README.md` attached below.**
+
+---
 
 # multi-language-al-folio
 
@@ -242,6 +249,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
 - [My Personal Academic Website](#my-personal-academic-website)
   - [Acknowledgements](#acknowledgements)
   - [Build locally to avoid Google Scholar HTTP error "too many requests"](#build-locally-to-avoid-google-scholar-http-error-too-many-requests)
+  - [Status of my website](#status-of-my-website)
 - [multi-language-al-folio](#multi-language-al-folio)
   - [User community](#user-community)
   - [Lighthouse PageSpeed Insights](#lighthouse-pagespeed-insights)
