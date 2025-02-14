@@ -168,9 +168,9 @@ ninja.data = [{
           window.open("https://mp.weixin.qq.com/s/JNNqS0skF1zTUaG5XaYGqg", "_blank");
         
       },
-    },{id: "post-博客文章-施普林格-自然科研社区有关近期本人团队-自然-通信-研究的博客文章报道",
+    },{id: "post-博客文章-施普林格-自然科研社区有关近期本人团队-自然-通讯-研究的博客文章报道",
       
-        title: "[博客文章] 施普林格·自然科研社区有关近期本人团队《自然·通信》研究的博客文章报道",
+        title: "[博客文章] 施普林格·自然科研社区有关近期本人团队《自然·通讯》研究的博客文章报道",
       
       description: "behind the paper series",
       section: "博文",
