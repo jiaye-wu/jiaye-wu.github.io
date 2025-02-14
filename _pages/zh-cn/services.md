@@ -61,7 +61,7 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            <p>3 ECTS 学分硕士课程。任课：Georges Wagnières博士</p>
+            <p>3 ECTS 学分硕士课程。任课：Georges Wagnières 博士</p>
           </div>
           <div class="col-sm-3">
             <a href="https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445">课程介绍</a>&nbsp;
@@ -156,7 +156,7 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9">
-            <p>2 学分本科课程。任课：George Mckibbens老师</p>
+            <p>2 学分本科课程。任课：George Mckibbens 老师</p>
           </div>
           <div class="col-sm-3">
             &nbsp;
