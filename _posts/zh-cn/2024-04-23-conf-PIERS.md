@@ -9,7 +9,7 @@ tags:
   - nonlinear optics
   - integrated photonics
   - nanophotonics
-  - conference talks
+  - conference talk
 categories:
   - talks
   - research blog
