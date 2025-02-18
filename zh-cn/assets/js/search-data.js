@@ -29,7 +29,7 @@ ninja.data = [{
           },
         },{id: "nav-科研成果",
           title: "科研成果",
-          description: "科研成果以最近时间排序，由jekyll-scholar生成。",
+          description: "科研成果以最近时间排序。列表由jekyll-scholar生成。",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/publications/";
