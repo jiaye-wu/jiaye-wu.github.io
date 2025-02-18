@@ -3,7 +3,7 @@ page_id: publications
 layout: page
 permalink: /publications/
 title: 科研成果
-description: 科研成果以最近时间排序，由jekyll-scholar生成。
+description: 科研成果以最近时间排序。列表由jekyll-scholar生成。
 nav: true
 nav_order: 2
 ---
