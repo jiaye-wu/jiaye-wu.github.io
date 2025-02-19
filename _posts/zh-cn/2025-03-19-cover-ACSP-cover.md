@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[期刊封面] ACS光子学：Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch"
-date: 2025-02-19 21:01:00
+date: 2025-03-19 13:01:00
 featured: true
 description: Featured Journal Cover
 tags:
@@ -15,9 +15,9 @@ categories:
 thumbnail: assets/img/ACSP.png
 ---
 
-[025年2月刊](https://pubs.acs.org/toc/apchd5/12/2)的《ACS光子学》刊载了我们下列工作{% cite Wu2024d %}的**封面艺术图**：
+[2025年3月刊](https://pubs.acs.org/toc/apchd5/12/2)的《ACS光子学》刊载了我们下列工作{% cite Wu2024d %}的**封面艺术图**：
 
-J. Wu*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", *ACS Photonics\* **12**(2): in press, 2025.
+J. Wu*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", *ACS Photonics* **12**(3): in press, 2025.
 
 在此网站上存储的可缩放封面艺术图：
 
@@ -32,4 +32,4 @@ J. Wu*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", *AC
 ## 链接
 
 - [DOI](https://doi.org/10.1021/acsphotonics.4c01322)
-- [pubs.acs.org](https://pubs.acs.org/cms/10.1021/apchd5.2025.12.issue-2/asset/apchd5.2025.12.issue-2.xlargecover.jpg)
+- [pubs.acs.org](https://pubs.acs.org/cms/10.1021/apchd5.2025.12.issue-3/asset/apchd5.2025.12.issue-3.xlargecover.jpg)
