@@ -17,7 +17,7 @@ thumbnail: assets/img/ACSP.png
 
 The [March 2025 issue](https://pubs.acs.org/toc/apchd5/12/3) of _ACS Photonics_ features the **Cover Art** of our work {% cite Wu2024d %}:
 
-J. Wu*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", *ACS Photonics* **12**(3): in press, 2025.
+- J. Wu*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", _ACS Photonics_ **12**(3): in press, 2025.
 
 Zoomable Cover Art hosted on this website:
 
