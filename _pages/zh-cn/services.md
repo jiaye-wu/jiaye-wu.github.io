@@ -276,6 +276,35 @@ nav_order: 4
   </div>
 </div>
 
+<!--ACS -->
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 id="SN" class="card-title"><strong>美国化学学会</strong></h5>
+        <h6 class="card-subtitle font-italic">审稿人</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          ACS
+        </span>
+      </div>
+    </div>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9 font-italic">
+            <p>ACS Photonics</p>
+          </div>
+          <div class="col-sm-3">
+            <p>ACS Photonics</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
 <!--Elsevier -->
 <div class="card mt-3">
   <div class="p-3">
