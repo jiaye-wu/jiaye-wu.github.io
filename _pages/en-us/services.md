@@ -281,7 +281,7 @@ nav_order: 4
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>American Chemistry Society</strong></h5>
+        <h5 id="SN" class="card-title"><strong>American Chemical Society</strong></h5>
         <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
