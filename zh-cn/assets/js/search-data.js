@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn";
               },
-            },{id: "post-档案-文件管理强迫症福音",
+            },{id: "post-期刊封面-acs光子学-intracavity-epsilon-near-zero-dual-range-frequency-switch",
+      
+        title: "[期刊封面] ACS光子学：Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch",
+      
+      description: "Featured Journal Cover",
+      section: "博文",
+      handler: () => {
+        
+          window.location.href = "/zh-cn/blog/2025/cover-ACSP-cover/";
+        
+      },
+    },{id: "post-档案-文件管理强迫症福音",
       
         title: "[档案] 文件管理强迫症福音",
       

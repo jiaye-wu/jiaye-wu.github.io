@@ -69,7 +69,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "";
               },
-            },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices",
+            },{id: "post-featured-journal-cover-acs-photonics-intracavity-epsilon-near-zero-dual-range-frequency-switch",
+      
+        title: "[Featured Journal Cover] ACS Photonics: Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch",
+      
+      description: "Featured Journal Cover",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/cover-ACSP-cover/";
+        
+      },
+    },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices",
       
         title: "[Archive] Tricks to keep all files the same &amp; synced across your devices...",
       
