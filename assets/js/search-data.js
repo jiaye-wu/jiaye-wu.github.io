@@ -53,342 +53,342 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "/news/";
               },
             },{id: "dropdown-links",
               title: "links",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "/links/";
               },
             },{id: "dropdown-useful-repositories",
               title: "useful repositories",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "";
+                window.location.href = "/repositories/";
               },
             },{id: "post-epfl-event-nanophotonic-enabled-extra-and-intra-cavity-manipulation-of-ultrafast-optical-pulse-trains",
-      
-        title: '[EPFL Event] Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "Public Defence Event",
-      section: "Posts",
-      handler: () => {
         
-          window.open("https://memento.epfl.ch/event/nanophotonic-enabled-extra-and-intra-cavity-mani-2/", "_blank");
+          title: '[EPFL Event] Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-featured-journal-cover-acs-photonics-intracavity-epsilon-near-zero-dual-range-frequency-switch",
-      
-        title: "[Featured Journal Cover] ACS Photonics: Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch",
-      
-      description: "Featured Journal Cover",
-      section: "Posts",
-      handler: () => {
+        description: "Public Defence Event",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://memento.epfl.ch/event/nanophotonic-enabled-extra-and-intra-cavity-mani-2/", "_blank");
+          
+        },
+      },{id: "post-featured-journal-cover-acs-photonics-intracavity-epsilon-near-zero-dual-range-frequency-switch",
         
-          window.location.href = "/blog/2025/cover-ACSP-cover/";
+          title: "[Featured Journal Cover] ACS Photonics: Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch",
         
-      },
-    },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices",
-      
-        title: "[Archive] Tricks to keep all files the same &amp; synced across your devices...",
-      
-      description: "experience sharing and personal notes",
-      section: "Posts",
-      handler: () => {
+        description: "Featured Journal Cover",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/cover-ACSP-cover/";
+          
+        },
+      },{id: "post-archive-tricks-to-keep-all-files-the-same-amp-synced-across-your-devices",
         
-          window.location.href = "/blog/2025/blog-post-PC-trick01/";
+          title: "[Archive] Tricks to keep all files the same &amp; synced across your devices...",
         
-      },
-    },{id: "post-news-epfl-news-effiencient-epsilon-near-zero-intracavity-dual-range-frequency-shift",
-      
-        title: '[News] EPFL News: Effiencient epsilon-near-zero intracavity dual-range frequency shift <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "EPFL News Report",
-      section: "Posts",
-      handler: () => {
+        description: "experience sharing and personal notes",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/blog-post-PC-trick01/";
+          
+        },
+      },{id: "post-news-epfl-news-effiencient-epsilon-near-zero-intracavity-dual-range-frequency-shift",
         
-          window.open("https://actu.epfl.ch/news/effiencient-epsilon-near-zero-intracavity-dual-r-2/", "_blank");
+          title: '[News] EPFL News: Effiencient epsilon-near-zero intracavity dual-range frequency shift <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-conference-ipc-versatile-and-efficient-dual-range-frequency-shifts-by-intracavity-epsilon-near-zero-nanolayers",
-      
-        title: "[Conference] IPC: Versatile and Efficient Dual-Range Frequency Shifts by Intracavity Epsilon-Near-Zero Nanolayers",
-      
-      description: "conference presentation at Rome, Italy",
-      section: "Posts",
-      handler: () => {
+        description: "EPFL News Report",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://actu.epfl.ch/news/effiencient-epsilon-near-zero-intracavity-dual-r-2/", "_blank");
+          
+        },
+      },{id: "post-conference-ipc-versatile-and-efficient-dual-range-frequency-shifts-by-intracavity-epsilon-near-zero-nanolayers",
         
-          window.location.href = "/blog/2024/conf-IPC/";
+          title: "[Conference] IPC: Versatile and Efficient Dual-Range Frequency Shifts by Intracavity Epsilon-Near-Zero Nanolayers",
         
-      },
-    },{id: "post-archive-run-linux-desktop-on-android-tablets",
-      
-        title: "[Archive] Run Linux Desktop on Android Tablets",
-      
-      description: "a personal note on running Linux dektop on Android",
-      section: "Posts",
-      handler: () => {
+        description: "conference presentation at Rome, Italy",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/conf-IPC/";
+          
+        },
+      },{id: "post-archive-run-linux-desktop-on-android-tablets",
         
-          window.location.href = "/blog/2024/blog-Linux-on-Android/";
+          title: "[Archive] Run Linux Desktop on Android Tablets",
         
-      },
-    },{id: "post-pob-seminar-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
-      
-        title: '[POB Seminar] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "EPFL Photonics Chapter event",
-      section: "Posts",
-      handler: () => {
+        description: "a personal note on running Linux dektop on Android",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/blog-Linux-on-Android/";
+          
+        },
+      },{id: "post-pob-seminar-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
         
-          window.open("https://memento.epfl.ch/event/pob-seminar-enhancement-of-linear-and-nonlinear-th/", "_blank");
+          title: '[POB Seminar] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-academic-tool-quickphotonics-project",
-      
-        title: "[Academic Tool] QUICKphotonics Project",
-      
-      description: "an Excel and MATLAB-based academic tool for unit conversions in photonics",
-      section: "Posts",
-      handler: () => {
+        description: "EPFL Photonics Chapter event",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://memento.epfl.ch/event/pob-seminar-enhancement-of-linear-and-nonlinear-th/", "_blank");
+          
+        },
+      },{id: "post-academic-tool-quickphotonics-project",
         
-          window.location.href = "/blog/2024/dev-QUICKphotonics/";
+          title: "[Academic Tool] QUICKphotonics Project",
         
-      },
-    },{id: "post-invited-talk-extra-and-intra-cavity-manipulation-of-ultrashort-optical-pulses-on-integrated-and-nano-photonic-platforms",
-      
-        title: "[Invited Talk] Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and...",
-      
-      description: "an invited talk on extra- and intra-cavity pulse manipulation",
-      section: "Posts",
-      handler: () => {
+        description: "an Excel and MATLAB-based academic tool for unit conversions in photonics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/dev-QUICKphotonics/";
+          
+        },
+      },{id: "post-invited-talk-extra-and-intra-cavity-manipulation-of-ultrashort-optical-pulses-on-integrated-and-nano-photonic-platforms",
         
-          window.location.href = "/blog/2024/invited-PKU/";
+          title: "[Invited Talk] Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and...",
         
-      },
-    },{id: "post-conference-piers-epsilon-near-zero-enhancement-of-linear-and-nonlinear-thermo-optic-effects",
-      
-        title: "[Conference] PIERS: Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects",
-      
-      description: "conference presentation at Chengdu, Sichuan, China",
-      section: "Posts",
-      handler: () => {
+        description: "an invited talk on extra- and intra-cavity pulse manipulation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/invited-PKU/";
+          
+        },
+      },{id: "post-conference-piers-epsilon-near-zero-enhancement-of-linear-and-nonlinear-thermo-optic-effects",
         
-          window.location.href = "/blog/2024/conf-PIERS/";
+          title: "[Conference] PIERS: Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects",
         
-      },
-    },{id: "post-光学前沿评论-热光介电常数近零效应",
-      
-        title: '[光学前沿评论] 热光介电常数近零效应 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "微信公众号推送",
-      section: "Posts",
-      handler: () => {
+        description: "conference presentation at Chengdu, Sichuan, China",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/conf-PIERS/";
+          
+        },
+      },{id: "post-光学前沿评论-热光介电常数近零效应",
         
-          window.open("https://mp.weixin.qq.com/s/JNNqS0skF1zTUaG5XaYGqg", "_blank");
+          title: '[光学前沿评论] 热光介电常数近零效应 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-blog-blog-post-in-spring-nature-research-communities-following-publication-in-nature-communications",
-      
-        title: "[Blog] Blog post in Spring-Nature Research Communities following publication in Nature Communications",
-      
-      description: "behind the paper series",
-      section: "Posts",
-      handler: () => {
+        description: "微信公众号推送",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://mp.weixin.qq.com/s/JNNqS0skF1zTUaG5XaYGqg", "_blank");
+          
+        },
+      },{id: "post-blog-blog-post-in-spring-nature-research-communities-following-publication-in-nature-communications",
         
-          window.location.href = "/blog/2024/blog-post/";
+          title: "[Blog] Blog post in Spring-Nature Research Communities following publication in Nature Communications",
         
-      },
-    },{id: "post-新闻稿-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
-      
-        title: '[新闻稿] 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "学院网站新闻稿",
-      section: "Posts",
-      handler: () => {
+        description: "behind the paper series",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/blog-post/";
+          
+        },
+      },{id: "post-新闻稿-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
         
-          window.open("https://news.pkusz.edu.cn/info/1003/8146.htm", "_blank");
+          title: '[新闻稿] 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-新闻稿-nat-commun-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
-      
-        title: '[新闻稿] Nat. Commun.| 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "学院网站新闻稿",
-      section: "Posts",
-      handler: () => {
+        description: "学院网站新闻稿",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://news.pkusz.edu.cn/info/1003/8146.htm", "_blank");
+          
+        },
+      },{id: "post-新闻稿-nat-commun-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
         
-          window.open("https://www.ece.pku.edu.cn/info/1007/2725.htm", "_blank");
+          title: '[新闻稿] Nat. Commun.| 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
-      
-        title: 'Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced by near-zero... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "behind the paper posts at Springer-Nature Research Community",
-      section: "Posts",
-      handler: () => {
+        description: "学院网站新闻稿",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://www.ece.pku.edu.cn/info/1007/2725.htm", "_blank");
+          
+        },
+      },{id: "post-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
         
-          window.open("https://communities.springernature.com/posts/towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer", "_blank");
+          title: 'Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced by near-zero... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-invited-talk-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
-      
-        title: "[Invited Talk] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions",
-      
-      description: "an invited talk on epsilon-near-zero photonics",
-      section: "Posts",
-      handler: () => {
+        description: "behind the paper posts at Springer-Nature Research Community",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://communities.springernature.com/posts/towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer", "_blank");
+          
+        },
+      },{id: "post-invited-talk-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
         
-          window.location.href = "/blog/2023/invited-SIOM/";
+          title: "[Invited Talk] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions",
         
-      },
-    },{id: "post-invited-talk-light-matter-interactions-novel-technologies-for-extra-and-intra-cavity-manipulations-of-ultrafast-optical-pulses-in-integrated-photonic-chips-and-nanophotonic-thin-film-devices",
-      
-        title: "[Invited Talk] Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast...",
-      
-      description: "an invited talk on extra- and intra-cavity pulse manipulation",
-      section: "Posts",
-      handler: () => {
+        description: "an invited talk on epsilon-near-zero photonics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/invited-SIOM/";
+          
+        },
+      },{id: "post-invited-talk-light-matter-interactions-novel-technologies-for-extra-and-intra-cavity-manipulations-of-ultrafast-optical-pulses-in-integrated-photonic-chips-and-nanophotonic-thin-film-devices",
         
-          window.location.href = "/blog/2023/invited-ETHZ/";
+          title: "[Invited Talk] Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast...",
         
-      },
-    },{id: "post-光学前沿评论-腔内近零介电常数效应光纤激光器中类超导量子干涉仪行为的观察",
-      
-        title: '[光学前沿评论] 腔内近零介电常数效应光纤激光器中类超导量子干涉仪行为的观察 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "微信公众号推送",
-      section: "Posts",
-      handler: () => {
+        description: "an invited talk on extra- and intra-cavity pulse manipulation",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/invited-ETHZ/";
+          
+        },
+      },{id: "post-光学前沿评论-腔内近零介电常数效应光纤激光器中类超导量子干涉仪行为的观察",
         
-          window.open("https://mp.weixin.qq.com/s/4pYgeCCHyVhg7pzyQyMSsQ", "_blank");
+          title: '[光学前沿评论] 腔内近零介电常数效应光纤激光器中类超导量子干涉仪行为的观察 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-archive-mendeley-desktop",
-      
-        title: "[Archive] Mendeley Desktop",
-      
-      description: "an archive of the deprecated Mendely Desktop",
-      section: "Posts",
-      handler: () => {
+        description: "微信公众号推送",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://mp.weixin.qq.com/s/4pYgeCCHyVhg7pzyQyMSsQ", "_blank");
+          
+        },
+      },{id: "post-archive-mendeley-desktop",
         
-          window.location.href = "/blog/2023/Mendeley-Desktop/";
+          title: "[Archive] Mendeley Desktop",
         
-      },
-    },{id: "post-新闻稿-北京大学李倩课题组-清华大学付红岩课题组-lpr-近零介电常数光纤激光器的类-超导量子干涉仪行为",
-      
-        title: '[新闻稿] 北京大学李倩课题组、清华大学付红岩课题组 LPR ：近零介电常数光纤激光器的类﹣超导量子干涉仪行为 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "学院网站新闻稿",
-      section: "Posts",
-      handler: () => {
+        description: "an archive of the deprecated Mendely Desktop",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/Mendeley-Desktop/";
+          
+        },
+      },{id: "post-新闻稿-北京大学李倩课题组-清华大学付红岩课题组-lpr-近零介电常数光纤激光器的类-超导量子干涉仪行为",
         
-          window.open("https://web.pkusz.edu.cn/lnfo/%e5%8c%97%e4%ba%ac%e5%a4%a7%e5%ad%a6%e6%9d%8e%e5%80%a9%e8%af%be%e9%a2%98%e7%bb%84%e3%80%81%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e4%bb%98%e7%ba%a2%e5%b2%a9%e8%af%be%e9%a2%98%e7%bb%84-lpr-%ef%bc%9a/", "_blank");
+          title: '[新闻稿] 北京大学李倩课题组、清华大学付红岩课题组 LPR ：近零介电常数光纤激光器的类﹣超导量子干涉仪行为 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "post-conference-cleo-demonstration-of-temporal-talbot-effect-of-dark-pulse-trains",
-      
-        title: "[Conference] CLEO: Demonstration of Temporal Talbot Effect of Dark Pulse Trains",
-      
-      description: "conference presentation at San Jose, California, United States",
-      section: "Posts",
-      handler: () => {
+        description: "学院网站新闻稿",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://web.pkusz.edu.cn/lnfo/%e5%8c%97%e4%ba%ac%e5%a4%a7%e5%ad%a6%e6%9d%8e%e5%80%a9%e8%af%be%e9%a2%98%e7%bb%84%e3%80%81%e6%b8%85%e5%8d%8e%e5%a4%a7%e5%ad%a6%e4%bb%98%e7%ba%a2%e5%b2%a9%e8%af%be%e9%a2%98%e7%bb%84-lpr-%ef%bc%9a/", "_blank");
+          
+        },
+      },{id: "post-conference-cleo-demonstration-of-temporal-talbot-effect-of-dark-pulse-trains",
         
-          window.location.href = "/blog/2022/conf-CLEO/";
+          title: "[Conference] CLEO: Demonstration of Temporal Talbot Effect of Dark Pulse Trains",
         
-      },
-    },{id: "post-milestone-a-cross-disciplinary-experiment",
-      
-        title: "[Milestone] A cross-disciplinary experiment",
-      
-      description: "one of my personal favourite: a cross-disciplinary experiment",
-      section: "Posts",
-      handler: () => {
+        description: "conference presentation at San Jose, California, United States",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/conf-CLEO/";
+          
+        },
+      },{id: "post-milestone-a-cross-disciplinary-experiment",
         
-          window.location.href = "/blog/2021/ENZ-SCF/";
+          title: "[Milestone] A cross-disciplinary experiment",
         
-      },
-    },{id: "post-conference-icait-high-order-harmonic-generations-in-epsilon-near-zero-aluminum-doped-zinc-oxide-nanopyramid-array",
-      
-        title: "[Conference] ICAIT: High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array",
-      
-      description: "conference presentation at ICAIT, Macau SAR, China",
-      section: "Posts",
-      handler: () => {
+        description: "one of my personal favourite: a cross-disciplinary experiment",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/ENZ-SCF/";
+          
+        },
+      },{id: "post-conference-icait-high-order-harmonic-generations-in-epsilon-near-zero-aluminum-doped-zinc-oxide-nanopyramid-array",
         
-          window.location.href = "/blog/2020/conf-ICAIT/";
+          title: "[Conference] ICAIT: High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array",
         
-      },
-    },{id: "post-conference-cleo-pr-precise-tuning-of-epsilon-near-zero-properties-in-indium-tin-oxide-nanolayer-by-supercritical-carbon-dioxide",
-      
-        title: "[Conference] CLEO-PR: Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by...",
-      
-      description: "conference presentation at CLEO-PR, Sydney, NSW, Australia",
-      section: "Posts",
-      handler: () => {
+        description: "conference presentation at ICAIT, Macau SAR, China",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/conf-ICAIT/";
+          
+        },
+      },{id: "post-conference-cleo-pr-precise-tuning-of-epsilon-near-zero-properties-in-indium-tin-oxide-nanolayer-by-supercritical-carbon-dioxide",
         
-          window.location.href = "/blog/2020/conf-CLEO-PR/";
+          title: "[Conference] CLEO-PR: Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by...",
         
-      },
-    },{id: "post-academic-tool-ssprop-nfol-project",
-      
-        title: "[Academic Tool] SSPROP-NFOL Project",
-      
-      description: "a MATLAB-based academic tool for split-step Fourier transform simulations in photonics",
-      section: "Posts",
-      handler: () => {
+        description: "conference presentation at CLEO-PR, Sydney, NSW, Australia",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2020/conf-CLEO-PR/";
+          
+        },
+      },{id: "post-academic-tool-ssprop-nfol-project",
         
-          window.location.href = "/blog/2018/dev-SSPROP-NFOL-post/";
+          title: "[Academic Tool] SSPROP-NFOL Project",
         
-      },
-    },{id: "post-invited-talk-science-literacy-experiences-in-scientific-research-and-literature-search",
-      
-        title: "[Invited Talk] Science Literacy: Experiences in scientific research and literature search",
-      
-      description: "an invited talk on science literacy",
-      section: "Posts",
-      handler: () => {
+        description: "a MATLAB-based academic tool for split-step Fourier transform simulations in photonics",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2018/dev-SSPROP-NFOL-post/";
+          
+        },
+      },{id: "post-invited-talk-science-literacy-experiences-in-scientific-research-and-literature-search",
         
-          window.location.href = "/blog/2017/invited-SCNU2/";
+          title: "[Invited Talk] Science Literacy: Experiences in scientific research and literature search",
         
-      },
-    },{id: "post-milestone-genesis-of-my-research-career",
-      
-        title: "[Milestone] Genesis of my research career",
-      
-      description: "my first scientific research paper",
-      section: "Posts",
-      handler: () => {
+        description: "an invited talk on science literacy",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/invited-SCNU2/";
+          
+        },
+      },{id: "post-milestone-genesis-of-my-research-career",
         
-          window.location.href = "/blog/2017/first-paper/";
+          title: "[Milestone] Genesis of my research career",
         
-      },
-    },{id: "post-invited-talk-science-literacy-fundamentals-and-basics-in-natural-science-research",
-      
-        title: "[Invited Talk] Science Literacy: Fundamentals and basics in natural science research",
-      
-      description: "an invited talk on science literacy",
-      section: "Posts",
-      handler: () => {
+        description: "my first scientific research paper",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/first-paper/";
+          
+        },
+      },{id: "post-invited-talk-science-literacy-fundamentals-and-basics-in-natural-science-research",
         
-          window.location.href = "/blog/2017/invited-SCNU1/";
+          title: "[Invited Talk] Science Literacy: Fundamentals and basics in natural science research",
         
-      },
-    },{id: "post-archive-my-android-development",
-      
-        title: "[Archive] My Android development",
-      
-      description: "this is a post dedicated to my discontinued Android development projects",
-      section: "Posts",
-      handler: () => {
+        description: "an invited talk on science literacy",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2017/invited-SCNU1/";
+          
+        },
+      },{id: "post-archive-my-android-development",
         
-          window.location.href = "/blog/2015/android-archive/";
+          title: "[Archive] My Android development",
         
-      },
-    },{id: "news-2nd-prize-of-provincial-challenge-cup-academic-contest-of-guangdong-province",
+        description: "this is a post dedicated to my discontinued Android development projects",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/android-archive/";
+          
+        },
+      },{id: "news-2nd-prize-of-provincial-challenge-cup-academic-contest-of-guangdong-province",
           title: '2nd Prize of Provincial Challenge Cup Academic Contest of Guangdong Province',
           description: "",
           section: "News",},{id: "news-academician-prof-songhao-liu-award-for-innovation-2-grand-prizes-1-second-prize-1-third-prize",
@@ -425,32 +425,32 @@ ninja.data = [{
           title: 'AI for photonics &amp;amp; photonics for AI',
           description: "optimization and design enpowered by algorithms",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_ai_photonics/";
+              window.location.href = "/projects/en-us/proj_ai_photonics/";
             },},{id: "projects-near-zero-index-nonlinear-nanophotonics",
           title: 'near-zero-index nonlinear nanophotonics',
           description: "exploring the exotic physical and optical phenomena",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_enz_photonics/";
+              window.location.href = "/projects/en-us/proj_enz_photonics/";
             },},{id: "projects-novel-integrated-photonic-nanodevices-chips-amp-circuits",
           title: 'novel integrated photonic nanodevices, chips, &amp;amp; circuits',
           description: "unconventional light-matter interactions at the fingertip",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_integrated_optics/";
+              window.location.href = "/projects/en-us/proj_integrated_optics/";
             },},{id: "projects-non-hermitian-topological-interconnected-light-circuits",
           title: 'non-Hermitian topological interconnected light circuits',
           description: "quantum inspirations",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_pt_topo/";
+              window.location.href = "/projects/en-us/proj_pt_topo/";
             },},{id: "projects-radiative-cooling-amp-photonic-crystal-designs",
           title: 'radiative cooling &amp;amp; photonic crystal designs',
           description: "nanophotonic design for energy and sustainability",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_radiative_cooling/";
+              window.location.href = "/projects/en-us/proj_radiative_cooling/";
             },},{id: "projects-spectral-amp-pulse-compression-in-nonlinear-optical-fibers",
           title: 'spectral &amp;amp; pulse compression in nonlinear optical fibers',
           description: "shorter, faster, brighter, stronger",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/proj_spctral_compression/";
+              window.location.href = "/projects/en-us/proj_spctral_compression/";
             },},{
         id: 'social-email',
         title: 'Send an email',
