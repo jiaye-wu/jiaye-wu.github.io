@@ -1,6 +1,8 @@
-archive_category: 在此分类下的文章
-archive_tag: 在此标签下的文章
-archive_year: 在此年份内发布的文章
+archive:
+  prefix: 已筛选的
+  category_suffix: （按所选分类）
+  tag_suffix: （按所选标签）
+  year_suffix: （按所选年份）
 bibliography:
   abstract: Abs
   awarded: Awarded
@@ -21,6 +23,9 @@ categories:
 citation:
   bibtex: "或者使用BibTeX条目："
   introduction: "若有用，请引用为："
+collections:
+  books: 书籍
+  posts: 文章
 contact_note: 联系语言：简体中文、繁體中文、英语。
 cv:
   address: 地址
