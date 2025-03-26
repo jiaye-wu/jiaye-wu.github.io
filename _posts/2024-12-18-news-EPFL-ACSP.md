@@ -3,7 +3,7 @@ layout: post
 title: "[News] EPFL News: Effiencient epsilon-near-zero intracavity dual-range frequency shift"
 date: 2024-12-18 20:00:00
 featured: true
-description: EPFL News Report
+description: EPFL news report
 redirect: https://actu.epfl.ch/news/effiencient-epsilon-near-zero-intracavity-dual-r-2/
 tags:
   - epsilon-near-zero

@@ -3,7 +3,7 @@ layout: post
 title: "[Featured Journal Cover] ACS Photonics: Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch"
 date: 2025-03-19 08:01:00
 featured: true
-description: Featured Journal Cover
+description: featured journal cover
 tags:
   - epsilon-near-zero
   - plasmonics
