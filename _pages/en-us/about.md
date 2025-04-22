@@ -39,4 +39,4 @@ Jiaye is currently a Scientist at Photonic Systems Laboratory (PHOSL), Institute
 
 Ultrafast light-matter-interactions, nonlinear optics and nanophotonics in epsilon-near-zero materials, fibre, fibre laser, and waveguide network design, functional thin film design, and non-Hermitian optics. Integrated optics of silicon nitride, transparent conducting oxides.
 
-**Call for collaboration:** Cross- and multidiscipline research on semiconductor optics (micro- nano-devices), electro-optic integration, MEMS, photonics-related lab-on-a-chip; biophotonics; photonic computing.
+**Call for collaboration:** Cross- and multidiscipline research on semiconductor optics (micro- nano-devices), electro-optic integration, MEMS, photonics-related lab-on-a-chip; biophotonics; photonic computing; smart photonic design (AI for photonics) and photonic design for AI.
