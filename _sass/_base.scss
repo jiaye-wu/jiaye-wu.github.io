@@ -4,6 +4,60 @@
 
 // Typography
 
+@font-face {
+  font-family: "KingHwa-OldSong";
+  src: url("/assets/fonts/KingHwa-OldSong.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MiSansRegular";
+  src:
+    url("/assets/fonts/MiSans.woff2") format("woff2"),
+    url("/assets/fonts/MiSans.woff") format("woff"),
+    url("/assets/fonts/MiSans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MiSansMedium";
+  src:
+    url("/assets/fonts/MiSans-Medium.woff2") format("woff2"),
+    url("/assets/fonts/MiSans-Medium.woff") format("woff"),
+    url("/assets/fonts/MiSans-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MiSansVF";
+  src:
+    url("/assets/fonts/MiSans-VF.woff2") format("woff2"),
+    url("/assets/fonts/MiSans-VF.woff") format("woff"),
+    url("/assets/fonts/MiSans-VF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SourceHanSansVF";
+  src:
+    url("/assets/fonts/SourceHanSans-VF.ttf.woff2") format("woff2"),
+    url("/assets/fonts/SourceHanSans-VF.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "MiSansVF", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  text-rendering: optimizeLegibility !important;
+}
+
 p,
 h1,
 h2,
@@ -18,7 +72,7 @@ span,
 strong {
   color: var(--global-text-color);
   font-family:
-    "MiSans",
+    "MiSansVF",
     Roboto,
     -apple-system,
     BlinkMacSystemFont,
