@@ -80,11 +80,10 @@ cv:
   volunteer: 志愿者
   work: 工作
 footer:
-  copyright: 版权所有
+  copyright: 版权所有©
   last_updated: 最后更新于：
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  本网站基于<a href="https://jekyllrb.com/" target="_blank">Jekyll</a>主题<a href="https://github.com/alshedivat/al-folio">al-folio</a>和<a href="https://github.com/george-gca/multi-language-al-folio">multi-language-al-folio</a>制作。
-  网站服务由<a href="https://pages.github.com/" target="_blank">GitHub Pages</a>支持。
+  瑞士洛桑联邦理工大学（EPFL） 工学院 光子学系统实验室。
 latest_posts: 最新博文
 months:
   long:

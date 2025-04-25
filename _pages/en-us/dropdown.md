@@ -18,6 +18,6 @@ children:
   # - title: open positions
   #   permalink: /positions/
   # - title: divider
-  - title: useful repositories
+  - title: repositories
     permalink: /repositories/
 ---
