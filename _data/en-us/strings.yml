@@ -80,7 +80,7 @@ cv:
   volunteer: Volunteer
   work: Work
 footer:
-  copyright: Copyright©
+  copyright: "Copyright "
   last_updated: "Last updated:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   Photonic Systems Laboratory (PHOSL), Institute of Electrical and Micro Engineering (IEM), School of Engineering (STI), École Polytechnique Fédérale de Lausanne (EPFL), Switzerland.

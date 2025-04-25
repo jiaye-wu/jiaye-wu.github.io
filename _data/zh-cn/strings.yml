@@ -80,7 +80,7 @@ cv:
   volunteer: 志愿者
   work: 工作
 footer:
-  copyright: 版权所有©
+  copyright: "版权所有 "
   last_updated: 最后更新于：
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
   瑞士洛桑联邦理工大学（EPFL） 工学院 光子学系统实验室。
