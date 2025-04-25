@@ -46,3 +46,5 @@ nav_order: 99
   {% endfor %}
 </div>
 {% endif %}
+
+**Acknowledgements & Open-Source Information:** This website is powered by [Jekyll](https://github.com/jekyll/jekyll) with [al-folio](https://github.com/alshedivat/al-folio) and [multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio) themes. Google Scholar statistics by [GH-ScholarBot](https://github.com/jiaye-wu/GH-ScholarBot/) derived from Jekyll theme [AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io). Hosted by [GitHub Pages](https://pages.github.com/). Typeface and fonts from [Xiaomi MiSans](https://hyperos.mi.com/font/) and [Source Han Sans](https://github.com/adobe-fonts/source-han-sans).

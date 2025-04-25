@@ -46,3 +46,5 @@ nav_order: 99
   {% endfor %}
 </div>
 {% endif %}
+
+**致谢及开源信息：** 本网站基于[Jekyll](https://github.com/jekyll/jekyll)主题[al-folio](https://github.com/alshedivat/al-folio)和[multi-language-al-folio](https://github.com/george-gca/multi-language-al-folio)制作。谷歌学术统计由衍生自[AcadHomepage](https://github.com/RayeRen/acad-homepage.github.io)主题的[GH-ScholarBot](https://github.com/jiaye-wu/GH-ScholarBot/)项目实现。网站服务搭建于[GitHub Pages](https://pages.github.com/)上。字形字体出自[小米MiSans](https://hyperos.mi.com/font/)项目和[思源黑体](https://github.com/adobe-fonts/source-han-sans)。
