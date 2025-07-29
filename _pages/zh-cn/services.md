@@ -189,18 +189,22 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9 font-italic">
-            <p>Nature</p>
-            <p>Nature Nanotechnology</p>
-            <p>Light: Science & Applications</p>
+            <p>Nature (co-review)</p>
+            <p>Nature Nanotechnology (co-review)</p>
+            <p>Nature Communications (co-review)</p>
+            <p>Light: Science & Applications (co-review)</p>
             <p>Communications Physics</p>
             <p>Optical and Quantum Electronics</p>
+            <p>Scientific Reports</p>
           </div>
           <div class="col-sm-3">
             <p>Nature</p>
             <p>Nat. Nanotechnol.</p>
+            <p>Nat. Commun.</p>
             <p>Light Sci. Appl.</p>
             <p>Commun. Phys.</p>
             <p>Opt. Quantum Electron.</p>
+            <p>Sci. Rep.</p>
           </div>
         </div>
       </li>
