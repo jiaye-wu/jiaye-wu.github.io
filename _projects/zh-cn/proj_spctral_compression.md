@@ -3,7 +3,7 @@ page_id: project_sc
 layout: page
 title: 非线性光纤中的频谱和脉冲压缩
 description: 更短、更快、更亮、更强
-img: assets/img/project_covers/cover_compression.jpg
+img: assets/img/project_covers/cover_compression.png
 importance: 1
 category: non-active
 related_publications: true
