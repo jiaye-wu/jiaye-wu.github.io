@@ -13,7 +13,7 @@ tags:
 categories:
   - development
   - research blog
-thumbnail: assets/img/github.png
+thumbnail: assets/img/post_covers/github.png
 ---
 
 An enhanced open source MATLAB project for general-purpose symmetrized split-step software. The repository is [here](https://github.com/jiaye-wu/SSPROP-NFOL).

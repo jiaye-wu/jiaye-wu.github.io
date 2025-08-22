@@ -9,7 +9,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/SCNU-H.png
+thumbnail: assets/img/university_logos/SCNU-H.png
 ---
 
 **2017年3月21日**，应**华南师范大学 教育信息技术学院 张倩苇 教授**邀请，于**华南师范大学**开展题为《科学素养：自然科学类科研基础知识》的讲座。

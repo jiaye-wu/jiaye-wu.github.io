@@ -11,7 +11,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/SIOM.png
+thumbnail: assets/img/university_logos/SIOM.png
 related_publications: true
 ---
 

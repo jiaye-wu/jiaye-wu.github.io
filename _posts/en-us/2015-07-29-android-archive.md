@@ -10,7 +10,7 @@ tags:
 categories:
   - development
   - archive
-thumbnail: assets/img/android.png
+thumbnail: assets/img/post_covers/android.png
 ---
 
 I was an active Android developer at various forums from 2011 to 2015 before I entered academia. This post serves as an archive and a commemoration for my development projects.

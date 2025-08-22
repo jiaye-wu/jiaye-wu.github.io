@@ -10,7 +10,7 @@ tags:
 categories:
   - development
   - archive
-thumbnail: assets/img/android.png
+thumbnail: assets/img/post_covers/android.png
 ---
 
 在我进入学术界之前，2011年至2015年我曾是一名活跃的Android开发者。此帖作为我过往开发项目的纪念和归档。

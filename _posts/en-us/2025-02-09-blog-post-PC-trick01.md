@@ -13,7 +13,7 @@ categories:
   - development
   - archive
   - blog
-thumbnail: assets/img/Computers.png
+thumbnail: assets/img/post_covers/Computers.png
 ---
 
 If you have the habit of keeping all your files the same (file & file structures) and synced across all your gadgets (especially for Windows PCs and Android Phones/Talbets), this is the correct article for you. This article mainly serves as a personal note for myself, and I hold no responsibility for any potential file lost (in theory it shouldn't be) in your system shall you decide to try out these methods yourself.

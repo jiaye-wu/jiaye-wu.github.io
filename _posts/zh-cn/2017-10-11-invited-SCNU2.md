@@ -9,7 +9,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/SCNU-H.png
+thumbnail: assets/img/university_logos/SCNU-H.png
 ---
 
 **2017年10月11日**，应**华南师范大学 教育信息技术学院 张倩苇 教授**邀请，于**华南师范大学**开展题为《科学素养：科研学习经验分享与SCI文献检索》的讲座。

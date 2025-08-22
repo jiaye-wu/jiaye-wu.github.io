@@ -10,7 +10,7 @@ tags:
 categories:
   - development
   - archive
-thumbnail: assets/img/android.png
+thumbnail: assets/img/post_covers/android.png
 ---
 
 This project is hosted at [https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/](https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/).

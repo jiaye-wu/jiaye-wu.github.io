@@ -3,7 +3,7 @@ page_id: project_pt
 layout: page
 title: non-Hermitian topological interconnected light circuits
 description: quantum inspirations
-img: assets/img/cover_nanophotonic.jpg
+img: assets/img/project_covers/cover_nanophotonic.jpg
 importance: 1
 category: ongoing
 related_publications: true

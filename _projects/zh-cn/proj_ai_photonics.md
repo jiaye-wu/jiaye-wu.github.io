@@ -3,7 +3,7 @@ page_id: project_ai_photonics
 layout: page
 title: AI 辅助光子学及面向AI应用的光子学
 description: 算法驱动的优化与设计
-img: assets/img/cover_ai.png
+img: assets/img/project_covers/cover_ai.png
 importance: 1
 category: ongoing
 related_publications: true

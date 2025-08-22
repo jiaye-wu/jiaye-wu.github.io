@@ -13,7 +13,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/ICAIT.png
+thumbnail: assets/img/post_covers/ICAIT.png
 related_publications: true
 ---
 

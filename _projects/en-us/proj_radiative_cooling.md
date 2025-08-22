@@ -3,7 +3,7 @@ page_id: project_rc
 layout: page
 title: radiative cooling & photonic crystal designs
 description: nanophotonic design for energy and sustainability
-img: assets/img/NS-blog.jpg
+img: assets/img/project_covers/NS-blog.jpg
 importance: 1
 category: non-active
 related_publications: true

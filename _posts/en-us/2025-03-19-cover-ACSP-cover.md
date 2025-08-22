@@ -12,7 +12,7 @@ tags:
   - nanophotonics
 categories:
   - journal cover
-thumbnail: assets/img/ACSP.png
+thumbnail: assets/img/post_covers/ACSP.png
 ---
 
 The [March 2025 issue](https://pubs.acs.org/toc/apchd5/12/3) of _ACS Photonics_ features the **Cover Art** of our work {% cite Wu2024d %}:

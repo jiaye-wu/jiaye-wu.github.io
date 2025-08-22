@@ -3,7 +3,7 @@ page_id: project_enz
 layout: page
 title: 近零折射率非线性光学、微纳光器件与片上集成
 description: 探索微纳、非线性与集成光学的边界
-img: assets/img/cover_enz.jpg
+img: assets/img/project_covers/cover_enz.jpeg
 importance: 1
 category: ongoing
 related_publications: true

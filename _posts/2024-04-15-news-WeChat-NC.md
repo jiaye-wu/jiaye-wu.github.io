@@ -12,5 +12,5 @@ tags:
   - nanophotonics
 categories:
   - news
-thumbnail: assets/img/research.jpg
+thumbnail: assets/img/post_covers/research.jpg
 ---

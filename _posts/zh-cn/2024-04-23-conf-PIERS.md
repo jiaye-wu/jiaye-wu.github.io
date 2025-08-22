@@ -13,7 +13,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/PIERS.png
+thumbnail: assets/img/post_covers/PIERS.png
 related_publications: true
 ---
 
