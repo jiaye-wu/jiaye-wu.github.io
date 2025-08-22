@@ -3,7 +3,7 @@ page_id: project_rc
 layout: page
 title: 无源辐射冷却光子结构设计
 description: 用于能源和可持续性的纳米光子设计
-img: assets/img/project_covers/NS-blog.jpg
+img: assets/img/project_covers/cover_radiative_cooling.jpg
 importance: 1
 category: non-active
 related_publications: true
