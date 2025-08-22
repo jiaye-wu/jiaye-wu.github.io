@@ -15,7 +15,7 @@ tags:
 categories:
   - development
   - research blog
-thumbnail: assets/img/QUICKphotonics.png
+thumbnail: assets/img/post_covers/QUICKphotonics.png
 ---
 
 由于项目涉及大量光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。

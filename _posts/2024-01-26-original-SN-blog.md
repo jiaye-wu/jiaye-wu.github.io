@@ -13,5 +13,5 @@ tags:
   - nanophotonics
 categories:
   - news
-thumbnail: assets/img/Springer-Nature.png
+thumbnail: assets/img/post_covers/Springer-Nature.png
 ---

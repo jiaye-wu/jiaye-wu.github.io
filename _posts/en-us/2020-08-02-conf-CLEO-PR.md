@@ -14,7 +14,7 @@ tags:
 categories:
   - talks
   - research blog
-thumbnail: assets/img/CLEOPR.png
+thumbnail: assets/img/post_covers/CLEOPR.png
 related_publications: true
 ---
 

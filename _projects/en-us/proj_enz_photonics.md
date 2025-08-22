@@ -3,7 +3,7 @@ page_id: project_enz
 layout: page
 title: near-zero-index nonlinear nanophotonics
 description: exploring the exotic physical and optical phenomena
-img: assets/img/cover_enz.jpg
+img: assets/img/project_covers/cover_enz.jpeg
 importance: 1
 category: ongoing
 related_publications: true

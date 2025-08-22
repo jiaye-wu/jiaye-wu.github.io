@@ -3,7 +3,7 @@ page_id: project_ai_photonics
 layout: page
 title: AI for photonics & photonics for AI
 description: optimization and design enpowered by algorithms
-img: assets/img/cover_ai.png
+img: assets/img/project_covers/cover_ai.png
 importance: 1
 category: ongoing
 related_publications: true

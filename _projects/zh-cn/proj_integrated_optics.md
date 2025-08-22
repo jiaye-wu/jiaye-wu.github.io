@@ -3,7 +3,7 @@ page_id: project_pic
 layout: page
 title: 新型集成光子纳米器件、芯片和光路
 description: 指尖尺度的非传统光与物质相互作用
-img: assets/img/cover_pic.jpg
+img: assets/img/project_covers/cover_pic.jpg
 importance: 1
 category: ongoing
 related_publications: true

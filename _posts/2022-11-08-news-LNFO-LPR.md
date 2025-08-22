@@ -11,5 +11,5 @@ tags:
   - nanophotonics
 categories:
   - news
-thumbnail: assets/img/SECE.png
+thumbnail: assets/img/university_logos/SECE.png
 ---

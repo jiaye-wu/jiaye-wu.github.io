@@ -13,7 +13,7 @@ tags:
 categories:
   - archive
   - research blog
-thumbnail: assets/img/github.png
+thumbnail: assets/img/post_covers/github.png
 ---
 
 ## Preface

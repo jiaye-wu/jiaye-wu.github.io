@@ -14,5 +14,5 @@ tags:
 categories:
   - news
   - talks
-thumbnail: assets/img/EDPO.jpg
+thumbnail: assets/img/university_logos/EDPO.jpg
 ---

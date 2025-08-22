@@ -3,7 +3,7 @@ page_id: project_sc
 layout: page
 title: spectral & pulse compression in nonlinear optical fibers
 description: shorter, faster, brighter, stronger
-img: assets/img/cover_compression.jpg
+img: assets/img/project_covers/cover_compression.jpg
 importance: 1
 category: non-active
 related_publications: true

@@ -13,5 +13,5 @@ tags:
   - nanophotonics
 categories:
   - news
-thumbnail: assets/img/EPFL-H.png
+thumbnail: assets/img/university_logos/EPFL-H.png
 ---

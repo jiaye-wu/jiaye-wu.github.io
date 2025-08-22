@@ -10,7 +10,7 @@ tags:
 categories:
   - development
   - archive
-thumbnail: assets/img/android.png
+thumbnail: assets/img/post_covers/android.png
 ---
 
 由于项目涉及大量计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。

@@ -12,7 +12,7 @@ tags:
   - nanophotonics
 categories:
   - journal cover
-thumbnail: assets/img/ACSP.png
+thumbnail: assets/img/post_covers/ACSP.png
 ---
 
 [2025年3月刊](https://pubs.acs.org/toc/apchd5/12/3)的《ACS光子学》刊载了我们下列工作{% cite Wu2024d %}的**封面艺术图**：

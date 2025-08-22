@@ -12,7 +12,7 @@ tags:
 categories:
   - milestone
   - research blog
-thumbnail: assets/img/research.jpg
+thumbnail: assets/img/post_covers/research.jpg
 related_publications: true
 ---
 

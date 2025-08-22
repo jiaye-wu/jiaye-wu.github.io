@@ -3,7 +3,7 @@ page_id: project_pt
 layout: page
 title: 非厄米拓扑互联光路光网络
 description: 来自量子力学的启示
-img: assets/img/cover_nanophotonic.jpg
+img: assets/img/project_covers/cover_nanophotonic.jpg
 importance: 1
 category: ongoing
 related_publications: true

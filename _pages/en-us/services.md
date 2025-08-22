@@ -12,7 +12,7 @@ nav_order: 4
 
 <br>
 
-<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/EPFL.png" style="height: 1.5em; "></a></h3>
+<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
 <div class="card mt-3">
@@ -74,7 +74,7 @@ nav_order: 4
 
 <br>
 
-<h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/PKU.png" style="height: 2em; "></a></h3>
+<h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/university_logos/PKU.png" style="height: 2em; "></a></h3>
 
 <!-- 04711202 -->
 <div class="card mt-3">
@@ -136,7 +136,7 @@ nav_order: 4
 
 <br>
 
-<h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/SCNU.png" style="height: 2em; "></a></h3>
+<h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/university_logos/SCNU.png" style="height: 2em; "></a></h3>
 
 <!-- 41E42780 -->
 <div class="card mt-3">
