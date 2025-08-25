@@ -41,6 +41,6 @@ latest_posts:
 
 **欢迎以下方向学者联系合作：** 半导体微纳光学器件的多学科交叉、电光集成、光学相关MEMS、光学片上实验室、生物光子学、光计算、智能光子学设计和面向人工智能的光子学。
 
-## 资金支持
+## 基金支持
 
 [<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/)
