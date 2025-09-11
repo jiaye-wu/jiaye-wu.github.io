@@ -69,11 +69,11 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/repositories/";
               },
-            },{id: "post-epfl-event-nanophotonic-enabled-extra-and-intra-cavity-manipulation-of-ultrafast-optical-pulse-trains",
+            },{id: "post-瑞士洛桑联邦理工大学活动-nanophotonic-enabled-extra-and-intra-cavity-manipulation-of-ultrafast-optical-pulse-trains",
         
-          title: '[EPFL Event] Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[瑞士洛桑联邦理工大学活动] Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "public defence event",
+        description: "公开答辩活动",
         section: "博文",
         handler: () => {
           
@@ -102,11 +102,11 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2025/blog-post-PC-trick01/";
           
         },
-      },{id: "post-news-epfl-news-effiencient-epsilon-near-zero-intracavity-dual-range-frequency-shift",
+      },{id: "post-新闻稿-epfl-news-effiencient-epsilon-near-zero-intracavity-dual-range-frequency-shift",
         
-          title: '[News] EPFL News: Effiencient epsilon-near-zero intracavity dual-range frequency shift <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[新闻稿] EPFL News: Effiencient epsilon-near-zero intracavity dual-range frequency shift <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "EPFL news report",
+        description: "瑞士洛桑联邦理工大学新闻稿",
         section: "博文",
         handler: () => {
           
@@ -135,11 +135,11 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2024/blog-Linux-on-Android/";
           
         },
-      },{id: "post-pob-seminar-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
+      },{id: "post-pob-研讨会-受邀报告-enhancement-of-linear-and-nonlinear-thermo-optic-effects-by-epsilon-near-zero-conditions",
         
-          title: '[POB Seminar] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[POB 研讨会：受邀报告] Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "EPFL Photonics Chapter event",
+        description: "瑞士洛桑联邦理工大学光子学分会活动",
         section: "博文",
         handler: () => {
           
@@ -223,11 +223,11 @@ ninja.data = [{
             window.open("https://www.ece.pku.edu.cn/info/1007/2725.htm", "_blank");
           
         },
-      },{id: "post-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
+      },{id: "post-博客文章转载-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
         
-          title: 'Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced by near-zero... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[博客文章转载] Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced by... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "behind the paper posts at Springer-Nature Research Community",
+        description: "施普林格-自然研究社区《论文背后的故事》系列博客文章",
         section: "博文",
         handler: () => {
           

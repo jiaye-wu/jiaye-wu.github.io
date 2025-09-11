@@ -183,7 +183,7 @@ ninja.data = [{
         
           title: '[光学前沿评论] 热光介电常数近零效应 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "微信公众号推送",
+        description: "WeChat public account article",
         section: "Posts",
         handler: () => {
           
@@ -201,31 +201,31 @@ ninja.data = [{
             window.location.href = "/blog/2024/blog-post/";
           
         },
-      },{id: "post-新闻稿-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
+      },{id: "post-news-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
         
-          title: '[新闻稿] 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[News] 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "学院网站新闻稿",
+        description: "Peking University Shenzhen Graduate School news report",
         section: "Posts",
         handler: () => {
           
             window.open("https://news.pkusz.edu.cn/info/1003/8146.htm", "_blank");
           
         },
-      },{id: "post-新闻稿-nat-commun-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
+      },{id: "post-news-nat-commun-信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破",
         
-          title: '[新闻稿] Nat. Commun.| 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[News] Nat. Commun.| 信息工程学院李倩课题组与合作者在近零介电常数条件下热光效应增强方面取得研究突破 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "学院网站新闻稿",
+        description: "Peking University SECE news report",
         section: "Posts",
         handler: () => {
           
             window.open("https://www.ece.pku.edu.cn/info/1007/2725.htm", "_blank");
           
         },
-      },{id: "post-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
+      },{id: "post-blog-redirect-towards-photonic-on-chip-integration-strong-linear-and-nonlinear-thermo-optic-effects-enhanced-by-near-zero-permittivity-on-a-nanolayer",
         
-          title: 'Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced by near-zero... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[Blog Redirect] Towards photonic on-chip integration: Strong linear and nonlinear thermo-optic effects enhanced... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
         description: "behind the paper posts at Springer-Nature Research Community",
         section: "Posts",
@@ -260,7 +260,7 @@ ninja.data = [{
         
           title: '[光学前沿评论] 腔内近零介电常数效应光纤激光器中类超导量子干涉仪行为的观察 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "微信公众号推送",
+        description: "WeChat public account article",
         section: "Posts",
         handler: () => {
           
@@ -278,11 +278,11 @@ ninja.data = [{
             window.location.href = "/blog/2023/Mendeley-Desktop/";
           
         },
-      },{id: "post-新闻稿-北京大学李倩课题组-清华大学付红岩课题组-lpr-近零介电常数光纤激光器的类-超导量子干涉仪行为",
+      },{id: "post-news-北京大学李倩课题组-清华大学付红岩课题组-lpr-近零介电常数光纤激光器的类-超导量子干涉仪行为",
         
-          title: '[新闻稿] 北京大学李倩课题组、清华大学付红岩课题组 LPR ：近零介电常数光纤激光器的类﹣超导量子干涉仪行为 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+          title: '[News] 北京大学李倩课题组、清华大学付红岩课题组 LPR ：近零介电常数光纤激光器的类﹣超导量子干涉仪行为 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-        description: "学院网站新闻稿",
+        description: "Peking University SECE news report",
         section: "Posts",
         handler: () => {
           
