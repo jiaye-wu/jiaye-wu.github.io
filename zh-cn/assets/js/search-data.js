@@ -80,6 +80,17 @@ ninja.data = [{
             window.open("https://memento.epfl.ch/event/advances-in-fibre-based-integrated-photonic-system/", "_blank");
           
         },
+      },{id: "post-受邀研讨会-epsilon-near-zero-photonics-crossroad-of-multidisciplinary-research",
+        
+          title: '[受邀研讨会] Epsilon-Near-Zero Photonics: Crossroad of Multidisciplinary Research <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "受邀于香港科技大学（广州）作研讨会学术报告",
+        section: "博文",
+        handler: () => {
+          
+            window.open("https://mp.weixin.qq.com/s/fww4ghSyg3XZPu7PH-QjMA", "_blank");
+          
+        },
       },{id: "post-瑞士洛桑联邦理工大学活动-nanophotonic-enabled-extra-and-intra-cavity-manipulation-of-ultrafast-optical-pulse-trains",
         
           title: '[瑞士洛桑联邦理工大学活动] Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
