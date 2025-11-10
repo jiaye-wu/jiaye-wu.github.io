@@ -331,6 +331,7 @@ nav_order: 4
             <p>Results in Physics</p>
             <p>Surface & Coatings Technology</p>
             <p>Thin Solid Films</p>
+            <p>Chinese Journal of Physics</p>
             <p>Optics Communications</p>
           </div>
           <div class="col-sm-3">
@@ -338,6 +339,7 @@ nav_order: 4
             <p>Results Phys.</p>
             <p>Surf. Coat. Technol.</p>
             <p>Thin Solid Films</p>
+            <p>Chin. J. Phys.</p>
             <p>Opt. Commun.</p>
           </div>
         </div>
