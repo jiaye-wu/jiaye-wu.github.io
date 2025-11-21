@@ -9,7 +9,7 @@ children:
   - title: news feed
     permalink: /news/
   - title: divider
-  - title: links
+  - title: related links
     permalink: /links/
   - title: divider
   # - title: people
