@@ -3,16 +3,14 @@ id: links
 layout: page
 permalink: /links/
 title: 相关链接
-description: 此页面收录相关和友情快捷链接
+description: 此页面收录学校和友情快捷链接
 nav: false
 nav_order: 98
 ---
 
-## 本校/校园
+## <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> 本校/校园
 
 ---
-
-<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.2em; "></a></h3>
 
 [瑞士洛桑联邦理工大学（EPFL）](https://www.epfl.ch/)
 

@@ -3,16 +3,14 @@ id: links
 layout: page
 permalink: /links/
 title: related links
-description: useful links of partners and stuff.
+description: related links of campus and partners.
 nav: false
 nav_order: 98
 ---
 
-## university/campus
+## <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; ">  university/campus
 
 ---
-
-<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.2em; "></a></h3>
 
 [École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/)
 
