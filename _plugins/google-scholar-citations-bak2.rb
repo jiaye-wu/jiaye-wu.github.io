@@ -39,26 +39,26 @@ module Jekyll
 
       citation_count = nil
 
-      # begin
-      #   # Sleep to avoid being blocked
-      #   sleep(rand(1.5..3.5))
+      begin
+        # Sleep to avoid being blocked
+        sleep(rand(1.5..3.5))
 
-      #   # Try to fetch real-time data
-      #   doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
-      #   description_meta = doc.css('meta[name="description"]')
-      #   og_description_meta = doc.css('meta[property="og:description"]')
+        # Try to fetch real-time data
+        doc = Nokogiri::HTML(URI.open(article_url, "User-Agent" => "Ruby/#{RUBY_VERSION}"))
+        description_meta = doc.css('meta[name="description"]')
+        og_description_meta = doc.css('meta[property="og:description"]')
 
-      #   if !description_meta.empty?
-      #     matches = description_meta[0]['content'].match(/Cited by (\d+[,\d]*)/)
-      #     citation_count = matches[1].delete(",").to_i if matches
-      #   elsif !og_description_meta.empty?
-      #     matches = og_description_meta[0]['content'].match(/Cited by (\d+[,\d]*)/)
-      #     citation_count = matches[1].delete(",").to_i if matches
-      #   end
+        if !description_meta.empty?
+          matches = description_meta[0]['content'].match(/Cited by (\d+[,\d]*)/)
+          citation_count = matches[1].delete(",").to_i if matches
+        elsif !og_description_meta.empty?
+          matches = og_description_meta[0]['content'].match(/Cited by (\d+[,\d]*)/)
+          citation_count = matches[1].delete(",").to_i if matches
+        end
 
-      #   raise "No citation found in HTML" if citation_count.nil?
-      # rescue => e
-      #   puts "Error fetching citation for #{cache_key}: #{e.class} - #{e.message}"
+        raise "No citation found in HTML" if citation_count.nil?
+      rescue => e
+        puts "Error fetching citation for #{cache_key}: #{e.class} - #{e.message}"
 
         # Attempt to load from fallback JSON
         begin
