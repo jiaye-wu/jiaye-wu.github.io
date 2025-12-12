@@ -270,9 +270,11 @@ nav_order: 4
         <div class="row">
           <div class="col-sm-9 font-italic">
             <p>Laser & Photonics Reviews</p>
+            <p>Annalen der Physik</p>
           </div>
           <div class="col-sm-3">
             <p>Laser Photon. Rev.</p>
+            <p>Ann. Phys.-Berlin</p>
           </div>
         </div>
       </li>
