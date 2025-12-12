@@ -590,6 +590,13 @@ ninja.data = [{
             window.location.href = "" + updatedUrl;
           },
         },{
+          id: 'lang-zh-hk',
+          title: 'zh-hk',
+          section: '语言',
+          handler: () => {
+            window.location.href = "/zh-hk" + updatedUrl;
+          },
+        },{
       id: 'light-theme',
       title: '切换到亮色主题',
       description: '切换本站为亮色主题',

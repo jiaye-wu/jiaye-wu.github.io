@@ -590,6 +590,13 @@ ninja.data = [{
             window.location.href = "/zh-cn" + updatedUrl;
           },
         },{
+          id: 'lang-zh-hk',
+          title: 'zh-hk',
+          section: 'Languages',
+          handler: () => {
+            window.location.href = "/zh-hk" + updatedUrl;
+          },
+        },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
