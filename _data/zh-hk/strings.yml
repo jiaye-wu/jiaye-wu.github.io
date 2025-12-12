@@ -1,0 +1,164 @@
+archive:
+  prefix: 已篩選的
+  category_suffix: （按所選分類）
+  tag_suffix: （按所選標籤）
+  year_suffix: （按所選年份）
+bibliography:
+  abstract: Abs
+  awarded: Awarded
+  blog: Blog
+  book_prefix: In
+  code: Code
+  last_author_prefix: and
+  poster: Poster
+  slides: Slides
+  supp: Supp
+  video: Video
+  website: Website
+blog:
+  navigation_title: 博客
+categories:
+  ongoing: 進行中的課題
+  non-active: 非活躍課題
+citation:
+  bibtex: "或者使用BibTeX條目："
+  introduction: "若有用，請引用為："
+collections:
+  books: 書籍
+  posts: 文章
+contact_note: 聯繫語言：簡體中文、繁體中文、英文。
+cv:
+  address: 地址
+  area: 區域
+  awarder: 授獎者
+  awards: 獎項
+  basics: 基本信息
+  certificates: 證書
+  city: 城市
+  countryCode: 國家代碼
+  courses: 課程
+  date: 日期
+  education: 教育背景
+  email: 電子郵件
+  endDate: 終止日期
+  fluency: 流利度
+  highlights: 亮點
+  image: 圖片
+  institution: 機構
+  interests: 興趣
+  issuer: 發行人
+  keywords: 關鍵詞
+  label: 標籤
+  language: 語言
+  languages: 語言
+  level: 登記
+  location: 位置
+  name: 姓名
+  network: 網絡
+  organization: 組織
+  phone: 電話
+  position: 職位
+  postalCode: 郵政編碼
+  present: 至今
+  profiles: 檔案
+  projects: 項目
+  publications: 學術出版物
+  publisher: 出版商
+  reference: 參考文獻
+  references: 參考文獻
+  region: 區域
+  releaseDate: 發佈日期
+  score: 分數
+  skills: 技能
+  startDate: 開始日期
+  studyType: 學習類型
+  summary: 總結
+  table_of_contents: 目錄
+  title: 標題
+  url: 鏈接
+  username: 用戶名
+  volunteer: 志願者
+  work: 工作
+footer:
+  copyright: "版權所有 "
+  last_updated: 最後更新於：
+footer_text: > # the ">" symbol means to ignore newlines until "titles:"
+  瑞士洛桑聯邦理工大學（EPFL） 工學院 光子學系統實驗室。
+latest_posts: 最新博文
+months:
+  long:
+    january: "01"
+    february: "02"
+    march: "03"
+    april: "04"
+    may: "05"
+    june: "06"
+    july: "07"
+    august: "08"
+    september: "09"
+    october: "10"
+    november: "11"
+    december: "12"
+  short:
+    january: "01"
+    february: "02"
+    march: "03"
+    april: "04"
+    may: "05"
+    june: "06"
+    july: "07"
+    august: "08"
+    september: "09"
+    october: "10"
+    november: "11"
+    december: "12"
+news: 新聞
+newsletter:
+  back: 返回
+  error: "出錯了！請重試。"
+  subscribe: 訂閱
+  subscribed: 您已成功訂閱本站新聞。
+  subscribe_to_receive: 訂閱以接收最新新聞通知：
+  too_many_signups: 操作過於頻繁，請稍後再試。
+  wait: 請稍候……
+no_news: 目前為止無新聞
+no_posts: 目前為止無新帖
+pagination:
+  newer: 更新
+  older: 更舊
+  page: 頁碼
+post:
+  created_in: 創作於
+  created_by: 來自
+  last_updated: 最後更新於
+references: 相關成果
+related_posts:
+  description: 更多文章的閱讀推薦
+  title: 本篇文章的閱讀體驗如何？
+search:
+  dark_theme:
+    description: 切換本站為暗色主題
+    title: 切換到暗色主題
+  dropdown: 更多
+  email: 發郵件
+  footer:
+    close: 關閉
+    navigate: 導航
+    parent: 回到上級
+    select: 選擇
+  languages: 語言
+  light_theme:
+    description: 切換本站為亮色主題
+    title: 切換到亮色主題
+  navigation: 導航菜單
+  news: 新聞
+  placeholder: 鍵入以開始搜索
+  posts: 博文
+  projects: 課題
+  socials: 社交
+  system_theme:
+    description: 切換本站為默認主題
+    title: 切換默認主題
+  theme: 主題
+selected_publications: 精選研究
+site_description: 本網站基於[*folio](https://github.com/bogoli/-folio)設計。
