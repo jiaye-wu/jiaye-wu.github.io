@@ -75,7 +75,7 @@ module Jekyll
           puts "Failed to load fallback JSON: #{e2.class} - #{e2.message}"
           citation_count = nil
         end
-      end
+      # end
 
       # Format citation count
       if citation_count.nil?
