@@ -22,13 +22,15 @@ nav_order: 99
 
 ### scientific tools
 
+[Engauge Digitizer](https://github.com/akhuettel/engauge-digitizer): get data from plots and figures.
+
 [MIT MEEP](https://github.com/NanoComp/meep): free finite-difference time-domain (FDTD) software for electromagnetic simulations.
+
+[Photon Neuromorphics SDK](https://github.com/danieleschmidt/Photon-Neuromorphics-SDK): silicon-photonic spiking neural network library with WebAssembly SIMD acceleration and real-time optical training capabilities.
 
 [QUICKphotonics](https://github.com/jiaye-wu/QUICKphotonics): Quick UnIt Conversion Kit for photonics.
 
 [SSPROP-NFOL](https://github.com/jiaye-wu/SSPROP-NFOL): Split-Step Fourier Transform Propagation NFOL flavor with [sample codes](https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode)  for Agrawal's _Nonlinear Fibre Optics_.
-
-[Engauge Digitizer](https://github.com/akhuettel/engauge-digitizer): get data from plots and figures.
 
 ### paper writing and LaTeX
 
