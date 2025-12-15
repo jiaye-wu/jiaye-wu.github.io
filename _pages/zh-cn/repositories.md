@@ -22,13 +22,15 @@ nav_order: 99
 
 ### 科研工具
 
+[Engauge Digitizer](https://github.com/akhuettel/engauge-digitizer): 从数据图中获取数值。
+
 [MIT MEEP](https://github.com/NanoComp/meep): 免费的时域有限差分（FDTD）电磁仿真软件。
+
+[Photon Neuromorphics SDK](https://github.com/danieleschmidt/Photon-Neuromorphics-SDK): 具有 WebAssembly SIMD 加速和实时光学训练功能的硅光子脉冲神经网络库。
 
 [QUICKphotonics](https://github.com/jiaye-wu/QUICKphotonics): Quick UnIt Conversion Kit for photonics 光学快速单位转换套件。
 
 [SSPROP-NFOL](https://github.com/jiaye-wu/SSPROP-NFOL): NFOL风格的分步傅里叶变换电磁波传播仿真程序。附带针对Agrawal《非线性光纤光学》的[示例代码](https://github.com/jiaye-wu/SSPROP-NFOL-DemoCode)。
-
-[Engauge Digitizer](https://github.com/akhuettel/engauge-digitizer): 从数据图中获取数值。
 
 ### 论文写作和LaTeX
 
