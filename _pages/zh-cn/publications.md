@@ -8,6 +8,8 @@ nav: true
 nav_order: 2
 ---
 
+注：此处所示期刊封面为我们封面文章对应封面插图页（以带下载链接的标签标注）或我们文章发表当期该期刊的封面（无标签）。如期刊不出版文章相关的封面插图，则使用该期刊通用版本封面图像。
+
 <i class="ai ai-google-scholar-square"></i> [谷歌学术档案](https://scholar.google.com/citations?user=D2n8tswAAAAJ) &nbsp; <i class="ai ai-orcid"></i> [ORCiD 记录](https://orcid.org/0000-0002-0650-1274) &nbsp; <i class="ai ai-researchgate-square"></i> [researchgate 个人页面](https://www.researchgate.net/profile/Jiaye_Wu)
 
 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [官方网站](https://people.epfl.ch/jiaye.wu?lang=en) &nbsp; <i class="ai ai-publons-square"></i> [Web of Science ](https://www.webofscience.com/wos/author/record/O-4210-2018) &nbsp; <i class="ai ai-ieee-square"></i> [IEEE](https://ieeexplore.ieee.org/author/37087502244) &nbsp; <i class="ai ai-scopus-square"></i> [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57196026613) &nbsp; <i class="ai ai-zotero-square"></i> [Zotero](https://www.zotero.org/jiayewu)
