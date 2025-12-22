@@ -8,8 +8,6 @@ nav: true
 nav_order: 2
 ---
 
-Note: Journal covers shown on this page are featured cover arts of our paper (labeled with original art download link) or taken from the front cover of the very issue where our papers are published in (unlabeled). If the journal does not have article-related front cover, a general cover image of the journal is used. 
-
 <i class="ai ai-google-scholar-square"></i> [Google Scholar profile](https://scholar.google.com/citations?user=D2n8tswAAAAJ) &nbsp; <i class="ai ai-orcid"></i> [ORCiD record](https://orcid.org/0000-0002-0650-1274) &nbsp; <i class="ai ai-researchgate-square"></i> [researchgate profile](https://www.researchgate.net/profile/Jiaye_Wu)
 
 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [official website](https://people.epfl.ch/jiaye.wu?lang=en) &nbsp; <i class="ai ai-publons-square"></i> [Web of Science ](https://www.webofscience.com/wos/author/record/O-4210-2018) &nbsp; <i class="ai ai-ieee-square"></i> [IEEE](https://ieeexplore.ieee.org/author/37087502244) &nbsp; <i class="ai ai-scopus-square"></i> [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57196026613) &nbsp; <i class="ai ai-zotero-square"></i> [Zotero](https://www.zotero.org/jiayewu)
@@ -27,3 +25,5 @@ Note: Journal covers shown on this page are featured cover arts of our paper (la
 {% bibliography %}
 
 </div>
+
+Note: Journal covers shown on this page are featured cover arts of our paper (labeled with original art download link) or taken from the front cover of the very issue where our papers are published in (unlabeled). If the journal does not have article-related front cover, a general cover image of the journal is used. 
