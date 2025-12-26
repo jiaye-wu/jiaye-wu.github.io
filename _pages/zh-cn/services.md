@@ -212,17 +212,17 @@ nav_order: 4
   </div>
 </div>
 
-<!--Optica Publishing Group -->
+<!--SPIE -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Optica出版集团（原美国光学学会OSA）</strong></h5>
+        <h5 id="SN" class="card-title"><strong>SPIE国际光学工程学会 x 中国激光杂志社</strong></h5>
         <h6 class="card-subtitle font-italic">审稿人</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          OPTICA
+          SPIE x CLP
         </span>
       </div>
     </div>
@@ -230,20 +230,10 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9 font-italic">
-            <p>Optics Letters</p>
-            <p>Optics Express</p>
-            <p>Optical Materials Express</p>
-            <p>Jouranl of the Optical Society of America B</p>
-            <p>Applied Optics</p>
-            <p>OSA Continuum (Optics Continuum)</p>
+            <p>Advanced Photonics</p>
           </div>
           <div class="col-sm-3">
-            <p>Opt. Lett.</p>
-            <p>Opt. Express</p>
-            <p>Opt. Mater. Express</p>
-            <p>J. Opt. Soc. Am. B</p>
-            <p>Appl. Opt.</p>
-            <p>OSA Contin. (Opt. Contin.)</p>
+            <p>Adv. Photonics</p>
           </div>
         </div>
       </li>
@@ -311,17 +301,17 @@ nav_order: 4
   </div>
 </div>
 
-<!--Elsevier -->
+<!--Optica Publishing Group -->
 <div class="card mt-3">
   <div class="p-3">
     <div class="row">
       <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>爱思唯尔</strong></h5>
+        <h5 id="SN" class="card-title"><strong>Optica出版集团（原美国光学学会OSA）</strong></h5>
         <h6 class="card-subtitle font-italic">审稿人</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          Elsevier
+          OPTICA
         </span>
       </div>
     </div>
@@ -329,20 +319,20 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9 font-italic">
-            <p>Optics & Laser Technology</p>
-            <p>Results in Physics</p>
-            <p>Surface & Coatings Technology</p>
-            <p>Thin Solid Films</p>
-            <p>Chinese Journal of Physics</p>
-            <p>Optics Communications</p>
+            <p>Optics Letters</p>
+            <p>Optics Express</p>
+            <p>Optical Materials Express</p>
+            <p>Jouranl of the Optical Society of America B</p>
+            <p>Applied Optics</p>
+            <p>OSA Continuum (Optics Continuum)</p>
           </div>
           <div class="col-sm-3">
-            <p>Opt. Laser Technol.</p>
-            <p>Results Phys.</p>
-            <p>Surf. Coat. Technol.</p>
-            <p>Thin Solid Films</p>
-            <p>Chin. J. Phys.</p>
-            <p>Opt. Commun.</p>
+            <p>Opt. Lett.</p>
+            <p>Opt. Express</p>
+            <p>Opt. Mater. Express</p>
+            <p>J. Opt. Soc. Am. B</p>
+            <p>Appl. Opt.</p>
+            <p>OSA Contin. (Opt. Contin.)</p>
           </div>
         </div>
       </li>
@@ -376,6 +366,45 @@ nav_order: 4
             <p>J. Phys. Photonics</p>
             <p>J. Opt.</p>
             <p>Phys. Scr.</p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!--Elsevier -->
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 id="SN" class="card-title"><strong>爱思唯尔</strong></h5>
+        <h6 class="card-subtitle font-italic">审稿人</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          Elsevier
+        </span>
+      </div>
+    </div>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9 font-italic">
+            <p>Optics & Laser Technology</p>
+            <p>Results in Physics</p>
+            <p>Surface & Coatings Technology</p>
+            <p>Thin Solid Films</p>
+            <p>Chinese Journal of Physics</p>
+            <p>Optics Communications</p>
+          </div>
+          <div class="col-sm-3">
+            <p>Opt. Laser Technol.</p>
+            <p>Results Phys.</p>
+            <p>Surf. Coat. Technol.</p>
+            <p>Thin Solid Films</p>
+            <p>Chin. J. Phys.</p>
+            <p>Opt. Commun.</p>
           </div>
         </div>
       </li>
