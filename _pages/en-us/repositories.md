@@ -3,7 +3,7 @@ page_id: repositories
 layout: page
 permalink: /repositories/
 title: repositories
-description: useful links to helpful repos.
+description: useful repos and resources.
 nav: false
 nav_order: 99
 ---
@@ -16,7 +16,7 @@ nav_order: 99
 
 [TerenceWSK](https://github.com/jiaye-wu) for group website and scientific tools.
 
-## useful GitHub repositories
+## useful GitHub repositories and resources
 
 ---
 
@@ -46,9 +46,23 @@ nav_order: 99
 
 ### free / open-source fonts
 
-[Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
+[Source Han Sans](https://github.com/adobe-fonts/source-han-sans) by Adobe & Google
 
-[Source Han Serif](https://github.com/adobe-fonts/source-han-serif)
+[Source Han Serif](https://github.com/adobe-fonts/source-han-serif) by Adobe & Google
+
+[Xiaomi MiSans](https://hyperos.mi.com/font/) by Xiaomi HyperOS
+
+[OPPO Sans](https://www.coloros.com/article/A00000074/) by OPPO ColorOS
+
+[Huawei HarmonyOS Sans](https://developer.huawei.com/consumer/cn/doc/design-guides/font-0000001828772001) by Huawei HarmonyOS
+
+[Kinghwa Oldsong](https://zhuanlan.zhihu.com/p/637491623) by 特里王
+
+### miscellaneous
+
+[Tenure-Track Simulator - entry 1](https://tenure.hqzhou.com/)
+
+[Tenure-Track Simulator - entry 2](https://tenure.feedscription.com/)
 
 ## acknowledgements & open-source information
 

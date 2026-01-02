@@ -3,7 +3,7 @@ page_id: repositories
 layout: page
 permalink: /repositories/
 title: 代碼倉庫
-description: 相關和實用代碼倉庫列表
+description: 實用代碼倉庫和資源
 nav: false
 nav_order: 99
 ---
@@ -16,7 +16,7 @@ nav_order: 99
 
 [TerenceWSK](https://github.com/jiaye-wu) for group website and scientific tools.
 
-## 實用GitHub代碼倉庫
+## 實用GitHub代碼倉庫與資源
 
 ---
 
@@ -44,11 +44,25 @@ nav_order: 99
 
 [PowerToys](https://github.com/microsoft/PowerToys): 在科研時提升你的微軟Windows操作系統體驗。推薦的模塊：快速重音（打出拉丁字母聲調）, Windows文件資源管理器加載項, PowerRename（批量和規則重命名）, image resizer（快速調整圖片大小）, FancyZones, PowerToys Run等等。
 
-### free / open-source fonts
+### 免費商用 / 開源字體
 
-[Source Han Sans](https://github.com/adobe-fonts/source-han-sans)
+[思源黑體](https://github.com/adobe-fonts/source-han-sans) by Adobe & Google
 
-[Source Han Serif](https://github.com/adobe-fonts/source-han-serif)
+[思源宋體](https://github.com/adobe-fonts/source-han-serif) by Adobe & Google
+
+[小米 MiSans](https://hyperos.mi.com/font/) by 小米澎湃OS
+
+[OPPO Sans](https://www.coloros.com/article/A00000074/) by OPPO ColorOS
+
+[華為 HarmonyOS Sans](https://developer.huawei.com/consumer/cn/doc/design-guides/font-0000001828772001) by 華為鴻蒙OS
+
+[京華老宋體](https://zhuanlan.zhihu.com/p/637491623) by 特里王
+
+### 雜項
+
+[青椒模擬器 - 入口1](https://tenure.hqzhou.com/)
+
+[青椒模擬器 - 入口2](https://tenure.feedscription.com/)
 
 
 ## 致謝及開源信息：
