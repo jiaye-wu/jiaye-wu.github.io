@@ -231,9 +231,11 @@ nav_order: 4
         <div class="row">
           <div class="col-sm-9 font-italic">
             <p>Advanced Photonics</p>
+            <p>Advanced Photonics Nexus</p>
           </div>
           <div class="col-sm-3">
             <p>Adv. Photonics</p>
+            <p>Adv. Photonics Nexus</p>
           </div>
         </div>
       </li>
