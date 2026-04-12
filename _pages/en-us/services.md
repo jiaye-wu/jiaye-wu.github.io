@@ -261,11 +261,13 @@ nav_order: 4
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-9 font-italic">
+            <p>Advanced Functional Materials</p>
             <p>Laser & Photonics Reviews</p>
             <p>Advanced Photonics Research</p>
             <p>Annalen der Physik</p>
           </div>
           <div class="col-sm-3">
+            <p>Adv. Funct. Mater.</p>
             <p>Laser Photon. Rev.</p>
             <p>Adv. Photonics Res.</p>
             <p>Ann. Phys.-Berlin</p>

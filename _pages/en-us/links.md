@@ -30,4 +30,4 @@ nav_order: 98
 
 <img src="/assets/img/university_logos/PKU.png" style="height: 1.1em; "> [Laboratory of Ultrafast Optics, School of Electronic and Computer Engineering](https://web.pkusz.edu.cn/lnfo)
 
-<img src="/assets/img/university_logos/THU.png" style="height: 1.1em; "> [HYFu Group, Institute of Data and Information (iDI)](https://hyfu.team/)
+<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [HYFu Group, Institute of Data and Information (iDI)](https://hyfu.team/)
