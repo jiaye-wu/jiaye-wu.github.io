@@ -30,4 +30,4 @@ nav_order: 98
 
 <img src="/assets/img/university_logos/PKU.png" style="height: 1.1em; "> [信息工程学院 超快光学实验室](https://web.pkusz.edu.cn/lnfo)
 
-<img src="/assets/img/university_logos/THU.png" style="height: 1.1em; "> [数据与信息研究院（iDI） HYFu Group](https://hyfu.team/)
+<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [数据与信息研究院（iDI） HYFu Group](https://hyfu.team/)
