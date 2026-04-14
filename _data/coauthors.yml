@@ -19,8 +19,14 @@
     url: https://orcid.org/0000-0003-3054-0238
 
 "fu":
+  - firstname: ["Bo"]
+    url: https://orcid.org/0000-0003-1409-2666
   - firstname: ["Hongyan", "H. Y.", "HY", "H.Y."]
     url: https://orcid.org/0000-0002-4276-0011
+  
+"garcia-vidal":
+  - firstname: ["Francisco J.","Francisco J", "Francisco Jose", "Francisco José", "Francisco"]
+    url: https://orcid.org/0000-0003-4354-0982
 
 "hu":
   - firstname: ["Jianqi"]
@@ -46,6 +52,10 @@
   - firstname: ["Qian"]
     url: https://orcid.org/0000-0002-2396-7041
 
+"lin":
+  - firstname: ["Limin"]
+    url: https://orcid.org/0000-0002-8275-5727
+
 "liu":
   - firstname: ["Xuanyi"]
     url: https://orcid.org/0000-0001-7542-3882
@@ -70,17 +80,21 @@
   - firstname: ["Kang"]
     url: https://orcid.org/0000-0002-4997-0871
 
+"qiu":
+  - firstname: ["Shuang"]
+    url: https://orcid.org/0009-0004-7332-3238
+
 "sha":
   - firstname: ["Yanhua"]
     url: https://orcid.org/0000-0002-6176-4296
 
 "wang":
+  - firstname: ["Gang"]
+    url: https://orcid.org/0009-0007-4891-2892
   - firstname: ["Yuqing"]
     url: https://orcid.org/0000-0002-0130-3965
   - firstname: ["Zimiao"]
-    url: https://orcid.org/0000-0001-6225-2113
-  - firstname: ["Gang"]
-    url: https://orcid.org/0009-0007-4891-2892
+    url: https://orcid.org/0000-0001-6225-2113  
 
 "xie":
   - firstname: ["Ze Tao", "Zetao"]
@@ -109,3 +123,5 @@
 "zhou":
   - firstname: ["Ji"]
     url: https://orcid.org/0000-0001-8044-4426
+  - firstname: ["Zhang-Kai","Zhangkai"]
+    url: https://orcid.org/0000-0002-4341-3097
