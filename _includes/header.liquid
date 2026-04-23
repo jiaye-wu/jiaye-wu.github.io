@@ -17,12 +17,28 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {% comment %} {{- site.title -}} {% endcomment %}
+            <img
+              src="{{ '/assets/img/banners/lab_logo.png' | relative_url }}"
+              alt="Banner Image"
+              class="img-fluid"
+              style="max-height: 40px; width: auto; height: auto;"
+            >
           {% endif %}
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% else %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <img
+            src="{{ '/assets/img/banners/university_logo.png' | relative_url }}"
+            alt="Banner Image"
+            class="img-fluid"
+            style="max-height: 30px; width: auto; height: auto;"
+          >
+        </a>
+        {% if site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% endif %}
       {% endif %}
       <!-- Navbar Toggle -->
       <button
