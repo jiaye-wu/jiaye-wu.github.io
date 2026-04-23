@@ -22,7 +22,7 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- 横幅代码 -->
+    {% comment %} <!-- 横幅代码 -->
     <div class="banner-container">
       <div class="banner">
         <img src="{{ '/assets/img/banners/banner.png' | relative_url }}" alt="Banner Image">
@@ -69,7 +69,7 @@
       z-index: 1000; /* 导航栏的 z-index 设置比横幅低 */
       margin-top: 40px; /* 确保导航栏不会遮盖横幅 */
       }
-    </style>
+    </style> {% endcomment %}
 
     <!-- Header -->
     {% include header.liquid %}
