@@ -1,1 +1,0 @@
-npm install --save-dev @shopify/prettier-plugin-liquid
