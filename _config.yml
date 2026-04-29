@@ -187,10 +187,14 @@ exclude:
   - vendor
   - Windows_local_build_docker.cmd
   - Windows_local_build_launch_browser.cmd
+  - Windows_local_prettier_drag_to_write.cmd
+  - Windows_local_prettier_plugin_install.cmd
+  - Windows_local_prettier_write_ALL.cmd
   - _site/
   - _post_examples/
   - _project_examples/
   - _news_examples/
+  - _deprecated_pages/
 keep_files:
   - CNAME
   - .nojekyll
