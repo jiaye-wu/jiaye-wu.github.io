@@ -91,6 +91,17 @@ ninja.data = [{
             window.open("https://mp.weixin.qq.com/s/KdygsinY4tyHCDKRpBTreQ", "_blank");
           
         },
+      },{id: "post-學術工具-l-39-acaradar項目",
+        
+          title: "[學術工具] L&#39;AcaRadar項目",
+        
+        description: "PC端谷歌學術檔案追蹤工具",
+        section: "博文",
+        handler: () => {
+          
+            window.location.href = "/zh-hk/blog/2026/dev-LAcaRadar/";
+          
+        },
       },{id: "post-學術會議報告-acp-real-time-observation-of-ultrafast-thermo-optic-nonlinearity-in-time-varying-effective-epsilon-near-zero-media",
         
           title: "[學術會議報告] ACP: Real-Time Observation of Ultrafast Thermo-Optic Nonlinearity in Time-Varying Effective Epsilon-Near-Zero Media...",

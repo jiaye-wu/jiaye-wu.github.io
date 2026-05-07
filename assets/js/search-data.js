@@ -91,6 +91,17 @@ ninja.data = [{
             window.open("https://mp.weixin.qq.com/s/KdygsinY4tyHCDKRpBTreQ", "_blank");
           
         },
+      },{id: "post-academic-tool-l-39-acaradar-project",
+        
+          title: "[Academic Tool] L&#39;AcaRadar Project",
+        
+        description: "a Google Scholar profile tracking tool on PC",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dev-LAcaRadar/";
+          
+        },
       },{id: "post-conference-acp-real-time-observation-of-ultrafast-thermo-optic-nonlinearity-in-time-varying-effective-epsilon-near-zero-media",
         
           title: "[Conference] ACP: Real-Time Observation of Ultrafast Thermo-Optic Nonlinearity in Time-Varying Effective Epsilon-Near-Zero Media...",
