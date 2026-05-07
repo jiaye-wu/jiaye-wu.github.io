@@ -18,217 +18,215 @@ categories:
 thumbnail: assets/img/post_covers/QUICKphotonics.png
 ---
 
-由于项目涉及大量光学学科和计算机学科术语，碍于精力有限，本项目文档仅提供英文原文。读者可自行使用网页翻译工具。
+基于Excel和MATLAB的跨平台光子学单位换算工具。本项目的代码仓库位于[GitHub](https://github.com/jiaye-wu/QUICKphotonics) 和 [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results)。
 
-本项目的代码仓库位于[GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
+# QUICKphotonics - 光子学快速单位换算工具包 (Quick UnIt Conversion Kit for Photonics)
 
-# QUICKphotonics - Quick UnIt Conversion Kit for Photonics
+## 简介
 
-## Introduction
+[**QUICKphotonics.mlappinstall**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics.mlappinstall) (Quick UnIt Conversion Kit for Photonics) 是一个基于 MATLAB、命令行风格、**轻量级**且**模块化**（可扩展框架）的光学和光子学单位换算工具。它目前是由 [Jiaye Wu](https://jiaye-wu.github.io) 维护的专有软件，并根据 [MIT license](https://opensource.org/license/mit) 分发。
 
-[**QUICKphotonics.mlappinstall**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics.mlappinstall) (Quick UnIt Conversion Kit for Photonics) is a MATLAB-powered, commandline-style, **lightweight** and **modular** (expandable framework) tool for unit conversion in optics and photonics. It is currently a proprietary software maintained by [Jiaye Wu](https://jiaye-wu.github.io) and distributed under the [MIT license](https://opensource.org/license/mit).
+- 要使用此 MATLAB Toolbox App 二进制文件，必须安装等于或高于 R2022b (9.13) 的 MATLAB 版本。旧版本未经测试。
+- 安装 **QUICKphotonics.mlappinstall** 并在命令窗口中输入 `QUICKphotonics` 或 `QUICK` 即可启动。
+- 在某些情况下，重启 MATLAB 后，您需要在顶部的 _APP_ 选项卡 > _我的应用_ (My app) 中手动找到并点击此应用程序以（重新）启用它。
 
-- To use this MATLAB Toolbox App binary, MATLAB version equals or larger than R2022b (9.13) should be installed. Older versions are not tested.
-- Install **QUICKphotonics.mlappinstall** and type `QUICKphotonics` or `QUICK` in the command window to start.
-- In some cases, after restarting MATLAB, you need to manually find and click this application in the _APP_ tab > _My app_ on the top to (re)-enable it.
+**QUICKphotonics Excel.xltx** 是该 MATLAB 应用程序的 Excel 版本。
 
-[**QUICKphotonics Excel.xltx**](https://github.com/jiaye-wu/QUICKphotonics/raw/refs/heads/main/QUICKphotonics%20Excel.xltx) is the Excel version of the MATLAB app.
+- 此 Excel 计算器不含宏（macro-free）。所有功能均由 Excel 函数实现。
+- 要使用该工具，必须安装办公套件（Microsoft Office/WPS Office/LibreOffice 等）。建议使用 Microsoft Office 365 以获得最佳兼容性。
+- 该工具作为 Excel 模板 (.xltx) 启动，这意味着每次都会创建一个新文件 (.xlsx)。您可以将 .xlsx 文件保存到工作目录中。更改不会保存到模板中。
+- **使用方法：** 下载 **QUICKphotonics Excel.xltx** 文件以使用它，或者在 **QUICKphotonics MATLAB** 中使用命令 `Excel` 或 `excel`。
 
-- This Excel calculator is macro-free. All features are realized by Excel functions.
-- To use the tool, an office suite (Microsoft Office/WPS Office/LibreOffice, etc.) must be installed. Recommend using Microsoft Office 365 for the best compatibility.
-- The tool starts as an Excel template (.xltx) which means creating a new file (.xlsx) each time. You can save the .xlsx file to your working directory. The changes are not saved to the template.
-- **Usage:** download the **QUICKphotonics Excel.xltx** file to use it, or in **QUICKphotonics MATLAB** use command `Excel` or `excel`.
+## 它解决了什么问题/痛点？我为什么需要这个工具？
 
-## What problems/pain spots does it solve? Why would I need this tool?
+该软件的目的是**在实验或学术讨论中快速查找**所需数值。
 
-The purpose of this software is to **enable quick lookup** of values **in experiments or academic discussions.**
+光学和光子学中常见的换算和计算，例如“特定波段下频率差到波长差的转换”、“光子能量”、“特定角度下的菲涅尔反射（Fresnel reflection）”等，虽然简单，**但是**：
 
-The common conversions and calculations in optics & photonics such as "frequency difference to wavelength difference at a certain band", "photon energy", "Fresnel reflection at an angle", etc., are simple, **yet**:
+- 按需编写脚本函数需要查找公式/常数，甚至进行验证。
+- 随后，您的函数文件可能会变得太多且不集中。在以后的项目中，您可能不记得去哪里找它们。
+- 每次使用旧脚本时，您可能都必须检查以前的定义（函数名、使用的单位、数值的顺序）。如果不加注意，结果可能会差几个数量级。
 
-- Writing a script function on-demand requires looking-up for the formula/constants, even verifications.
-- Subsequently, your function files could become too many and non-centralized. You might not remember where to find them in a later project.
-- Every time you use your old scripts, you might have to check your previous definitions (function names, units used, order of the values). If not careful enough, the results can be orders of magnitude off.
+使用 QUICKphotonics MATLAB 工具箱：
 
-With the QUICKphotonics MATLAB Toolbox:
+- 您不需要记住把文件放在了哪里。一旦安装，只需在命令窗口中使用 `QUICKphotonics` 或 `QUICK` 调用该工具箱，或者在您的 _MATLAB apps_ 选项卡中找到它。
+- 您不需要记住命令并处理单位。命令具有**灵活的拼写和自动单位识别功能**，使用起来非常直观。
 
-- You do not need to remember where you put the files. Once installed, just call the toolbox using `QUICKphotonics` or `QUICK` in the command window, or find it in your _MATLAB apps_ tab.
-- You do not need to remember the commands and deal with units. The commands are **flexibly spelt with auto-recognized units**, which is very intuitive to use.
+## 反馈与致谢
 
-## Feedbacks & credits
+错误报告和新功能请求可在我的 GitHub project page 上提出。
 
-Bug reports and feature requests are open on my [GitHub project page](https://github.com/jiaye-wu/QUICKphotonics).
+此工具包基于框架且模块化。_满足以下条件时会考虑新功能请求_：
 
-This toolkit is framework-based and modular. _New feature requests are considered if_:
+- 它被广泛使用。
+- 它不涉及复杂的算法和计算能力。
+- 它要求输入参数的数量少于4个。（考虑1--3个，以便于记忆。）
 
-- It is commonly used.
-- It does not involve complex algorithm and computational power.
-- It requires the number of input parameters fewer than 4. (1--3 are considered, to make it easy to remember.)
+**如果您觉得我的工具有用**，请在合适的情况下考虑引用我的学术著作 (academic works)。
 
-**If you find my tool useful**, please consider citing my [academic works](https://scholar.google.com/citations?user=D2n8tswAAAAJ) where suitable.
+**注意：**
 
-**Note:**
+- 作者对任何计算错误**不**承担责任。
+- 本 Markdown 文件的其余部分**仅适用于 QUICKphotonics MATLAB 版本**。
 
-- The author takes **NO** responsibility for any calculation errors.
-- The rest of this markdown file is for QUICKphotonics **MATLAB version only**.
+## 功能：引入 _flexiCommand_
 
-## Feature: introducing the _flexiCommand_
+引入 **flexiCommand**，这是一种_直观_且_易于记忆_的命令类型，具有**自动单位识别**和**灵活元素顺序**的功能。
 
-Introducing the **flexiCommand**, an _intuitive_ and _easy-to-remember_ type of command with **auto unit-recognition** and **flexible element order**.
+一个 **flexiCommand** 由4~5个部分组成：
 
-A **flexiCommand** consists of 4~5 parts
+- **head**：前置命令头（仅在某些命令中存在，例如 `energy`、`reflect`、`cav`、`power` 等）
+- **conv_source**：转换源的[保留字](#保留字)，例如 `freq`
+- **unit_source**：转换源的[单位](#支持的单位)，例如 `THz`。单位会自动识别。
+- **conv_target**：`2` + (转换目标的[保留字](#保留字))，例如 `2wl`。这里的 `2` 代表“到 (to)”。
+- **unit_source**：转换目标的[单位](#支持的单位)，例如 `nm`。单位会自动识别。
 
-- **head**: leading command head (only in some commands, `energy`, `reflect`, `cav`, `power`, etc.)
-- **conv_source**: [reserve name](#reserved-words) of the conversion source, e.g., `freq`
-- **unit_source**: [unit](#supported-units) of the conversion source, e.g., `THz`. Units are automatically recognized.
-- **conv_target**: 2+(reserve name of the conversion target), e.g., `2wl`. Here `2` means "to".
-- **unit_source**: [unit](#supported-units) of the conversion target, e.g., `nm`. Units are automatically recognized.
+除了 **head** 之外，**flexiCommand** 中其余部分的**顺序并不重要**。
+为了避免因歧义引起的任何错误，请不要使用类似 `t`（时间）紧挨着 `Hz`，或 `nm` 紧挨着 `J` 的组合。
 
-Except for **head**, the **order** of the rest parts **does not matter** in a **flexiCommand**.
-To avoid any errors caused by ambiguity, please do not use combinations like `t`(time) next to `Hz` or `nm` next to `J`.
+例如，`wlnm2freqTHz 1550`、`nmTHzwl2freq 1550`、`wl2freqTHznm 1550` 被视为相同的命令，它的作用与 `wlum2freqTHz 1.550` 相同，都是将 1550 nm 转换为以 THz 为单位的频率。
 
-For example, `wlnm2freqTHz 1550`, `nmTHzwl2freq 1550`, `wl2freqTHznm 1550` are treated as the same command, and it does the same thing as `wlum2freqTHz 1.550` which converts 1550 nm to frequency in THz.
+**注意：**
 
-**Note:**
+- 所有命令都区分大小写。
+- 只要元素准确完整，命令可以容忍不相关的多余字母。
 
-- All commands are case-sensitive.
-- The commands tolerate irrelevant excessive letters, as long as the elements are accurate and intact.
+## 简单命令：
 
-## Simple commmands:
+- 启动 **QUICKphotonics Excel**：`excel` / `Excel`
+- 检查更新：`update` / `upgrade`
+- 访问项目 GitHub 页面：`github` / `GitHub` / `project`
+- 访问项目博客：`blog`
+- 查看当前版本：`version` / `ver`
+- 查看更新日志：`changelog`
+- 在**命令行中**打印帮助和支持的函数：`help` / `functions` / `commands` / `flexiCommand` / `flexiCMD`
+- 获取帮助和支持的函数的 **Markdown 文件**：`help-md` / `help-markdown`。请**不要**修改此文件的内容！
+- **在线**获取帮助和支持的函数：`help-ol` / `help-online`
+- 获取光学常数：`constants`
+- 获取作者信息/致谢/许可证/重要提示：`about` / `info` / `credits` / `license` / `licence`
+- 重启或返回标题页：`restart` / `clear`
+- 关闭/终止程序：`close` / `exit`
 
-- To launch **QUICKphotonics Excel**: `excel` / `Excel`
-- To check for updates: `update` / `upgrade`
-- To visit project GitHub page: `github` / `GitHub` / `project`
-- To visit prioject blog: `blog`
-- For current version: `version` / `ver`
-- For changelog: `changelog`
-- For help and supported functions printed **in command line**: `help` / `functions` / `commands` / `flexiCommand` / `flexiCMD`
-- For help and supported functions **markdown file**: `help-md` / `help-markdown`. Please **DO NOT** modify the contents of this file!
-- For help and supported functions **online**: `help-ol` / `help-online`
-- For optical constants: `constants`
-- For author info/credits/licence/important notes: `about` / `info` / `credits` / `license` / `licence`
-- For restarting or returning to title page: `restart` / `clear`
-- For closing/terminating the programme: `close` / `exit`
-
-## Unit conversions & calculations
+## 单位换算与计算
 
 ### 1. `flexiCommand <value-1>`
 
-#### 1.1 Wavelength and frequency conversion: `wl(wl_unit)2freq(freq_unit) <value>`
+#### 1.1 波长和频率换算：`wl(wl_unit)2freq(freq_unit) <value>`
 
-(wl_unit): `*m` (nm, um, m, etc.) see [unit](#supported-units).
+(wl_unit): `*m` (nm, um, m 等) 见[单位](#支持的单位)。
 
-(freq_unit): `*Hz` (THz, GHz, Hz, etc.) see [unit](#supported-units).
+(freq_unit): `*Hz` (THz, GHz, Hz 等) 见[单位](#支持的单位)。
 
-For example, convert 1550 nm to THz, the command is `wlnm2freqTHz 1550` (or `wlm2freqTHz 1550e-9` or in other units).
+例如，将 1550 nm 转换为 THz，命令是 `wlnm2freqTHz 1550`（或 `wlm2freqTHz 1550e-9` 或其他单位）。
 
-Likewise, `freqTHz2wlnm 193` means convert 193 THz to nm.
+同样，`freqTHz2wlnm 193` 表示将 193 THz 转换为 nm。
 
-#### 1.2 Frequency and time period conversion: `freq(freq_unit)2t(t_unit) <value>`
+#### 1.2 频率和时间周期换算：`freq(freq_unit)2t(t_unit) <value>`
 
-(t_unit): `*s` (ps, ns, ms, etc.) see [unit](#supported-units).
+(t_unit): `*s` (ps, ns, ms 等) 见[单位](#支持的单位)。
 
-For example, convert 5 GHz to time in ps, the command is `freqGHz2tps 5` (or `freqGHz2tps 5e9` or in other units).
+例如，将 5 GHz 转换为以 ps 为单位的时间，命令是 `freqGHz2tps 5`（或 `freqGHz2tps 5e9` 或其他单位）。
 
-Likewise, `tps2freqGHz 4` means convert 4 ps to GHz.
+同样，`tps2freqGHz 4` 表示将 4 ps 转换为 GHz。
 
-#### 1.3 Power converstion: `power(mW/dBm)2(dBm/mW) <value>`
+#### 1.3 功率换算：`power(mW/dBm)2(dBm/mW) <value>`
 
-This command also support other scale of watt, and the user can replace `mW` to `W`, `uW`, etc.
+此命令也支持其他瓦特量级，用户可以将 `mW` 替换为 `W`、`uW` 等。
 
-For example, convert 3 dBm to mW, the command is `powerdBm2mW 3`.
+例如，将 3 dBm 转换为 mW，命令是 `powerdBm2mW 3`。
 
-Likewise, `powermW2dBm 3` means convert 3 mW to dBm.
+同样，`powermW2dBm 3` 表示将 3 mW 转换为 dBm。
 
-#### 1.4 Decibel and linear scale converstion: `lin2dB <value>`
+#### 1.4 分贝和线性刻度换算：`lin2dB <value>`
 
-For example, convert factor-4 linear scale to dB, the command is `lin2dB 4`.
+例如，将因子 4 的线性刻度转换为 dB，命令是 `lin2dB 4`。
 
-Likewise, `dB2lin 3` means convert 3 dB to linear scale.
+同样，`dB2lin 3` 表示将 3 dB 转换为线性刻度。
 
-#### 1.5 Photon energy and frequency/wavelength: `photonfreq(freq_unit)2E(energy_unit) <freq_value>` or `photonwl(wl_unit)2E(energy_unit) <wl_value>`
+#### 1.5 光子能量与频率/波长：`photonfreq(freq_unit)2E(energy_unit) <freq_value>` 或 `photonwl(wl_unit)2E(energy_unit) <wl_value>`
 
-For photon energy, one can use either `*J` (like `mJ`, `uJ`, etc) or `eV`.
+对于光子能量，可以使用 `*J`（如 `mJ`、`uJ` 等）或 `eV`。
 
-For back-conversion, the cammand is similar: `photonfreq(freq_unit)2E(energy_unit) <freq_value>` or `photonwl(wl_unit)2E(energy_unit) <wl_value>`.
+对于反向换算，命令类似：`photonfreq(freq_unit)2E(energy_unit) <freq_value>` 或 `photonwl(wl_unit)2E(energy_unit) <wl_value>`。
 
-For angular frequency, replace `freq` by `afreq`, and the units are omitted (default: rad/s)
+对于角频率 (angular frequency)，将 `freq` 替换为 `afreq`，并且省略单位（默认值：rad/s）
 
-For back conversion, `photonE(energy_unit)2wl(wl_unit) <wl_value>`, `photonE(energy_unit)2freq(freq_unit) <freq_value>`, `photonE(energy_unit)2afreq <afreq_value>`.
+对于反向换算，`photonE(energy_unit)2wl(wl_unit) <wl_value>`、`photonE(energy_unit)2freq(freq_unit) <freq_value>`、`photonE(energy_unit)2afreq <afreq_value>`。
 
-#### 1.6 Energy conversion between \*J and eV: `energyeV2(energy_unit) <value>` and `energy(energy_unit)2eV <value>`
+#### 1.6 \*J 和 eV 之间的能量换算：`energyeV2(energy_unit) <value>` 和 `energy(energy_unit)2eV <value>`
 
-`energyeV2J <value>` converts eV to J, and `energymJ2eV <value>` converts mJ to eV.
+`energyeV2J <value>` 将 eV 转换为 J，`energymJ2eV <value>` 将 mJ 转换为 eV。
 
 ### 2. `flexiCommand <value-1> <value-2>`
 
-#### 2.1 Difference in frequency/wavelength to difference in wavelength/frequency:
+#### 2.1 频率/波长差转换为波长/频率差
 
-There are two scenarios.
+有两种情况。
 
-- Known 2 freqeuncies/wavelengths and want difference in wavelength/frequency (e.g., for given $f_1$ and $f_2$, ask for $\Delta \lambda$): `dfreq(freq_unit)2dwl(wl_unit) <freq1> <freq2>` or `dwl(wl_unit)2dfreq(freq_unit) <wl1> <wl2>`, for example `dwlnm2dfreqTHz 1540 1545`
-- Known the interval frequency/wavelength and bands (centre frequency/wavelength), and want difference in the other domain:
-  - `dfreq(freq_unit)2dwl(wl_unit)@wl <dfreq> <wl_central>` (for given $\Delta f$ near $\lambda_c$, ask for $\Delta \lambda$)
-  - `dfreq(freq_unit)2dwl(wl_unit)@freq <dfreq> <freq_central>` (for given $\Delta f$ near $f_c$, ask for $\Delta \lambda$)
-  - `dwl(wl_unit)2dfreq(freq_unit)@wl <dfreq> <wl_central>` (for given $\Delta \lambda$ near $\lambda_c$, ask for $\Delta f$)
-  - `dwl(wl_unit)2dfreq(freq_unit)@freq <dfreq> <freq_central>` (for given $\Delta \lambda$ near $f_c$, ask for $\Delta f$)
+- 已知 2 个频率/波长并想求波长/频率差（例如，给定 $f_1$ 和 $f_2$，求 $\Delta \lambda$）：`dfreq(freq_unit)2dwl(wl_unit) <freq1> <freq2>` 或 `dwl(wl_unit)2dfreq(freq_unit) <wl1> <wl2>`，例如 `dwlnm2dfreqTHz 1540 1545`
+- 已知间隔频率/波长和波段（中心频率/波长），并想求另一域中的差值：
+  - `dfreq(freq_unit)2dwl(wl_unit)@wl <dfreq> <wl_central>`（在 $\lambda_c$ 附近给定 $\Delta f$，求 $\Delta \lambda$）
+  - `dfreq(freq_unit)2dwl(wl_unit)@freq <dfreq> <freq_central>`（在 $f_c$ 附近给定 $\Delta f$，求 $\Delta \lambda$）
+  - `dwl(wl_unit)2dfreq(freq_unit)@wl <dfreq> <wl_central>`（在 $\lambda_c$ 附近给定 $\Delta \lambda$，求 $\Delta f$）
+  - `dwl(wl_unit)2dfreq(freq_unit)@freq <dfreq> <freq_central>`（在 $f_c$ 附近给定 $\Delta \lambda$，求 $\Delta f$）
 
-The centre frequency/wavelength should be in the same unit as (freq_unit) or (wl_unit).
+中心频率/波长的单位应与 (freq_unit) 或 (wl_unit) 相同。
 
-#### 2.2 Wavenumber from wavelength/frequency/angular frequency: `wl(wl_unit)2wn <n> <wl_value>` / `freq(freq_unit)2wn <n> <value>` / `afreq2wn <n> <value>`
+#### 2.2 从波长/频率/角频率计算波数：`wl(wl_unit)2wn <n> <wl_value>` / `freq(freq_unit)2wn <n> <value>` / `afreq2wn <n> <value>`
 
-For angular frequency, only rad/s is supported. For vacuum, input `n` as 1.
+对于角频率，仅支持 rad/s。对于真空，输入 `n` 为 1。
 
-#### 2.3 Cavity free spectral range (FSR): `cav(cavlength_unit)2freq(freq_unit) <n_cav> <length_cav>` / `cav(cavlength_unit)2t(period_unit) <n_cav> <length_cav>`
+#### 2.3 腔自由光谱范围 (FSR)：`cav(cavlength_unit)2freq(freq_unit) <n_cav> <length_cav>` / `cav(cavlength_unit)2t(period_unit) <n_cav> <length_cav>`
 
-Calculates the FSR in freqeucny/time/wavelength intervals in the selected domains and units. For vacuum, input `n` as 1.
+计算所选域和单位中的频率/时间/波长间隔的 FSR。对于真空，输入 `n` 为 1。
 
-#### 2.4 Cavity length from FSR: `freq(freq_unit)2cav(cavlength_unit) <n_cav> <freq>` / `t(period_unit)2cav(cavlength_unit) <n_cav> <t>`
+#### 2.4 从 FSR 计算腔长：`freq(freq_unit)2cav(cavlength_unit) <n_cav> <freq>` / `t(period_unit)2cav(cavlength_unit) <n_cav> <t>`
 
-Calculates the cavity length from FSR.
+从 FSR 计算腔长。
 
 ### 3. `flexiCommand <value-1> <value-2> <value-3>`
 
-#### 3.1 Fresnel reflection: `reflectDEG <n1> <n2> <angle_DEG>` or `reflectRAD <n1> <n2> <angle_RAD>`
+#### 3.1 菲涅尔反射：`reflectDEG <n1> <n2> <angle_DEG>` 或 `reflectRAD <n1> <n2> <angle_RAD>`
 
-For example `reflectDEG 1.2 1.6 0` and `reflectRAD 1.2 1.6 0` do the same thing.
+例如 `reflectDEG 1.2 1.6 0` 和 `reflectRAD 1.2 1.6 0` 的作用相同。
 
-`n1` and `n2` are refractive indices of the two media, `angle` is the incident angle. There are three outputs, $R_s$ and $R_p$ in two polarizations and their average $R_{avg}$.
+`n1` 和 `n2` 是两种介质的折射率，`angle` 是入射角。有三个输出：两种偏振下的 $R_s$ 和 $R_p$ 及其平均值 $R_{avg}$。
 
-`reflectDEG` treats incident angle in degree, and `reflectRAD` treats incident angle in radian.
+`reflectDEG` 将入射角视为度数，`reflectRAD` 将入射角视为弧度。
 
-#### 3.2 Peak power and average power of pulsed laser. `peak2pavg(intensity_unit)(temporal_unit)(reprate_unit) <P_peak> <t_pulse> <reprate>` or `pavg2peak(intensity_unit)(temporal_unit)(reprate_unit) <P_avg> <t_pulse> <reprate>`
+#### 3.2 脉冲激光的峰值功率和平均功率。`peak2pavg(intensity_unit)(temporal_unit)(reprate_unit) <P_peak> <t_pulse> <reprate>` 或 `pavg2peak(intensity_unit)(temporal_unit)(reprate_unit) <P_avg> <t_pulse> <reprate>`
 
-(intensity_unit) is optional (can be omitted) and kept consistent throughout input and output.
+(intensity_unit) 是可选的（可以省略），并在整个输入和输出中保持一致。
 
-Temporal width in time (`*s`), repetition rate in frequency (`*Hz`).
+时间宽度单位为时间（`*s`），重复频率单位为频率（`*Hz`）。
 
-For example, `peak2pavgGWpsMHz 0.5 1 16` means the input has a peak power of 0.5 GW/unit_area, 1-ps temporal width, and 16-MHz repetition rate. If `GHz` is omitted, the unit will become (a.u.)/unit_area.
+例如，`peak2pavgGWpsMHz 0.5 1 16` 表示输入的峰值功率为 0.5 GW/单位面积，时间宽度为 1 ps，重复频率为 16 MHz。如果省略 `GHz`，单位将变为 (a.u.)/单位面积。
 
-## Reserved words:
+## 保留字：
 
-- 2 - to (in between two variables in a command)
-- afreq - angluar frequency
-- cav - cavity (length)
-- dfreq - difference in frequency
-- dwl - difference in wavelength
-- energy - convert energy units
-- freq - frequency
-- lin - linear scale (dimensionless)
-- pavg - average power
-- peak - peak power
-- photon - convert photon energy
-- power - power or intensity
-- reflect - reflection
-- t - time (interval)
-- wn - wavenumber / propagation constant
-- wl - wavelength
+- 2 - 到 (to，在一个命令中的两个变量之间)
+- afreq - 角频率
+- cav - 腔长
+- dfreq - 频率差
+- dwl - 波长差
+- energy - 转换能量单位
+- freq - 频率
+- lin - 线性刻度，无量纲
+- pavg - 平均功率
+- peak - 峰值功率
+- photon - 转换光子能量
+- power - 功率或强度
+- reflect - 反射
+- t - 时间间隔
+- wn - 波数 / 传播常数
+- wl - 波长
 
-## Supported units:
+## 支持的单位：
 
-- **angular frequency:** rad/s
-- **angles:** DEG, RAD
-- **frequency:** \*Hz (Hz to THz)
-- **linear energy/power:** dimensionless or *W (fW to GW) or *W/cm^2 (in pulsed laser)
-- **logarithmic scale:** dB, dBm
-- **photon energy:** \*J (fJ to GJ), eV
-- **wavelength/cavity length:** \*m (am to Gm)
+- **角频率:** rad/s
+- **角度:** DEG, RAD
+- **频率:** \*Hz (Hz 到 THz)
+- **线性能量/功率:** 无量纲或 *W (fW 到 GW) 或 *W/cm^2 (在脉冲激光中)
+- **对数刻度:** dB, dBm
+- **光子能量:** \*J (fJ 到 GJ), eV
+- **波长/腔长:** \*m (am 到 Gm)

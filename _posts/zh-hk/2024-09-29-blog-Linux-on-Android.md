@@ -13,67 +13,64 @@ categories:
 thumbnail: assets/img/post_covers/android.png
 ---
 
-由於項目涉及大量計算機學科術語，礙於精力有限，本項目文檔僅提供英文原文。讀者可自行使用網頁翻譯工具。
-
 本項目的代碼倉庫位於[https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/](https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/)。
 
 # Android-Termux-Subsystem-for-Linux
 
-This repository is the personal collection of configurations for running Linux on Android **without root**. Transform your Android tablet into a (more portable) ARM64 Linux laptop!
+本代碼倉庫是**免 root** 在Android上運行Linux的個人配置集合。將您的Android平板電腦變成一臺（更便攜的）ARM64 Linux筆記本電腦！
 
-This tutorial provides solutions for:
+本教程提供以下解決方案：
 
-- **Native** Android-Termux-based Linux Desktop environment
-- Termux-based **PRoot** Linux Distros (in this article, we select Ubuntu as an example)
+- **原生** 基於Android-Termux的Linux桌面環境
+- 基於Termux的 **PRoot** Linux發行版（在本文中，我們以Ubuntu舉例）
 
-The **native** solution is faster but **PRoot** has much more Linux apps support.
+**原生**解決方案速度更快，但 **PRoot** 擁有更多的Linux應用支持。
 
-## References & Credits
+## 參考與致謝
 
-Many tutorials exist on how to run Linux on Android. However, depending on the **version of Android you are using** and the **version of Linux you installed** (and also it depends on the **time you decide to try** -- some services might have changed), **your mileage may vary**.
-I followed the listed tutorials and adapted them to my needs.
-I wrote this tutorial as my personal note & script-bakcups as well as a reference for future readers.
+關於如何在Android上運行Linux的教程有很多。然而，根據**您使用的Android版本**和**您安裝的Linux版本**（以及取決於**您決定嘗試的時間**——某些服務可能已經發生變化），**您的實際體驗可能會有所不同**。
+我參考了以下列出的教程，並根據自己的需求進行了調整。
+我寫這篇教程作為我的個人筆記和腳本備份，同時也作為未來讀者的參考。
 
-- [Termux project](https://termux.dev/en/) [GitHub](https://github.com/termux/termux-app)
-- [Ivon's Blog](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/)
-- [Termux-Desktops tutorials](https://github.com/LinuxDroidMaster/Termux-Desktops)
-- [Technical Bot's video on PRoot Chromium installation](https://www.youtube.com/watch?v=SA03NwenOck)
-- [Documentation on Android phantom process killer](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md)
+- [Termux項目](https://termux.dev/en/) [GitHub](https://github.com/termux/termux-app)
+- [Ivon的博客](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/)
+- [Termux-Desktops教程](https://github.com/LinuxDroidMaster/Termux-Desktops)
+- [Technical Bot關於PRoot安裝Chromium的視頻](https://www.youtube.com/watch?v=SA03NwenOck)
+- [關於Android幽靈進程殺手 (phantom process killer) 的文檔](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md)
 
-## Testing Environment
+## 測試環境
 
-- **Time of test:** September 2024.
-- **Device:** Xiaomi Pad 6S Pro 12.4 (24018RPACC)
-- **Resolution:** 3048x2032
-- **SoC:** Qualcomm Snapdragon 8gen2 @ 3.19GHz
-- **RAM:** 16 GB
-- **ROM:** 1 TB
-- **Android Version:** 14 (Patch 2024-09-01)
-- **Android Kernel:** 5.15.123-android13-8-00008-g2ca6a2912c7e-ab11087001
-- **HyperOS Version:** 1.0.11.0.UNXCNXM
+- **設備:** Xiaomi Pad 6S Pro 12.4 (24018RPACC)
+- **分辨率:** 3048x2032
+- **處理器:** Qualcomm Snapdragon 8gen2 @ 3.19GHz
+- **運行內存:** 16 GB
+- **存儲版本:** 1 TB
+- **Android 版本:** 14 (Patch 2024-09-01)
+- **Android 內核:** 5.15.123-android13-8-00008-g2ca6a2912c7e-ab11087001
+- **澎湃OS版本:** 1.0.11.0.UNXCNXM
 
-## 1. Prerequisite (for both native and PRoot)
+## 1. 前置準備（適用於原生和 PRoot）
 
-### 1.1 Android apps
+### 1.1 Android應用
 
-#### 1.1.1 Install Termux apps
+#### 1.1.1 安裝Termux應用
 
-**DO NOT** download from _Google Play Store_ since the versions are outdated.
+**不要**從 _Google Play Store_ 下載，因為版本已過時。
 
 - [Termux](https://github.com/termux/termux-app/releases)
-- [Termux:X11](https://github.com/termux/termux-x11/releases/tag/nightly) to display your desktop environment
-- [Termux:Widget](https://github.com/termux/termux-widget/releases) is used for quickly launching the Termux and PRoot desktop enviroment
-- [Termux:Styling](https://github.com/termux/termux-styling/releases) (optional, if you want to adjust the look of your Termux command-line interface)
+- [Termux:X11](https://github.com/termux/termux-x11/releases/tag/nightly) 用於顯示您的桌面環境
+- [Termux:Widget](https://github.com/termux/termux-widget/releases) 用於快速啟動Termux和PRoot桌面環境
+- [Termux:Styling](https://github.com/termux/termux-styling/releases) （可選，如果您想調整Termux命令行界面的外觀）
 
-#### 1.1.2 In Termux app using command:
+#### 1.1.2 在Termux應用中使用命令：
 
-Give permission for storage:
+授予存儲權限：
 
 ```
 termux-setup-storage
 ```
 
-Check for updates:
+檢查更新：
 
 ```
 pkg update
@@ -83,7 +80,7 @@ pkg update
 pkg upgrade
 ```
 
-Install X11 repos for displaying:
+安裝X11 repo用於顯示：
 
 ```
 pkg install x11-repo
@@ -97,13 +94,13 @@ pkg install termux-x11-nightly
 pkg install pulseaudio
 ```
 
-To fix any repository issues:
+修復任何倉庫問題：
 
 ```
 termux-change-repo
 ```
 
-Useful tools:
+實用工具：
 
 ```
 pkg install wget
@@ -113,9 +110,9 @@ pkg install wget
 pkg install git
 ```
 
-#### 1.1.3 Settings for Termux:X11 app:
+#### 1.1.3 設置Termux:X11應用：
 
-If there is no `preference` button, take a look at your notification list in Android. Change the preference default settings:
+如果沒有`preference`按鈕，請查看Android中的通知列表。更改默認設置為：
 
 - **Display resolution mode:** scaled
 - **Fullscreen on device display:** on
@@ -125,35 +122,35 @@ If there is no `preference` button, take a look at your notification list in And
 - **Capture external mouse when possible:** on
 - **Show additional keyboard:** off
 
-Connecting to a (wireless) keyboard and mouse is recommended.
+推薦連接到無線鍵鼠。
 
-### 1.2 Disable Android phantom process killer
+### 1.2 關閉Android幽靈進程殺手
 
-#### 1.2.1 What is phantom process killer?
+#### 1.2.1 什麼是幽靈進程殺手？
 
-In a word, the phantom process killer is a mechanism introduced recently (Android version >= 12) in Android Open Source Project (AOSP) that is present on almost all smart devices running Android-based OS (stock Android, HyperOS/MIUI, OriginOS, ColorOS, MagicOS, HarmonyOS (before NEXT), One UI, myUI, Flyme, etc.)
-It limits the number of children processes (phantom process running in the background) of apps and kills them without prompt.
-The default number of total phantom processes allowed is 32, which is not enough for running an OS on top of Android.
+簡而言之，幽靈進程殺手是Android開源項目 (AOSP) 最近（Android 版本 >= 12）引入的一種機制，幾乎所有運行Android操作系統的智能設備（原生Android、澎湃OS/MIUI、OriginOS、ColorOS、MagicOS、鴻蒙OS（NEXT版本之前）、One UI、myUI、Flyme 等）都具備此功能。
+它限制應用程序的子進程（在後臺運行的幽靈進程）數量，並在不提示的情況下將其終止。
+默認允許的幽靈進程總數為 32 個，這對於在Android系統上運行操作系統來說遠遠不夠。
 
-More about this mechanism: [Documentation on Android phantom process killer](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md). **This section is based on this article under the MIT licence.**
+關於此機制的更多信息：[Android 幽靈進程殺手文檔](https://github.com/agnostic-apollo/Android-Docs/blob/master/en/docs/apps/processes/phantom-cached-and-empty-processes.md)。**本節內容基於此文章，並遵循 MIT 許可證。**
 
-An note for HarmonyOS (1.x--4.x) users: HarmonyOS does not display Android versions. To check the Android version your system is based on, you can use third-party tools to detect the API level. Note that the developer options available are also a little different from standard Android.
+致鴻蒙OS（1.x-4.x）用戶：鴻蒙OS不顯示Android版本。要查看您的系統基於哪個Android版本，您可以使用第三方工具來檢測API級別。請注意，鴻蒙OS的開發者選項也與標準Android略有不同。
 
-#### 1.2.2 Method 1: Developer options (recommended)
+#### 1.2.2 方法1：開發者選項（推薦）
 
-**ONLY for Android version >= 14**
+**僅供Android版本 >= 14** 
 
-Enable toggle once at `Android Settings -> System -> Developer options -> Disable child process restrictions` to disable killing of **extra phantom processes > 32** and processes using excessive cpu. You will need to enable Developer options first on your device for it to show in `System` settings page, and it can usually be done by tapping `Android Settings -> About -> Build number` field **7** times.
+在`Android 設置 -> 系統 -> 開發者選項 -> 禁用子進程限制`中啟用一次，即可禁用終止**超過 32 個的額外幽靈進程**和佔用過多 CPU 資源的進程。您需要先在設備上啟用開發者選項，才能在`系統`設置頁面中看到此選項。通常可以通過連續點擊`Android 設置 -> 關於此設備 -> 版本號`**7**次來完成此操作。
 
-If you disable `Developer options` again, then `Disable child process restrictions` toggle will be disabled again automatically and killing of phantom processes will be enabled again.
+如果再次禁用`開發者選項`，則`禁用子進程限制`開關將自動再次禁用，並且終止幽靈進程的功能將再次啟用。
 
-#### 1.2.3 Method 2: Wireless ADB debugging (NOT recommended)
+#### 1.2.3 方法2：無線ADB調試（不推薦）
 
-**For Android 12L & 13+**
+**對於Android 12L & 13+**
 
-The wireless adb debugging is also in `Developer options`. Assuming there is no root access, the commands should be re-enabled on each reboot.
+無線 adb 調試功能也位於`開發者選項`中。假設沒有 root 權限，則每次重啟後都需要重新啟用這些命令。
 
-On some devices, such as the one I am testing with, the method using adb wireless debugging do not work due to unknown reason.
+在某些設備上（例如我正在測試的設備），由於未知原因，使用 adb 無線調試的方法不起作用。
 
 **Android 13:**
 
@@ -175,17 +172,17 @@ adb shell "/system/bin/device_config put activity_manager max_phantom_processes 
 adb shell "/system/bin/device_config is_sync_disabled_for_tests"
 ```
 
-## 2. Native Termux Linux Desktop Environment
+## 2. 原生Termux Linux桌面環境
 
-### 2.1 Install xfce4 desktop environment
+### 2.1 安裝xfce4桌面環境
 
 ```
 pkg install xfce4
 ```
 
-### 2.2 Install ported Linux software
+### 2.2 安裝移植的Linux軟件
 
-**Prerequiste:**
+**前置條件：**
 
 ```
 pkg install tur-repo
@@ -197,49 +194,49 @@ pkg install tur-repo
 pkg install chromium
 ```
 
-_Known issue:_ crash on Google account login. To launch it, later in graphical interface: add `--no-sandbox` after launch command.
+_已知問題：_ 在Google賬戶登錄時會崩潰。在後續圖形界面中啟動時需要在launch命令後添加`--no-sandbox`。
 
-**Code-oss:** (open source project of Visual Studio Code)
+**Code-oss:** （Visual Studio Code的開源版本）
 
 ```
 pkg install code-oss
 ```
 
-_Known issue:_ cannot sync with Microsoft.
+_已知問題：_ 無法通過微軟賬戶同步。
 
-### 2.3 Add script for launching desktop environment
+### 2.3 添加啟動桌面環境的腳本
 
-Download the script:
+下載腳本：
 
 ```
 wget https://raw.githubusercontent.com/LinuxDroidMaster/Termux-Desktops/main/scripts/termux_native/startxfce4_termux.sh
 ```
 
-OR, here is a backup if the original script no longer accessible:
+若源腳本不可用，這裡有一份備份：
 
 ```
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startxfce4_termux.sh
 ```
 
-Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
+複製腳本到`./.shortcuts/`以使Termux:Widget能夠訪問：
 
 ```
 cp ./startxfce4_termux.sh ./shortcuts/
 ```
 
-Give excution permissions:
+賦予執行權限：
 
 ```
 chmod +x ./.shortcuts/startxfce4_termux.sh
 ```
 
-### 2.4 Launch the Termux Native desktop environment from Termux:Widget
+### 2.4 從Termux:Widget啟動Termux原生桌面環境
 
-- Long click/hold on the blank places on any Android home screen (launcher)
-- Add a **Android Widget "Termux:Widget"**
-- You should find the `startxfce4_termux.sh`
-- Click on it and you should be able to lanch **Termux:X11**.
-- Otherwise, in Termux terminal, use `sh ./startxfce4_termux.sh`
+- 長按Android桌面的空白處
+- 添加**Android小插件"Termux:Widget"**
+- 此時應該能找到`startxfce4_termux.sh`
+- 點擊後應該能啟動**Termux:X11**.
+- 也可以使用Termux終端，輸入`sh ./startxfce4_termux.sh`
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -247,17 +244,17 @@ chmod +x ./.shortcuts/startxfce4_termux.sh
     </div>
 </div>
 
-### 2.5 File sharing with Android
+### 2.5 與Android共享文件
 
-In Termux native desktop, you can access your user files and folders of Android host machine mounted at `~/Desktop/shared/` or `/data/data/com.termux/files/home/Desktop/shared`. You can make a link on desktop or pin it to the sidebar of the file manager.
+在Termux原生桌面中，您可以訪問掛載在 `~/Desktop/shared/` 或 `/data/data/com.termux/files/home/Desktop/shared/` 目錄下的Android主機用戶文件和文件夾。您可以將這些文件和文件夾添加到桌面或固定到文件管理器的側邊欄。
 
-## 3. Termux-based PRoot Linux Distros (Ubuntu)
+## 3. 基於Termux的PRoot Linux發行版（Ubuntu）
 
-The Ubuntu system installation part is mostly based on [Ivon's blog](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/), the software installation part is _my collection and adaptation from various sources to make things work_.
+Ubuntu 系統安裝部分主要基於[Ivon的博客](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/)，軟件安裝部分是 _我從各種來源收集和適配的，以使一切正常運行_。
 
-### 3.1 Ubuntu setup
+### 3.1 Ubuntu設置
 
-**Installation:**
+**安裝：**
 
 ```
 pkg install proot-distro
@@ -267,13 +264,13 @@ pkg install proot-distro
 proot-distro install ubuntu
 ```
 
-**Login to Ubuntu:**
+**登錄Ubuntu：**
 
 ```
 proot-distro login ubuntu --user root --shared-tmp
 ```
 
-**Install tools:**
+**安裝工具：**
 
 ```
 apt update
@@ -283,7 +280,7 @@ apt update
 apt install sudo vim software-properties-common
 ```
 
-**Due to no systemd on Android, disable Ubuntu snap:**
+**由於Android上沒有systemd，需要關閉Ubuntu snap：**
 
 ```
 cat <<EOF | sudo tee /etc/apt/preferences.d/nosnap.pref
@@ -296,7 +293,7 @@ Pin-Priority: -10
 EOF
 ```
 
-**Install Firefox or you will not have a browser to download software:**
+**安裝Firefox瀏覽器否則將沒有瀏覽器來下載軟件：**
 
 ```
 sudo add-apt-repository ppa:mozillateam/ppa
@@ -310,13 +307,13 @@ sudo apt-get update
 sudo apt-get install firefox-esr
 ```
 
-**Create a password for root:**
+**為root創建密碼：**
 
 ```
 passwd
 ```
 
-**Create groups:**
+**創建組：**
 
 ```
 groupadd storage
@@ -324,7 +321,7 @@ groupadd wheel
 groupadd video
 ```
 
-**Create a regular user other than root:**
+**創建非root常規用戶：**
 
 ```
 useradd -m -g users -G wheel,audio,video,storage -s /bin/bash user
@@ -334,34 +331,34 @@ useradd -m -g users -G wheel,audio,video,storage -s /bin/bash user
 passwd user
 ```
 
-**Add user to sudo group:**
+**將用戶添加到sudo組：**
 
 ```
 visudo
 ```
 
-Press the "I" key for insertion of:
+按"I"鍵插入：
 
 ```
 user ALL=(ALL:ALL) ALL
 ```
 
-Touch "ESC" on the bottom of the screen and type:
+在屏幕上觸摸"ESC"然後輸入：
 
 ```
 wq
 ```
 
-to exit.
+以退出。
 
-**Switch to regular user:**
+**切換到常規用戶：**
 
 ```
 su user
 cd
 ```
 
-**Install xfce desktop environment:**
+**安裝xfce桌面環境：**
 
 ```
 sudo apt install xubuntu-desktop
@@ -371,10 +368,10 @@ sudo apt install xubuntu-desktop
 sudo update-alternatives --config x-terminal-emulator
 ```
 
-For KDE and GNOME you can refer to
-[Ivon's blog](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/) or the [Tutorials by LinuxDroidMaster](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/proot/ubuntu_proot.md)
+關於KDE和GNOME桌面可以參照
+[Ivon的博客](https://ivonblog.com/en-us/posts/termux-proot-distro-ubuntu/)或者[LinuxDroidMaster的教程](https://github.com/LinuxDroidMaster/Termux-Desktops/blob/main/Documentation/proot/ubuntu_proot.md)。
 
-**Disable Ubuntu lockscreen.** When Android is locked and unlocked, Ubuntu displays a lockscreen with no correct password to login. This might be due to compatibility isuues with PRoot:
+**關閉Ubuntu的鎖屏：** 當Android設備鎖定和解鎖後，Ubuntu 會顯示一個沒有正確密碼的鎖屏界面。這可能是由於與PRoot的兼容性問題導致的：
 
 ```
 xset s off
@@ -384,7 +381,7 @@ xset s off
 xset -dpms
 ```
 
-### 3.2 (Optional) Support for the Chinese language （可選）添加中文支持
+### 3.2 （可選）添加中文支持
 
 **添加字體：**
 
@@ -429,33 +426,33 @@ fcitx-googlepinyin
 
 在3.3節成功進入xfce4圖形界面後，在應用菜單>語言支持(Language Support)和fcitx設置中，添加English(US)作為鍵盤佈局，以及選擇Google Pinyin作為輸入法，重啟終端。
 
-### 3.3 Add script for launching desktop environment
+### 3.3 添加啟動桌面環境的腳本：
 
-Download the script:
+下載以下腳本：
 
 ```
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startproot_ubuntu.sh
 ```
 
-Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
+複製腳本到`./.shortcuts/`使Termux:Widget能夠訪問：
 
 ```
 cp ./startproot_ubuntu.sh ./shortcuts/
 ```
 
-Give excution permissions:
+賦予執行權限：
 
 ```
 chmod +x ./.shortcuts/startproot_ubuntu.sh
 ```
 
-### 3.4 Launch the Ubuntu desktop environment from Termux:Widget
+### 3.4 從Termux:Widget啟動Ubuntu桌面環境
 
-- Long click/hold on the blank places on any Android home screen (launcher)
-- Add a Android Widget "Termux:Widget"
-- You should find the `startproot_ubuntu.sh`
-- Click on it and you should be able to lanch Termux:X11.
-- Otherwise, in Termux terminal, use `sh ./startproot_ubuntu.sh`
+- 長按Android桌面的空白處
+- 添加**Android小插件"Termux:Widget"**
+- 應該能找到`startproot_ubuntu.sh`
+- 點擊後應該能啟動Termux:X11.
+- 或者在Termux終端中輸入`sh ./startproot_ubuntu.sh`
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -463,40 +460,40 @@ chmod +x ./.shortcuts/startproot_ubuntu.sh
     </div>
 </div>
 
-### 3.5 File sharing with Android
+### 3.5 與Android共享文件
 
-In Termux native desktop, you can access your user files and folders of Android host machine mounted at `/storage/emulated/0`. You can make a link on desktop or pin it to the sidebar of the file manager.
+在Termux原生桌面中，您可以訪問掛載在`/storage/emulated/0`目錄下的Android主機用戶文件和文件夾。您可以將其添加到桌面或固定到文件管理器的側邊欄。
 
-### 3.6 Ubuntu softwares
+### 3.6 Ubuntu軟件
 
-#### Tested to work directly:
+#### 已測試能直接工作：
 
-- GIMP (pre-installed)
+- GIMP（已經預裝）
 - Octave (`sudo apt install octave`)
 - TeX Live (`sudo apt install texlive`)
 
-#### Does not work:
+#### 不工作：
 
-- WPS office (crash on launch)
-- blender (crash on launch)
+- WPS office（啟動時崩潰）
+- blender（啟動時崩潰）
 
 #### Visual Studio Code
 
-- Go to [VS Code download page](https://code.visualstudio.com/download#) and select Linux Arm64.
-- In `Downloads` folder: `sudo dpkg -i code*.deb`
-- In the properties of the VS Code launch icon: add `--no-sandbox`
+- 訪問[VS Code下載頁面](https://code.visualstudio.com/download#)然後選擇Linux Arm64。
+- 在`Downloads`文件夾中：`sudo dpkg -i code*.deb`
+- 在VS Code啟動圖標的屬性中添加`--no-sandbox`
 
 #### Chromium
 
-On September 2024, the method introduced in the tutorial video ["How to install Chromium in Ubuntu | Termux" by Technical Bot](https://www.youtube.com/watch?v=SA03NwenOck) can no longer work smoothly, mainly due to gpg key management issue due to the current server conditions and the updated software.
+2024 年 9 月，教程視頻[Technical Bot的“如何在 Ubuntu Termux 中安裝 Chromium”](https://www.youtube.com/watch?v=SA03NwenOck)中介紹的方法已無法順利運行，主要是由於當前服務器狀況和軟件更新導致的gpg密鑰管理問題。
 
-**Check if gpg is installed:**
+**檢查gpg是否安裝：**
 
 ```
 sudo apt install gnupg
 ```
 
-**Add the debian source that has Chromium:**
+**添加有Chromium的debian源：**
 
 ```
 echo "deb http://ftp.debian.org/debian buster main" >> /etc/apt/sources.list
@@ -506,47 +503,47 @@ echo "deb http://ftp.debian.org/debian buster main" >> /etc/apt/sources.list
 sudo apt update
 ```
 
-**Then a gpg key error will occur.** The original method:
+**接著gpg密鑰錯誤就會出現。**此時原來的方法：
 
 ```
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com --recv-keys 648ACFD622F3D138
 ```
 
-will NOT work.
+將**完全無用**。
 
-One solution is to exit the graphical enviroment, kill, and re-open Termux:
+一種解決方法是退出圖形環境，關閉Termux進程，然後重新打開：
 
 ```
 proot-distro login ubuntu
 ```
 
-Try the following solutions:
+嘗試以下解決方案：
 
-**Solution 1:**
+**方案1：**
 
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8B48AD6246925553
 ```
 
-**Solution 2:**
+**方案2：**
 
 ```
 gpg2 --keyserver hkps://keyserver.ubuntu.com:443 --recv-keys 648ACFD622F3D138
 ```
 
-**Solution 3:**
+**方案3：**
 
 ```
 gpg --keyserver pgp.mit.edu --recv-keys 54404762BBB6E853 BDE6D2B9216EC7A8 648ACFD622F3D138 0E98404D386FA1D9 F8D2585B8783D481 0E98404D386FA1D9 6ED0E7B82643E131
 ```
 
-or
+或
 
 ```
 gpg --armor --export DC30D7C23CBBABEE | sudo apt-key add -
 ```
 
-Then
+然後
 
 ```
 sudo apt update
@@ -556,4 +553,4 @@ sudo apt update
 sudo apt install chromium
 ```
 
-In the properties of the VS Code launch icon: add `--no-sandbox`
+在VS Code啟動圖標的屬性中添加`--no-sandbox`。
