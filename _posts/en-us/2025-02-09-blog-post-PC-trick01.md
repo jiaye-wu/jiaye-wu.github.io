@@ -5,7 +5,7 @@ date: 2025-02-09 20:05:00
 description: experience sharing and personal notes
 tags:
   - software
-  - miciroft windows
+  - windows
   - freefilesync
   - pc
   - pc tricks

@@ -18,7 +18,15 @@
 {%- elsif site.active_lang == 'pt-br' -%}
   {{ day }} de {{ month }}, {{ year }}
 {%- elsif site.active_lang == 'zh-cn' -%}
-  {{ year }}-{{ month }}-{{ day }}
+  {{ year }}年{{ month }}月{{ day }}日
+{%- elsif site.active_lang == 'zh-hk' -%}
+  {{ year }}年{{ month }}月{{ day }}日
+{%- elsif site.active_lang == 'zh-mo' -%}
+  {{ year }}年{{ month }}月{{ day }}日
+{%- elsif site.active_lang == 'zh-tw' -%}
+  {{ year }}年{{ month }}月{{ day }}日
+{%- elsif site.active_lang == 'zh-sg' -%}
+  {{ year }}年{{ month }}月{{ day }}日
 {%- else -%}
   {{ day }}
   {{ month }}

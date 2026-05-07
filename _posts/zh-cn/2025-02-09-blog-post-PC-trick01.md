@@ -5,7 +5,7 @@ date: 2025-02-09 20:05:00
 description: 经验分享和个人笔记
 tags:
   - software
-  - miciroft windows
+  - windows
   - freefilesync
   - pc
   - pc tricks

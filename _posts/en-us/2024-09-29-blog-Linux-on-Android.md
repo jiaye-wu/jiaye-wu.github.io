@@ -219,7 +219,7 @@ OR, here is a backup if the original script no longer accessible:
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startxfce4_termux.sh
 ```
 
-Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
+Copy the script to `./.shortcuts/` to be accessible with Termux:Widget
 
 ```
 cp ./startxfce4_termux.sh ./shortcuts/
@@ -435,7 +435,7 @@ Download the script:
 wget https://raw.githubusercontent.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/main/scripts/startproot_ubuntu.sh
 ```
 
-Copy the scrupt to `./.shortcuts/` to be accessible with Termux:Widget
+Copy the script to `./.shortcuts/` to be accessible with Termux:Widget
 
 ```
 cp ./startproot_ubuntu.sh ./shortcuts/
@@ -486,7 +486,7 @@ In Termux native desktop, you can access your user files and folders of Android 
 
 #### Chromium
 
-On September 2024, the method introduced in the tutorial video ["How to install Chromium in Ubuntu | Termux" by Technical Bot](https://www.youtube.com/watch?v=SA03NwenOck) can no longer work smoothly, mainly due to gpg key management issue due to the current server conditions and the updated software.
+On September 2024, the method introduced in the tutorial video ["How to install Chromium in Ubuntu Termux" by Technical Bot](https://www.youtube.com/watch?v=SA03NwenOck) can no longer work smoothly, mainly due to gpg key management issue due to the current server conditions and the updated software.
 
 **Check if gpg is installed:**
 

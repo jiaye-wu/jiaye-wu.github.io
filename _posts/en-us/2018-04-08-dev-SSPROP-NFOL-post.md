@@ -91,27 +91,27 @@ The compiled mex file (sspropvc.mexw64) can be invoked from Matlab using one of 
 
 The last four arguments assume a default value if they are left unspecified.
 
-_u0x, u0y_, vector (N), Input optical field, specified by two length-N vector time sequences. u0x represents the x-component of the complex, slowly-varying envelope of the optical field, and u0y represents the corresponding y-component. The fields should be normalized so that |u0x|^2 + |u0y|^2 is the optical power.
+`u0x, u0y`, vector (N), Input optical field, specified by two length-N vector time sequences. u0x represents the x-component of the complex, slowly-varying envelope of the optical field, and u0y represents the corresponding y-component. The fields should be normalized so that |u0x|^2 + |u0y|^2 is the optical power.
 
-_dt_, scalar, The time increment between adjacent points in the vector u0.
+`dt`, scalar, The time increment between adjacent points in the vector u0.
 
-_dz_, scalar, The step-size to use for propagation
+`dz`, scalar, The step-size to use for propagation
 
-_nz_, scalar (int), The number of steps to take. The total distance propagated is therefore L = nz\*dz
+`nz`, scalar (int), The number of steps to take. The total distance propagated is therefore L = nz\*dz
 
-_alphaa, alphab_, scalar or vector (N), The linear power attenuation coefficients for the two eigenstates of the fiber. Here we use the labels “a” and “b” to denote the two eigenstates, which need not coincide with the x-y axes. Polarization dependent loss is modeled by using different numbers for alphaa and alphab.The loss coefficient may optionally be specified as a vector of the same length as u0x, in which case it will be treated as vector that describes a wavelength-dependent loss coefficient α(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
+`alphaa, alphab`, scalar or vector (N), The linear power attenuation coefficients for the two eigenstates of the fiber. Here we use the labels “a” and “b” to denote the two eigenstates, which need not coincide with the x-y axes. Polarization dependent loss is modeled by using different numbers for alphaa and alphab.The loss coefficient may optionally be specified as a vector of the same length as u0x, in which case it will be treated as vector that describes a wavelength-dependent loss coefficient α(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
 
-_betapa, betapb_, vector, Real-valued vectors that specify the dispersion for each eigenstate (a, b) of the fiber. The dispersion can be specified to any polynomial order by using a betap vector of the appropriate length.Birefringence is accomodated by making the first elements betapa(1) and betapb(1) unequal. Differential group delay, or polarization mode dispersion is likewise treated by making the second elements betapa(2) and betapb(2) different. (See note below for a more complete discussion.)The propagation constant can also be specified directly by replacing the polynomial argument betap with a vector of the same length as u0x. In this case, the argument betap is treated as a vector describing propagation constant β(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
+`betapa, betapb`, vector, Real-valued vectors that specify the dispersion for each eigenstate (a, b) of the fiber. The dispersion can be specified to any polynomial order by using a betap vector of the appropriate length.Birefringence is accomodated by making the first elements betapa(1) and betapb(1) unequal. Differential group delay, or polarization mode dispersion is likewise treated by making the second elements betapa(2) and betapb(2) different. (See note below for a more complete discussion.)The propagation constant can also be specified directly by replacing the polynomial argument betap with a vector of the same length as u0x. In this case, the argument betap is treated as a vector describing propagation constant β(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
 
-_gamma_, scalar, A real number that describes the nonlinear coefficient of the fiber, which is related to the mode effective area and the nonlinear refractive index n2.
+`gamma`, scalar, A real number that describes the nonlinear coefficient of the fiber, which is related to the mode effective area and the nonlinear refractive index n2.
 
-_psp_, scalar or vector (2), Principal eigenstate of the fiber, specified as a 2-vector containing the angles ψ and χ (see discussion above), psp = [ψ ,χ].If psp is a scalar, it is interpreted to be ψ, and χ is then taken to be zero. This corresponds to a linearly-birefringent fiber whose axes are oriented at an angle χ with respect to the x-y axes.If psp is left completely unspecified, it assumes a default value of [0,0], which means that the fiber eigenstates are linearly polarized along the x- and y- directions.
+`psp`, scalar or vector (2), Principal eigenstate of the fiber, specified as a 2-vector containing the angles ψ and χ (see discussion above), psp = [ψ ,χ].If psp is a scalar, it is interpreted to be ψ, and χ is then taken to be zero. This corresponds to a linearly-birefringent fiber whose axes are oriented at an angle χ with respect to the x-y axes.If psp is left completely unspecified, it assumes a default value of [0,0], which means that the fiber eigenstates are linearly polarized along the x- and y- directions.
 
-_method_, string, String that specifies which method to use when performing the split-step calculations. The following methods are recognized “elliptical” or “circular”.When method = “elliptical”, sspropv will solve the equations by decomposing the input field into the (in general) elliptical eigenstates of the fiber. This method is appropriate only in fibers where the birefringent beat length is much shorter than the nonlinear length.When method = “circular”, sspropv will instead solve the equations by decomposing the input field into a right- and left-circular basis. This method is more accurate, but requires that the step size be small compared to the beat length.
+`method`, string, String that specifies which method to use when performing the split-step calculations. The following methods are recognized “elliptical” or “circular”.When method = “elliptical”, sspropv will solve the equations by decomposing the input field into the (in general) elliptical eigenstates of the fiber. This method is appropriate only in fibers where the birefringent beat length is much shorter than the nonlinear length.When method = “circular”, sspropv will instead solve the equations by decomposing the input field into a right- and left-circular basis. This method is more accurate, but requires that the step size be small compared to the beat length.
 
-_maxiter_, scalar (int), The maximum number of iterations to make per step. If the solution does not converge to the desired tolerance within this number of iterations, a warning message will be generated. Usually this means that the chosen stepsize was too small. (default = 4)
+`maxiter`, scalar (int), The maximum number of iterations to make per step. If the solution does not converge to the desired tolerance within this number of iterations, a warning message will be generated. Usually this means that the chosen stepsize was too small. (default = 4)
 
-_tol_, scalar, Convergence tolerance: controls to what level the solution must converge when performing the symmetrized split-step iterations in each step. (default = 10–5.)
+`tol`, scalar, Convergence tolerance: controls to what level the solution must converge when performing the symmetrized split-step iterations in each step. (default = 10–5.)
 
 The parameter definations are the same with original SSPROP, ref: by Photonics Research Lab, Maryland University
 https://www.photonics.umd.edu/software/ssprop/vector-version/
@@ -138,27 +138,27 @@ sspropc may also be invoked with a single input argument, to specify options spe
 
 `sspropc -option`
 
-_u0_, vector (N), Input optical field, specified as a length-N vector time sequence. u0 represents the complex, slowly-varying envelope of the optical field. u0 should be normalized so that |u0|^2 is the optical power.
+`u0`, vector (N), Input optical field, specified as a length-N vector time sequence. u0 represents the complex, slowly-varying envelope of the optical field. u0 should be normalized so that |u0|^2 is the optical power.
 
-_dt_, scalar, The time increment between adjacent points in the vector u0.
+`dt`, scalar, The time increment between adjacent points in the vector u0.
 
-_dz_, scalar, The step-size to use for propagation
+`dz`, scalar, The step-size to use for propagation
 
-_nz_, scalar (int), The number of steps to take. The total distance propagated is therefore L = nz\*dz
+`nz`, scalar (int), The number of steps to take. The total distance propagated is therefore L = nz\*dz
 
-_alpha_, scalar or vector (N), The linear power attenuation coefficient. Specifically, if the medium is excited with CW light, the power should fall with distance according to P(z) = P(0)exp(-α*z). Note: this implies that the fields decay as exp(-α*z/2).The loss coefficient alpha may optionally be specified as a vector of the same length as u0, in which case it is treated as vector that describes a wavelength-dependent loss coefficient α(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
+`alpha`, scalar or vector (N), The linear power attenuation coefficient. Specifically, if the medium is excited with CW light, the power should fall with distance according to P(z) = P(0)exp(-α*z). Note: this implies that the fields decay as exp(-α*z/2).The loss coefficient alpha may optionally be specified as a vector of the same length as u0, in which case it is treated as vector that describes a wavelength-dependent loss coefficient α(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
 
-_betap_, vector, A real-valued vector specifying the dispersion properties of the medium. The dispersion can be specified to any polynomial order by using a betap vector with the appropriate length. In most cases the nonlinear Schrödinger equation is solved with a slowly-varing envelope approximation in a reference frame that is moving at the group velocity. In this case, the first two elements of the betap vector (β0 and β1) should be set to zero. The first non-zero term, betap(3), would then represent β2, the group-velocity dispersion.The propagation constant can also be specified directly by replacing the polynomial argument betap with a vector of the same length as u0. In this case, the argument betap is treated as a vector describing propagation constant β(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
+`betap`, vector, A real-valued vector specifying the dispersion properties of the medium. The dispersion can be specified to any polynomial order by using a betap vector with the appropriate length. In most cases the nonlinear Schrödinger equation is solved with a slowly-varing envelope approximation in a reference frame that is moving at the group velocity. In this case, the first two elements of the betap vector (β0 and β1) should be set to zero. The first non-zero term, betap(3), would then represent β2, the group-velocity dispersion.The propagation constant can also be specified directly by replacing the polynomial argument betap with a vector of the same length as u0. In this case, the argument betap is treated as a vector describing propagation constant β(ω) in the frequency domain. (The function wspace.m can be used to construct a vector with the corresponding frequencies.)
 
-_gamma_, scalar, A real number that describes the nonlinear coefficient of the fiber, which is related to the mode effective area and the nonlinear refractive index n2.
+`gamma`, scalar, A real number that describes the nonlinear coefficient of the fiber, which is related to the mode effective area and the nonlinear refractive index n2.
 
-_tr_, scalar, The Raman response time. (default = 0)
+`tr`, scalar, The Raman response time. (default = 0)
 
-_t0_, scalar, The optical cycle time (= 1/f). (default = 0)
+`t0`, scalar, The optical cycle time (= 1/f). (default = 0)
 
-_maxiter_, scalar (int), The maximum number of iterations to make per step. If the solution does not converge to the desired tolerance within this number of iterations, a warning message will be generated. Usually this means that the chosen stepsize was too small. (default = 4)
+`maxiter`, scalar (int), The maximum number of iterations to make per step. If the solution does not converge to the desired tolerance within this number of iterations, a warning message will be generated. Usually this means that the chosen stepsize was too small. (default = 4)
 
-_tol_, scalar, Convergence tolerance: controls to what level the solution must converge when performing the symmetrized split-step iterations in each step. (default = 10–5.)
+`tol`, scalar, Convergence tolerance: controls to what level the solution must converge when performing the symmetrized split-step iterations in each step. (default = 10–5.)
 
 The parameter definations are the same with original SSPROP, ref: by Photonics Research Lab, Maryland University
 https://www.photonics.umd.edu/software/ssprop/scalar-version/
@@ -179,17 +179,17 @@ https://www.photonics.umd.edu/software/ssprop/scalar-version/
 
 `u = gaussian (t,tc,T0,P0,m,C);`
 
-_t_     vector of times at which to compute u
+`t`     vector of times at which to compute u
 
-_tc_   center of pulse (default = 0)
+`tc`   center of pulse (default = 0)
 
-_T0_ half width at 1/e intensity of pulse (default = 1)
+`T0` half width at 1/e intensity of pulse (default = 1)
 
-_P0_   peak intensity (|u|^2 at t=t0) of pulse (default = 1)
+`P0`   peak intensity (|u|^2 at t=t0) of pulse (default = 1)
 
-_m_     Gaussian order (default = 1)
+`m`     Gaussian order (default = 1)
 
-_C_     chirp parameter (default = 0)
+`C`     chirp parameter (default = 0)
 
 **Sech Pulse**
 
@@ -203,15 +203,15 @@ _C_     chirp parameter (default = 0)
 
 `u = sechpulse (t,tc,T0,P0,C);`
 
-_t_ vector of times at which to compute u
+`t`, vector of times at which to compute u
 
-_tc_ center of pulse (default = 0)
+`tc`, center of pulse (default = 0)
 
-_T0_ half width at 1/e intensity of pulse (default = 1)
+`T0`, half width at 1/e intensity of pulse (default = 1)
 
-_P0_ peak intensity (|u|^2 at t=t0) of pulse (default = 1)
+`P0`, peak intensity (|u|^2 at t=t0) of pulse (default = 1)
 
-_C_ chirp parameter (default = 0)
+`C`, chirp parameter (default = 0)
 
 **Soliton Pulse**
 
@@ -223,10 +223,10 @@ _C_ chirp parameter (default = 0)
 
 `u = solitonpulse (t,tc,epsilon,N);`
 
-_t_ vector of times at which to compute u
+`t`, vector of times at which to compute u
 
-_tc_ center of pulse (default = 0)
+`tc`, center of pulse (default = 0)
 
-_epsilon_ scale factor for solition (default = 1), note: make epsilon=2\*acosh(sqrt(2)) to get FWHM = 1
+`epsilon`, scale factor for solition (default = 1), note: make epsilon=2\*acosh(sqrt(2)) to get FWHM = 1
 
-_N_ soliton order (default = 1)
+`N`, soliton order (default = 1)

@@ -18,7 +18,7 @@ categories:
 thumbnail: assets/img/post_covers/QUICKphotonics.png
 ---
 
-The repository is held on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
+An Excel and MATLAB-based cross-platform academic tool for unit conversions in photonics. The repository is hosted on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).
 
 # QUICKphotonics - Quick UnIt Conversion Kit for Photonics
 
@@ -78,7 +78,7 @@ A **flexiCommand** consists of 4~5 parts
 - **head**: leading command head (only in some commands, `energy`, `reflect`, `cav`, `power`, etc.)
 - **conv_source**: [reserve name](#reserved-words) of the conversion source, e.g., `freq`
 - **unit_source**: [unit](#supported-units) of the conversion source, e.g., `THz`. Units are automatically recognized.
-- **conv_target**: 2+(reserve name of the conversion target), e.g., `2wl`. Here `2` means "to".
+- **conv_target**: 2+([reserve name](#reserved-words) of the conversion target), e.g., `2wl`. Here `2` means "to".
 - **unit_source**: [unit](#supported-units) of the conversion target, e.g., `nm`. Units are automatically recognized.
 
 Except for **head**, the **order** of the rest parts **does not matter** in a **flexiCommand**.
