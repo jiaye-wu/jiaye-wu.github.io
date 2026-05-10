@@ -1,6 +1,6 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://jiaye-wu.github.io"; 
+const siteUrl = "https://jiaye-wu.github.io";
 let updatedUrl = currentUrl.replace("https://jiaye-wu.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
@@ -494,33 +494,40 @@ ninja.data = [{
           title: 'AI 輔助光子學及面向AI應用的光子學',
           description: "算法驅動的優化與設計",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_ai_photonics/";
+              window.location.href = "/zh-hk/projects/proj_ai_photonics/";
             },},{id: "projects-近零折射率非線性光學-微納光器件與片上集成",
           title: '近零折射率非線性光學、微納光器件與片上集成',
           description: "探索微納、非線性與集成光學的邊界",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_enz_photonics/";
+              window.location.href = "/zh-hk/projects/proj_enz_photonics/";
             },},{id: "projects-新型集成光子納米器件-芯片和光路",
           title: '新型集成光子納米器件、芯片和光路',
           description: "指尖尺度的非傳統光與物質相互作用",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_integrated_optics/";
+              window.location.href = "/zh-hk/projects/proj_integrated_optics/";
             },},{id: "projects-非厄米拓撲互聯光路光網絡",
           title: '非厄米拓撲互聯光路光網絡',
           description: "來自量子力學的啟示",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_pt_topo/";
+              window.location.href = "/zh-hk/projects/proj_pt_topo/";
             },},{id: "projects-無源輻射冷卻光子結構設計",
           title: '無源輻射冷卻光子結構設計',
           description: "用於能源和可持續性的納米光子設計",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_radiative_cooling/";
+              window.location.href = "/zh-hk/projects/proj_radiative_cooling/";
             },},{id: "projects-非線性光纖中的頻譜和脈衝壓縮",
           title: '非線性光纖中的頻譜和脈衝壓縮',
           description: "更短、更快、更亮、更強",
           section: "課題",handler: () => {
-              window.location.href = "/zh-hk/projects/zh-hk/proj_spctral_compression/";
+              window.location.href = "/zh-hk/projects/proj_spctral_compression/";
             },},{
+        id: 'social-work',
+        title: 'Work',
+        section: '社交',
+        handler: () => {
+          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+        },
+      },{
         id: 'social-email',
         title: '發郵件',
         section: '社交',
@@ -528,39 +535,18 @@ ninja.data = [{
           window.open("mailto:%6A%69%61%79%65.%77%75@%65%70%66%6C.%63%68", "_blank");
         },
       },{
-        id: 'social-facebook',
-        title: 'Facebook',
-        section: '社交',
-        handler: () => {
-          window.open("https://facebook.com/terence.jiaye.wu", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: '社交',
-        handler: () => {
-          window.open("https://github.com/jiaye-wu", "_blank");
-        },
-      },{
-        id: 'social-ieee',
-        title: 'IEEE Xplore',
-        section: '社交',
-        handler: () => {
-          window.open("https://ieeexplore.ieee.org/author/37087502244/", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: '社交',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/jiayewu", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: '社交',
         handler: () => {
           window.open("https://orcid.org/0000-0002-0650-1274", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: '社交',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=D2n8tswAAAAJ", "_blank");
         },
       },{
         id: 'social-publons',
@@ -577,18 +563,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Jiaye_Wu/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-arxiv',
+        title: 'arXiv',
         section: '社交',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://arxiv.org/a/0000-0002-0650-1274.html", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-ieee',
+        title: 'IEEE Xplore',
         section: '社交',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=D2n8tswAAAAJ", "_blank");
+          window.open("https://ieeexplore.ieee.org/author/37087502244/", "_blank");
         },
       },{
         id: 'social-scopus',
@@ -598,11 +584,25 @@ ninja.data = [{
           window.open("https://www.scopus.com/authid/detail.uri?authorId=57196026613", "_blank");
         },
       },{
-        id: 'social-work',
-        title: 'Work',
+        id: 'social-github',
+        title: 'GitHub',
         section: '社交',
         handler: () => {
-          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+          window.open("https://github.com/jiaye-wu", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: '社交',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jiayewu", "_blank");
+        },
+      },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: '社交',
+        handler: () => {
+          window.open("https://facebook.com/terence.jiaye.wu", "_blank");
         },
       },{
         id: 'social-x',
@@ -610,13 +610,6 @@ ninja.data = [{
         section: '社交',
         handler: () => {
           window.open("https://twitter.com/jywu_photonics", "_blank");
-        },
-      },{
-        id: 'social-zotero',
-        title: 'Zotero',
-        section: '社交',
-        handler: () => {
-          window.open("https://www.zotero.org/jiayewu", "_blank");
         },
       },{
           id: 'lang-en-us',

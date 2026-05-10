@@ -1,6 +1,6 @@
 
 const currentUrl = window.location.href;
-const siteUrl = "https://jiaye-wu.github.io"; 
+const siteUrl = "https://jiaye-wu.github.io";
 let updatedUrl = currentUrl.replace("https://jiaye-wu.github.io", "");
 if (currentUrl.length == updatedUrl.length && currentUrl.startsWith("http://127.0.0.1")) {
   const otherSiteUrl = siteUrl.replace("localhost", "127.0.0.1");
@@ -494,33 +494,40 @@ ninja.data = [{
           title: 'AI for photonics &amp;amp; photonics for AI',
           description: "optimization and design enpowered by algorithms",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_ai_photonics/";
+              window.location.href = "/projects/proj_ai_photonics/";
             },},{id: "projects-near-zero-index-nonlinear-nanophotonics",
           title: 'near-zero-index nonlinear nanophotonics',
           description: "exploring the exotic physical and optical phenomena",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_enz_photonics/";
+              window.location.href = "/projects/proj_enz_photonics/";
             },},{id: "projects-novel-integrated-photonic-nanodevices-chips-amp-circuits",
           title: 'novel integrated photonic nanodevices, chips, &amp;amp; circuits',
           description: "unconventional light-matter interactions at the fingertip",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_integrated_optics/";
+              window.location.href = "/projects/proj_integrated_optics/";
             },},{id: "projects-non-hermitian-topological-interconnected-light-circuits",
           title: 'non-Hermitian topological interconnected light circuits',
           description: "quantum inspirations",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_pt_topo/";
+              window.location.href = "/projects/proj_pt_topo/";
             },},{id: "projects-radiative-cooling-amp-photonic-crystal-designs",
           title: 'radiative cooling &amp;amp; photonic crystal designs',
           description: "nanophotonic design for energy and sustainability",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_radiative_cooling/";
+              window.location.href = "/projects/proj_radiative_cooling/";
             },},{id: "projects-spectral-amp-pulse-compression-in-nonlinear-optical-fibers",
           title: 'spectral &amp;amp; pulse compression in nonlinear optical fibers',
           description: "shorter, faster, brighter, stronger",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/en-us/proj_spctral_compression/";
+              window.location.href = "/projects/proj_spctral_compression/";
             },},{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+        },
+      },{
         id: 'social-email',
         title: 'Send an email',
         section: 'Socials',
@@ -528,39 +535,18 @@ ninja.data = [{
           window.open("mailto:%6A%69%61%79%65.%77%75@%65%70%66%6C.%63%68", "_blank");
         },
       },{
-        id: 'social-facebook',
-        title: 'Facebook',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://facebook.com/terence.jiaye.wu", "_blank");
-        },
-      },{
-        id: 'social-github',
-        title: 'GitHub',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://github.com/jiaye-wu", "_blank");
-        },
-      },{
-        id: 'social-ieee',
-        title: 'IEEE Xplore',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://ieeexplore.ieee.org/author/37087502244/", "_blank");
-        },
-      },{
-        id: 'social-linkedin',
-        title: 'LinkedIn',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.linkedin.com/in/jiayewu", "_blank");
-        },
-      },{
         id: 'social-orcid',
         title: 'ORCID',
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/0000-0002-0650-1274", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=D2n8tswAAAAJ", "_blank");
         },
       },{
         id: 'social-publons',
@@ -577,18 +563,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Jiaye_Wu/", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-arxiv',
+        title: 'arXiv',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://arxiv.org/a/0000-0002-0650-1274.html", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-ieee',
+        title: 'IEEE Xplore',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=D2n8tswAAAAJ", "_blank");
+          window.open("https://ieeexplore.ieee.org/author/37087502244/", "_blank");
         },
       },{
         id: 'social-scopus',
@@ -598,11 +584,25 @@ ninja.data = [{
           window.open("https://www.scopus.com/authid/detail.uri?authorId=57196026613", "_blank");
         },
       },{
-        id: 'social-work',
-        title: 'Work',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+          window.open("https://github.com/jiaye-wu", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/jiayewu", "_blank");
+        },
+      },{
+        id: 'social-facebook',
+        title: 'Facebook',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://facebook.com/terence.jiaye.wu", "_blank");
         },
       },{
         id: 'social-x',
@@ -610,13 +610,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://twitter.com/jywu_photonics", "_blank");
-        },
-      },{
-        id: 'social-zotero',
-        title: 'Zotero',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.zotero.org/jiayewu", "_blank");
         },
       },{
           id: 'lang-zh-cn',
