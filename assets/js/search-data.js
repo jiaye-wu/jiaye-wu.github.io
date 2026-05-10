@@ -570,6 +570,13 @@ ninja.data = [{
           window.open("https://arxiv.org/a/0000-0002-0650-1274.html", "_blank");
         },
       },{
+        id: 'social-zotero',
+        title: 'Zotero',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.zotero.org/jiayewu", "_blank");
+        },
+      },{
         id: 'social-ieee',
         title: 'IEEE Xplore',
         section: 'Socials',
