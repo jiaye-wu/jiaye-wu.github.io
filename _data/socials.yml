@@ -3,21 +3,15 @@
 # the socials will be displayed in the order they are defined here
 
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-#  organization: princeton # your organization as appears in the subdomain
+# organization: princeton # your organization as appears in the subdomain
 #  username:  AlbertEinstein # your username
 # acm_id: # your dl.acm.org/profile/id
-# arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
 # bluesky_url: # your bluesky URL
-cv_pdf: /assets/pdf/[LANG]/example_pdf.pdf # path to your CV PDF file
+# cv_pdf: /assets/pdf/[LANG]/example_pdf.pdf # path to your CV PDF file
 # dblp_url: # your DBLP profile url
 # discord_id: # your discord id (18-digit unique numerical identifier)
-email: jiaye.wu@epfl.ch # your email address
-facebook_id: terence.jiaye.wu # your facebook id
 # flickr_id: # your flickr id
-github_username: jiaye-wu # your GitHub user name
-# gitlab_username: # your GitLab user name
-ieee_id: 37087502244 # your ieeexplore.ieee.org/author/id
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # instagram_id: # your instagram id
 # kaggle_id: # your kaggle id
@@ -25,18 +19,11 @@ ieee_id: 37087502244 # your ieeexplore.ieee.org/author/id
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: jiayewu # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
-orcid_id: 0000-0002-0650-1274 # your ORCID ID
 # osf_id: # your OSF ID
 # pinterest_id: # your pinterest id
-publons_id: O-4210-2018 # your ID on Publons
 # quora_username: # your Quora username
-research_gate_profile: Jiaye_Wu # your profile on ResearchGate
-rss_icon: false # set to true to show the RSS icon
-scholar_userid: D2n8tswAAAAJ # your Google Scholar ID
-scopus_id: 57196026613 # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID
 # spotify_id: # your spotify id
 # stackoverflow_id: # your stackoverflow id
@@ -47,11 +34,23 @@ scopus_id: 57196026613 # your profile on Scopus
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-work_url: https://people.epfl.ch/jiaye.wu?lang=en # work page URL
-x_username: jywu_photonics # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-zotero_username: jiayewu # your zotero username
 #custom_social: # can be any name here other than the ones already defined above
 #  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #  title: Custom Social
 #  url: https://www.alberteinstein.com/
+
+work_url: https://people.epfl.ch/jiaye.wu?lang=en # work page URL
+email: jiaye.wu@epfl.ch # your email address
+orcid_id: 0000-0002-0650-1274 # your ORCID ID
+scholar_userid: D2n8tswAAAAJ # your Google Scholar ID
+publons_id: O-4210-2018 # your ID on Publons
+research_gate_profile: Jiaye_Wu # your profile on ResearchGate
+arxiv_id: 0000-0002-0650-1274 # your arXiv author ID
+ieee_id: 37087502244 # your ieeexplore.ieee.org/author/id
+scopus_id: 57196026613 # your profile on Scopus
+github_username: jiaye-wu # your GitHub user name
+linkedin_username: jiayewu # your LinkedIn user name
+facebook_id: terence.jiaye.wu # your facebook id
+x_username: jywu_photonics # your X handle
+# rss_icon: false # set to true to show the RSS icon

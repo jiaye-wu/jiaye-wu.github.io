@@ -58,11 +58,11 @@ nav_order: 99
 
 [Kinghwa Oldsong](https://zhuanlan.zhihu.com/p/637491623) by 特里王
 
-### miscellaneous
+<!-- ### miscellaneous
 
 [Tenure-Track Simulator - entry 1](https://tenure.hqzhou.com/)
 
-[Tenure-Track Simulator - entry 2](https://tenure.feedscription.com/)
+[Tenure-Track Simulator - entry 2](https://tenure.feedscription.com/) -->
 
 ## acknowledgements & open-source information
 
