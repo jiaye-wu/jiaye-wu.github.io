@@ -14,7 +14,7 @@ nav_order: 99
 
 [jiaye-wu](https://github.com/jiaye-wu) for group website and scientific tools.
 
-[TerenceWSK](https://github.com/jiaye-wu) for group website and scientific tools.
+[TerenceWSK](https://github.com/jiaye-wu) for non-academic developments.
 
 ## useful GitHub repositories and resources
 

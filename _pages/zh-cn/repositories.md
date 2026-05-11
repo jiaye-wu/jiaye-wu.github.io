@@ -12,9 +12,9 @@ nav_order: 99
 
 ---
 
-[jiaye-wu](https://github.com/jiaye-wu) for group website and scientific tools.
+[jiaye-wu](https://github.com/jiaye-wu): 课题组网站和科研工具。
 
-[TerenceWSK](https://github.com/jiaye-wu) for group website and scientific tools.
+[TerenceWSK](https://github.com/jiaye-wu): 非科研开发工作。
 
 ## 实用GitHub代码仓库与资源
 
