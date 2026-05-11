@@ -563,18 +563,18 @@ ninja.data = [{
           window.open("https://www.researchgate.net/profile/Jiaye_Wu/", "_blank");
         },
       },{
-        id: 'social-arxiv',
-        title: 'arXiv',
-        section: '社交',
-        handler: () => {
-          window.open("https://arxiv.org/a/0000-0002-0650-1274.html", "_blank");
-        },
-      },{
         id: 'social-zotero',
         title: 'Zotero',
         section: '社交',
         handler: () => {
           window.open("https://www.zotero.org/jiayewu", "_blank");
+        },
+      },{
+        id: 'social-arxiv',
+        title: 'arXiv',
+        section: '社交',
+        handler: () => {
+          window.open("https://arxiv.org/a/0000-0002-0650-1274.html", "_blank");
         },
       },{
         id: 'social-ieee',
