@@ -4,7 +4,7 @@ Welcome to the repository of my personal academic page!
 
 ## Acknowledgements
 
-- This website is held on [Github Pages](https://pages.github.com/).
+- This website is hosted on [Github Pages](https://pages.github.com/).
 - The template is primarily based on [multi-language-al-folio
   ](https://github.com/george-gca/multi-language-al-folio) and [al-folio](https://github.com/alshedivat/al-folio), a fork of [\*folio](https://github.com/bogoli/-folio). ([Demo webpage](https://alshedivat.github.io/al-folio/))
 
@@ -296,7 +296,7 @@ Run the test yourself: [Google Lighthouse PageSpeed Insights](https://pagespeed.
     - [Collections](#collections)
     - [Layouts](#layouts)
       - [The iconic style of Distill](#the-iconic-style-of-distill)
-      - [Full support for math &amp; code](#full-support-for-math--code)
+      - [Full support for math \& code](#full-support-for-math--code)
       - [Photos, Audio, Video and more](#photos-audio-video-and-more)
     - [Other features](#other-features)
       - [GitHub's repositories and user stats](#githubs-repositories-and-user-stats)
