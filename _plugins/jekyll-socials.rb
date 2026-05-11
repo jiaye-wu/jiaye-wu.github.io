@@ -22,7 +22,7 @@ module Jekyll
       'lattes_id' => "<i class='ai ai-lattes'></i>",
       'orcid_id' => "<i class='ai ai-orcid'></i>",
       'osf_id' => "<i class='ai ai-osf'></i>",
-      'publons_id' => "<i class='ai ai-publons'></i>",
+      'publons_id' => "<i class='ai ai-clarivate'></i>",
       'research_gate_profile' => "<i class='ai ai-researchgate'></i>",
       'scholar_userid' => "<i class='ai ai-google-scholar'></i>",
       'scopus_id' => "<i class='ai ai-scopus'></i>",
