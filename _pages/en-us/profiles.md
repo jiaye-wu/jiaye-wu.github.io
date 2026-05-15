@@ -3,8 +3,8 @@ page_id: profiles
 layout: profiles
 permalink: /members/
 title: members
-description: our lab and research group
-nav: false
+description: our current and previous lab members.
+nav: true
 nav_order: 5
 
 profiles:
@@ -15,9 +15,10 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ELB 135, Station 11,</p>
-      <p>STI-IEM, EPFL,</p>
-      <p>Lausanne 1015, Switzerland.</p>
+      <p>XX Building</p>
+      <p>CityU Hong Kong (Dongguan)</p>
+      <p>Gaoxiong Rd. 8, Songshan Lake</p>
+      <p>Dongguan 523808, China</p>
   - align: left
     # image: prof_pic.jpg
     content: about_lab_members.md

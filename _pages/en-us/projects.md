@@ -3,7 +3,7 @@ page_id: projects
 layout: page
 title: projects
 permalink: /projects/
-description: a collection of our systematic & comprehensive research projects (themes).
+description: a collection of our systematic & comprehensive research projects.
 nav: true
 nav_order: 3
 display_categories: [ongoing, non-active]

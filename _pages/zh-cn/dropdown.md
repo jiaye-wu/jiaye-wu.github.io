@@ -12,10 +12,10 @@ children:
   - title: 相关链接
     permalink: /links/
   - title: divider
-  # - title: people
-  #   permalink: /people/
+  # - title: 课题组成员
+  #   permalink: /members/
   # - title: divider
-  # - title: open positions
+  # - title: 招生信息
   #   permalink: /positions/
   # - title: divider
   - title: 代码仓库

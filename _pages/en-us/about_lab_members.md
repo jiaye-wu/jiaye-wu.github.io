@@ -20,11 +20,11 @@
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
+            <p><strong>Research interest:</strong> optics.</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -53,10 +53,10 @@
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
+            <p><strong>Research interest:</strong> optics.</p>
           </div>
           <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="/assets/img/members/user-boy.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -84,11 +84,11 @@
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
+            <p><strong>Research interest:</strong> optics.</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -98,7 +98,7 @@
 
 ---
 
-## previous members
+## alumni
 
 <br>
 
@@ -113,7 +113,7 @@
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          2026-2030
+          2026-2030 Ph.D.
         </span>
       </div>
     </div>
@@ -122,10 +122,10 @@
         <div class="row">
           <div class="col-sm-10">
             <p><strong>Worked in:</strong> optics.</p>
-            <p><strong>Current position:</strong> staff.</p>
+            <p><strong>Current position:</strong> researcher, big universtiy.</p>
           </div>
           <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="/assets/img/members/user-boy.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -146,19 +146,19 @@
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          2026-2029
+          2026-2029 M.Sc.
         </span>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
             <p><strong>Worked in:</strong> optics.</p>
-            <p><strong>Current position:</strong> staff.</p>
+            <p><strong>Current position:</strong> staff, big company.</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>

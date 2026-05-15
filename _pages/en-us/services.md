@@ -12,6 +12,39 @@ nav_order: 4
 
 <br>
 
+<h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
+
+<!-- abc -->
+<div class="card mt-3">
+  <div class="p-3">
+    <div class="row">
+      <div class="col-sm-10">
+        <h5 id="abc" class="card-title">Course to be assigned, place holder</h5>
+        <h6 class="card-subtitle font-italic">Teacher (TBD)</h6>
+      </div>
+      <div class="col-sm-2 text-sm-right">
+        <span class="badge">
+          abc
+        </span>
+      </div>
+    </div>
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-sm-9">
+            <p>X Credits Master's level. Course taught by Assist. Prof. Jiaye Wu</p>
+          </div>
+          <div class="col-sm-3">
+            &nbsp;
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<br>
+
 <h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->

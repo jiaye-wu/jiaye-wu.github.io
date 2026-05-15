@@ -20,11 +20,11 @@
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
             <p><strong>研究方向：</strong> 光学。</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -56,7 +56,7 @@
             <p><strong>研究方向：</strong> 光学。</p>
           </div>
           <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="/assets/img/members/user-boy.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -77,18 +77,18 @@
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          2026 M.Sc.
+          2026 M. Eng.
         </span>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
             <p><strong>研究方向：</strong> 光学。</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -98,7 +98,7 @@
 
 ---
 
-## 过往成员
+## 出站博后与毕业生
 
 <br>
 
@@ -113,7 +113,7 @@
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          2026-2030
+          2026-2030 博士
         </span>
       </div>
     </div>
@@ -122,10 +122,10 @@
         <div class="row">
           <div class="col-sm-10">
             <p><strong>研究方向：</strong> 光学。</p>
-            <p><strong>毕业去向：</strong> 大厂员工。</p>
+            <p><strong>毕业去向：</strong> 名校 研究员。</p>
           </div>
           <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
+            <img src="/assets/img/members/user-boy.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>
@@ -146,19 +146,19 @@
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
-          2026-2029
+          2026-2029 硕士
         </span>
       </div>
     </div>
     <ul class="card-text font-weight-light list-group list-group-flush">
       <li class="list-group-item">
         <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
           <div class="col-sm-10">
             <p><strong>研究方向：</strong> 光学。</p>
-            <p><strong>毕业去向：</strong> 大厂员工。</p>
+            <p><strong>毕业去向：</strong> 大厂 员工。</p>
+          </div>
+          <div class="col-sm-2">
+            <img src="/assets/img/members/user-girl.png" style="width: auto; height: 150px; object-fit: cover;">
           </div>
         </div>
       </li>

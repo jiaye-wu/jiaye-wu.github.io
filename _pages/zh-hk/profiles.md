@@ -2,9 +2,9 @@
 page_id: profiles
 layout: profiles
 permalink: /members/
-title: 成員
+title: 研究團隊
 description: 當前和過往實驗室成員列表
-nav: false
+nav: true
 nav_order: 5
 
 profiles:
@@ -15,9 +15,10 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>ELB 135, Station 11,</p>
-      <p>STI-IEM, EPFL,</p>
-      <p>Lausanne 1015, Switzerland.</p>
+      <p>XX樓</p>
+      <p>香港城市大學（東莞）</p>
+      <p>松山湖高新技術產業開發區</p>
+      <p>廣東省東莞市松山湖高雄路8號</p>
   - align: left
     # image: prof_pic.jpg
     content: about_lab_members.md
