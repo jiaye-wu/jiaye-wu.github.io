@@ -10,7 +10,8 @@ nav_order: 6
 
 请将简历及个人陈述投递至导师[电子邮箱](mailto:jiayewu@cityu-dg.edu.cn)。<br>
 我们欢迎来自中国大陆、港澳台地区，及海外的优秀青年学者及学生加盟实验室。<br>
-招生信息可见[官网](https://www.cityu-dg.edu.cn/zh/admissions.html)。
+招生信息可见[官网](https://www.cityu-dg.edu.cn/zh/admissions.html)。<br>
+[硕博招生申请系统](https://apply.cityu-dg.edu.cn/pg/a/login)
 
 <br>
 
@@ -61,7 +62,7 @@ nav_order: 6
     <div class="row">
       <div class="col-sm-10">
         <h5 id="labmember" class="card-title"><strong>博士研究生</strong></h5>
-        <h6 class="card-subtitle font-italic">4年全日制普博/5年全日制直博</h6>
+        <h6 class="card-subtitle font-italic">4年全日制普博（毕业时获得港城大文凭和IANG签注）</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
@@ -103,7 +104,7 @@ nav_order: 6
     <div class="row">
       <div class="col-sm-10">
         <h5 id="labmember" class="card-title"><strong>硕士研究生</strong></h5>
-        <h6 class="card-subtitle font-italic">2年全日制硕士</h6>
+        <h6 class="card-subtitle font-italic">2年全日制硕士（毕业时获得港城大文凭和IANG签注）</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">

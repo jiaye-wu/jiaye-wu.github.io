@@ -10,7 +10,8 @@ nav_order: 6
 
 Please submit your curriculum vitae (CV) and personal statement to the P.I. by [email](mailto:jiayewu@cityu-dg.edu.cn). <br>
 We offer open positions to excellent young scholars and students from the Chinese Mainland, Hong Kong SAR, Macau SAR, Taiwan Province, and overseas. <br>
-Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admissions.html).
+Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admissions.html).<br>
+Application system for M.Sc. and Ph.D. candaites can be accessed [here](https://apply.cityu-dg.edu.cn/pg/a/login).
 
 <br>
 
@@ -61,7 +62,7 @@ Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admiss
     <div class="row">
       <div class="col-sm-10">
         <h5 id="labmember" class="card-title"><strong>doctoral students</strong></h5>
-        <h6 class="card-subtitle font-italic">4-year full-time regular Ph.D. programme/5-year full-time direct-entry Ph.D. programme</h6>
+        <h6 class="card-subtitle font-italic">4-year full-time regular Ph.D. programme with CityUHK diploma and IANG visa</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
@@ -103,7 +104,7 @@ Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admiss
     <div class="row">
       <div class="col-sm-10">
         <h5 id="labmember" class="card-title"><strong>master's students</strong></h5>
-        <h6 class="card-subtitle font-italic">2-year full-time programme</h6>
+        <h6 class="card-subtitle font-italic">2-year full-time programme with CityUHK diploma and IANG visa</h6>
       </div>
       <div class="col-sm-2 text-sm-right">
         <span class="badge">
