@@ -80,17 +80,6 @@ ninja.data = [{
             window.location.href = "/zh-cn/blog/2026/invited-THU/";
           
         },
-      },{id: "post-受邀研讨会-epsilon-near-zero-photonics-crossroad-of-multidisciplinary-research",
-        
-          title: '[受邀研讨会] Epsilon-Near-Zero Photonics: Crossroad of Multidisciplinary Research <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-        
-        description: "受邀于清华大学深圳国际研究生院数据与信息研究院作研讨会学术报告",
-        section: "博文",
-        handler: () => {
-          
-            window.open("https://mp.weixin.qq.com/s/KdygsinY4tyHCDKRpBTreQ", "_blank");
-          
-        },
       },{id: "post-学术工具-l-39-acaradar项目",
         
           title: "[学术工具] L&#39;AcaRadar项目",
