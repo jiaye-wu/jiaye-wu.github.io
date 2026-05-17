@@ -8,7 +8,7 @@ nav: true
 nav_order: 6
 ---
 
-请将简历及个人陈述投递至导师[电子邮箱](mailto:jiayewu@cityu-dg.edu.cn)。<br>
+请将简历及个人陈述投递至导师[电子邮箱](mailto:jiaye.wu@cityu-dg.edu.cn)。<br>
 我们欢迎来自中国大陆、港澳台地区，及海外的优秀青年学者及学生加盟实验室。<br>
 招生信息可见[官网](https://www.cityu-dg.edu.cn/zh/admissions.html)。<br>
 [硕博招生申请系统](https://apply.cityu-dg.edu.cn/pg/a/login)
