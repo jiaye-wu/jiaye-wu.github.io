@@ -15,165 +15,112 @@ nav_order: 6
 
 <br>
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>博士后研究员</strong></h5>
-        <h6 class="card-subtitle font-italic">2年固定期限合同</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Post-Doc
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>基本条件（必须）</strong></p>
-            <ul>
-                <li>已在JCR Q2或Q1分区期刊发表SCI论文3篇</li>
-                <li>招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）</li>
-                <li>具有良好的英语听说读写能力，通过大学英语四六级考试</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-                <li>拥有较强的自驱力、自制力、目标性和执行力</li>
-                <li>拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力</li>
-                <li>品德优良，拥有团队合作和互帮互助的精神</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>优先条件</strong></p>
-            <ul>
-                <li>具有独立的研究能力和一定的学术判断力</li>
-                <li>具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级550分以上、雅思7.0以上、托福90分以上</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+<!-- PostDoc -->
+{% capture postdoc_basic %}
+**基本条件（必须）**
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>博士研究生</strong></h5>
-        <h6 class="card-subtitle font-italic">4年全日制普博（毕业时获得港城大文凭和IANG签注）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Ph.D.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>基本条件（必须）</strong></p>
-            <ul>
-                <li>已在JCR Q2或Q1分区期刊发表SCI论文1-2篇</li>
-                <li>招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）</li>
-                <li>具有良好的英语听说读写能力，通过大学英语四六级考试</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-                <li>拥有较强的自驱力、自制力、目标性和执行力</li>
-                <li>拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力</li>
-                <li>品德优良，拥有团队合作和互帮互助的精神</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>优先条件</strong></p>
-            <ul>
-                <li>具有独立的研究能力和一定的学术判断力</li>
-                <li>具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级550分以上、雅思7.0以上、托福90分以上</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+- 已在JCR Q2或Q1分区期刊发表SCI论文**3**篇
+- 招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）
+- 具有良好的英语听说读写能力，通过大学英语四六级考试
+- 具有相对独立研究的能力，对科研兴趣浓厚
+- 拥有较强的自驱力、自制力、目标性和执行力
+- 拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力
+- 品德优良，拥有团队合作和互帮互助的精神
+{% endcapture %}
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>硕士研究生</strong></h5>
-        <h6 class="card-subtitle font-italic">2年全日制硕士（毕业时获得港城大文凭和IANG签注）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          M.Sc.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>基本条件（必须）</strong></p>
-            <ul>
-                <li>招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）</li>
-                <li>具有良好的英语听说读写能力，通过大学英语四六级考试</li>
-                <li>拥有较强的自驱力、自制力、目标性和执行力</li>
-                <li>拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力</li>
-                <li>品德优良，拥有团队合作和互帮互助的精神</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>优先条件</strong></p>
-            <ul>
-                <li>本科阶段有科研经历优先：发表或已投稿1篇SCI论文</li>
-                <li>具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级550分以上、雅思7.0以上、托福90分以上</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture postdoc_prefer %}
+**优先条件**
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>本科生</strong></h5>
-        <h6 class="card-subtitle font-italic">本科科研项目</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          B.Sc.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>基本条件（必须）</strong></p>
-            <ul>
-                <li>招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）</li>
-                <li>具有良好的英语听说读写能力，通过大学英语四六级考试</li>
-                <li>拥有较强的自驱力、自制力、目标性和执行力</li>
-                <li>拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力</li>
-                <li>品德优良，拥有团队合作和互帮互助的精神</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>优先条件</strong></p>
-            <ul>
-                <li>具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级550分以上、雅思7.0以上、托福90分以上</li>
-                <li>具有相对独立研究的能力，对科研兴趣浓厚</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+- 具有独立的研究能力和一定的学术判断力
+- 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
+- 具有相对独立研究的能力，对科研兴趣浓厚
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="博士后研究员" 
+   subtitle="2年固定期限合同" 
+   badge="Post-Doc" 
+   description1=postdoc_basic
+   description2=postdoc_prefer
+%}
+
+<!-- PhD -->
+{% capture phd_basic %}
+**基本条件（必须）**
+
+- 已在JCR Q2或Q1分区期刊发表SCI论文**1-2**篇
+- 招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）
+- 具有相对独立研究的能力，对科研兴趣浓厚
+- 拥有较强的自驱力、自制力、目标性和执行力
+- 拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力
+- 品德优良，拥有团队合作和互帮互助的精神
+{% endcapture %}
+
+{% capture phd_prefer %}
+**优先条件**
+
+- 具有独立的研究能力和一定的学术判断力
+- 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
+- 具有相对独立研究的能力，对科研兴趣浓厚
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="博士研究生" 
+   subtitle="4年全日制普博（毕业时获得港城大文凭和IANG签注）" 
+   badge="Ph.D." 
+   description1=phd_basic
+   description2=phd_prefer
+%}
+
+<!-- MSc -->
+{% capture msc_basic %}
+**基本条件（必须）**
+
+- 招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）
+- 具有良好的英语听说读写能力，通过大学英语四六级考试
+- 拥有较强的自驱力、自制力、目标性和执行力
+- 拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力
+- 品德优良，拥有团队合作和互帮互助的精神
+{% endcapture %}
+
+{% capture msc_prefer %}
+**优先条件**
+
+- 本科阶段有**科研经历**优先：发表或已投稿**1**篇SCI论文
+- 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
+- 具有相对独立研究的能力，对科研兴趣浓厚
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="硕士研究生" 
+   subtitle="2年全日制硕士（毕业时获得港城大文凭和IANG签注）" 
+   badge="M.Sc." 
+   description1=msc_basic
+   description2=msc_prefer
+%}
+
+<!-- BSc -->
+{% capture bsc_basic %}
+**基本条件（必须）**
+
+- 招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）
+- 具有良好的英语听说读写能力，通过大学英语四六级考试
+- 拥有较强的自驱力、自制力、目标性和执行力
+- 拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力
+- 品德优良，拥有团队合作和互帮互助的精神
+{% endcapture %}
+
+{% capture bsc_prefer %}
+**优先条件**
+
+- 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
+- 具有相对独立研究的能力，对科研兴趣浓厚
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="本科生" 
+   subtitle="本科科研项目" 
+   badge="B.Sc." 
+   description1=bsc_basic
+   description2=bsc_prefer
+%}

@@ -15,165 +15,115 @@ Application system for M.Sc. and Ph.D. candaites can be accessed [here](https://
 
 <br>
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>post-doctoral fellows</strong></h5>
-        <h6 class="card-subtitle font-italic">2-year fixed-term contract</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Post-Doc
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>Basic conditions</strong></p>
-            <ul>
-                <li>Candidates should have published 3 SCI papers in journals ranked in JCR Q1 or Q2.</li>
-                <li>Candidates should major in one of these disciplines: Optics, Microelectronics, Physics, Electronic Information Science and Technology, Computer Science and Technology (with a focus on applied physics).</li>
-                <li>Candidates must be proficient in English listening, speaking, reading, and writing, and have passed the CET-4 and CET-6 exams.</li>
-                <li>Candidates should possess the capability for relatively independent research and have a strong interest in scientific research.</li>
-                <li>Candidates should exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.</li>
-                <li>Candidates should have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.</li>
-                <li>Candidates should demonstrate strong moral character with a spirit of teamwork and mutual support.</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>Preferred conditions</strong></p>
-            <ul>
-                <li>Candidates should have independent research capabilities and a certain level of academic judgment/grasp.</li>
-                <li>Candidates must demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of 550 or above, IELTS score of 7.0 or above, TOEFL score of 90 or above.</li>
-                <li>Candidates should have the ability to conduct relatively independent research and possess a strong interest in scientific research.</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+<!-- PostDoc -->
+{% capture postdoc_basic %}
+**Basic conditions**
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>doctoral students</strong></h5>
-        <h6 class="card-subtitle font-italic">4-year full-time regular Ph.D. programme with CityUHK diploma and IANG visa</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Ph.D.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>Basic conditions</strong></p>
-            <ul>
-                <li>Candidates should have published 1-2 SCI papers in journals ranked in JCR Q1 or Q2.</li>
-                <li>Candidates should major in one of these disciplines: Optics, Microelectronics, Physics, Electronic Information Science and Technology, Computer Science and Technology (with a focus on applied physics).</li>
-                <li>Candidates must be proficient in English listening, speaking, reading, and writing, and have passed the CET-4 and CET-6 exams.</li>
-                <li>Candidates should possess the capability for relatively independent research and have a strong interest in scientific research.</li>
-                <li>Candidates should exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.</li>
-                <li>Candidates should have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.</li>
-                <li>Candidates should demonstrate strong moral character with a spirit of teamwork and mutual support.</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>Preferred conditions</strong></p>
-            <ul>
-                <li>Candidates should have independent research capabilities and a certain level of academic judgment/grasp.</li>
-                <li>Candidates must demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of 550 or above, IELTS score of 7.0 or above, TOEFL score of 90 or above.</li>
-                <li>Candidates should have the ability to conduct relatively independent research and possess a strong interest in scientific research.</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+- have published **3** SCI papers in journals ranked in JCR Q1 or Q2.
+- major in one of these disciplines: _Optics_, _Microelectronics_, _Physics_, _Electronic Information Science and Technology_, _Computer Science and Technology_ (with a focus on _applied physics_).
+- be proficient in English listening, speaking, reading, and writing, and have **passed** the CET-4 and CET-6 exams.
+- possess the capability for relatively independent research and have a strong interest in scientific research.
+- exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.
+- have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.
+- demonstrate strong moral character with a spirit of teamwork and mutual support.
+{% endcapture %}
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>master's students</strong></h5>
-        <h6 class="card-subtitle font-italic">2-year full-time programme with CityUHK diploma and IANG visa</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          M.Sc.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>Basic conditions</strong></p>
-            <ul>
-                <li>Candidates should major in one of these disciplines: Optics, Microelectronics, Physics, Electronic Information Science and Technology, Computer Science and Technology (with a focus on applied physics)</li>
-                <li>Candidates must be proficient in English listening, speaking, reading, and writing, and have passed the CET-4 and CET-6 exams.</li>
-                <li>Candidates should possess strong self-motivation, self-discipline, goal-oriented thinking, and execution capabilities.</li>
-                <li>Candidates should have a solid foundation in physics, mathematics, and optics, along with basic computer programming skills and hands-on skills.</li>
-                <li>Candidates should demonstrate strong moral character and possess a spirit of teamwork and mutual support.</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>Preferred conditions</strong></p>
-            <ul>
-                <li>Preference will be given to candidates with undergraduate research experience, particularly those who have published or submitted at least one SCI paper.</li>
-                <li>Candidates must demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of 550 or above, IELTS score of 7.0 or above, TOEFL score of 90 or above.</li>
-                <li>Candidates should have the ability to conduct relatively independent research and possess a strong interest in scientific research.</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture postdoc_prefer %}
+**Preferred conditions**
 
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>bachelor's students</strong></h5>
-        <h6 class="card-subtitle font-italic">lab research programme</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          B.Sc.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-6">
-            <p><strong>Basic conditions</strong></p>
-            <ul>
-                <li>Candidates should major in one of these disciplines: Optics, Microelectronics, Physics, Electronic Information Science and Technology, Computer Science and Technology (with a focus on applied physics)</li>
-                <li>Candidates must be proficient in English listening, speaking, reading, and writing, and have passed the CET-4 and CET-6 exams.</li>
-                <li>Candidates should possess strong self-motivation, self-discipline, goal-oriented thinking, and execution capabilities.</li>
-                <li>Candidates should have a solid foundation in physics, mathematics, and optics, along with basic computer programming skills and hands-on skills.</li>
-                <li>Candidates should demonstrate strong moral character and possess a spirit of teamwork and mutual support.</li>
-            </ul>
-          </div>
-          <div class="col-sm-6">
-            <p><strong>Preferred conditions</strong></p>
-            <ul>
-                <li>Candidates must demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of 550 or above, IELTS score of 7.0 or above, TOEFL score of 90 or above.</li>
-                <li>Candidates should have the ability to conduct relatively independent research and possess a strong interest in scientific research.</li>
-            </ul>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+- have independent research capabilities and a certain level of academic judgment/grasp.
+- demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of **550** or above, IELTS score of **7.0** or above, TOEFL score of **90** or above.
+- have the ability to conduct relatively independent research and possess a strong interest in scientific research.
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="post-doctoral fellows" 
+   subtitle="2-year fixed-term contract" 
+   badge="Post-Doc" 
+   description1=postdoc_basic
+   description2=postdoc_prefer
+%}
+
+<!-- PhD -->
+{% capture phd_basic %}
+**Basic conditions**
+
+- have published **1-2** SCI papers in journals ranked in JCR Q1 or Q2.
+- major in one of these disciplines: _Optics_, _Microelectronics_, _Physics_, _Electronic Information Science and Technology_, _Computer Science and Technology_ (with a focus on _applied physics_).
+- be proficient in English listening, speaking, reading, and writing, and have **passed** the CET-4 and CET-6 exams.
+- possess the capability for relatively independent research and have a strong interest in scientific research.
+- exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.
+- have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.
+- demonstrate strong moral character with a spirit of teamwork and mutual support.
+{% endcapture %}
+
+{% capture phd_prefer %}
+**Preferred conditions**
+
+- have independent research capabilities and a certain level of academic judgment/grasp.
+- demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of **550** or above, IELTS score of **7.0** or above, TOEFL score of **90** or above.
+- have the ability to conduct relatively independent research and possess a strong interest in scientific research.
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="doctoral students" 
+   subtitle="4-year full-time regular Ph.D. programme with CityUHK diploma and IANG visa" 
+   badge="Ph.D." 
+   description1=phd_basic
+   description2=phd_prefer
+%}
+
+<!-- MSc -->
+{% capture msc_basic %}
+**Basic conditions**
+
+- major in one of these disciplines: _Optics_, _Microelectronics_, _Physics_, _Electronic Information Science and Technology_, _Computer Science and Technology_ (with a focus on _applied physics_).
+- be proficient in English listening, speaking, reading, and writing, and have **passed** the CET-4 and CET-6 exams.
+- possess the capability for relatively independent research and have a strong interest in scientific research.
+- exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.
+- have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.
+- demonstrate strong moral character with a spirit of teamwork and mutual support.
+{% endcapture %}
+
+{% capture msc_prefer %}
+**Preferred conditions**
+
+- have **undergraduate research experience**, particularly those who have published or submitted at least **1** SCI paper.
+- demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of **550** or above, IELTS score of **7.0** or above, TOEFL score of **90** or above.
+- have the ability to conduct relatively independent research and possess a strong interest in scientific research.
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="master's students" 
+   subtitle="2-year full-time programme with CityUHK diploma and IANG visa" 
+   badge="M.Sc." 
+   description1=msc_basic
+   description2=msc_prefer
+%}
+
+<!-- BSc -->
+{% capture bsc_basic %}
+**Basic conditions**
+
+- major in one of these disciplines: _Optics_, _Microelectronics_, _Physics_, _Electronic Information Science and Technology_, _Computer Science and Technology_ (with a focus on _applied physics_).
+- be proficient in English listening, speaking, reading, and writing, and have **passed** the CET-4 and CET-6 exams.
+- possess the capability for relatively independent research and have a strong interest in scientific research.
+- exhibit strong self-motivation, self-discipline, goal orientation, and execution skills.
+- have a solid background in physics, mathematics, and optics, along with some computer programming skills and hands-on skills.
+- demonstrate strong moral character with a spirit of teamwork and mutual support.
+{% endcapture %}
+
+{% capture bsc_prefer %}
+**Preferred conditions**
+
+- demonstrate excellent English proficiency in listening, speaking, reading, and writing, meeting at least one of the following criteria: CET-6 score of **550** or above, IELTS score of **7.0** or above, TOEFL score of **90** or above.
+- have the ability to conduct relatively independent research and possess a strong interest in scientific research.
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="bachelor's students" 
+   subtitle="lab research programme" 
+   badge="B.Sc." 
+   description1=bsc_basic
+   description2=bsc_prefer
+%}

@@ -3,7 +3,7 @@ page_id: services
 layout: page
 permalink: /services/
 title: 教研服务
-description: 课程教学、讲座、同行评议及编辑服务
+description: <a href='/services/#教学课程'>课程教学、讲座</a>、<a href='/services/#同行评议'>同行评议</a>及编辑服务
 nav: true
 nav_order: 4
 ---
@@ -15,528 +15,296 @@ nav_order: 4
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
 <!-- abc -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="abc" class="card-title">课程待分配，占位标签</h5>
-        <h6 class="card-subtitle font-italic">教师（时间待定）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          abc
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>X 学分硕士课程。任课：吴嘉野 助理教授</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="课程待分配，占位标签" 
+   subtitle="教师（时间待定）" 
+   badge="abc" 
+   description1="X 学分硕士课程。任课：吴嘉野 助理教授"
+   description2=""
+%}
 
 <br>
 
-<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.5em; "></a></h3>
+<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="ee440" class="card-title"><a href="https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440">光子学系统与技术</a></h5>
-        <h6 class="card-subtitle font-italic">教学助理（2022 及 2024 春学期）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          EE-440
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>4 ECTS 学分硕士课程。任课：Camille-Sophie Brès 副教授</p>
-          </div>
-          <div class="col-sm-3">
-            <a href="https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440">课程介绍</a>&nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture EE440_coursebook %}
+[课程介绍](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="光子学系统与技术" 
+   subtitle="教学助理（2022 及 2024 春学期）" 
+   badge="EE-440" 
+   description1="4 ECTS 学分硕士课程。任课：Camille-Sophie Brès 副教授"
+   description2=EE440_coursebook
+%}
 
 <!-- BIOENG-445 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="bioeng445" class="card-title"><a href="https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445">生物医学光学</a></h5>
-        <h6 class="card-subtitle font-italic">教学助理（2022 及 2023 秋学期）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          BIOENG-445
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 ECTS 学分硕士课程。任课：Georges Wagnières 博士</p>
-          </div>
-          <div class="col-sm-3">
-            <a href="https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445">课程介绍</a>&nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture BIOENG445_coursebook %}
+[课程介绍](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="生物医学光学" 
+   subtitle="教学助理（2022 及 2023 秋学期）" 
+   badge="BIOENG-445" 
+   description1="3 ECTS 学分硕士课程。任课：Georges Wagnières 博士"
+   description2=BIOENG445_coursebook
+%}
 
 <br>
 
 <h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/university_logos/PKU.png" style="height: 2em; "></a></h3>
 
 <!-- 04711202 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="04711202" class="card-title">光纤通信</h5>
-        <h6 class="card-subtitle font-italic">教学助理（2019 春学期）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          04711202
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 学分硕士课程。任课：李倩 副教授</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="光纤通信" 
+   subtitle="教学助理（2019 春学期）" 
+   badge="04711202" 
+   description1="3 学分硕士课程。任课：李倩 副教授"
+   description2=""
+%}
 
 <!-- 04711182 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="04711182" class="card-title">光电子学</h5>
-        <h6 class="card-subtitle font-italic">教学助理（2018 秋学期）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          04711182
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 学分硕士课程。任课：李倩 副教授</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="光电子学" 
+   subtitle="教学助理（2018 秋学期）" 
+   badge="04711182" 
+   description1="3 学分硕士课程。任课：李倩 副教授"
+   description2=""
+%}
 
 <br>
 
 <h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/university_logos/SCNU.png" style="height: 2em; "></a></h3>
 
 <!-- 41E42780 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="41E42780" class="card-title">高级英语</h5>
-        <h6 class="card-subtitle font-italic">教学助理（2015 春学期）</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          41E42780
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>2 学分本科课程。任课：George Mckibbens 老师</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="高级英语" 
+   subtitle="教学助理（2015 春学期）" 
+   badge="41E42780" 
+   description1="2 学分本科课程。任课：George Mckibbens 老师"
+   description2=""
+%}
 
 <br>
 
 ## 同行评议
 
 <!--Springer-Nature -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>施普林格-自然</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Springer-Nature
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Nature (co-review)</p>
-            <p>Nature Nanotechnology (co-review)</p>
-            <p>Nature Communications (co-review)</p>
-            <p>Light: Science & Applications (co-review)</p>
-            <p>Communications Physics</p>
-            <p>Optical and Quantum Electronics</p>
-            <p>Scientific Reports</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Nature</p>
-            <p>Nat. Nanotechnol.</p>
-            <p>Nat. Commun.</p>
-            <p>Light Sci. Appl.</p>
-            <p>Commun. Phys.</p>
-            <p>Opt. Quantum Electron.</p>
-            <p>Sci. Rep.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture SNL %}
+_Nature (co-review)_<br>
+_Nature Nanotechnology_ (co-review)<br>
+_Nature Communications_ (co-review)<br>
+_Light: Science & Applications_ (co-review)<br>
+_Communications Physics_<br>
+_Optical and Quantum Electronics_<br>
+_Scientific Reports_<br>
+{% endcapture %}
+
+{% capture SNR %}
+Nature<br>
+Nat. Nanotechnol.<br>
+Nat. Commun.<br>
+Light Sci. Appl.<br>
+Commun. Phys.<br>
+Opt. Quantum Electron.<br>
+Sci. Rep.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="施普林格-自然" 
+   subtitle="审稿人" 
+   badge="Springer-Nature" 
+   description1=SNL
+   description2=SNR
+%}
 
 <!--SPIE -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>SPIE国际光学工程学会 x 中国激光杂志社</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          SPIE x CLP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Advanced Photonics</p>
-            <p>Advanced Photonics Nexus</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Adv. Photonics</p>
-            <p>Adv. Photonics Nexus</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture SPIEL %}
+_Advanced Photonics_<br>
+_Advanced Photonics Nexus_<br>
+{% endcapture %}
+
+{% capture SPIER %}
+Adv. Photonics<br>
+Adv. Photonics Nexus<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="SPIE国际光学工程学会 x 中国激光杂志社" 
+   subtitle="审稿人" 
+   badge="SPIE x CLP" 
+   description1=SPIEL
+   description2=SPIER
+%}
 
 <!--Wiley -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Wiley威立</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Wiley
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Advanced Functional Materials</p>
-            <p>Laser & Photonics Reviews</p>
-            <p>Advanced Photonics Research</p>
-            <p>Annalen der Physik</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Adv. Funct. Mater.</p>
-            <p>Laser Photon. Rev.</p>
-            <p>Adv. Photonics Res.</p>
-            <p>Ann. Phys.-Berlin</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture WL %}
+_Advanced Functional Materials_<br>
+_Laser & Photonics Reviews_<br>
+_Advanced Photonics Research_<br>
+_Annalen der Physik_<br>
+{% endcapture %}
+
+{% capture WR %}
+Adv. Funct. Mater.<br>
+Laser Photon. Rev.<br>
+Adv. Photonics Res.<br>
+Ann. Phys.-Berlin<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Wiley威立" 
+   subtitle="审稿人" 
+   badge="Wiley" 
+   description1=WL
+   description2=WR
+%}
 
 <!--ACS -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>美国化学学会</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          ACS
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>ACS Photonics</p>
-          </div>
-          <div class="col-sm-3">
-            <p>ACS Photonics</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture ACSL %}
+_ACS Photonics_<br>
+{% endcapture %}
+
+{% capture ACSR %}
+ACS Photonics<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="美国化学学会" 
+   subtitle="审稿人" 
+   badge="ACS" 
+   description1=ACSL
+   description2=ACSR
+%}
 
 <!--Optica Publishing Group -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Optica出版集团（原美国光学学会OSA）</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          OPTICA
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Optics Letters</p>
-            <p>Optics Express</p>
-            <p>Optical Materials Express</p>
-            <p>Jouranl of the Optical Society of America B</p>
-            <p>Applied Optics</p>
-            <p>OSA Continuum (Optics Continuum)</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Opt. Lett.</p>
-            <p>Opt. Express</p>
-            <p>Opt. Mater. Express</p>
-            <p>J. Opt. Soc. Am. B</p>
-            <p>Appl. Opt.</p>
-            <p>OSA Contin. (Opt. Contin.)</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture OSAL %}
+_Optics Letters_<br>
+_Optics Express_<br>
+_Optical Materials Express_<br>
+_Journal of the Optical Society of America B_<br>
+_Applied Optics_<br>
+_OSA Continuum (Optics Continuum)_<br>
+{% endcapture %}
+
+{% capture OSAR %}
+Opt. Lett.<br>
+Opt. Express<br>
+Opt. Mater. Express<br>
+J. Opt. Soc. Am. B<br>
+Appl. Opt.<br>
+OSA Contin. (Opt. Contin.)<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Optica出版集团（原美国光学学会OSA）" 
+   subtitle="审稿人" 
+   badge="OPTICA" 
+   description1=OSAL
+   description2=OSAR
+%}
 
 <!--Institute of Physics -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>英国物理学会</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          IOP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Journal of Physics: Photonics</p>
-            <p>Journal of Optics</p>
-            <p>Physica Scripta</p>
-          </div>
-          <div class="col-sm-3">
-            <p>J. Phys. Photonics</p>
-            <p>J. Opt.</p>
-            <p>Phys. Scr.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture IOPL %}
+_Journal of Physics: Photonics_<br>
+_Journal of Optics_<br>
+_Physica Scripta_<br>
+{% endcapture %}
+
+{% capture IOPR %}
+J. Phys. Photonics<br>
+J. Opt.<br>
+Phys. Scr.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="英国物理学会" 
+   subtitle="审稿人" 
+   badge="IOP" 
+   description1=IOPL
+   description2=IOPR
+%}
 
 <!--Elsevier -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>爱思唯尔</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Elsevier
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Optics & Laser Technology</p>
-            <p>Results in Physics</p>
-            <p>Surface & Coatings Technology</p>
-            <p>Thin Solid Films</p>
-            <p>Chinese Journal of Physics</p>
-            <p>Optics Communications</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Opt. Laser Technol.</p>
-            <p>Results Phys.</p>
-            <p>Surf. Coat. Technol.</p>
-            <p>Thin Solid Films</p>
-            <p>Chin. J. Phys.</p>
-            <p>Opt. Commun.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture EL %}
+_Optics & Laser Technology_<br>
+_Results in Physics_<br>
+_Surface & Coatings Technology_<br>
+_Thin Solid Films_<br>
+_Chinese Journal of Physics_<br>
+_Optics Communications_<br>
+{% endcapture %}
+
+{% capture ER %}
+Opt. Laser Technol.<br>
+Results Phys.<br>
+Surf. Coat. Technol.<br>
+Thin Solid Films<br>
+Chin. J. Phys.<br>
+Opt. Commun.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="爱思唯尔" 
+   subtitle="审稿人" 
+   badge="Elsevier" 
+   description1=EL
+   description2=ER
+%}
 
 <!--American Institute of Physics -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>美国物理学会</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          AIP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Applied Physics Letters</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Appl. Phys. Lett.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture AIPL %}
+_Applied Physics Letters_<br>
+{% endcapture %}
+
+{% capture AIPR %}
+Appl. Phys. Lett.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="美国物理学会" 
+   subtitle="审稿人" 
+   badge="AIP" 
+   description1=AIPL
+   description2=AIPR
+%}
 
 <!--Chinese Physical Society -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>中国物理学会</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          CPS
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Acta Physica Sinica</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Acta. Phys. Sin.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture CPSL %}
+_Acta Physica Sinica_<br>
+{% endcapture %}
+
+{% capture CPSR %}
+Acta. Phys. Sin.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="中国物理学会" 
+   subtitle="审稿人" 
+   badge="CPS" 
+   description1=CPSL
+   description2=CPSR
+%}
 
 <!--Multidisciplinary Digital Publishing Institute -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>曼迪匹艾</strong></h5>
-        <h6 class="card-subtitle font-italic">审稿人</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          MDPI
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Sensors</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Sensors</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture MDPIL %}
+_Sensors_<br>
+{% endcapture %}
+
+{% capture MDPIR %}
+Sensors<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="曼迪匹艾" 
+   subtitle="审稿人" 
+   badge="MDPI" 
+   description1=MDPIL
+   description2=MDPIR
+%}
 
 <!-- Separation before Giscus comments -->
 <br>
