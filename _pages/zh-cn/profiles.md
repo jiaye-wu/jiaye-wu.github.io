@@ -15,10 +15,10 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>XX楼</p>
-      <p>香港城市大学（东莞）</p>
-      <p>松山湖高新技术产业开发区</p>
-      <p>广东省东莞市松山湖高雄路8号</p>
+      <p>信息楼</p>
+      <p>清华大学 深圳国际研究生院</p>
+      <p>南山区西丽大学城清华园区</p>
+      <p>广东省深圳市丽水路2279号</p>
   - align: left
     # image: prof_pic.jpg
     content: about_lab_members.md

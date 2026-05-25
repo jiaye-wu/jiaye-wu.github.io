@@ -8,13 +8,15 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> 本校/校园
+## <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> 本校/校园
 
 ---
 
-[香港城市大学（东莞）](https://www.cityu-dg.edu.cn/zh/home.html)
+[清华大学](https://www.tsinghua.edu.cn/)
 
-[香港城市大学](https://www.cityu.edu.hk/zh-cn)
+[深圳国际研究生院（STI）](https://sigs.tsinghua.edu.cn/)
+
+[数据与信息研究院（IEM）](https://www.sigs.tsinghua.edu.cn/7696/list.htm)
 
 ## 友情链接（合作实验室/课题组网站）
 

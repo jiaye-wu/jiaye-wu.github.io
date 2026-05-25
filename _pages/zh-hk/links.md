@@ -8,13 +8,15 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> 本校/校園
+## <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> 本校/校園
 
 ---
 
-[香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html)
+[清華大學](https://www.tsinghua.edu.cn/)
 
-[香港城市大學](https://www.cityu.edu.hk/zh-hk)
+[深圳國際研究生院（STI）](https://sigs.tsinghua.edu.cn/)
+
+[數據與信息研究院（IEM）](https://www.sigs.tsinghua.edu.cn/7696/list.htm)
 
 ## 友情鏈接（合作實驗室/課題組網站）
 

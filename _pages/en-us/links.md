@@ -8,13 +8,15 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; ">  university/campus
+## <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; ">  university/campus
 
 ---
 
-[City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html)
+[Tsinghua University](https://www.tsinghua.edu.cn/en/)
 
-[City University of Hong Kong](https://www.cityu.edu.hk/en)
+[Shenzhen International Graduate School (SIGS)](https://sigs.tsinghua.edu.cn/en/)
+
+[Institute of Data and Information (iDI)](https://www.sigs.tsinghua.edu.cn/en/7544/list.htm)
 
 ## partner links (partner labs)
 

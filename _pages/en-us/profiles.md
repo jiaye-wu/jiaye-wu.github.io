@@ -15,10 +15,10 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>XX Building</p>
-      <p>CityU Hong Kong (Dongguan)</p>
-      <p>Gaoxiong Rd. 8, Songshan Lake</p>
-      <p>Dongguan 523808, China</p>
+      <p>Information Building</p>
+      <p>SIGS, Tsinghua University</p>
+      <p>Tsinghua Campus, Xili Univ. Town</p>
+      <p>Shenzhen 518055, Guangdong, China</p>
   - align: left
     # image: prof_pic.jpg
     content: about_lab_members.md

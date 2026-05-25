@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 主頁
 permalink: /
-subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大學（東莞）</a> <a href='https://www.cityu-dg.edu.cn/zh/home.html'>電機與電子工程（EEE） </a>先進集成波導納米光子學實驗室（ALIGN）
+subtitle: <a href='https://www.tsinghua.edu.cn/'>清華大學</a> <a href='https://sigs.tsinghua.edu.cn/'>深圳國際研究生院（SIGS）</a><a href='https://www.sigs.tsinghua.edu.cn/7696/list.htm'>數據與信息研究院（iDI）</a>先進集成波導納米光子學實驗室（ALIGN）
 
 profile:
   align: right
@@ -11,8 +11,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>吳嘉野 助理教授 博士生導師</p>
-    <p>香港城市大學（東莞）</p>
-    <p>電機與電子工程（EEE）</p>
+    <p>清華大學 深圳國際研究生院</p>
+    <p>數據與信息研究院</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,12 +37,12 @@ scholar:
 
 ## 實驗室簡介
 
-<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程（EEE） **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺上線性與非線性光與物質相互作用的研究。
+<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清華大學](https://www.tsinghua.edu.cn/) 深圳國際研究生院 數據與信息研究院 **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺的線性與非線性光與物質相互作用的研究。
 
 **研究方向：**超快光與物質相互作用、近零介電常數和近零折射光學、光纖光學、光纖激光器、光波導網絡設計、功能性光學薄膜和超材料設計、非厄米光學、集成光子學、先進半導體光學材料等。
 
-**歡迎以下方向學者聯繫合作：** 半導體微納光學器件的多學科交叉、電光集成、光學相關MEMS、光學片上實驗室、生物光子學、光計算、智能光子學設計和麵向人工智能的光子學。
+**歡迎以下方向學者聯繫合作：** 半導體微納光學器件的多學科交叉、電光集成、光學相關MEMS、光學片上實驗室、生物光子學、光計算、智能光子學設計和面向人工智能的光子學。
 
 **基金支持：**
 
-[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/CityUHK-DG-Small.png" style="height: 4em; ">](https://www.cityu-dg.edu.cn/zh/home.html)
+[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/THU-Alt.png" style="height: 4em; ">](https://www.tsinghua.edu.cn/)
