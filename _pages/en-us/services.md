@@ -3,7 +3,7 @@ page_id: services
 layout: page
 permalink: /services/
 title: services
-description: courses, lectures, peer reviews, and editorial services.
+description: <a href='/services/#teaching'>courses, lectures</a>, <a href='/services/#peer-review'>peer reviews</a>, and editorial services.
 nav: true
 nav_order: 4
 ---
@@ -15,528 +15,296 @@ nav_order: 4
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
 <!-- abc -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="abc" class="card-title">Course to be assigned, place holder</h5>
-        <h6 class="card-subtitle font-italic">Teacher (TBD)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          abc
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>X Credits Master's level. Course taught by Assist. Prof. Jiaye Wu</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="Course to be assigned, place holder" 
+   subtitle="Teacher (TBD)" 
+   badge="abc" 
+   description1="X Credits Master's level. Course taught by Assist. Prof. Jiaye Wu"
+   description2=""
+%}
 
 <br>
 
-<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL.png" style="height: 1.5em; "></a></h3>
+<h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="ee440" class="card-title"><a href="https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440">Photonic Systems & Technology</a></h5>
-        <h6 class="card-subtitle font-italic">Teaching Assistant (Spring 2022 & Spring 2024)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          EE-440
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>4 ECTS Master's level. Course taught by Assoc. Prof. Camille-Sophie Brès</p>
-          </div>
-          <div class="col-sm-3">
-            <a href="https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440">Coursebook</a>&nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture EE440_coursebook %}
+[Coursebook](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Photonic Systems & Technology" 
+   subtitle="Teaching Assistant (Spring 2022 & Spring 2024)" 
+   badge="EE-440" 
+   description1="4 ECTS Master's level. Course taught by Assoc. Prof. Camille-Sophie Brès"
+   description2=EE440_coursebook
+%}
 
 <!-- BIOENG-445 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="bioeng445" class="card-title"><a href="https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445">Biomedical Optics</a></h5>
-        <h6 class="card-subtitle font-italic">Teaching Assistant (Autumn 2022 & Autumn 2023)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          BIOENG-445
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 ECTS Master's level. Course taught by Dr. Georges Wagnières</p>
-          </div>
-          <div class="col-sm-3">
-            <a href="https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445">Coursebook</a>&nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture BIOENG445_coursebook %}
+[Coursebook](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Biomedical Optics" 
+   subtitle="Teaching Assistant (Autumn 2022 & Autumn 2023)" 
+   badge="BIOENG-445" 
+   description1="3 ECTS Master's level. Course taught by Dr. Georges Wagnières"
+   description2=BIOENG445_coursebook
+%}
 
 <br>
 
 <h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/university_logos/PKU.png" style="height: 2em; "></a></h3>
 
 <!-- 04711202 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="04711202" class="card-title">Optical Fiber Communications</h5>
-        <h6 class="card-subtitle font-italic">Teaching Assistant (Spring 2019)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          04711202
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 Credits Master's level. Course taught by Assoc. Prof. Qian Li</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="Optical Fiber Communications" 
+   subtitle="Teaching Assistant (Spring 2019)" 
+   badge="04711202" 
+   description1="3 Credits Master's level. Course taught by Assoc. Prof. Qian Li"
+   description2=""
+%}
 
 <!-- 04711182 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="04711182" class="card-title">Photonics</h5>
-        <h6 class="card-subtitle font-italic">Teaching Assistant (Autumn 2018)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          04711182
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>3 Credits Master's level. Course taught by Assoc. Prof. Qian Li</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="Photonics" 
+   subtitle="Teaching Assistant (Autumn 2018)" 
+   badge="04711182" 
+   description1="3 Credits Master's level. Course taught by Assoc. Prof. Qian Li"
+   description2=""
+%}
 
 <br>
 
 <h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/university_logos/SCNU.png" style="height: 2em; "></a></h3>
 
 <!-- 41E42780 -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="41E42780" class="card-title">Advanced English</h5>
-        <h6 class="card-subtitle font-italic">Teaching Assistant (Spring 2015)</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          41E42780
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9">
-            <p>2 Credits Bachelor's level. Course taught by Mr. George Mckibbens</p>
-          </div>
-          <div class="col-sm-3">
-            &nbsp;
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% include info_card_service.liquid 
+   name="Advanced English" 
+   subtitle="Teaching Assistant (Spring 2015)" 
+   badge="41E42780" 
+   description1="2 Credits Bachelor's level. Course taught by Mr. George Mckibbens"
+   description2=""
+%}
 
 <br>
 
 ## peer review
 
 <!--Springer-Nature -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Springer-Nature</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Springer-Nature
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Nature (co-review)</p>
-            <p>Nature Nanotechnology (co-review)</p>
-            <p>Nature Communications (co-review)</p>
-            <p>Light: Science & Applications (co-review)</p>
-            <p>Communications Physics</p>
-            <p>Optical and Quantum Electronics</p>
-            <p>Scientific Reports</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Nature</p>
-            <p>Nat. Nanotechnol.</p>
-            <p>Nat. Commun.</p>
-            <p>Light Sci. Appl.</p>
-            <p>Commun. Phys.</p>
-            <p>Opt. Quantum Electron.</p>
-            <p>Sci. Rep.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture SNL %}
+_Nature (co-review)_<br>
+_Nature Nanotechnology_ (co-review)<br>
+_Nature Communications_ (co-review)<br>
+_Light: Science & Applications_ (co-review)<br>
+_Communications Physics_<br>
+_Optical and Quantum Electronics_<br>
+_Scientific Reports_<br>
+{% endcapture %}
+
+{% capture SNR %}
+Nature<br>
+Nat. Nanotechnol.<br>
+Nat. Commun.<br>
+Light Sci. Appl.<br>
+Commun. Phys.<br>
+Opt. Quantum Electron.<br>
+Sci. Rep.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Springer-Nature" 
+   subtitle="Peer Reviewer" 
+   badge="Springer-Nature" 
+   description1=SNL
+   description2=SNR
+%}
 
 <!--SPIE -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>The International Society for Optics and Photonics x Chinese Laser Press</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          SPIE x CLP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Advanced Photonics</p>
-            <p>Advanced Photonics Nexus</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Adv. Photonics</p>
-            <p>Adv. Photonics Nexus</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture SPIEL %}
+_Advanced Photonics_<br>
+_Advanced Photonics Nexus_<br>
+{% endcapture %}
+
+{% capture SPIER %}
+Adv. Photonics<br>
+Adv. Photonics Nexus<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="The International Society for Optics and Photonics x Chinese Laser Press" 
+   subtitle="Peer Reviewer" 
+   badge="SPIE x CLP" 
+   description1=SPIEL
+   description2=SPIER
+%}
 
 <!--Wiley -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Wiley-VCH</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Wiley
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Advanced Functional Materials</p>
-            <p>Laser & Photonics Reviews</p>
-            <p>Advanced Photonics Research</p>
-            <p>Annalen der Physik</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Adv. Funct. Mater.</p>
-            <p>Laser Photon. Rev.</p>
-            <p>Adv. Photonics Res.</p>
-            <p>Ann. Phys.-Berlin</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture WL %}
+_Advanced Functional Materials_<br>
+_Laser & Photonics Reviews_<br>
+_Advanced Photonics Research_<br>
+_Annalen der Physik_<br>
+{% endcapture %}
+
+{% capture WR %}
+Adv. Funct. Mater.<br>
+Laser Photon. Rev.<br>
+Adv. Photonics Res.<br>
+Ann. Phys.-Berlin<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Wiley-VCH" 
+   subtitle="Peer Reviewer" 
+   badge="Wiley" 
+   description1=WL
+   description2=WR
+%}
 
 <!--ACS -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>American Chemical Society</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          ACS
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>ACS Photonics</p>
-          </div>
-          <div class="col-sm-3">
-            <p>ACS Photonics</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture ACSL %}
+_ACS Photonics_<br>
+{% endcapture %}
+
+{% capture ACSR %}
+ACS Photonics<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="American Chemical Society" 
+   subtitle="Peer Reviewer" 
+   badge="ACS" 
+   description1=ACSL
+   description2=ACSR
+%}
 
 <!--Optica Publishing Group -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Optica Publishing Group</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          OPTICA
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Optics Letters</p>
-            <p>Optics Express</p>
-            <p>Optical Materials Express</p>
-            <p>Jouranl of the Optical Society of America B</p>
-            <p>Applied Optics</p>
-            <p>OSA Continuum (Optics Continuum)</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Opt. Lett.</p>
-            <p>Opt. Express</p>
-            <p>Opt. Mater. Express</p>
-            <p>J. Opt. Soc. Am. B</p>
-            <p>Appl. Opt.</p>
-            <p>OSA Contin. (Opt. Contin.)</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture OSAL %}
+_Optics Letters_<br>
+_Optics Express_<br>
+_Optical Materials Express_<br>
+_Journal of the Optical Society of America B_<br>
+_Applied Optics_<br>
+_OSA Continuum (Optics Continuum)_<br>
+{% endcapture %}
+
+{% capture OSAR %}
+Opt. Lett.<br>
+Opt. Express<br>
+Opt. Mater. Express<br>
+J. Opt. Soc. Am. B<br>
+Appl. Opt.<br>
+OSA Contin. (Opt. Contin.)<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Optica Publishing Group" 
+   subtitle="Peer Reviewer" 
+   badge="OPTICA" 
+   description1=OSAL
+   description2=OSAR
+%}
 
 <!--Institute of Physics -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Institute of Physics</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          IOP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Journal of Physics: Photonics</p>
-            <p>Journal of Optics</p>
-            <p>Physica Scripta</p>
-          </div>
-          <div class="col-sm-3">
-            <p>J. Phys. Photonics</p>
-            <p>J. Opt.</p>
-            <p>Phys. Scr.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture IOPL %}
+_Journal of Physics: Photonics_<br>
+_Journal of Optics_<br>
+_Physica Scripta_<br>
+{% endcapture %}
+
+{% capture IOPR %}
+J. Phys. Photonics<br>
+J. Opt.<br>
+Phys. Scr.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Institute of Physics" 
+   subtitle="Peer Reviewer" 
+   badge="IOP" 
+   description1=IOPL
+   description2=IOPR
+%}
 
 <!--Elsevier -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Elsevier BV</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          Elsevier
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Optics & Laser Technology</p>
-            <p>Results in Physics</p>
-            <p>Surface & Coatings Technology</p>
-            <p>Thin Solid Films</p>
-            <p>Chinese Journal of Physics</p>
-            <p>Optics Communications</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Opt. Laser Technol.</p>
-            <p>Results Phys.</p>
-            <p>Surf. Coat. Technol.</p>
-            <p>Thin Solid Films</p>
-            <p>Chin. J. Phys.</p>
-            <p>Opt. Commun.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture EL %}
+_Optics & Laser Technology_<br>
+_Results in Physics_<br>
+_Surface & Coatings Technology_<br>
+_Thin Solid Films_<br>
+_Chinese Journal of Physics_<br>
+_Optics Communications_<br>
+{% endcapture %}
+
+{% capture ER %}
+Opt. Laser Technol.<br>
+Results Phys.<br>
+Surf. Coat. Technol.<br>
+Thin Solid Films<br>
+Chin. J. Phys.<br>
+Opt. Commun.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Elsevier BV" 
+   subtitle="Peer Reviewer" 
+   badge="Elsevier" 
+   description1=EL
+   description2=ER
+%}
 
 <!--American Institute of Physics -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>American Institute of Physics</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          AIP
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Applied Physics Letters</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Appl. Phys. Lett.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture AIPL %}
+_Applied Physics Letters_<br>
+{% endcapture %}
+
+{% capture AIPR %}
+Appl. Phys. Lett.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="American Institute of Physics" 
+   subtitle="Peer Reviewer" 
+   badge="AIP" 
+   description1=AIPL
+   description2=AIPR
+%}
 
 <!--Chinese Physical Society -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Chinese Physical Society</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          CPS
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Acta Physica Sinica</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Acta. Phys. Sin.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture CPSL %}
+_Acta Physica Sinica_<br>
+{% endcapture %}
+
+{% capture CPSR %}
+Acta. Phys. Sin.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Chinese Physical Society" 
+   subtitle="Peer Reviewer" 
+   badge="CPS" 
+   description1=CPSL
+   description2=CPSR
+%}
 
 <!--Multidisciplinary Digital Publishing Institute -->
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="SN" class="card-title"><strong>Multidisciplinary Digital Publishing Institute</strong></h5>
-        <h6 class="card-subtitle font-italic">Peer Reviewer</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          MDPI
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-9 font-italic">
-            <p>Sensors</p>
-          </div>
-          <div class="col-sm-3">
-            <p>Sensors</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
+{% capture MDPIL %}
+_Sensors_<br>
+{% endcapture %}
+
+{% capture MDPIR %}
+Sensors<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Multidisciplinary Digital Publishing Institute" 
+   subtitle="Peer Reviewer" 
+   badge="MDPI" 
+   description1=MDPIL
+   description2=MDPIR
+%}
 
 <!-- Separation before Giscus comments -->
 <br>
