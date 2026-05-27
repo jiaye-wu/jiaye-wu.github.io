@@ -15,7 +15,7 @@ categories:
 thumbnail: assets/img/post_covers/ACSP.png
 ---
 
-[2025年3月刊](https://pubs.acs.org/toc/apchd5/12/3)的《ACS光子學》刊載了我們下列工作{% cite Wu2024d %}的**封面藝術圖**：
+[2025年3月刊](https://pubs.acs.org/toc/apchd5/12/3)的《ACS光子學》刊載了我們下列工作{% cite Wu2025 %}的**封面藝術圖**：
 
 - J. Wu\*, et al., "Intracavity Epsilon-Near-Zero Dual-Range Frequency Switch", _ACS Photonics_ **12**(3): 1276--1283, 2025.
 

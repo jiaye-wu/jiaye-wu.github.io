@@ -184,6 +184,7 @@ exclude:
   - Dockerfile
   - docker-compose.yml
   - docker-compose-slim.yml
+  - docker-compose-fast.yml
   - docker-image-backup.md
   - FAQ.md
   - FAQ.pt-br.md

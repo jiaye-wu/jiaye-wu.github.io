@@ -1,0 +1,14 @@
+# 极速版配置：带增量编译和强制轮询
+services:
+  jekyll:
+    image: amirpourmand/al-folio:v1.16.2
+    build: .
+    ports:
+      - 8080:8080
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development
+    # 强制覆盖启动命令：开启增量编译 (-I) 和 轮询 (--force_polling)
+    command: bundle exec jekyll serve --watch --port 8080 --host 0.0.0.0 --livereload --incremental --force_polling

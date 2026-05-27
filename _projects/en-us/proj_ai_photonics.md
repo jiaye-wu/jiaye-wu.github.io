@@ -1,24 +1,30 @@
 ---
 page_id: project_ai_photonics
 layout: page
-title: AI for photonics & photonics for AI
-description: optimization and design enpowered by algorithms
+title: AI for photonics design
+description: advancing photonic device development through algorithmic optimization and machine learning
 img: assets/img/project_covers/cover_ai.png
 importance: 1
 category: ongoing
 related_publications: true
 ---
 
-Photonics involves the manipulation of light to create advanced technologies for communication, sensing, and imaging. Traditionally, designing photonic components, such as waveguides, filters, and lasers, relied heavily on trial-and-error methods and expert intuition. However, with the advent of AI, these processes have become more efficient and streamlined. AI-driven tools enable generative design approaches, where the system autonomously explores a vast design space, producing innovative solutions that push the boundaries of traditional photonic design. As a result, the collaboration between AI and photonics is paving the way for the development of next-generation optical technologies, enhancing capabilities across various applications, for example, from telecommunications to medical diagnostics.
+## introduction
 
-<!-- (Note: this introductory information is summarized by GPT-4o) -->
+The field of photonics is undergoing a paradigm shift, moving from intuition-guided trial-and-error to automated, algorithm-driven design. Traditional methods for developing photonic components rely heavily on analytical models and brute-force parameter sweeps, which scale poorly as device complexity increases. By incorporating artificial intelligence and advanced optimization frameworks, we can navigate vast, high-dimensional design spaces that were previously inaccessible, discovering non-intuitive topologies with unprecedented performance.
 
-We are working in the following categories:
+This research direction focuses on the intersection of computational physics and machine learning. We develop and apply intelligent algorithms to automate the discovery of novel photonic functionalities, significantly shortening the development cycle from theoretical concepts to physical implementation.
 
-1. **algoritm-assisted photonic designs**: structural designs and optimizations (e.g., {% cite Wu2020d Wang2021 Huang2022%}).
-2. **inverse design**: novel design for optical signal processing and transformations.
-3. **machine learning with physical constraints**: computational photonics with faster speed and predictions.
-4. **non-von-Neumann architecture photonic computations**: photonic-enabled AI platforms (e.g., {% cite Wu2022 Wu2024c Wu2024d%}).
+## significance & applications
+
+Algorithmic design eliminates human bias in structural engineering, enabling the realization of ultra-compact, highly efficient, and multi-functional photonic chips. The potential applications span next-generation optical communications, integrated quantum information processing, high-density optical computing, and highly sensitive biochemical sensing, where optimal light-matter interaction within restricted footprints is critical.
+
+## research focus
+
+- **augmented algorithms:** integrating heuristic and gradient-based methods with statistical learning to accelerate convergence and escape local optima in complex landscape searches. (e.g., {% cite Wu2020d Wang2021 Huang2022%})
+- **photonic inverse design:** utilizing objective-first computational techniques to automatically map desired optical performance metrics directly into non-intuitive physical geometries.
+- **physics-informed neural networks:** embedding Maxwell's equations and physical boundary conditions into deep learning architectures to ensure mathematically rigorous and data-efficient predictions.
+- **AI-accelerated full-wave simulation:** developing surrogate models based on machine learning to predict complex electromagnetic fields with high accuracy while drastically reducing computational time.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-5 mt-3 mt-md-0">
@@ -29,7 +35,7 @@ We are working in the following categories:
     </div>
 </div>
 <div class="caption">
-    Algorithm-assited photonics and photonic-assisted logic computations.
+    Algorithm-assited photonics.
 </div>
 
 We are looking forward to new talent and fresh perspectives to join our endeavor.
