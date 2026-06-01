@@ -19,7 +19,7 @@ nav_order: 4
    name="Course to be assigned, place holder" 
    subtitle="Teacher (TBD)" 
    badge="xyz" 
-   description1="X Credits Master's level. Course taught by Assist. Prof. Jiaye Wu"
+   description1="X Credits Master's level. Course taught by Asst. Prof. Jiaye Wu"
    description2=""
 %}
 
