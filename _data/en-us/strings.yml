@@ -83,7 +83,7 @@ footer:
   copyright: "Copyright "
   last_updated: "Last updated:"
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  ALIGN, Institute of Data and Information (iDI), Shenzhen International Graduate School (SIGS), Tsinghua University, China.
+  ALIGN, City University of Hong Kong - Dongguan (CityUHK-DG), China.
 latest_posts: latest posts
 months:
   long:

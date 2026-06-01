@@ -8,9 +8,10 @@ nav: true
 nav_order: 6
 ---
 
-请将简历及个人陈述投递至导师[电子邮箱](mailto:jiayewu@sz.tsinghua.edu.cn)。<br>
+请将简历及个人陈述投递至导师[电子邮箱](mailto:jiaye_wu@outlook.com)。<br>
 我们欢迎来自中国大陆、港澳台地区，及海外的优秀青年学者及学生加盟实验室。<br>
-招生信息可见[官网](https://www.sigs.tsinghua.edu.cn/7631/list.htm)。
+招生信息可见[官网](https://www.cityu-dg.edu.cn/zh/admissions.html)。<br>
+[硕博招生申请系统](https://apply.cityu-dg.edu.cn/pg/a/login)
 
 <br>
 
@@ -33,12 +34,6 @@ nav_order: 6
 - 具有独立的研究能力和一定的学术判断力
 - 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
 - 具有相对独立研究的能力，对科研兴趣浓厚
-
----
-
-**清华大学“水木学者”计划**
-
-- 详见[清华大学“水木学者”计划官网](https://postdoctor.tsinghua.edu.cn/thu/index.htm)
 {% endcapture %}
 
 {% include info_card_position.liquid 
@@ -64,7 +59,6 @@ nav_order: 6
 {% capture phd_prefer %}
 **优先条件**
 
-- （直博生）本科阶段有**科研经历**优先：发表或已投稿**1**篇SCI论文
 - 具有独立的研究能力和一定的学术判断力
 - 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
 - 具有相对独立研究的能力，对科研兴趣浓厚
@@ -72,7 +66,7 @@ nav_order: 6
 
 {% include info_card_position.liquid 
    name="博士研究生" 
-   subtitle="4年全日制普博/5年全日制直博" 
+   subtitle="4年全日制普博（毕业时获得港城大文凭和IANG签注）" 
    badge="Ph.D." 
    description1=phd_basic
    description2=phd_prefer
@@ -99,8 +93,34 @@ nav_order: 6
 
 {% include info_card_position.liquid 
    name="硕士研究生" 
-   subtitle="3年全日制专业型硕士" 
-   badge="M.Eng." 
+   subtitle="2年全日制硕士（毕业时获得港城大文凭和IANG签注）" 
+   badge="M.Sc." 
    description1=msc_basic
    description2=msc_prefer
+%}
+
+<!-- BSc -->
+{% capture bsc_basic %}
+**基本条件（必须）**
+
+- 招生专业：光学、微电子学、物理学、电子信息科学与技术、计算机科学与技术（物理应用方向）
+- 具有良好的英语听说读写能力，通过大学英语四六级考试
+- 拥有较强的自驱力、自制力、目标性和执行力
+- 拥有扎实的物理、数学、光学基础，具有一定的计算机编程能力和动手能力
+- 品德优良，拥有团队合作和互帮互助的精神
+{% endcapture %}
+
+{% capture bsc_prefer %}
+**优先条件**
+
+- 具有优秀的英语听说读写能力，达到以下条件之一：大学英语六级**550**分以上、雅思**7.0**以上、托福**90**分以上
+- 具有相对独立研究的能力，对科研兴趣浓厚
+{% endcapture %}
+
+{% include info_card_position.liquid 
+   name="本科生" 
+   subtitle="本科科研项目" 
+   badge="B.Sc." 
+   description1=bsc_basic
+   description2=bsc_prefer
 %}

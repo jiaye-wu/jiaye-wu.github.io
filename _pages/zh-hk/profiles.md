@@ -15,10 +15,10 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>信息樓</p>
-      <p>清華大學 深圳國際研究生院</p>
-      <p>南山區西麗大學城清華園區</p>
-      <p>廣東省深圳市麗水路2279號</p>
+      <p>學術樓</p>
+      <p>香港城市大學（東莞）</p>
+      <p>松山湖高新技術產業開發區</p>
+      <p>廣東省東莞市松山湖高雄路8號</p>
   - align: left
     # image: prof_pic.jpg
     content: about_lab_members.md

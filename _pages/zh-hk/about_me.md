@@ -2,14 +2,12 @@
 
 **助理教授，博士生导师**
 
-博士，<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清華大學](https://www.tsinghua.edu.cn/) 深圳國際研究生院 數據與信息研究院 助理教授、博士生導師，深圳市孔雀計劃C類人才。現研究領域：光與物質相互作用、片上集成光子學、激光物理、非線性光學、納米光學、超材料、近零介電常數材料和非厄米光學材料的理論和實驗研究。已在國際期刊和會議上發表SCI/EI收錄論文50餘篇，以通訊作者及第一作者身份在 _Nature Communications_, _Laser & Photonics Reviews_ 等國際權威學術期刊上發表原創性期刊研究論文20餘篇，有國家發明專利獲得授權。長期擔任 _Laser & Photonics Reviews_, _Advanced Photonics_ 等國際頂尖學術期刊受邀審稿人；受邀或顧問擔任 _Nature_, _Light: Science & Applications_ 等期刊的共同審稿人。作為骨幹成員參與瑞士國家科學基金（SNSF）項目、瑞士創新署（Innosuisse）項目多項。
+博士，<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程（EEE） 助理教授、博士生導師。加入港城大（東莞）之前於<img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑聯邦理工大學（EPFL）](https://www.epfl.ch/)擔任博士後研究員（Collaborateur Scientifique）。現研究領域：光與物質相互作用、片上集成光子學、激光物理、非線性光學、納米光學、超材料、近零介電常數材料和非厄米光學材料的理論和實驗研究。已在國際期刊和會議上發表SCI/EI收錄論文50餘篇，以通訊作者及第一作者身份在 _Nature Communications_, _Laser & Photonics Reviews_ 等國際權威學術期刊上發表原創性期刊研究論文20餘篇，有國家發明專利獲得授權。長期擔任 _Laser & Photonics Reviews_, _Advanced Photonics_ 等國際頂尖學術期刊受邀審稿人；受邀或顧問擔任 _Nature_, _Light: Science & Applications_ 等期刊的共同審稿人。作為骨幹成員參與瑞士國家科學基金（SNSF）項目、瑞士創新署（Innosuisse）項目多項。
 <!-- 、中國國家自然科學基金面上項目多項。OPTICA光學學會（原美國光學學會）會員、電氣與電子工程師協會（IEEE）會員，國際知名權威學術出版集團<img src="/assets/img/post_covers/Elsevier.png" style="height: 1.1em; ">愛思唯爾顧問小組（Elsevier Advisory Panel）成員，曾任北京大學深圳研究生院<img src="/assets/img/post_covers/IPS.jpeg" style="height: 1.1em; ">IEEE Photonic Society學生分會創始主席、<img src="/assets/img/post_covers/OPTICA.png" style="height: 1.1em; ">OPTICA學生分會主席。 -->
 
 **工作經歷：**
 
-- 2027年-至今 <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清華大學](https://www.tsinghua.edu.cn/) 深圳國際研究生院 數據與信息研究院 助理教授
-
-- 2026年-2027年 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程 助理教授
+- 2026年-至今 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程 助理教授
 
 - 2025年-2026年 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑聯邦理工大學（EPFL）](https://www.epfl.ch/) 光子學系統實驗室 博士後研究員（Collaborateur Scientifique）
 

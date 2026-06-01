@@ -12,20 +12,7 @@ nav_order: 4
 
 <br>
 
-<h3 style="color: #660974;" id="tsinghua"><a href="https://sigs.tsinghua.edu.cn/en/"><img src="/assets/img/university_logos/THU-SIGS.png" style="height: 2em; "></a></h3>
-
-<!-- xyz -->
-{% include info_card_service.liquid 
-   name="Course to be assigned, place holder" 
-   subtitle="Teacher (TBD)" 
-   badge="xyz" 
-   description1="X Credits Master's level. Course taught by Assist. Prof. Jiaye Wu"
-   description2=""
-%}
-
-<br>
-
-<h3 style="color: #9f0d44;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/en/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
+<h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
 <!-- abc -->
 {% include info_card_service.liquid 
