@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-博客文章",
           title: "博客文章",
-          description: "個人學術博客空間",
+          description: "實驗室學術新聞與PI博客文章",
           section: "導航菜單",
           handler: () => {
             window.location.href = "/zh-hk/blog/";
@@ -47,6 +47,20 @@ ninja.data = [{
           section: "導航菜單",
           handler: () => {
             window.location.href = "/zh-hk/services/";
+          },
+        },{id: "nav-研究團隊",
+          title: "研究團隊",
+          description: "當前和過往實驗室成員列表",
+          section: "導航菜單",
+          handler: () => {
+            window.location.href = "/zh-hk/members/";
+          },
+        },{id: "nav-招生招聘",
+          title: "招生招聘",
+          description: "本實驗室長期招募各類領軍博士後學者和優秀學生",
+          section: "導航菜單",
+          handler: () => {
+            window.location.href = "/zh-hk/positions/";
           },
         },{id: "dropdown-新聞列表",
               title: "新聞列表",
@@ -479,33 +493,41 @@ ninja.data = [{
           section: "新聞",},{id: "news-擔任piers-2026學術會議分會場-session-組織-near-zero-index-photonics-physics-devices-and-applications-piers-2026-中國江蘇蘇州-分會場信息-共同組織者-北京大學-李倩-副教授",
           title: '擔任PIERS 2026學術會議分會場（Session）組織：”Near-Zero-Index Photonics: Physics, Devices, and Applications” PIERS 2026，中國江蘇蘇州 分會場信息 | 共同組織者：北京大學 李倩...',
           description: "",
-          section: "新聞",},{id: "projects-ai-輔助光子學及面向ai應用的光子學",
-          title: 'AI 輔助光子學及面向AI應用的光子學',
-          description: "算法驅動的優化與設計",
+          section: "新聞",},{id: "news-吳嘉野-博士-被任命為香港城市大學-東莞-助理教授",
+          title: '吳嘉野 博士 被任命為香港城市大學（東莞）助理教授',
+          description: "",
+          section: "新聞",},{id: "projects-算法驅動的光子學設計",
+          title: '算法驅動的光子學設計',
+          description: "利用先進算法與機器學習加速並優化光子器件開發",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_ai_photonics/";
-            },},{id: "projects-近零折射率非線性光學-微納光器件與片上集成",
-          title: '近零折射率非線性光學、微納光器件與片上集成',
-          description: "探索微納、非線性與集成光學的邊界",
+            },},{id: "projects-近零折射率光子學",
+          title: '近零折射率光子學',
+          description: "探索極低折射率介質中的電磁波傳播特性與光與物質相互作用",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_enz_photonics/";
-            },},{id: "projects-新型集成光子納米器件-芯片和光路",
-          title: '新型集成光子納米器件、芯片和光路',
-          description: "指尖尺度的非傳統光與物質相互作用",
+            },},{id: "projects-集成光器件與光芯片",
+          title: '集成光器件與光芯片',
+          description: "指尖尺度的非常規光與物質相互作用",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_integrated_optics/";
-            },},{id: "projects-非厄米拓撲互聯光路光網絡",
-          title: '非厄米拓撲互聯光路光網絡',
-          description: "來自量子力學的啟示",
+            },},{id: "projects-面向人工智能的光子學",
+          title: '面向人工智能的光子學',
+          description: "基於光計算架構開發高速度、低功耗的人工智能硬件加速器",
+          section: "課題",handler: () => {
+              window.location.href = "/zh-hk/projects/proj_photonic_computation/";
+            },},{id: "projects-互聯光波導網絡",
+          title: '互聯光波導網絡',
+          description: "構建宏觀人工超晶格，探索奇異光波傳播與拓撲光場調控",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_pt_topo/";
-            },},{id: "projects-無源輻射冷卻光子結構設計",
-          title: '無源輻射冷卻光子結構設計',
-          description: "用於能源和可持續性的納米光子設計",
+            },},{id: "projects-光子輻射製冷",
+          title: '光子輻射製冷',
+          description: "利用微納光子學實現可持續的被動熱管理",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_radiative_cooling/";
-            },},{id: "projects-非線性光纖中的頻譜和脈衝壓縮",
-          title: '非線性光纖中的頻譜和脈衝壓縮',
+            },},{id: "projects-非線性頻譜壓縮",
+          title: '非線性頻譜壓縮',
           description: "更短、更快、更亮、更強",
           section: "課題",handler: () => {
               window.location.href = "/zh-hk/projects/proj_spctral_compression/";
@@ -514,14 +536,14 @@ ninja.data = [{
         title: 'Work',
         section: '社交',
         handler: () => {
-          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+          window.open("https://rims.cityu-dg.edu.cn/en/persons/jiaye-wu/", "_blank");
         },
       },{
         id: 'social-email',
         title: '發郵件',
         section: '社交',
         handler: () => {
-          window.open("mailto:%6A%69%61%79%65.%77%75@%65%70%66%6C.%63%68", "_blank");
+          window.open("mailto:%6A%69%61%79%65_%77%75@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-orcid',

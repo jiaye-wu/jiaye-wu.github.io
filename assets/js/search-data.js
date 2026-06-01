@@ -22,7 +22,7 @@ ninja.data = [{
     },
   },{id: "nav-blog",
           title: "blog",
-          description: "academic and personal blog posts",
+          description: "lab&#39;s academic news and PI&#39;s blog posts",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/blog/";
@@ -36,7 +36,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "a collection of our systematic &amp; comprehensive research projects (themes).",
+          description: "a collection of our systematic &amp; comprehensive research directions.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/projects/";
@@ -47,6 +47,20 @@ ninja.data = [{
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/services/";
+          },
+        },{id: "nav-members",
+          title: "members",
+          description: "our current and previous lab members.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/members/";
+          },
+        },{id: "nav-positions",
+          title: "positions",
+          description: "information for joining our lab as post-doc or master/doctoral student.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/positions/";
           },
         },{id: "dropdown-news-feed",
               title: "news feed",
@@ -479,33 +493,41 @@ ninja.data = [{
           section: "News",},{id: "news-organize-conference-session-near-zero-index-photonics-physics-devices-and-applications-in-piers-2026-piers-2026-suzhou-china-session-details-co-organizer-prof-qian-li-peking-university",
           title: 'Organize conference session “Near-Zero-Index Photonics: Physics, Devices, and Applications” in PIERS 2026 PIERS...',
           description: "",
-          section: "News",},{id: "projects-ai-for-photonics-amp-photonics-for-ai",
-          title: 'AI for photonics &amp;amp; photonics for AI',
-          description: "optimization and design enpowered by algorithms",
+          section: "News",},{id: "news-dr-jiaye-wu-is-appointed-assistant-professor-at-city-university-of-hong-kong-dongguan",
+          title: 'Dr. Jiaye Wu is appointed Assistant Professor at City University of Hong Kong...',
+          description: "",
+          section: "News",},{id: "projects-ai-for-photonics-design",
+          title: 'AI for photonics design',
+          description: "advancing photonic device development through algorithmic optimization and machine learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_ai_photonics/";
-            },},{id: "projects-near-zero-index-nonlinear-nanophotonics",
-          title: 'near-zero-index nonlinear nanophotonics',
-          description: "exploring the exotic physical and optical phenomena",
+            },},{id: "projects-near-zero-index-photonics",
+          title: 'near-zero-index photonics',
+          description: "exploring wave propagation and light-matter interactions in media with vanishing refractive indices",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_enz_photonics/";
-            },},{id: "projects-novel-integrated-photonic-nanodevices-chips-amp-circuits",
-          title: 'novel integrated photonic nanodevices, chips, &amp;amp; circuits',
+            },},{id: "projects-integrated-photonic-devices-and-chips",
+          title: 'integrated photonic devices and chips',
           description: "unconventional light-matter interactions at the fingertip",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_integrated_optics/";
-            },},{id: "projects-non-hermitian-topological-interconnected-light-circuits",
-          title: 'non-Hermitian topological interconnected light circuits',
-          description: "quantum inspirations",
+            },},{id: "projects-photonic-computation-for-ai",
+          title: 'photonic computation for AI',
+          description: "developing hardware accelerators for artificial intelligence through optical computing architectures",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/proj_photonic_computation/";
+            },},{id: "projects-interconnected-optical-waveguide-networks",
+          title: 'interconnected optical waveguide networks',
+          description: "engineering macroscopic artificial superlattices for anomalous wave propagation and topological light manipulation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_pt_topo/";
-            },},{id: "projects-radiative-cooling-amp-photonic-crystal-designs",
-          title: 'radiative cooling &amp;amp; photonic crystal designs',
-          description: "nanophotonic design for energy and sustainability",
+            },},{id: "projects-photonic-radiative-cooling",
+          title: 'photonic radiative cooling',
+          description: "harnessing nanophotonics for sustainable passive thermal management",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_radiative_cooling/";
-            },},{id: "projects-spectral-amp-pulse-compression-in-nonlinear-optical-fibers",
-          title: 'spectral &amp;amp; pulse compression in nonlinear optical fibers',
+            },},{id: "projects-nonlinear-spectral-compression",
+          title: 'nonlinear spectral compression',
           description: "shorter, faster, brighter, stronger",
           section: "Projects",handler: () => {
               window.location.href = "/projects/proj_spctral_compression/";
@@ -514,14 +536,14 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://people.epfl.ch/jiaye.wu?lang=en", "_blank");
+          window.open("https://rims.cityu-dg.edu.cn/en/persons/jiaye-wu/", "_blank");
         },
       },{
         id: 'social-email',
         title: 'Send an email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6A%69%61%79%65.%77%75@%65%70%66%6C.%63%68", "_blank");
+          window.open("mailto:%6A%69%61%79%65_%77%75@%6F%75%74%6C%6F%6F%6B.%63%6F%6D", "_blank");
         },
       },{
         id: 'social-orcid',
