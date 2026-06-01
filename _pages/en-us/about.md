@@ -37,7 +37,7 @@ Welcome to the lab website!
 
 ## lab introduction
 
-The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at EEE, <img src="/assets/img/university_logos/CItyUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
+The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at EEE, <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
 
 **Research directions:** Ultrafast light-matter-interactions, epsilon-near-zero and near-zero-index photonics, fibre optics, fibre laser, optical waveguide network design, functional thin film and metadevice design, non-Hermitian optics, integrated optics, advanced semiconductor optical materials.
 
