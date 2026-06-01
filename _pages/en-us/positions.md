@@ -8,7 +8,7 @@ nav: true
 nav_order: 6
 ---
 
-Please submit your curriculum vitae (CV) and personal statement to the P.I. by [email](mailto:jiaye.wu@cityu-dg.edu.cn). <br>
+Please submit your curriculum vitae (CV) and personal statement to the P.I. by [email](mailto:jiaye_wu@outlook.com). <br>
 We offer open positions to excellent young scholars and students from the Chinese Mainland, Hong Kong SAR, Macau SAR, Taiwan Province, and overseas. <br>
 Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admissions.html).<br>
 Application system for M.Sc. and Ph.D. candaites can be accessed [here](https://apply.cityu-dg.edu.cn/pg/a/login).

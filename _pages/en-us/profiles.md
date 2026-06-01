@@ -15,7 +15,7 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>XX Building</p>
+      <p>Academic Building</p>
       <p>CityU Hong Kong (Dongguan)</p>
       <p>Gaoxiong Rd. 8, Songshan Lake</p>
       <p>Dongguan 523808, China</p>

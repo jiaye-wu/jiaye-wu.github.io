@@ -15,7 +15,7 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>XX樓</p>
+      <p>學術樓</p>
       <p>香港城市大學（東莞）</p>
       <p>松山湖高新技術產業開發區</p>
       <p>廣東省東莞市松山湖高雄路8號</p>
