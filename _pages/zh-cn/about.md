@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: 主页
 permalink: /
-subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大学（东莞）</a> <a href='https://www.cityu-dg.edu.cn/zh/home.html'>电机与电子工程（EEE） </a>先进集成波导纳米光子学实验室（ALIGN）
+subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大学（东莞）</a> 先进集成波导纳米光子学实验室（ALIGN）
 
 profile:
   align: right

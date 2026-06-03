@@ -3,7 +3,7 @@ page_id: about
 layout: about
 title: about
 permalink: /
-subtitle: ALIGN at Electrical and Electronic Engineering (EEE), <a href='https://www.cityu-dg.edu.cn/en/home.html'>City University of Hong Kong (Dongguan)</a>
+subtitle: ALIGN at the <a href='https://www.cityu-dg.edu.cn/en/home.html'>City University of Hong Kong (Dongguan)</a>
 
 profile:
   align: right
@@ -11,8 +11,8 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Assistant Professor Jiaye WU, P.I.</p>
-    <p>Electrical & Electronic Eng.</p>
-    <p>CityU Hong Kong (Dongguan)</p>
+    <p>City University of Hong Kong</p>
+    <p>(Dongguan Campus)</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,7 +37,7 @@ Welcome to the lab website!
 
 ## lab introduction
 
-The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at EEE, <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
+The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU (incoming) at the <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
 
 **Research directions:** Ultrafast light-matter-interactions, epsilon-near-zero and near-zero-index photonics, fibre optics, fibre laser, optical waveguide network design, functional thin film and metadevice design, non-Hermitian optics, integrated optics, advanced semiconductor optical materials.
 
