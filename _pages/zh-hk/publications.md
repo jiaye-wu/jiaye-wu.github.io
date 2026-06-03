@@ -8,7 +8,7 @@ nav: true
 nav_order: 2
 ---
 
-<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [官網檔案](https://people.epfl.ch/jiaye.wu?lang=en) &nbsp; <i class="ai ai-orcid"></i> [ORCiD](https://orcid.org/0000-0002-0650-1274) &nbsp; <i class="ai ai-google-scholar-square"></i> [谷歌學術](https://scholar.google.com/citations?user=D2n8tswAAAAJ) &nbsp; <i class="ai ai-clarivate"></i> [Web of Science](https://www.webofscience.com/wos/author/record/O-4210-2018) &nbsp; <i class="ai ai-researchgate-square"></i> [ResearchGate](https://www.researchgate.net/profile/Jiaye_Wu) 
+<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [官網檔案](https://people.epfl.ch/jiaye.wu?lang=en) &nbsp; <i class="ai ai-orcid"></i> [ORCiD](https://orcid.org/0000-0002-0650-1274) &nbsp; <i class="ai ai-google-scholar-square"></i> [谷歌學術](https://scholar.google.com/citations?user=D2n8tswAAAAJ) &nbsp; <i class="ai ai-clarivate"></i> [Web of Science](https://www.webofscience.com/wos/author/record/O-4210-2018) &nbsp; <i class="ai ai-researchgate-square"></i> [ResearchGate](https://www.researchgate.net/profile/Jiaye_Wu) 
 
 <i class="ai ai-zotero-square"></i> [Zotero論文列表](https://www.zotero.org/jiayewu) &nbsp;  <i class="ai ai-arxiv"></i> [arXiv預印本](https://arxiv.org/a/0000-0002-0650-1274) &nbsp; <i class="ai ai-ieee"></i> [IEEE作者檔案](https://ieeexplore.ieee.org/author/37087502244) &nbsp; <i class="ai ai-scopus-square"></i> [Scopus作者檔案](https://www.scopus.com/authid/detail.uri?authorId=57196026613)
 

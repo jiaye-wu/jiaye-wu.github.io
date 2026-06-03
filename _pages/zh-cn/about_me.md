@@ -2,12 +2,12 @@
 
 **助理教授，博士生导师**
 
-博士，<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 助理教授、博士生导师，深圳市孔雀计划C类人才。现研究领域：光与物质相互作用、片上集成光子学、激光物理、非线性光学、纳米光学、超材料、近零介电常数材料和非厄米光学材料的理论和实验研究。已在国际期刊和会议上发表SCI/EI收录论文50余篇，以通讯作者及第一作者身份在 _Nature Communications_, _Laser & Photonics Reviews_ 等国际权威学术期刊上发表原创性期刊研究论文20余篇，有国家发明专利获得授权。长期担任 _Laser & Photonics Reviews_, _Advanced Photonics_ 等国际顶尖学术期刊受邀审稿人；受邀或顾问担任 _Nature_, _Light: Science & Applications_ 等期刊的共同审稿人。作为骨干成员参与瑞士国家科学基金（SNSF）项目、瑞士创新署（Innosuisse）项目多项。
+博士，<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 助理教授、博士生导师，深圳市孔雀计划C类人才。现研究领域：光与物质相互作用、片上集成光子学、激光物理、非线性光学、纳米光学、超材料、近零介电常数材料和非厄米光学材料的理论和实验研究。已在国际期刊和会议上发表SCI/EI收录论文50余篇，以通讯作者及第一作者身份在 _Nature Communications_, _Laser & Photonics Reviews_ 等国际权威学术期刊上发表原创性期刊研究论文20余篇，有国家发明专利获得授权。长期担任 _Laser & Photonics Reviews_, _Advanced Photonics_ 等国际顶尖学术期刊受邀审稿人；受邀或顾问担任 _Nature_, _Light: Science & Applications_ 等期刊的共同审稿人。作为骨干成员参与瑞士国家科学基金（SNSF）项目、瑞士创新署（Innosuisse）项目多项。
 <!-- 、中国国家自然科学基金面上项目多项。OPTICA光学学会（原美国光学学会）会员、电气与电子工程师协会（IEEE）会员，国际知名权威学术出版集团<img src="/assets/img/post_covers/Elsevier.png" style="height: 1.1em; ">爱思唯尔顾问小组（Elsevier Advisory Panel）成员，曾任北京大学深圳研究生院<img src="/assets/img/post_covers/IPS.jpeg" style="height: 1.1em; ">IEEE Photonic Society学生分会创始主席、<img src="/assets/img/post_covers/OPTICA.png" style="height: 1.1em; ">OPTICA学生分会主席。 -->
 
 **工作经历：**
 
-- 2027年-至今 <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 助理教授
+- 2027年-至今 <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 助理教授
 
 - 2026年-2027年 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大学（东莞）](https://www.cityu-dg.edu.cn/zh/home.html) 电机与电子工程 助理教授
 

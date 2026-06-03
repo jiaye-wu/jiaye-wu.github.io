@@ -1,5 +1,5 @@
 ---
-id: positions
+page_id: positions
 layout: page
 permalink: /positions/
 title: positions

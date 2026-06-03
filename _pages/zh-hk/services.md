@@ -12,7 +12,7 @@ nav_order: 4
 
 <br>
 
-<h3 style="color: #660974;" id="tsinghua"><a href="https://sigs.tsinghua.edu.cn/"><img src="/assets/img/university_logos/THU-SIGS.png" style="height: 2em; "></a></h3>
+<h3 style="color: #660974;" id="tsinghua"><a href="https://sigs.tsinghua.edu.cn/"><img src="/assets/img/university_logos/THU-SIGS.png" class="logo-light" style="height: 2em;"><img src="/assets/img/university_logos/THU-SIGS-white.png" class="logo-dark" style="height: 2em;"></a></h3>
 
 <!-- xyz -->
 {% include info_card_service.liquid 

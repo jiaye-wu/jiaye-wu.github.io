@@ -1,5 +1,5 @@
 ---
-id: links
+page_id: links
 layout: page
 permalink: /links/
 title: related links
@@ -8,7 +8,7 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; ">  university/campus
+## <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;">  university/campus
 
 ---
 
@@ -26,4 +26,4 @@ nav_order: 98
 
 <img src="/assets/img/university_logos/PKU.png" style="height: 1.1em; "> [Laboratory of Ultrafast Optics, School of Electronic and Computer Engineering](https://web.pkusz.edu.cn/lnfo)
 
-<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [HYFu Group, Institute of Data and Information (iDI)](https://hyfu.team/)
+<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [HYFu Group, Institute of Data and Information (iDI)](https://hyfu.team/)

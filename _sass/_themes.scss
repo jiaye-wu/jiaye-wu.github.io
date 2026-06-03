@@ -82,8 +82,8 @@ html[data-theme="dark"] {
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-theme-color: #{$tsinghua-bright-lilac}; /*$cyan-color*/
+  --global-hover-color: #{$tsinghua-bright-lilac}; /*$cyan-color*/
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-light};
   --global-footer-text-color: #{$grey-color-dark};
@@ -158,4 +158,20 @@ html[data-theme-setting="light"] {
     padding-top: 12px;
     display: block;
   }
+}
+
+/* 默认状态（亮色）：显示亮色版，隐藏暗色版 */
+html .logo-dark {
+  display: none !important;
+}
+html .logo-light {
+  display: inline-block !important; /* 或者使用原始的 display 属性 */
+}
+
+/* 监听到暗色模式激活：反转显示逻辑 */
+html[data-theme="dark"] .logo-light {
+  display: none !important;
+}
+html[data-theme="dark"] .logo-dark {
+  display: inline-block !important;
 }

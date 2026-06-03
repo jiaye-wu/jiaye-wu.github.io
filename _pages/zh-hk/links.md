@@ -1,5 +1,5 @@
 ---
-id: links
+page_id: links
 layout: page
 permalink: /links/
 title: 相關鏈接
@@ -8,7 +8,7 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> 本校/校園
+## <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> 本校/校園
 
 ---
 
@@ -26,4 +26,4 @@ nav_order: 98
 
 <img src="/assets/img/university_logos/PKU.png" style="height: 1.1em; "> [信息工程學院 超快光學實驗室](https://web.pkusz.edu.cn/lnfo)
 
-<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [數據與信息研究院（iDI） HYFu Group](https://hyfu.team/)
+<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [數據與信息研究院（iDI） HYFu Group](https://hyfu.team/)

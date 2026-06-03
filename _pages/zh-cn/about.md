@@ -37,7 +37,7 @@ scholar:
 
 ## 实验室简介
 
-<img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 **先进集成波导纳米光子学实验室（ALIGN）**专注集成和微纳光子学平台上线性与非线性光与物质相互作用的研究。
+<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [清华大学](https://www.tsinghua.edu.cn/) 深圳国际研究生院 数据与信息研究院 **先进集成波导纳米光子学实验室（ALIGN）**专注集成和微纳光子学平台上线性与非线性光与物质相互作用的研究。
 
 **研究方向：**超快光与物质相互作用、近零介电常数和近零折射光学、光纤光学、光纤激光器、光波导网络设计、功能性光学薄膜和超材料设计、非厄米光学、集成光子学、先进半导体光学材料等。
 
@@ -45,4 +45,4 @@ scholar:
 
 **基金支持：**
 
-[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/THU-Alt.png" style="height: 4em; ">](https://www.tsinghua.edu.cn/)
+[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 4em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 4em;">](https://www.tsinghua.edu.cn/)

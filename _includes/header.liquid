@@ -21,17 +21,31 @@
             <img
               src="{{ '/assets/img/banners/lab_logo.png' | relative_url }}"
               alt="Banner Image"
-              class="img-fluid"
+              class="img-fluid logo-light"
+              style="max-height: 40px; width: auto; height: auto;"
+            >
+            <img
+              src="{{ '/assets/img/banners/lab_logo-white.png' | relative_url }}"
+              alt="Banner Image"
+              class="img-fluid logo-dark"
               style="max-height: 40px; width: auto; height: auto;"
             >
           {% endif %}
         </a>
       {% else %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <!-- 这是原版的亮色 Logo -->
           <img
             src="{{ '/assets/img/banners/university_logo.png' | relative_url }}"
-            alt="Banner Image"
-            class="img-fluid"
+            alt="University Logo Light"
+            class="img-fluid logo-light"
+            style="max-height: 30px; width: auto; height: auto;"
+          >
+          <!-- 这是你特制的白色暗色 Logo -->
+          <img
+            src="{{ '/assets/img/banners/university_logo-white.png' | relative_url }}"
+            alt="University Logo Dark"
+            class="img-fluid logo-dark"
             style="max-height: 30px; width: auto; height: auto;"
           >
         </a>

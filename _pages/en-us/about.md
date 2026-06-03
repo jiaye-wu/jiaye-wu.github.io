@@ -37,7 +37,7 @@ Welcome to the lab website!
 
 ## lab introduction
 
-The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at iDI, SIGS, <img src="/assets/img/university_logos/THU-Alt.png" style="height: 1.1em; "> [Tsinghua University](https://www.tsinghua.edu.cn/en/), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
+The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at iDI, SIGS, <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [Tsinghua University](https://www.tsinghua.edu.cn/en/), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
 
 **Research directions:** Ultrafast light-matter-interactions, epsilon-near-zero and near-zero-index photonics, fibre optics, fibre laser, optical waveguide network design, functional thin film and metadevice design, non-Hermitian optics, integrated optics, advanced semiconductor optical materials.
 
@@ -45,5 +45,5 @@ The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led b
 
 **Funding support:**
 
-[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/THU-Alt.png" style="height: 4em; ">](https://www.tsinghua.edu.cn/en/)
+[<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 4em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 4em;">](https://www.tsinghua.edu.cn/en/)
 
