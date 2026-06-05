@@ -9,7 +9,7 @@
 
 - 2027年-至今 <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [清華大學](https://www.tsinghua.edu.cn/) 深圳國際研究生院 數據與信息研究院 助理教授
 
-- 2026年-2027年 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程 助理教授
+- 2026年-2027年 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機工程系 助理教授
 
 - 2025年-2026年 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑聯邦理工大學（EPFL）](https://www.epfl.ch/) 光子學系統實驗室 博士後研究員（Collaborateur Scientifique）
 

@@ -9,7 +9,7 @@ Jiaye is currently an Assistant Professor at the Institute of Data and Informati
 
 - 2027-Present: **Assistant Professor**, Shenzhen International Graduate School (SIGS), <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [Tsinghua University](https://www.tsinghua.edu.cn/).
 
-- 2026-2027: **Assistant Professor**, Electrical and Electronic Engineering (EEE), <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html).
+- 2026-2027: **Assistant Professor**, Department of Electrical Engineering, <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html).
 
 - 2025-2026: **Collaborateur Scientifique**, Photonic Systems Laboratory (PHOSL), <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/).
 
