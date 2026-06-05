@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-## 教学课程
+## **教学课程**
 
 <br>
 
@@ -90,7 +90,7 @@ nav_order: 4
 
 <br>
 
-## 受邀讲座
+## **受邀讲座**
 
 ### 科研院校
 
@@ -198,11 +198,11 @@ nav_order: 4
 
 <br>
 
-## 编辑服务
+## **编辑服务**
 
 <br>
 
-## 学术兼职
+## **学术兼职**
 
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
@@ -325,7 +325,7 @@ nav_order: 4
 
 <br>
 
-## 同行评议
+## **同行评议**
 
 <!--Springer-Nature -->
 {% capture SNL %}
