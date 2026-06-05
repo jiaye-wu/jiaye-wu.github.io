@@ -14,6 +14,8 @@ categories:
   - development
   - research blog
 thumbnail: assets/img/post_covers/github.png
+toc:
+  sidebar: left
 ---
 
 開源的通用型對稱分步傅里葉算法MATLAB項目。本項目的代碼倉庫位於[這裡](https://github.com/jiaye-wu/SSPROP-NFOL).

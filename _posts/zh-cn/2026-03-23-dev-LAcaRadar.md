@@ -15,6 +15,8 @@ categories:
   - development
   - research blog
 thumbnail: assets/img/post_covers/LAcaRadar.png
+toc:
+  sidebar: left
 ---
 
 闭源的PC端谷歌学术档案追踪免费软件。本项目的代码仓库位于 [GitHub](https://github.com/jiaye-wu/AcaRadar)。

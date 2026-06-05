@@ -6,6 +6,8 @@ title: 教研服务
 description: <a href='/services/#教学课程'>课程教学</a>、<a href='/services/#受邀讲座'>受邀讲座</a>、<a href='/services/#编辑服务'>编辑服务</a>、<a href='/services/#学术兼职'>学术兼职</a>、<a href='/services/#同行评议'>同行评议</a>
 nav: true
 nav_order: 4
+toc:
+  sidebar: left
 ---
 
 ## **教学课程**

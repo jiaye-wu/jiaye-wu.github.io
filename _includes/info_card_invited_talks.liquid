@@ -15,7 +15,7 @@
       <li class="list-group-item">
         <div class="row">
           <div class="col-sm-4">
-            <img src="{{ include.image }}" style="width: auto; height: 80px; object-fit: cover;">
+            <img src="{{ include.image }}" style="max-width: 100%; max-height: 80px; height: auto; width: auto;">
           </div>          
           <div class="col-sm-8">
             {{ include.description | markdownify }}

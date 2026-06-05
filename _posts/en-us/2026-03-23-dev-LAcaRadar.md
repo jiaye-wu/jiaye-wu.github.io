@@ -15,6 +15,8 @@ categories:
   - development
   - research blog
 thumbnail: assets/img/post_covers/LAcaRadar.png
+toc:
+  sidebar: left
 ---
 
 The repository is hosted on [GitHub](https://github.com/jiaye-wu/AcaRadar).
