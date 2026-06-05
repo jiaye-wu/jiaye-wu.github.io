@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-教研服務",
           title: "教研服務",
-          description: "課程教學、講座、同行評議及編輯服務",
+          description: "課程教學、受邀講座、編輯服務、學術兼職、同行評議",
           section: "導航菜單",
           handler: () => {
             window.location.href = "/zh-hk/services/";

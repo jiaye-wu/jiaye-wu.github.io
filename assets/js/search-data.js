@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-services",
           title: "services",
-          description: "courses, lectures, peer reviews, and editorial services.",
+          description: "courses, lectures, editorial services, professional activities, and peer reviews.",
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/services/";

@@ -43,7 +43,7 @@ ninja.data = [{
           },
         },{id: "nav-教研服务",
           title: "教研服务",
-          description: "课程教学、讲座、同行评议及编辑服务",
+          description: "课程教学、受邀讲座、编辑服务、学术兼职、同行评议",
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/services/";
