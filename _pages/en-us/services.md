@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-## teaching
+## **teaching**
 
 <br>
 
@@ -103,7 +103,7 @@ nav_order: 4
 
 <br>
 
-## invited lectures
+## **invited lectures**
 
 ### universities & institutes
 
@@ -211,11 +211,11 @@ nav_order: 4
 
 <br>
 
-## editorial services
+## **editorial services**
 
 <br>
 
-## professional activities
+## **professional activities**
 
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
@@ -338,7 +338,7 @@ nav_order: 4
 
 <br>
 
-## peer review
+## **peer review**
 
 <!--Springer-Nature -->
 {% capture SNL %}
