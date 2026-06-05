@@ -12,7 +12,7 @@ profile:
   more_info: >
     <p>吴嘉野 助理教授 博士生导师</p>
     <p>香港城市大学（东莞）</p>
-    <p>电机与电子工程（EEE）</p>
+    <p>电机工程系</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,7 +37,7 @@ scholar:
 
 ## 实验室简介
 
-<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大学（东莞）](https://www.cityu-dg.edu.cn/zh/home.html) 电机与电子工程（EEE） **先进集成波导纳米光子学实验室（ALIGN）**专注集成和微纳光子学平台上线性与非线性光与物质相互作用的研究。
+<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大学（东莞）](https://www.cityu-dg.edu.cn/zh/home.html) 电机工程系 **先进集成波导纳米光子学实验室（ALIGN）**专注集成和微纳光子学平台上线性与非线性光与物质相互作用的研究。
 
 **研究方向：**超快光与物质相互作用、近零介电常数和近零折射光学、光纤光学、光纤激光器、光波导网络设计、功能性光学薄膜和超材料设计、非厄米光学、集成光子学、先进半导体光学材料等。
 

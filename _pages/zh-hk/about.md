@@ -37,7 +37,7 @@ scholar:
 
 ## 實驗室簡介
 
-<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程（EEE） **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺上線性與非線性光與物質相互作用的研究。
+<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機工程系 **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺上線性與非線性光與物質相互作用的研究。
 
 **研究方向：**超快光與物質相互作用、近零介電常數和近零折射光學、光纖光學、光纖激光器、光波導網絡設計、功能性光學薄膜和超材料設計、非厄米光學、集成光子學、先進半導體光學材料等。
 
