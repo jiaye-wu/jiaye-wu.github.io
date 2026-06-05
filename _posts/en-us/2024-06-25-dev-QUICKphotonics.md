@@ -16,6 +16,8 @@ categories:
   - development
   - research blog
 thumbnail: assets/img/post_covers/QUICKphotonics.png
+toc:
+  sidebar: left
 ---
 
 An Excel and MATLAB-based cross-platform academic tool for unit conversions in photonics. The repository is hosted on [GitHub](https://github.com/jiaye-wu/QUICKphotonics) and [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results).

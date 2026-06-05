@@ -16,6 +16,8 @@ categories:
   - development
   - research blog
 thumbnail: assets/img/post_covers/QUICKphotonics.png
+toc:
+  sidebar: left
 ---
 
 基于Excel和MATLAB的跨平台光子学单位换算工具。本项目的代码仓库位于[GitHub](https://github.com/jiaye-wu/QUICKphotonics) 和 [MATLAB File Exchange](https://ch.mathworks.com/matlabcentral/fileexchange/168881-quickphotonics?s_tid=ta_fx_results)。

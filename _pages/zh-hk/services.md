@@ -6,6 +6,8 @@ title: 教研服務
 description: <a href='/services/#教學課程'>課程教學</a>、<a href='/services/#受邀講座'>受邀講座</a>、<a href='/services/#編輯服務'>編輯服務</a>、<a href='/services/#學術兼職'>學術兼職</a>、<a href='/services/#同行評議'>同行評議</a>
 nav: true
 nav_order: 4
+toc:
+  sidebar: left
 ---
 
 ## **教學課程**

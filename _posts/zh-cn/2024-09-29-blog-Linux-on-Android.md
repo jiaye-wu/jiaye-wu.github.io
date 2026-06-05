@@ -11,6 +11,8 @@ categories:
   - development
   - archive
 thumbnail: assets/img/post_covers/android.png
+toc:
+  sidebar: left
 ---
 
 本项目的代码仓库位于[https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/](https://github.com/TerenceWSK/Android-Termux-Subsystem-for-Linux/)。

@@ -6,6 +6,8 @@ title: services
 description: <a href='/services/#teaching'>courses</a>, <a href='/services/#invited-lectures'>lectures</a>, <a href='/services/#editorial-services'>editorial services</a>, <a href='/services/#professional-activities'>professional activities</a>, and <a href='/services/#peer-review'>peer reviews</a>.
 nav: true
 nav_order: 4
+toc:
+  sidebar: left
 ---
 
 ## **teaching**
