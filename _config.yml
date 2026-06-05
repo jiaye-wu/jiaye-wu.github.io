@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: ALIGN | Advanced Laboratory of Integrated & Guided Nanophotonics - Prof. Jiaye Wu  # the website title (if blank, full name will be used instead) ALIGN | Advanced Laboratory for Integrated & Guided Nanophotonics - Prof. Jiaye Wu
+title: ALIGN lab | Advanced Laboratory of Integrated & Guided Nanophotonics - Prof. Jiaye Wu  # the website title (if blank, full name will be used instead) ALIGN | Advanced Laboratory for Integrated & Guided Nanophotonics - Prof. Jiaye Wu
 first_name: Jiaye
 middle_name:
 last_name: Wu
@@ -10,7 +10,7 @@ email: jiaye_wu@outlook.com
 keywords: personal website, academic-website, portfolio-website, lab-website # add your own keywords or leave empty
 icon: favicon.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/favicon.ico) ⚛️
 
-url: https://jiaye-wu.github.io # the base hostname & protocol for your site
+url: https://align.science # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
