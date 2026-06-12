@@ -4,7 +4,6 @@ layout: about
 title: 主頁
 permalink: /
 subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大學（東莞）</a> 先進集成波導納米光子學實驗室（ALIGN）
-nav: false
 
 profile:
   align: right
