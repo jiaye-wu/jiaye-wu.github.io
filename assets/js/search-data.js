@@ -41,19 +41,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-services",
-          title: "services",
+        },{id: "nav-service",
+          title: "service",
           description: "courses, lectures, editorial services, professional activities, and peer reviews.",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/services/";
+            window.location.href = "/service/";
           },
-        },{id: "nav-members",
-          title: "members",
+        },{id: "nav-team",
+          title: "team",
           description: "our current and previous lab members.",
           section: "Navigation menu",
           handler: () => {
-            window.location.href = "/members/";
+            window.location.href = "/team/";
           },
         },{id: "nav-positions",
           title: "positions",
@@ -61,6 +61,13 @@ ninja.data = [{
           section: "Navigation menu",
           handler: () => {
             window.location.href = "/positions/";
+          },
+        },{id: "nav-contact",
+          title: "contact",
+          description: "contact information of our research group and university.",
+          section: "Navigation menu",
+          handler: () => {
+            window.location.href = "/contact/";
           },
         },{id: "dropdown-news-feed",
               title: "news feed",

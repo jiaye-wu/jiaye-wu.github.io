@@ -46,14 +46,14 @@ ninja.data = [{
           description: "課程教學、受邀講座、編輯服務、學術兼職、同行評議",
           section: "導航菜單",
           handler: () => {
-            window.location.href = "/zh-hk/services/";
+            window.location.href = "/zh-hk/service/";
           },
         },{id: "nav-研究團隊",
           title: "研究團隊",
           description: "當前和過往實驗室成員列表",
           section: "導航菜單",
           handler: () => {
-            window.location.href = "/zh-hk/members/";
+            window.location.href = "/zh-hk/team/";
           },
         },{id: "nav-招生招聘",
           title: "招生招聘",
@@ -61,6 +61,13 @@ ninja.data = [{
           section: "導航菜單",
           handler: () => {
             window.location.href = "/zh-hk/positions/";
+          },
+        },{id: "nav-聯繫方式",
+          title: "聯繫方式",
+          description: "聯繫學校與課題組",
+          section: "導航菜單",
+          handler: () => {
+            window.location.href = "/zh-hk/contact/";
           },
         },{id: "dropdown-新聞列表",
               title: "新聞列表",

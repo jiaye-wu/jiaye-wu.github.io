@@ -46,14 +46,14 @@ ninja.data = [{
           description: "课程教学、受邀讲座、编辑服务、学术兼职、同行评议",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/zh-cn/services/";
+            window.location.href = "/zh-cn/service/";
           },
         },{id: "nav-研究团队",
           title: "研究团队",
           description: "当前和过往实验室成员列表",
           section: "导航菜单",
           handler: () => {
-            window.location.href = "/zh-cn/members/";
+            window.location.href = "/zh-cn/team/";
           },
         },{id: "nav-招生招聘",
           title: "招生招聘",
@@ -61,6 +61,13 @@ ninja.data = [{
           section: "导航菜单",
           handler: () => {
             window.location.href = "/zh-cn/positions/";
+          },
+        },{id: "nav-联系方式",
+          title: "联系方式",
+          description: "联系学校与课题组",
+          section: "导航菜单",
+          handler: () => {
+            window.location.href = "/zh-cn/contact/";
           },
         },{id: "dropdown-新闻列表",
               title: "新闻列表",
