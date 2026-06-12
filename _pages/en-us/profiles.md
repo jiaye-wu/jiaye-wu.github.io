@@ -1,8 +1,8 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /members/
-title: members
+permalink: /team/
+title: team
 description: our current and previous lab members.
 nav: true
 nav_order: 5

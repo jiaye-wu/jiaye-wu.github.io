@@ -1,7 +1,7 @@
 ---
 page_id: profiles
 layout: profiles
-permalink: /members/
+permalink: /team/
 title: 研究團隊
 description: 當前和過往實驗室成員列表
 nav: true

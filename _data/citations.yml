@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-10'
+  last_updated: '2026-06-08'
 papers:
   D2n8tswAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -18,7 +18,7 @@ papers:
     title: Comparison Study of Multi-Slot Designs in Epsilon-Near-Zero Waveguide-Based Electro-Optical Modulators
     year: '2021'
   D2n8tswAAAAJ:4JMBOYKVnBMC:
-    citations: 17
+    citations: 18
     title: Manufacturing-Enabled Tunability of Linear and Nonlinear Epsilon-Near-Zero Properties in Indium Tin Oxide Nanofilms
     year: '2023'
   D2n8tswAAAAJ:5nxA0vEk-isC:
@@ -30,11 +30,11 @@ papers:
     title: Manufacture Protocol for the Control of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer at Telecommunication Wavelength
     year: '2021'
   D2n8tswAAAAJ:8k81kl-MbHgC:
-    citations: 55
+    citations: 56
     title: Tunable Electro- and All-Optical Switch Based on Epsilon-Near-Zero Metasurface
     year: '2020'
   D2n8tswAAAAJ:HDshCWvjkbEC:
-    citations: 10
+    citations: 11
     title: Observation of SQUID-Like Behavior in Fiber Laser with Intra-Cavity Epsilon-Near-Zero Effect
     year: '2022'
   D2n8tswAAAAJ:IWHjjKOFINEC:
@@ -106,7 +106,7 @@ papers:
     title: Extraordinary transmission and reflection in PT-symmetric two-segment-connected triangular optical waveguide networks with perfect and broken integer waveguide length ratios
     year: '2019'
   D2n8tswAAAAJ:Wp0gIr-vW9MC:
-    citations: 200
+    citations: 205
     title: 'Epsilon-near-zero photonics: infinite potentials'
     year: '2021'
   D2n8tswAAAAJ:YFjsv_pBGBYC:
@@ -174,7 +174,7 @@ papers:
     title: Temporal Talbot effect of optical dark pulse trains
     year: '2022'
   D2n8tswAAAAJ:hFOr9nPyWt4C:
-    citations: 18
+    citations: 19
     title: Ultrafast dynamic switching of optical response based on nonlinear hyperbolic metamaterial platform
     year: '2022'
   D2n8tswAAAAJ:hMod-77fHWUC:
@@ -182,7 +182,7 @@ papers:
     title: Kerr-comb-driven Widely-tunable Integrated Green Light Source
     year: '2025'
   D2n8tswAAAAJ:hqOjcs7Dif8C:
-    citations: 34
+    citations: 35
     title: Self-interaction of ultrashort pulses in an epsilon-near-zero nonlinear material at the telecom wavelength
     year: '2019'
   D2n8tswAAAAJ:isC4tDSrTZIC:
@@ -206,7 +206,7 @@ papers:
     title: Research on the nonlinear photonics in epsilon-near-zero transparent conducting oxides [in Chinese]
     year: '2021'
   D2n8tswAAAAJ:maZDTaKrznsC:
-    citations: 12
+    citations: 14
     title: Bridging the Mode-Locked and Q-Switched Regimes in Fiber Lasers
     year: '2025'
   D2n8tswAAAAJ:qUcmZB5y_30C:
@@ -218,7 +218,7 @@ papers:
     title: Diurnal cooling for continuous thermal sources under direct subtropical sunlight produced by quasi-Cantor structure
     year: '2017'
   D2n8tswAAAAJ:r0BpntZqJG4C:
-    citations: 22
+    citations: 23
     title: Thermo-optic epsilon-near-zero effects
     year: '2024'
   D2n8tswAAAAJ:u5HHmVD_uO8C:
