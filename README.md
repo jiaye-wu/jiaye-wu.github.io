@@ -1,4 +1,4 @@
-# My Personal/Research Group Academic Website
+# Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)
 
 Welcome to the repository of my [personal/research group website](https://align.science)!
 
@@ -6,7 +6,7 @@ Welcome to the repository of my [personal/research group website](https://align.
 
 <!--ts-->
 
-- [My Personal/Research Group Academic Website](#my-personalresearch-group-academic-website)
+- [Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)](#advanced-laboratory-of-integrated-and-guided-nanophotonics-align)
   - [Table Of Contents](#table-of-contents)
   - [Acknowledgements](#acknowledgements)
   - [Status of my website](#status-of-my-website)
@@ -43,6 +43,8 @@ Welcome to the repository of my [personal/research group website](https://align.
 [![Preview](readme_preview/al-folio-preview.png)](https://george-gca.github.io/multi-language-al-folio/)
 
 **A multilingual version of the [al-folio theme](https://github.com/alshedivat/al-folio), a simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.**
+
+</div>
 
 ---
 
