@@ -4,6 +4,7 @@ layout: about
 title: about
 permalink: /
 subtitle: ALIGN at the <a href='https://www.cityu-dg.edu.cn/en/home.html'>City University of Hong Kong (Dongguan)</a>
+nav: false
 
 profile:
   align: right

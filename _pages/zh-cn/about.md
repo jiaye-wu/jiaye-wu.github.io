@@ -4,6 +4,7 @@ layout: about
 title: 主页
 permalink: /
 subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大学（东莞）</a> 先进集成波导纳米光子学实验室（ALIGN）
+nav: false
 
 profile:
   align: right
