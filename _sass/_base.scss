@@ -79,7 +79,7 @@ strong {
   font-family:
     "MiSansVF",
     "MiSansRegular",
-    Roboto,
+    // Roboto fallback disabled with Google Fonts; restore only if Google Fonts is re-enabled.
     -apple-system,
     BlinkMacSystemFont,
     "Segoe UI",
