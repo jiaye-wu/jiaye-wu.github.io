@@ -464,7 +464,87 @@ ninja.data = [{
             window.location.href = "/zh-hk/blog/2015/android-archive/";
           
         },
-      },{id: "news-第十四屆挑戰杯廣東大學生課外學術科研作品競賽二等獎",
+      },{id: "members-liam-doe",
+          title: 'Liam Doe',
+          description: "2026級本科生科研助理",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-bsc-liam-doe/";
+            },},{id: "members-lily-doe",
+          title: 'Lily Doe',
+          description: "2026級本科生科研助理",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-bsc-lily-doe/";
+            },},{id: "members-diana-doe",
+          title: 'Diana Doe',
+          description: "2026-2029 碩士畢業生，某知名高校",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-msc-diana-doe/";
+            },},{id: "members-emily-doe",
+          title: 'Emily Doe',
+          description: "2026級碩士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-msc-emily-doe/";
+            },},{id: "members-ethan-doe",
+          title: 'Ethan Doe',
+          description: "2026級碩士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-msc-ethan-doe/";
+            },},{id: "members-david-doe",
+          title: 'David Doe',
+          description: "2026-2031 博士畢業生，某大型企業",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-david-doe/";
+            },},{id: "members-john-doe",
+          title: 'John Doe',
+          description: "2026級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-john-doe/";
+            },},{id: "members-julia-doe",
+          title: 'Julia Doe',
+          description: "2027級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-julia-doe/";
+            },},{id: "members-mark-doe",
+          title: 'Mark Doe',
+          description: "2027級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-mark-doe/";
+            },},{id: "members-maya-doe",
+          title: 'Maya Doe',
+          description: "2028級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-maya-doe/";
+            },},{id: "members-nina-doe",
+          title: 'Nina Doe',
+          description: "2028級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-nina-doe/";
+            },},{id: "members-noah-doe",
+          title: 'Noah Doe',
+          description: "2028級博士生",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-phd-noah-doe/";
+            },},{id: "members-james-doe",
+          title: 'James Doe',
+          description: "2026 博士後研究員",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-postdoc-james-doe/";
+            },},{id: "members-jane-doe",
+          title: 'Jane Doe',
+          description: "2026 博士後研究員",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-postdoc-jane-doe/";
+            },},{id: "members-alex-doe",
+          title: 'Alex Doe',
+          description: "2026 訪問學者",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-visiting-alex-doe/";
+            },},{id: "members-amy-doe",
+          title: 'Amy Doe',
+          description: "2026 訪問學者",
+          section: "",handler: () => {
+              window.location.href = "/zh-hk/members/2026-visiting-amy-doe/";
+            },},{id: "news-第十四屆挑戰杯廣東大學生課外學術科研作品競賽二等獎",
           title: '第十四屆挑戰杯廣東大學生課外學術科研作品競賽二等獎',
           description: "",
           section: "新聞",},{id: "news-劉頌豪院士科技創新獎特等獎2項-二等獎1項-三等獎1項",
