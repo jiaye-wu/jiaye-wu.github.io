@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post member-profile">
+  <article>
+    <div class="member-profile-header">
+      {% if page.img %}
+        <div class="member-profile-photo">
+          {% include figure.liquid loading="eager" path=page.img sizes="(min-width: 768px) 220px, 70vw" alt=page.title class="img-fluid rounded z-depth-1" %}
+        </div>
+      {% endif %}
+      <div class="member-profile-meta">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.description %}
+          <p class="post-description">{{ page.description }}</p>
+        {% endif %}
+        <a class="member-back-link" href="{{ '/team/' | relative_url }}">
+          <i class="fa-solid fa-arrow-left fa-sm"></i>
+          {{ site.data[site.active_lang].strings.members.back_to_team }}
+        </a>
+      </div>
+    </div>
+
+    {{ content }}
+
+    {% if page.related_publications %}
+      <h2>{{ site.data[site.active_lang].strings.references }}</h2>
+      <div class="publications">
+        {% bibliography --group_by none --cited_in_order %}
+      </div>
+    {% endif %}
+  </article>
+</div>
