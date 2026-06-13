@@ -155,6 +155,10 @@ collections:
     output: true
     # this is needed to avoid adding language here, like /:collection/:lang/:title/
     permalink: /:collection/:title/
+  members:
+    output: true
+    # this is needed to avoid adding language here, like /:collection/:lang/:title/
+    permalink: /:collection/:title/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

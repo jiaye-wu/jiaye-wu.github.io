@@ -20,6 +20,17 @@ blog:
 categories:
   ongoing: ongoing
   non-active: non-active
+member_categories:
+  visiting: visiting
+  post-doc: post-doc
+  doctor: doctoral students
+  master: master's students
+  bachelor: undergraduate students
+  alumni: alumni
+members:
+  back_to_team: back to team
+  pi: principal investigator
+  present: present
 citation:
   bibtex: "or as a BibTeX entry:"
   introduction: "If you found this useful, please cite this as:"
@@ -137,8 +148,8 @@ related_posts:
   title: Enjoy reading this article?
 search:
   dark_theme:
-    description: Change the theme of the site to Dark
-    title: Change theme to dark
+    description: Toogle dark mode
+    title: Use dark mode
   dropdown: Dropdown
   email: Send an email
   footer:
@@ -148,8 +159,8 @@ search:
     select: to select
   languages: Languages
   light_theme:
-    description: Change the theme of the site to Light
-    title: Change theme to light
+    description: Toogle light mode
+    title: Use light mode
   navigation: Navigation menu
   news: News
   placeholder: Type to start searching
