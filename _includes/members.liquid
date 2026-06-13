@@ -1,0 +1,17 @@
+{% assign member = include.member %}
+
+<div class="col mb-4">
+  <a href="{{ member.url | relative_url }}" class="member-card-link">
+    <div class="card member-card h-100 hoverable">
+      {% if member.img %}
+        <div class="member-card-image">
+          <img src="{{ member.img | relative_url }}" alt="{{ member.title }}" class="card-img-top" loading="lazy">
+        </div>
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ member.title }}</h2>
+        <p class="card-text">{{ member.description }}</p>
+      </div>
+    </div>
+  </a>
+</div>

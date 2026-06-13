@@ -20,6 +20,17 @@ blog:
 categories:
   ongoing: 進行中的課題
   non-active: 非活躍課題
+member_categories:
+  visiting: 訪問學生/學者
+  post-doc: 博士後
+  doctor: 博士生
+  master: 碩士生
+  bachelor: 本科生
+  alumni: 畢業生/離組成員
+members:
+  back_to_team: 返回團隊成員
+  pi: 課題組負責人
+  present: 至今
 citation:
   bibtex: "或者使用BibTeX條目："
   introduction: "若有用，請引用為："

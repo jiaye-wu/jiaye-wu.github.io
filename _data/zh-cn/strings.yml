@@ -20,6 +20,17 @@ blog:
 categories:
   ongoing: 进行中的课题
   non-active: 非活跃课题
+member_categories:
+  visiting: 访问学生/学者
+  post-doc: 博士后
+  doctor: 博士生
+  master: 硕士生
+  bachelor: 本科生
+  alumni: 毕业生/离组成员
+members:
+  back_to_team: 返回团队成员
+  pi: 课题组负责人
+  present: 至今
 citation:
   bibtex: "或者使用BibTeX条目："
   introduction: "若有用，请引用为："
