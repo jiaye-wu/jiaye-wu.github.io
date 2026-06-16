@@ -8,7 +8,7 @@ nav: true
 nav_order: 6
 ---
 
-請將簡歷及個人陳述投遞至導師[電子郵箱](mailto:jiaye_wu@outlook.com)。<br>
+請將簡歷及個人陳述投遞至導師[電子郵箱](mailto:jiaye.wu@cityu-dg.edu.cn)。<br>
 我們歡迎來自中國大陸、港澳臺地區，及海外的優秀青年學者及學生加盟實驗室。<br>
 招生信息可見[官網](https://www.cityu-dg.edu.cn/zh/admissions.html)。<br>
 [碩博招生申請系統](https://apply.cityu-dg.edu.cn/pg/a/login)

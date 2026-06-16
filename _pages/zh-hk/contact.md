@@ -20,7 +20,7 @@ nav_order: 7
 待更新。
 
 <i class="fa-regular fa-envelope"></i> **電郵：**<br>
-[info@align.science](mailto:info@align.science)
+[jiaye.wu@cityu-dg.edu.cn](mailto:jiaye.wu@cityu-dg.edu.cn)
 {% endcapture %}
 
 {% include info_card_map.liquid 

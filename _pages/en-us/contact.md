@@ -19,7 +19,7 @@ View in [Amap](https://surl.amap.com/in0vK9sOcrd) or [Baidu Map](https://j.map.b
 To be updated.
 
 <i class="fa-regular fa-envelope"></i> **Email:**<br>
-[info@align.science](mailto:info@align.science)
+[jiaye.wu@cityu-dg.edu.cn](mailto:jiaye.wu@cityu-dg.edu.cn)
 {% endcapture %}
 
 {% include info_card_map.liquid 
