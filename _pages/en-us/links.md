@@ -8,15 +8,19 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; ">  university/campus
+## <img src="/assets/img/university_logos/CityUHK-Small.png" style="height: 1.1em; ">  university/campus
 
 ---
 
-[City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html)
+[City University of Hong Kong (Main Campus)](https://www.cityu.edu.hk/en)
 
-[City University of Hong Kong](https://www.cityu.edu.hk/en)
+[City University of Hong Kong (Dongguan Campus)](https://www.cityu-dg.edu.cn/en/home.html)
+- [Academic Calendar](https://www.cityu-dg.edu.cn/en/academic-calendar.html)
+- [Postgraduate Admission](https://pga.cityu-dg.edu.cn/en/)
+- [Academic Regulations and Records Office](https://arro.cityu-dg.edu.cn/)
+- [CityUHK-DG Scholars](https://rims.cityu-dg.edu.cn/en/)
 
-## partner links (partner labs)
+## <i class="fa-solid fa-flask"></i> partner links
 
 ---
 

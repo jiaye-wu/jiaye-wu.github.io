@@ -8,15 +8,20 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> 本校/校園
+## <img src="/assets/img/university_logos/CityUHK-Small.png" style="height: 1.1em; "> 本校/校園
 
 ---
 
+[香港城市大學（本部）](https://www.cityu.edu.hk/zh-hk)
+
 [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html)
+- [校歷](https://www.cityu-dg.edu.cn/zh/academic-calendar.html)
+- [研究生招生](https://pga.cityu-dg.edu.cn/)
+- [教務處](https://arro.cityu-dg.edu.cn/)
+- [CityUHK-DG Scholars](https://rims.cityu-dg.edu.cn/cn/)
 
-[香港城市大學](https://www.cityu.edu.hk/zh-hk)
 
-## 友情鏈接（合作實驗室/課題組網站）
+## <i class="fa-solid fa-flask"></i> 友情鏈接
 
 ---
 
