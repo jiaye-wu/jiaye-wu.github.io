@@ -18,7 +18,7 @@ nav_order: 98
 
 [Institute of Data and Information (iDI)](https://www.sigs.tsinghua.edu.cn/en/7544/list.htm)
 
-## partner links (partner labs)
+## <i class="fa-solid fa-flask"></i> partner links
 
 ---
 

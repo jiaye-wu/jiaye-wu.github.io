@@ -14,11 +14,11 @@ nav_order: 98
 
 [清华大学](https://www.tsinghua.edu.cn/)
 
-[深圳国际研究生院（STI）](https://sigs.tsinghua.edu.cn/)
+[深圳国际研究生院（SIGS）](https://sigs.tsinghua.edu.cn/)
 
-[数据与信息研究院（IEM）](https://www.sigs.tsinghua.edu.cn/7696/list.htm)
+[数据与信息研究院（iDI）](https://www.sigs.tsinghua.edu.cn/7696/list.htm)
 
-## 友情链接（合作实验室/课题组网站）
+## <i class="fa-solid fa-flask"></i> 友情链接
 
 ---
 
