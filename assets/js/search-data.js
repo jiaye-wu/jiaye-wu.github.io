@@ -90,7 +90,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/repositories/";
               },
-            },{id: "post-invited-talk-novel-temporal-talbot-effects-and-their-on-chip-integration",
+            },{id: "post-academic-tool-exportmypub-project",
+        
+          title: "[Academic Tool] ExportMyPub Project",
+        
+        description: "a cross-platform, local-first modern publication export manager",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dev-ExportMyPub/";
+          
+        },
+      },{id: "post-invited-talk-novel-temporal-talbot-effects-and-their-on-chip-integration",
         
           title: "[Invited Talk] Novel temporal Talbot effects and their on-chip integration",
         

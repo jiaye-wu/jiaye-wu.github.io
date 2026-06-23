@@ -90,7 +90,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/repositories/";
               },
-            },{id: "post-受邀讲座-新型时域泰伯效应及其片上集成",
+            },{id: "post-学术工具-exportmypub项目",
+        
+          title: "[学术工具] ExportMyPub项目",
+        
+        description: "跨平台、本地优先的现代成果导出管理器",
+        section: "博文",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2026/dev-ExportMyPub/";
+          
+        },
+      },{id: "post-受邀讲座-新型时域泰伯效应及其片上集成",
         
           title: "[受邀讲座] 新型时域泰伯效应及其片上集成",
         
