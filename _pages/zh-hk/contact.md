@@ -12,7 +12,9 @@ nav_order: 7
 
 {% capture contact_left %}
 <i class="fa-regular fa-map"></i> **地址：** <br>
-廣東省 深圳市 南山區 西麗大學城 麗水路2279號 清華園區<br>
+清華大學 深圳國際研究生院（SIGS）信息樓<br>
+深圳西麗大學城  清華園區<br>
+廣東省深圳市南山區麗水路2279號<br>
 郵政編碼：518055<br>
 在 [谷歌地圖](https://maps.app.goo.gl/rrFL3TahF7R8Tf8v8)、[高德地圖](https://surl.amap.com/JWqFAy1r51H) 或 [百度地圖](https://j.map.baidu.com/38/tUTM) 中查看
 
@@ -25,7 +27,7 @@ nav_order: 7
 
 {% include info_card_map.liquid 
    name="聯絡信息" 
-   role="清華大學 深圳國際研究生院（SIGS）" 
+   role=" " 
    badge="Tsinghua SIGS iDI ALIGN" 
    image="/assets/img/maps/Tsinghua-SIGS-map1.png"
    map_url="https://j.map.baidu.com/38/tUTM"

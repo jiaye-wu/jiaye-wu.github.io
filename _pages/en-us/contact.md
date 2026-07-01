@@ -12,7 +12,9 @@ nav_order: 7
 
 {% capture contact_left %}
 <i class="fa-regular fa-map"></i> **Address:** <br>
-Tsinghua University Campus, Lishui Rd. 2279, Xili University Town, Nanshan District, Shenzhen 518055, Guangdong, China.<br>
+Information Building, Shenzhen International Graduate School (SIGS), Tsinghua University.<br>
+Tsinghua University Campus, Xili University Town,<br> 
+Lishui Rd. 2279, Nanshan District, Shenzhen 518055, Guangdong, China.<br>
 View in [Google Map](https://maps.app.goo.gl/rrFL3TahF7R8Tf8v8), [Amap](https://surl.amap.com/JWqFAy1r51H), or [Baidu Map](https://j.map.baidu.com/38/tUTM)
 
 <i class="fa-solid fa-phone"></i> **Phone:**<br> 
@@ -24,7 +26,7 @@ To be updated.
 
 {% include info_card_map.liquid 
    name="Contact information" 
-   role="Shenzhen International Graduate School (SIGS), Tsinghua University" 
+   role=" " 
    badge="Tsinghua SIGS iDI ALIGN" 
    image="/assets/img/maps/Tsinghua-SIGS-map1.png"
    map_url="https://maps.app.goo.gl/rrFL3TahF7R8Tf8v8"
