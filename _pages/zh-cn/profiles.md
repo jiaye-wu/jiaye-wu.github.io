@@ -15,7 +15,7 @@ profiles:
     content: about_me.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>学术楼</p>
+      <p>学术楼四座401办公室</p>
       <p>香港城市大学（东莞）</p>
       <p>松山湖高新技术产业开发区</p>
       <p>广东省东莞市松山湖高雄路8号</p>

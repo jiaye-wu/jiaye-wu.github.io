@@ -12,6 +12,7 @@ nav_order: 7
 
 {% capture contact_left %}
 <i class="fa-regular fa-map"></i> **地址：** <br>
+香港城市大学（东莞）学术楼四座401办公室<br>
 广东省东莞市松山湖高新技术产业开发区高雄路8号<br>
 邮政编码：523808<br>
 在 [高德地图](https://surl.amap.com/in0vK9sOcrd) 或 [百度地图](https://j.map.baidu.com/1b/TgEJ) 中查看

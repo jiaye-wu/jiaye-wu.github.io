@@ -12,6 +12,7 @@ nav_order: 7
 
 {% capture contact_left %}
 <i class="fa-regular fa-map"></i> **地址：** <br>
+香港城市大學（東莞）學術樓四座401辦公室<br>
 廣東省東莞市松山湖高新技術產業開發區高雄路8號<br>
 郵政編碼：523808<br>
 在 [高德地圖](https://surl.amap.com/in0vK9sOcrd) 或 [百度地圖](https://j.map.baidu.com/1b/TgEJ) 中查看

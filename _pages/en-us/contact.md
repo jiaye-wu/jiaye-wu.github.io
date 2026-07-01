@@ -12,6 +12,7 @@ nav_order: 7
 
 {% capture contact_left %}
 <i class="fa-regular fa-map"></i> **Address:** <br>
+Office 401, Academic Building 4, City University of Hong Kong (Dongguan Campus)<br>
 Gaoxiong Rd. 8, Songshan Lake Science City, Dongguan 523808, Guangdong, China.<br>
 View in [Amap](https://surl.amap.com/in0vK9sOcrd) or [Baidu Map](https://j.map.baidu.com/1b/TgEJ)
 
