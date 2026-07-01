@@ -26,7 +26,7 @@ nav_order: 7
 
 {% include info_card_map.liquid 
    name="聯絡信息" 
-   role="香港城市大學（東莞）" 
+   role=" " 
    badge="CityUHK-DG ALIGN" 
    image="/assets/img/maps/CityUHK-DG-pic.png"
    description=contact_left
