@@ -1,3 +1,11 @@
+<script>
+  // 如果访客敲的是旧的 github.io 域名
+  if (window.location.hostname === "jiaye-wu.github.io") {
+    // 瞬间劫持，并带着他原本想访问的子页面路径，重定向到你的纯净新域名
+    window.location.replace("https://align.science" + window.location.pathname + window.location.search);
+  }
+</script>
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
