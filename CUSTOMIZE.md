@@ -587,8 +587,8 @@ third_party_libraries:
   bootstrap-table:
     version: "1.22.4"
     url:
-      css: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
-      js: "https://cdn.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
+      css: "https://gcore.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.css"
+      js: "https://gcore.jsdelivr.net/npm/bootstrap-table@{{version}}/dist/bootstrap-table.min.js"
     integrity:
       css: "sha256-..."
       js: "sha256-..."
