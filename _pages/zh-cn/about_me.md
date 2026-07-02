@@ -11,7 +11,7 @@
 
 - 2026年-2027年 <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大学（东莞）](https://www.cityu-dg.edu.cn/zh/home.html) 电机工程系 助理教授
 
-- 2026年-至今 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑联邦理工大学（EPFL）](https://www.epfl.ch/) 光子学系统实验室 访问学者（Visiting Scholar）
+- 2026年-2026年 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑联邦理工大学（EPFL）](https://www.epfl.ch/) 光子学系统实验室 访问学者（Visiting Scholar）
 
 - 2025年-2026年 <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [瑞士洛桑联邦理工大学（EPFL）](https://www.epfl.ch/) 光子学系统实验室 博士后研究员（Collaborateur Scientifique）
 
