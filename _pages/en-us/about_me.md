@@ -11,6 +11,8 @@ Jiaye is currently an Assistant Professor at the Institute of Data and Informati
 
 - 2026-2027: **Assistant Professor**, Department of Electrical Engineering, <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html).
 
+- 2026-Present: **Visiting Scholar**, Photonic Systems Laboratory (PHOSL), <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/).
+
 - 2025-2026: **Collaborateur Scientifique**, Photonic Systems Laboratory (PHOSL), <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/).
 
 - 2021-2025: **Assistant-Doctorant**, School of Engineering (STI), <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> [École Polytechnique Fédérale de Lausanne](https://www.epfl.ch/).
