@@ -1,5 +1,5 @@
 ---
-id: links
+page_id: links
 layout: page
 permalink: /links/
 title: related links
@@ -8,21 +8,19 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; ">  university/campus
+## <img src="/assets/img/university_logos/CityUHK-Small.png" style="height: 1.1em; ">  university/campus
 
 ---
 
-[École Polytechnique Fédérale de Lausanne (EPFL)](https://www.epfl.ch/)
+[City University of Hong Kong (Main Campus)](https://www.cityu.edu.hk/en)
 
-[School of Engineering](https://sti.epfl.ch/)
+[City University of Hong Kong (Dongguan Campus)](https://www.cityu-dg.edu.cn/en/home.html)
+- [Academic Calendar](https://www.cityu-dg.edu.cn/en/academic-calendar.html)
+- [Postgraduate Admission](https://pga.cityu-dg.edu.cn/en/)
+- [Academic Regulations and Records Office](https://arro.cityu-dg.edu.cn/)
+- [CityUHK-DG Scholars](https://rims.cityu-dg.edu.cn/en/)
 
-[Institute of Electrical and Micro Engineering (IEM)](https://sti.epfl.ch/iem/)
-
-[EPFL Map](https://plan.epfl.ch)
-
-[EPFL People](https://people.epfl.ch)
-
-## partner links (partner labs)
+## <i class="fa-solid fa-flask"></i> partner links
 
 ---
 

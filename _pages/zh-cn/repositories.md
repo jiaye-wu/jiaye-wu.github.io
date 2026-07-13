@@ -12,9 +12,9 @@ nav_order: 99
 
 ---
 
-[jiaye-wu](https://github.com/jiaye-wu) for group website and scientific tools.
+[jiaye-wu](https://github.com/jiaye-wu): 课题组网站和科研工具。
 
-[TerenceWSK](https://github.com/jiaye-wu) for group website and scientific tools.
+[TerenceWSK](https://github.com/jiaye-wu): 非科研开发工作。
 
 ## 实用GitHub代码仓库与资源
 
@@ -58,12 +58,11 @@ nav_order: 99
 
 [京华老宋体](https://zhuanlan.zhihu.com/p/637491623) by 特里王
 
-### 杂项
+<!-- ### 杂项
 
 [青椒模拟器 - 入口1](https://tenure.hqzhou.com/)
 
-[青椒模拟器 - 入口2](https://tenure.feedscription.com/)
-
+[青椒模拟器 - 入口2](https://tenure.feedscription.com/) -->
 
 ## 致谢及开源信息：
 

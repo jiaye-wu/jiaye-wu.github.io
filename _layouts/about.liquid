@@ -8,7 +8,13 @@ layout: default
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
-        {{ site.title }}
+        {% comment %} {{ site.title }} {% endcomment %}
+         <img
+            src="{{ '/assets/img/banners/banner.png' | relative_url }}"
+            alt="Banner Image"
+            class="img-fluid"
+            style="max-height: 80px; width: auto; height: auto;"
+          > 
       {% endif %}
     </h1>
     <p class="desc">{{ page.subtitle }}</p>
@@ -66,7 +72,7 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.data[site.active_lang].strings.contact_note }}</div>
       </div>

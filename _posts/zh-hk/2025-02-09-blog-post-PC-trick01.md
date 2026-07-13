@@ -5,7 +5,7 @@ date: 2025-02-09 20:05:00
 description: 經驗分享和個人筆記
 tags:
   - software
-  - miciroft windows
+  - windows
   - freefilesync
   - pc
   - pc tricks
@@ -14,6 +14,8 @@ categories:
   - archive
   - blog
 thumbnail: assets/img/post_covers/Computers.png
+toc:
+  sidebar: left
 ---
 
 如果你有將所有文件和目錄結構在你的個人設備之間（特指Windows個人電腦和Android手機與平板）保持相同和同步的習慣，這篇筆記就是為你準備的。本文是我的個人筆記，如果你決定嘗試實踐此方法，本人不對由此可能造成的任何潛在的數據損失負責。

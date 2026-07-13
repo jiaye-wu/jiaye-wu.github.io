@@ -20,6 +20,17 @@ blog:
 categories:
   ongoing: 進行中的課題
   non-active: 非活躍課題
+member_categories:
+  visiting: 訪問學生/學者
+  post-doc: 博士後
+  doctor: 博士生
+  master: 碩士生
+  bachelor: 本科生
+  alumni: 畢業生/離組成員
+members:
+  back_to_team: 返回團隊成員
+  pi: 課題組負責人
+  present: 至今
 citation:
   bibtex: "或者使用BibTeX條目："
   introduction: "若有用，請引用為："
@@ -83,7 +94,7 @@ footer:
   copyright: "版權所有 "
   last_updated: 最後更新於：
 footer_text: > # the ">" symbol means to ignore newlines until "titles:"
-  瑞士洛桑聯邦理工大學（EPFL） 工學院 光子學系統實驗室。
+  香港城市大學（東莞） 先進集成波導納米光子學實驗室。
 latest_posts: 最新博文
 months:
   long:

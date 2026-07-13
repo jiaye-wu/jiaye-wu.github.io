@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: 博客文章
-blog_name: Espace Sci
-description: 个人学术博客空间
+blog_name: ALIGN Blogs # Espace Sci
+description: 实验室学术新闻与PI博客文章 # 个人学术博客空间
 nav: true
 nav_order: 1
 pagination:

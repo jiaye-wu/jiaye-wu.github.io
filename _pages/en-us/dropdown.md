@@ -12,8 +12,8 @@ children:
   - title: related links
     permalink: /links/
   - title: divider
-  # - title: people
-  #   permalink: /people/
+  # - title: members
+  #   permalink: /members/
   # - title: divider
   # - title: open positions
   #   permalink: /positions/

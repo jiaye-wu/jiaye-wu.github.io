@@ -3,8 +3,8 @@ page_id: blog
 layout: default
 permalink: /blog/
 title: blog
-blog_name: Espace Sci
-description: academic and personal blog posts
+blog_name: ALIGN Blogs # Espace Sci
+description: lab's academic news and PI's blog posts # academic news and personal blog posts
 nav: true
 nav_order: 1
 pagination:

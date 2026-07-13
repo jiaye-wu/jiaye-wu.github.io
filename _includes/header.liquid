@@ -17,12 +17,28 @@
               {{- site.last_name -}}
             {% endif %}
           {% else %}
-            {{- site.title -}}
+            {% comment %} {{- site.title -}} {% endcomment %}
+            <img
+              src="{{ '/assets/img/banners/lab_logo.png' | relative_url }}"
+              alt="Banner Image"
+              class="img-fluid"
+              style="max-height: 40px; width: auto; height: auto;"
+            >
           {% endif %}
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
+      {% else %}
+        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          <img
+            src="{{ '/assets/img/banners/university_logo.png' | relative_url }}"
+            alt="Banner Image"
+            class="img-fluid"
+            style="max-height: 30px; width: auto; height: auto;"
+          >
+        </a>
+        {% if site.enable_navbar_social %}
+          <!-- Social Icons -->
+          <div class="navbar-brand social">{% include social.liquid %}</div>
+        {% endif %}
       {% endif %}
       <!-- Navbar Toggle -->
       <button
@@ -47,6 +63,7 @@
           {% endfor %}
 
           <!-- About -->
+          {% comment %} 
           <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
             <a class="nav-link" href="{{ '/' | relative_url }}">
               {{- about_title }}
@@ -54,7 +71,8 @@
                 <span class="sr-only">(current)</span>
               {% endif %}
             </a>
-          </li>
+          </li> 
+          {% endcomment %}
 
           <!-- Other pages -->
           {% assign sorted_pages = site.pages | sort: 'nav_order' %}
@@ -120,8 +138,8 @@
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
-              <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="ti ti-search"></i></span>
+              <button id="search-toggle" title="search (ctrl/⌘ + k)" onclick="openSearchModal()">
+                <span class="nav-link"> <!-- ctrl k --> <i class="ti ti-search"></i></span>
               </button>
             </li>
           {% endif %}
@@ -206,7 +224,7 @@
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
+              <button id="light-toggle" title="light/dark mode">
                 <i class="ti ti-sun-moon" id="light-toggle-system"></i>
                 <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
                 <i class="ti ti-sun-filled" id="light-toggle-light"></i>

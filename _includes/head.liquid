@@ -1,3 +1,9 @@
+<script>
+  if (window.location.hostname === "jiaye-wu.github.io") {
+    window.location.replace("https://align.science" + window.location.pathname + window.location.search);
+  }
+</script>
+
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
@@ -24,12 +30,16 @@
 <!-- Fonts & Icons -->
 <link defer rel="stylesheet" href="{{ '/assets/css/academicons.min.css' | relative_url | bust_file_cache }}">
 <link defer rel="stylesheet" href="{{ '/assets/css/scholar-icons.css' | relative_url | bust_file_cache }}">
+{% comment %}
+  Google Fonts is intentionally disabled because the site uses local MiSans fonts.
+  Keep this block as a restore point if Roboto/Roboto Slab/Material Icons are needed later.
 <link
   defer
   rel="stylesheet"
   type="text/css"
   href="{{ site.third_party_libraries.google_fonts.url.fonts }}"
 >
+{% endcomment %}
 
 <!-- Code Syntax Highlighting -->
 <link
@@ -69,9 +79,9 @@
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}">
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
-<!-- Dark Mode -->
-<script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
 {% if site.enable_darkmode %}
+  <!-- Dark Mode -->
+  <script src="{{ '/assets/js/theme.js' | relative_url | bust_file_cache }}"></script>
   <link
     defer
     rel="stylesheet"

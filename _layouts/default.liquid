@@ -22,7 +22,7 @@
 
   <!-- Body -->
   <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
-    <!-- 横幅代码 -->
+    {% comment %} <!-- 横幅代码 -->
     <div class="banner-container">
       <div class="banner">
         <img src="{{ '/assets/img/banners/banner.png' | relative_url }}" alt="Banner Image">
@@ -69,7 +69,7 @@
       z-index: 1000; /* 导航栏的 z-index 设置比横幅低 */
       margin-top: 40px; /* 确保导航栏不会遮盖横幅 */
       }
-    </style>
+    </style> {% endcomment %}
 
     <!-- Header -->
     {% include header.liquid %}
@@ -80,20 +80,20 @@
         {% if page.toc.sidebar == 'right' %}
           <div class="row">
             <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="col-sm-10">{{ content }}</div>
             <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
+            <div class="col-sm-2">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
           </div>
         {% else %}
           <div class="row">
             <!-- sidebar, which will move to the top on a small screen -->
-            <div class="col-sm-3">
+            <div class="col-sm-2">
               <nav id="toc-sidebar" class="sticky-top"></nav>
             </div>
             <!-- main content area -->
-            <div class="col-sm-9">{{ content }}</div>
+            <div class="col-sm-10">{{ content }}</div>
           </div>
         {% endif %}
       {% else %}

@@ -1,5 +1,5 @@
 ---
-id: links
+page_id: links
 layout: page
 permalink: /links/
 title: 相關鏈接
@@ -8,21 +8,20 @@ nav: false
 nav_order: 98
 ---
 
-## <img src="/assets/img/university_logos/EPFL.png" style="height: 0.8em; "> 本校/校園
+## <img src="/assets/img/university_logos/CityUHK-Small.png" style="height: 1.1em; "> 本校/校園
 
 ---
 
-[瑞士洛桑聯邦理工大學（EPFL）](https://www.epfl.ch/)
+[香港城市大學（本部）](https://www.cityu.edu.hk/zh-hk)
 
-[工學院（STI）](https://sti.epfl.ch/)
+[香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html)
+- [校歷](https://www.cityu-dg.edu.cn/zh/academic-calendar.html)
+- [研究生招生](https://pga.cityu-dg.edu.cn/)
+- [教務處](https://arro.cityu-dg.edu.cn/)
+- [CityUHK-DG Scholars](https://rims.cityu-dg.edu.cn/cn/)
 
-[電氣與微工程系（IEM）](https://sti.epfl.ch/iem/)
 
-[EPFL 地圖](https://plan.epfl.ch)
-
-[EPFL 成員](https://people.epfl.ch)
-
-## 友情鏈接（合作實驗室/課題組網站）
+## <i class="fa-solid fa-flask"></i> 友情鏈接
 
 ---
 

@@ -1,167 +1,43 @@
-## current members
+## lab members
 
-<br>
+{% assign display_categories = "post-doc,doctor,master,bachelor,alumni" | split: "," %}
 
-### Post-doc
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>Jane Doe</strong></h5>
-        <h6 class="card-subtitle font-italic">Post-Doctoral Researcher</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          2026 Post-Doc
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
-          <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
-          </div>
-        </div>
+<div class="member-list-layout">
+  <nav class="member-toc sticky-top">
+    <ul class="nav navbar-nav">
+      <li>
+        <a class="nav-link" href="#principal-investigator">{{ site.data[site.active_lang].strings.members.pi }}</a>
       </li>
+      {% for category in display_categories %}
+        {% assign categorized_members = site.members | where: "category", category %}
+        {% if categorized_members.size > 0 %}
+          {% assign category_id = site.data[site.active_lang].strings.member_categories[category] | slugify %}
+          <li>
+            <a class="nav-link" href=".#{{ category_id }}">{{ site.data[site.active_lang].strings.member_categories[category] }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
     </ul>
-  </div>
-</div>
+  </nav>
 
-<br>
-
-### PhD students
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>John Doe</strong></h5>
-        <h6 class="card-subtitle font-italic">Ph.D. Candidate</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          2026 Ph.D.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
-          </div>
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
+  <div class="members">
+    {% for category in display_categories %}
+      {% assign categorized_members = site.members | where: "category", category %}
+      {% if categorized_members.size > 0 %}
+        {% assign category_id = site.data[site.active_lang].strings.member_categories[category] | slugify %}
+        <h3 id="{{ category_id }}" class="category">
+          <a href=".#{{ category_id }}">{{ site.data[site.active_lang].strings.member_categories[category] }}</a>
+        </h3>
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
+          {% assign year_groups = categorized_members | group_by: "start_year" | sort: "name" | reverse %}
+          {% for year_group in year_groups %}
+            {% assign sorted_members = year_group.items | sort: "order" %}
+            {% for member in sorted_members %}
+              {% include members.liquid member=member %}
+            {% endfor %}
+          {% endfor %}
         </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<br>
-
-### Master's students
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>Jane Doe</strong></h5>
-        <h6 class="card-subtitle font-italic">M.Sc. Student</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          2026 M.Sc.
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
-          <div class="col-sm-10">
-            <p><strong>Works in:</strong> optics.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
----
-
-## previous members
-
-<br>
-
-### PhD students
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>John Doe</strong></h5>
-        <h6 class="card-subtitle font-italic">Ph.D. Graduate</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          2026-2030
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-10">
-            <p><strong>Worked in:</strong> optics.</p>
-            <p><strong>Current position:</strong> staff.</p>
-          </div>
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/boy" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<br>
-
-### Master's students
-
-<div class="card mt-3">
-  <div class="p-3">
-    <div class="row">
-      <div class="col-sm-10">
-        <h5 id="labmember" class="card-title"><strong>Jane Doe</strong></h5>
-        <h6 class="card-subtitle font-italic">M.Sc. Graduate</h6>
-      </div>
-      <div class="col-sm-2 text-sm-right">
-        <span class="badge">
-          2026-2029
-        </span>
-      </div>
-    </div>
-    <ul class="card-text font-weight-light list-group list-group-flush">
-      <li class="list-group-item">
-        <div class="row">
-          <div class="col-sm-2">
-            <img src="https://avatar.iran.liara.run/public/girl" style="width: 100%; height: auto; object-fit: cover;">
-          </div>
-          <div class="col-sm-10">
-            <p><strong>Worked in:</strong> optics.</p>
-            <p><strong>Current position:</strong> staff.</p>
-          </div>
-        </div>
-      </li>
-    </ul>
+      {% endif %}
+    {% endfor %}
   </div>
 </div>
