@@ -1,7 +1,7 @@
 # 极速版配置：带增量编译和强制轮询
 services:
   jekyll:
-    image: amirpourmand/al-folio:v1.16.2
+    image: terenceww/multi-language-al-folio:v1.16.2
     build: .
     ports:
       - 8080:8080
