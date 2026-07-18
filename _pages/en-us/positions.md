@@ -13,6 +13,10 @@ We offer open positions to excellent young scholars and students from the Chines
 Additional information can be found [here](https://www.cityu-dg.edu.cn/en/admissions.html).<br>
 Application system for M.Sc. and Ph.D. candaites can be accessed [here](https://apply.cityu-dg.edu.cn/pg/a/login).
 
+---
+
+**"Angel Investment":** For outstanding students/postdocs with a solid research background, unique ideas, and related specific research topics, _upon submitting a complete and rigorous feasibility study and engaging in thorough discussions with the PI_, there are opportunities to receive resource support for **independent research directions** within the group's capacity.
+
 <br>
 
 <!-- PostDoc -->

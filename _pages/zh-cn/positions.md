@@ -13,6 +13,10 @@ nav_order: 6
 招生信息可见[官网](https://www.cityu-dg.edu.cn/zh/admissions.html)。<br>
 [硕博招生申请系统](https://apply.cityu-dg.edu.cn/pg/a/login)
 
+---
+
+**天使投资：**针对具有一定科研基础、独特想法和相关感兴趣研究题目的“领军”学生/博后，在提交 _完整、严谨的可行性论证并于导师充分讨论后_，有机会获得课题组能力范围内的**独立研究方向**资源支持。
+
 <br>
 
 <!-- PostDoc -->
