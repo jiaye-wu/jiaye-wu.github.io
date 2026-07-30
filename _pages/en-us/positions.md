@@ -12,6 +12,10 @@ Please submit your curriculum vitae (CV) and personal statement to the P.I. by [
 We offer open positions to excellent young scholars and students from the Chinese Mainland, Hong Kong SAR, Macau SAR, Taiwan Province, and overseas. <br>
 Additional information can be found [here](https://www.sigs.tsinghua.edu.cn/en/7383/list.htm).
 
+---
+
+**"Angel Investment":** For outstanding students/postdocs with a solid research background, unique ideas, and related specific research topics, _upon submitting a complete and rigorous feasibility study and engaging in thorough discussions with the PI_, there are opportunities to receive resource support for **independent research directions** within the group's capacity.
+
 <br>
 
 <!-- PostDoc -->
