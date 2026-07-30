@@ -90,7 +90,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-cn/repositories/";
               },
-            },{id: "post-学术工具-exportmypub项目",
+            },{id: "post-学术会议报告-piers-分会场组织与邀请报告ultrafast-thermo-optic-nonlinearity-in-time-varying-epsilon-near-zero-interfaces",
+        
+          title: "[学术会议报告] PIERS: 分会场组织与邀请报告Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces",
+        
+        description: "在中国江苏省苏州市举办的PIERS会议上作学术报告",
+        section: "博文",
+        handler: () => {
+          
+            window.location.href = "/zh-cn/blog/2026/conf-PIERS/";
+          
+        },
+      },{id: "post-学术工具-exportmypub项目",
         
           title: "[学术工具] ExportMyPub项目",
         

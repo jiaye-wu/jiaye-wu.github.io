@@ -90,7 +90,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/repositories/";
               },
-            },{id: "post-academic-tool-exportmypub-project",
+            },{id: "post-conference-piers-session-organization-amp-invited-talk-ultrafast-thermo-optic-nonlinearity-in-time-varying-epsilon-near-zero-interfaces",
+        
+          title: "[Conference] PIERS: Session organization &amp; invited talk Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero...",
+        
+        description: "conference presentation at Suzhou, China",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/conf-PIERS/";
+          
+        },
+      },{id: "post-academic-tool-exportmypub-project",
         
           title: "[Academic Tool] ExportMyPub Project",
         

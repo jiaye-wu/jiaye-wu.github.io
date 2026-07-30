@@ -90,7 +90,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/zh-hk/repositories/";
               },
-            },{id: "post-學術工具-exportmypub項目",
+            },{id: "post-學術會議報告-piers-分會場組織與邀請報告ultrafast-thermo-optic-nonlinearity-in-time-varying-epsilon-near-zero-interfaces",
+        
+          title: "[學術會議報告] PIERS: 分會場組織與邀請報告Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces",
+        
+        description: "在中國江蘇省蘇州市舉辦的PIERS會議上作學術報告",
+        section: "博文",
+        handler: () => {
+          
+            window.location.href = "/zh-hk/blog/2026/conf-PIERS/";
+          
+        },
+      },{id: "post-學術工具-exportmypub項目",
         
           title: "[學術工具] ExportMyPub項目",
         
