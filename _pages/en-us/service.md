@@ -371,6 +371,23 @@ Sci. Rep.<br>
    description2=SNR
 %}
 
+<!--AAAS -->
+{% capture AAASL %}
+_Ultrafast Science_<br>
+{% endcapture %}
+
+{% capture AAASR %}
+Ultrafast Sci.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="American Association for the Advancement of Science" 
+   subtitle="Peer Reviewer" 
+   badge="AAAS" 
+   description1=AAASL
+   description2=AAASR
+%}
+
 <!--SPIE -->
 {% capture SPIEL %}
 _Advanced Photonics_<br>
