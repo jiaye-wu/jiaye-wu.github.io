@@ -358,6 +358,23 @@ Sci. Rep.<br>
    description2=SNR
 %}
 
+<!--AAAS -->
+{% capture AAASL %}
+_Ultrafast Science_<br>
+{% endcapture %}
+
+{% capture AAASR %}
+Ultrafast Sci.<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="美国科学促进会" 
+   subtitle="审稿人" 
+   badge="AAAS" 
+   description1=AAASL
+   description2=AAASR
+%}
+
 <!--SPIE -->
 {% capture SPIEL %}
 _Advanced Photonics_<br>
