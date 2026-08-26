@@ -21,9 +21,9 @@ Operating in the near-zero-index regime unlocks unprecedented control over elect
 
 ## research focus
 
-- **new phenomena and mechanisms:** investigating novel wave physics and unique light-matter interaction regimes that emerge exclusively within zero-index environments. (e.g., {% cite Wu2021a Wu2022 Wu2024a Wu2025 Wu2026 %})
-- **advanced micro- and nano-fabrication:** developing high-precision lithography and etching methodologies to realize intricate metamaterial structures possessing tailored near-zero-index properties. (e.g., {% cite Wu2021b Huang2023 %})
-- **advanced device design:** engineering innovative photonic components that leverage spatially uniform phases to achieve non-traditional and extreme optical functionalities. (e.g., {% cite Xie2020a Sha2021 Sha2022 Xie2022 %})
+- **new phenomena and mechanisms:** investigating novel wave physics and unique light-matter interaction regimes that emerge exclusively within zero-index environments. (e.g., {% cite Wu2021a Wu2022 Wu2024a Wu2025 Wu2026 Liu2026 %})
+- **advanced micro- and nano-fabrication:** developing high-precision lithography and etching methodologies to realize intricate metamaterial structures possessing tailored near-zero-index properties. (e.g., {% cite Wu2021b Huang2023 Wu2026 Liu2026 %})
+- **advanced device design:** engineering innovative photonic components that leverage spatially uniform phases to achieve non-traditional and extreme optical functionalities. (e.g., {% cite Xie2020a Sha2021 Sha2022 Xie2022 Wu2026 Liu2026 %})
 - **advanced on-chip integration:** integrating near-zero-index architectures onto standard photonic platforms to enable scalable, multi-functional, and high-density optical circuits. (e.g., {% cite Sha2022 Wu2024a %}, also see [project: integrated photonic devices and chips]({% link _projects/en-us/proj_integrated_optics.md %})
 - **advanced packaging processes:** establishing robust, low-loss, and excellent thermal management packaging solutions to ensure long-term environmental stability and reliable optical coupling for integrated near-zero-index systems. (e.g., {% cite Wu2021b Wu2024a %})
 
