@@ -22,7 +22,7 @@ Augmenting or replacing traditional digital processors with photonic hardware ca
 ## research focus
 
 - **in-memory optical computing:** designing non-von-Neumann computing architectures that integrate optical storage and processing elements to eliminate data movement bottlenecks. (e.g., {% cite Wu2024c Wu2025%})
-- **activation and operator devices:** developing non-linear optical components and dedicated hardware units to execute crucial activation functions and complex mathematical operations entirely in the optical domain.
+- **activation and operator devices:** developing non-linear optical components and dedicated hardware units to execute crucial activation functions and complex mathematical operations entirely in the optical domain. (e.g., {% cite Wu2025 Wu2026 Liu2026%})
 - **photonic twins through emulation:** implementing hardware-based photonic emulation systems to mirror and accelerate complex physical or computational processes with high fidelity. (e.g., {% cite Wu2022 Wu2024c Wu2025%})
 
 <div class="row justify-content-sm-center">
