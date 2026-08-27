@@ -219,6 +219,8 @@ toc:
 
 ## **professional activities**
 
+<br>
+
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
 <!--OPTICA-->
@@ -250,7 +252,28 @@ toc:
 
 <br>
 
-<h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
+<h3 style="color: #000000;" id="spie"><a href="https://spie.org/membership"><img src="/assets/img/society_logos/SPIE.png" style="height: 1.8em; "></a></h3>
+
+<!--SPIE-->
+{% capture SPIEL %}
+**Chapter Member**, SPIE City University of Hong Kong Dongguan Campus Chapter<br>
+{% endcapture %}
+
+{% capture SPIER %}
+2026-Present<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="SPIE" 
+   subtitle="Early-Career Member" 
+   badge="SPIE" 
+   description1=SPIEL
+   description2=SPIER
+%}
+
+<br>
+
+<h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IEEE.png" style="height: 1.8em; "> <img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
 
 <!--IPS-->
 {% capture IPSL %}
@@ -264,9 +287,9 @@ toc:
 {% endcapture %}
 
 {% include info_card_service.liquid 
-   name="IEEE Photonics Society" 
+   name="IEEE & IEEE Photonics Society" 
    subtitle="Member" 
-   badge="IPS" 
+   badge="IEEE/IPS" 
    description1=IPSL
    description2=IPSR
 %}
@@ -321,18 +344,18 @@ toc:
 
 <!--PIERS-->
 {% capture PIERSL %}
-**Session Chair**, [_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
-**Session Organizer**, [_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
+[_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_](https://daejeon2027.piers.org/session.html?sid=S014)<br>
+[_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
 {% endcapture %}
 
 {% capture PIERSR %}
-2026.07<br>
-2026.07<br>
+2027.05, Daejeon, Korea<br>
+2026.07, Suzhou, China<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
    name="PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)" 
-   subtitle="Academic Conference" 
+   subtitle="Academic Conference Session Chair & Organizer" 
    badge="PIERS" 
    description1=PIERSL
    description2=PIERSR
