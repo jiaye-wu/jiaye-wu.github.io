@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-26'
+  last_updated: '2026-08-31'
 papers:
   D2n8tswAAAAJ:-f6ydRqryjwC:
     citations: 1
@@ -18,7 +18,7 @@ papers:
     title: Comparison Study of Multi-Slot Designs in Epsilon-Near-Zero Waveguide-Based Electro-Optical Modulators
     year: '2021'
   D2n8tswAAAAJ:4JMBOYKVnBMC:
-    citations: 18
+    citations: 19
     title: Manufacturing-Enabled Tunability of Linear and Nonlinear Epsilon-Near-Zero Properties in Indium Tin Oxide Nanofilms
     year: '2023'
   D2n8tswAAAAJ:5nxA0vEk-isC:
@@ -37,6 +37,10 @@ papers:
     citations: 0
     title: Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces
     year: '2026'
+  D2n8tswAAAAJ:GnPB-g6toBAC:
+    citations: 0
+    title: Reconfigurable time-varying bleaching-channel switching in epsilon-near-zero metamaterials
+    year: '2026'
   D2n8tswAAAAJ:HDshCWvjkbEC:
     citations: 11
     title: Observation of SQUID-Like Behavior in Fiber Laser with Intra-Cavity Epsilon-Near-Zero Effect
@@ -46,7 +50,7 @@ papers:
     title: Enhanced-Genetic-Algorithm-Based Absorption Performance Optimization of Epsilon-Near-Zero Multilayer
     year: '2021'
   D2n8tswAAAAJ:JV2RwH3_ST0C:
-    citations: 7
+    citations: 8
     title: Integrated tunable green light source on silicon nitride
     year: '2026'
   D2n8tswAAAAJ:KlAtU1dfN6UC:
@@ -110,7 +114,7 @@ papers:
     title: Extraordinary transmission and reflection in PT-symmetric two-segment-connected triangular optical waveguide networks with perfect and broken integer waveguide length ratios
     year: '2019'
   D2n8tswAAAAJ:Wp0gIr-vW9MC:
-    citations: 217
+    citations: 219
     title: 'Epsilon-near-zero photonics: infinite potentials'
     year: '2021'
   D2n8tswAAAAJ:YFjsv_pBGBYC:
@@ -162,11 +166,11 @@ papers:
     title: Ultrastrong extraordinary transmission and reflection in PT-symmetric Thue-Morse optical waveguide networks
     year: '2017'
   D2n8tswAAAAJ:dhFuZR0502QC:
-    citations: 10
+    citations: 11
     title: Optimization of Epsilon-Near-Zero Multilayers for Near-Perfect Light Absorption Using an Enhanced Genetic Algorithm
     year: '2021'
   D2n8tswAAAAJ:e5wmG9Sq2KIC:
-    citations: 20
+    citations: 21
     title: All-optical switching in epsilon-near-zero asymmetric directional coupler
     year: '2022'
   D2n8tswAAAAJ:eQOLeE2rZwMC:
@@ -222,7 +226,7 @@ papers:
     title: Diurnal cooling for continuous thermal sources under direct subtropical sunlight produced by quasi-Cantor structure
     year: '2017'
   D2n8tswAAAAJ:r0BpntZqJG4C:
-    citations: 28
+    citations: 29
     title: Thermo-optic epsilon-near-zero effects
     year: '2024'
   D2n8tswAAAAJ:u5HHmVD_uO8C:
@@ -230,6 +234,6 @@ papers:
     title: "\u5E7F\u4E1C\u79D1\u5B66\u4E2D\u5FC3\u63D0\u5347\u9752\u5C11\u5E74\u79D1\u5B66\u7D20\u517B\u7684\u73B0\u72B6\u8C03\u67E5\u4E0E\u5BF9\u7B56\u7814\u7A76"
     year: '2015'
   D2n8tswAAAAJ:zYLM7Y9cAGgC:
-    citations: 36
+    citations: 37
     title: Extraordinary characteristics for one-dimensional parity-time-symmetric periodic ring optical waveguide networks
     year: '2018'
