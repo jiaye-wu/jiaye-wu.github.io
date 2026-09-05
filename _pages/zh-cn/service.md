@@ -206,6 +206,8 @@ toc:
 
 ## **学术兼职**
 
+<br>
+
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
 <!--OPTICA-->
@@ -229,7 +231,7 @@ toc:
 
 {% include info_card_service.liquid 
    name="OPTICA（原美国光学学会）" 
-   subtitle="青年会员" 
+   subtitle="青年学者会员" 
    badge="OPTICA" 
    description1=OPTICAL
    description2=OPTICAR
@@ -237,7 +239,28 @@ toc:
 
 <br>
 
-<h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
+<h3 style="color: #000000;" id="spie"><a href="https://spie.org/membership"><img src="/assets/img/society_logos/SPIE.png" style="height: 1.8em; "></a></h3>
+
+<!--SPIE-->
+{% capture SPIEL %}
+**分会成员**, SPIE香港城市大学东莞校区分会<br>
+{% endcapture %}
+
+{% capture SPIER %}
+2026-至今<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="国际光学工程学会" 
+   subtitle="青年学者会员" 
+   badge="SPIE" 
+   description1=SPIEL
+   description2=SPIER
+%}
+
+<br>
+
+<h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IEEE.png" style="height: 1.8em; "> <img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
 
 <!--IPS-->
 {% capture IPSL %}
@@ -251,9 +274,9 @@ toc:
 {% endcapture %}
 
 {% include info_card_service.liquid 
-   name="电气电子工程师协会光子学会" 
+   name="电气电子工程师协会、IEEE光子学会" 
    subtitle="会员" 
-   badge="IPS" 
+   badge="IEEE/IPS" 
    description1=IPSL
    description2=IPSR
 %}
@@ -308,18 +331,18 @@ toc:
 
 <!--PIERS-->
 {% capture PIERSL %}
-**分论坛主席**：[_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
-**分论坛组织者**：[_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
+[_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_](https://daejeon2027.piers.org/session.html?sid=S014)<br>
+[_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
 {% endcapture %}
 
 {% capture PIERSR %}
-2026.07<br>
-2026.07<br>
+韩国大田广域市，2027.05<br>
+中国江苏省苏州市，2026.07<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
    name="PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)" 
-   subtitle="学术会议" 
+   subtitle="学术会议分论坛主席、组织" 
    badge="PIERS" 
    description1=PIERSL
    description2=PIERSR
