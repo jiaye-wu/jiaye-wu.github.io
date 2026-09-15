@@ -372,8 +372,8 @@ _Nature Nanotechnology_ (co-review)<br>
 _Nature Communications_ (co-review)<br>
 _Light: Science & Applications_ (co-review)<br>
 _Communications Physics_<br>
-_Optical and Quantum Electronics_<br>
 _Scientific Reports_<br>
+_Optical and Quantum Electronics_<br>
 {% endcapture %}
 
 {% capture SNR %}
@@ -382,8 +382,8 @@ Nat. Nanotechnol.<br>
 Nat. Commun.<br>
 Light Sci. Appl.<br>
 Commun. Phys.<br>
-Opt. Quantum Electron.<br>
 Sci. Rep.<br>
+Opt. Quantum Electron.<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
@@ -548,10 +548,12 @@ Opt. Commun.<br>
 <!--American Institute of Physics -->
 {% capture AIPL %}
 _Applied Physics Letters_<br>
+_APL Quantum_<br>
 {% endcapture %}
 
 {% capture AIPR %}
 Appl. Phys. Lett.<br>
+APL Quantum<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
