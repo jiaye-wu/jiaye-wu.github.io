@@ -340,7 +340,7 @@ toc:
 
 {% include info_card_service.liquid 
    name="EPFL Doctoral Programme in Photonics (EDPO)" 
-   subtitle="Member" 
+   subtitle="Member, Employee" 
    badge="EPFL EDPO" 
    description1=EDPOL
    description2=EDPOR
