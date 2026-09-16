@@ -295,11 +295,32 @@ toc:
 {% endcapture %}
 
 {% include info_card_service.liquid 
-   name="愛思唯爾顧問委員會" 
-   subtitle="成員" 
+   name="愛思唯爾" 
+   subtitle=" " 
    badge="Elsevier" 
    description1=ELSL
    description2=ELSR
+%}
+
+<br>
+
+<h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
+
+<!--CAC-->
+{% capture CityUHKDGL %}
+**成員**, 香港城市大學（東莞）學術委員會<br>
+{% endcapture %}
+
+{% capture CityUHKDGR %}
+2026-至今<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="香港城市大學（東莞）" 
+   subtitle="學院與學術輔助部門" 
+   badge="CityUHK (DG) CAC" 
+   description1=CityUHKDGL
+   description2=CityUHKDGR
 %}
 
 <br>
@@ -308,8 +329,8 @@ toc:
 
 <!--EDPO-->
 {% capture EDPOL %}
-**成員**，瑞士洛桑聯邦理工大學EDPO光子學專業委員會<br>
-**博士代表**，瑞士洛桑聯邦理工大學EDPO光子學專業<br>
+**成員**，瑞士洛桑聯邦理工大學EDPO委員會<br>
+**博士代表**，瑞士洛桑聯邦理工大學EDPO項目<br>
 {% endcapture %}
 
 {% capture EDPOR %}
@@ -319,7 +340,7 @@ toc:
 
 {% include info_card_service.liquid 
    name="瑞士洛桑聯邦理工大學光子學博士課程項目（EDPO）" 
-   subtitle="成員" 
+   subtitle="成員、僱員" 
    badge="EPFL EDPO" 
    description1=EDPOL
    description2=EDPOR
