@@ -486,86 +486,26 @@ ninja.data = [{
             window.location.href = "/blog/2015/android-archive/";
           
         },
-      },{id: "members-liam-doe",
-          title: 'Liam Doe',
-          description: "2026 undergraduate researcher",
+      },{id: "members-chenhui-zeng",
+          title: 'Chenhui ZENG',
+          description: "2026 M.Sc. research intern, CityUHK (DG); B.Sc., BUCT",
           section: "",handler: () => {
-              window.location.href = "/members/2026-bsc-liam-doe/";
-            },},{id: "members-lily-doe",
-          title: 'Lily Doe',
-          description: "2026 undergraduate researcher",
+              window.location.href = "/members/2026-msc-chenhui-zeng/";
+            },},{id: "members-jiachen-xi",
+          title: 'Jiachen XI',
+          description: "2026 M.Sc. research intern, CityUHK (DG); B.Sc., TYUT",
           section: "",handler: () => {
-              window.location.href = "/members/2026-bsc-lily-doe/";
-            },},{id: "members-diana-doe",
-          title: 'Diana Doe',
-          description: "2026-2029 M.Sc. alumna, big university",
+              window.location.href = "/members/2026-msc-jiachen-xi/";
+            },},{id: "members-siyan-chen",
+          title: 'Siyan CHEN',
+          description: "2026 M.Sc. research intern, CityUHK (DG); B.Sc., BJTU",
           section: "",handler: () => {
-              window.location.href = "/members/2026-msc-diana-doe/";
-            },},{id: "members-emily-doe",
-          title: 'Emily Doe',
-          description: "2026 M.Sc. student",
+              window.location.href = "/members/2026-msc-siyan-chen/";
+            },},{id: "members-xiangshang-liu",
+          title: 'Xiangshang LIU',
+          description: "2026 M.Sc. research intern, CityUHK (DG); B.Sc., HIT",
           section: "",handler: () => {
-              window.location.href = "/members/2026-msc-emily-doe/";
-            },},{id: "members-ethan-doe",
-          title: 'Ethan Doe',
-          description: "2026 M.Sc. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-msc-ethan-doe/";
-            },},{id: "members-david-doe",
-          title: 'David Doe',
-          description: "2026-2031 Ph.D. alumnus, big company",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-david-doe/";
-            },},{id: "members-john-doe",
-          title: 'John Doe',
-          description: "2026 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-john-doe/";
-            },},{id: "members-julia-doe",
-          title: 'Julia Doe',
-          description: "2027 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-julia-doe/";
-            },},{id: "members-mark-doe",
-          title: 'Mark Doe',
-          description: "2027 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-mark-doe/";
-            },},{id: "members-maya-doe",
-          title: 'Maya Doe',
-          description: "2028 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-maya-doe/";
-            },},{id: "members-nina-doe",
-          title: 'Nina Doe',
-          description: "2028 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-nina-doe/";
-            },},{id: "members-noah-doe",
-          title: 'Noah Doe',
-          description: "2028 Ph.D. student",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-phd-noah-doe/";
-            },},{id: "members-james-doe",
-          title: 'James Doe',
-          description: "2026 post-doctoral researcher",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-postdoc-james-doe/";
-            },},{id: "members-jane-doe",
-          title: 'Jane Doe',
-          description: "2026 post-doctoral researcher",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-postdoc-jane-doe/";
-            },},{id: "members-alex-doe",
-          title: 'Alex Doe',
-          description: "2026 visiting scholar",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-visiting-alex-doe/";
-            },},{id: "members-amy-doe",
-          title: 'Amy Doe',
-          description: "2026 visiting scholar",
-          section: "",handler: () => {
-              window.location.href = "/members/2026-visiting-amy-doe/";
+              window.location.href = "/members/2026-msc-xiangshang-liu/";
             },},{id: "news-2nd-prize-of-provincial-challenge-cup-academic-contest-of-guangdong-province",
           title: '2nd Prize of Provincial Challenge Cup Academic Contest of Guangdong Province',
           description: "",
