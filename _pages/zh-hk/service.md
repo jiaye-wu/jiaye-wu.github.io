@@ -16,13 +16,30 @@ toc:
 
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
-<!-- abc -->
+<!-- EE5439 -->
+{% capture EE5439_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE5439.htm)
+{% endcapture %}
+
 {% include info_card_service.liquid 
-   name="課程待分配，佔位標籤" 
-   subtitle="教師（時間待定）" 
-   badge="abc" 
-   description1="X 學分碩士課程。任課：吳嘉野 助理教授"
-   description2=""
+   name="超構器件與光子系統分析" 
+   subtitle="教師（2026/27學年B學期）" 
+   badge="EE5439" 
+   description1="3 學分碩士課程。任課：吳嘉野 助理教授"
+   description2=EE5439_coursebook
+%}
+
+<!-- EE8404 -->
+{% capture EE8404_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE8404.htm)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="器件與微系統納米技術" 
+   subtitle="教師（2026/27學年B學期）" 
+   badge="EE8404" 
+   description1="3 學分碩士課程。任課：吳嘉野 助理教授"
+   description2=EE8404_coursebook
 %}
 
 <br>

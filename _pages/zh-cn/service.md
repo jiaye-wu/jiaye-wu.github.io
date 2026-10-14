@@ -16,13 +16,30 @@ toc:
 
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
-<!-- abc -->
+<!-- EE5439 -->
+{% capture EE5439_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE5439.htm)
+{% endcapture %}
+
 {% include info_card_service.liquid 
-   name="课程待分配，占位标签" 
-   subtitle="教师（时间待定）" 
-   badge="abc" 
-   description1="X 学分硕士课程。任课：吴嘉野 助理教授"
-   description2=""
+   name="超构器件与光子系统分析" 
+   subtitle="教师（2026/27学年B学期）" 
+   badge="EE5439" 
+   description1="3 学分硕士课程。任课：吴嘉野 助理教授"
+   description2=EE5439_coursebook
+%}
+
+<!-- EE8404 -->
+{% capture EE8404_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE8404.htm)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="器件与微系统纳米技术" 
+   subtitle="教师（2026/27学年B学期）" 
+   badge="EE8404" 
+   description1="3 学分硕士课程。任课：吴嘉野 助理教授"
+   description2=EE8404_coursebook
 %}
 
 <br>

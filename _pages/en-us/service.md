@@ -16,13 +16,30 @@ toc:
 
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/en/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
-<!-- abc -->
+<!-- EE5439 -->
+{% capture EE5439_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE5439.htm)
+{% endcapture %}
+
 {% include info_card_service.liquid 
-   name="Course to be assigned, place holder" 
-   subtitle="Teacher (TBD)" 
-   badge="abc" 
-   description1="X Credits Master's level. Course taught by Asst. Prof. Jiaye Wu"
-   description2=""
+   name="Meta-device and Photonic System Analysis" 
+   subtitle="Instructor (Sem B 2026/27)" 
+   badge="EE5439" 
+   description1="3 Credits Master's level. Course taught by Asst. Prof. Jiaye Wu"
+   description2=EE5439_coursebook
+%}
+
+<!-- EE8404 -->
+{% capture EE8404_coursebook %}
+[Coursebook](https://www.cityu.edu.hk/catalogue/pg/202627/course/EE8404.htm)
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="Nanotechnology for Devices and Microsystems" 
+   subtitle="Instructor (Sem B 2026/27)" 
+   badge="EE8404" 
+   description1="3 Credits Master's level. Course taught by Asst. Prof. Jiaye Wu"
+   description2=EE8404_coursebook
 %}
 
 <br>
