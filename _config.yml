@@ -213,11 +213,12 @@ exclude:
   - Windows_local_prettier_drag_to_write.cmd
   - Windows_local_prettier_plugin_install.cmd
   - Windows_local_prettier_write_ALL.cmd
-  - _site/
+  - _deprecated_pages/  
+  - _members_examples/
+  - _news_examples/
   - _post_examples/
   - _project_examples/
-  - _news_examples/
-  - _deprecated_pages/
+  - _site/
 keep_files:
   - CNAME
   - .nojekyll

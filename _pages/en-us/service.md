@@ -27,19 +27,6 @@ toc:
 
 <br>
 
-<h3 style="color: #9f0d44;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/en/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
-
-<!-- abc -->
-{% include info_card_service.liquid 
-   name="Course to be assigned, place holder" 
-   subtitle="Teacher (TBD)" 
-   badge="abc" 
-   description1="X Credits Master's level. Course taught by Asst. Prof. Jiaye Wu"
-   description2=""
-%}
-
-<br>
-
 <h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
@@ -308,11 +295,32 @@ toc:
 {% endcapture %}
 
 {% include info_card_service.liquid 
-   name="Elsevier Advisory Panel" 
-   subtitle="Member" 
+   name="Elsevier" 
+   subtitle=" " 
    badge="Elsevier" 
    description1=ELSL
    description2=ELSR
+%}
+
+<br>
+
+<h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/en/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
+
+<!--CAC-->
+{% capture CityUHKDGL %}
+**Member**, CityUHK (DG) College Academic Committee (CAC)<br>
+{% endcapture %}
+
+{% capture CityUHKDGR %}
+2026-Present<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="City University of Hong Kong (Dongguan)" 
+   subtitle="College and Academic Support Units" 
+   badge="CityUHK (DG) CAC" 
+   description1=CityUHKDGL
+   description2=CityUHKDGR
 %}
 
 <br>
@@ -332,7 +340,7 @@ toc:
 
 {% include info_card_service.liquid 
    name="EPFL Doctoral Programme in Photonics (EDPO)" 
-   subtitle="Member" 
+   subtitle="Member, Employee" 
    badge="EPFL EDPO" 
    description1=EDPOL
    description2=EDPOR

@@ -27,19 +27,6 @@ toc:
 
 <br>
 
-<h3 style="color: #9f0d44;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
-
-<!-- abc -->
-{% include info_card_service.liquid 
-   name="课程待分配，占位标签" 
-   subtitle="教师（时间待定）" 
-   badge="abc" 
-   description1="X 学分硕士课程。任课：吴嘉野 助理教授"
-   description2=""
-%}
-
-<br>
-
 <h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
@@ -309,10 +296,31 @@ toc:
 
 {% include info_card_service.liquid 
    name="爱思唯尔顾问委员会" 
-   subtitle="成员" 
+   subtitle=" " 
    badge="Elsevier" 
    description1=ELSL
    description2=ELSR
+%}
+
+<br>
+
+<h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
+
+<!--CAC-->
+{% capture CityUHKDGL %}
+**成员**, 香港城市大学（东莞）学术委员会<br>
+{% endcapture %}
+
+{% capture CityUHKDGR %}
+2026-至今<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="香港城市大学（东莞）" 
+   subtitle="学院与学术辅助部门" 
+   badge="CityUHK (DG) CAC" 
+   description1=CityUHKDGL
+   description2=CityUHKDGR
 %}
 
 <br>
@@ -321,8 +329,8 @@ toc:
 
 <!--EDPO-->
 {% capture EDPOL %}
-**成员**，瑞士洛桑联邦理工大学EDPO光子学专业委员会<br>
-**博士代表**，瑞士洛桑联邦理工大学EDPO光子学专业<br>
+**成员**，瑞士洛桑联邦理工大学EDPO委员会<br>
+**博士代表**，瑞士洛桑联邦理工大学EDPO项目<br>
 {% endcapture %}
 
 {% capture EDPOR %}
@@ -332,7 +340,7 @@ toc:
 
 {% include info_card_service.liquid 
    name="瑞士洛桑联邦理工大学光子学博士课程项目（EDPO）" 
-   subtitle="成员" 
+   subtitle="成员、雇员" 
    badge="EPFL EDPO" 
    description1=EDPOL
    description2=EDPOR
