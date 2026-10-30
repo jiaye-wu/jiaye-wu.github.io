@@ -229,6 +229,7 @@ toc:
 
 <!--OPTICA-->
 {% capture OPTICAL %}
+**Advisor (Founding)**, OPTICA City University of Hong Kong DG Campus Student Chapter<br>
 **President**, OPTICA Peking University PKUSZ Student Chapter<br>
 **Vice President,** OPTICA Peking University PKUSZ Student Chapter<br>
 **Secretary**, OPTICA Peking University PKUSZ Student Chapter<br>
@@ -238,6 +239,7 @@ toc:
 {% endcapture %}
 
 {% capture OPTICAR %}
+2026-Present<br>
 2019-2020<br>
 2020-2021<br>
 2018-2019<br>
@@ -281,11 +283,13 @@ toc:
 
 <!--IPS-->
 {% capture IPSL %}
+**Advisor (Founding)**, IEEE Photonics Society CityUHK DG Campus Student Branch Chapter<br>
 **President (Founding)**, IEEE Photonics Society Peking University PKUSZ Student Branch Chapter<br>
 **Chapter Member**, IEEE Photonics Society Peking University PKUSZ Student Branch Chapter<br>
 {% endcapture %}
 
 {% capture IPSR %}
+2026-Present<br>
 2019-2021<br>
 2019-2021<br>
 {% endcapture %}

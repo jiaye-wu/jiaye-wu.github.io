@@ -229,6 +229,7 @@ toc:
 
 <!--OPTICA-->
 {% capture OPTICAL %}
+**导师（创始）**，OPTICA香港城市大学东莞校区学生分会<br>
 **主席**，OPTICA北京大学深圳研究生院学生分会<br>
 **副主席**，OPTICA北京大学深圳研究生院学生分会<br>
 **秘书长**，OPTICA北京大学深圳研究生院学生分会<br>
@@ -238,6 +239,7 @@ toc:
 {% endcapture %}
 
 {% capture OPTICAR %}
+2026-至今<br>
 2019-2020<br>
 2020-2021<br>
 2018-2019<br>
@@ -281,11 +283,13 @@ toc:
 
 <!--IPS-->
 {% capture IPSL %}
+**导师（创始）**，IEEE光子学会香港城市大学东莞校区学生分会<br>
 **主席（创始）**，IEEE光子学会北京大学深圳研究生院学生分会<br>
 **分会成员**，IEEE光子学会北京大学深圳研究生院学生分会<br>
 {% endcapture %}
 
 {% capture IPSR %}
+2026-至今<br>
 2019-2021<br>
 2019-2021<br>
 {% endcapture %}
