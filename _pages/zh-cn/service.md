@@ -212,6 +212,8 @@ toc:
 
 <!--OPTICA-->
 {% capture OPTICAL %}
+**分会成员**，OPTICA清华大学深圳国际研究生院分会<br>
+**导师（创始）**，OPTICA香港城市大学东莞校区学生分会<br>
 **主席**，OPTICA北京大学深圳研究生院学生分会<br>
 **副主席**，OPTICA北京大学深圳研究生院学生分会<br>
 **秘书长**，OPTICA北京大学深圳研究生院学生分会<br>
@@ -221,6 +223,8 @@ toc:
 {% endcapture %}
 
 {% capture OPTICAR %}
+2027-至今<br>
+2026-2027<br>
 2019-2020<br>
 2020-2021<br>
 2018-2019<br>
@@ -243,11 +247,11 @@ toc:
 
 <!--SPIE-->
 {% capture SPIEL %}
-**分会成员**, SPIE香港城市大学东莞校区分会<br>
+**分会成员**, SPIE清华大学深圳国际研究生院分会<br>
 {% endcapture %}
 
 {% capture SPIER %}
-2026-至今<br>
+2027-至今<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
@@ -264,11 +268,15 @@ toc:
 
 <!--IPS-->
 {% capture IPSL %}
+**分会成员**，IEEE光子学会清华大学深圳国际研究生院分会<br>
+**导师（创始）**，IEEE光子学会香港城市大学东莞校区学生分会<br>
 **主席（创始）**，IEEE光子学会北京大学深圳研究生院学生分会<br>
 **分会成员**，IEEE光子学会北京大学深圳研究生院学生分会<br>
 {% endcapture %}
 
 {% capture IPSR %}
+2027-至今<br>
+2026-2027<br>
 2019-2021<br>
 2019-2021<br>
 {% endcapture %}

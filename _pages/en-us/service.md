@@ -212,6 +212,8 @@ toc:
 
 <!--OPTICA-->
 {% capture OPTICAL %}
+**Chapter Member**, OPTICA Tsinghua University SIGS Chapter<br>
+**Advisor (Founding)**, OPTICA City University of Hong Kong DG Campus Student Chapter<br>
 **President**, OPTICA Peking University PKUSZ Student Chapter<br>
 **Vice President,** OPTICA Peking University PKUSZ Student Chapter<br>
 **Secretary**, OPTICA Peking University PKUSZ Student Chapter<br>
@@ -221,6 +223,8 @@ toc:
 {% endcapture %}
 
 {% capture OPTICAR %}
+2027-Present<br>
+2026-2027<br>
 2019-2020<br>
 2020-2021<br>
 2018-2019<br>
@@ -243,11 +247,11 @@ toc:
 
 <!--SPIE-->
 {% capture SPIEL %}
-**Chapter Member**, SPIE City University of Hong Kong Dongguan Campus Chapter<br>
+**Chapter Member**, SPIE Tsinghua University SIGS Chapter<br>
 {% endcapture %}
 
 {% capture SPIER %}
-2026-Present<br>
+2027-Present<br>
 {% endcapture %}
 
 {% include info_card_service.liquid 
@@ -264,11 +268,15 @@ toc:
 
 <!--IPS-->
 {% capture IPSL %}
+**Chapter Member**, IEEE Photonics Society Tsinghua University SIGS Branch Chapter<br>
+**Advisor (Founding)**, IEEE Photonics Society CityUHK DG Campus Student Branch Chapter<br>
 **President (Founding)**, IEEE Photonics Society Peking University PKUSZ Student Branch Chapter<br>
 **Chapter Member**, IEEE Photonics Society Peking University PKUSZ Student Branch Chapter<br>
 {% endcapture %}
 
 {% capture IPSR %}
+2027-Present<br>
+2026-2027<br>
 2019-2021<br>
 2019-2021<br>
 {% endcapture %}
