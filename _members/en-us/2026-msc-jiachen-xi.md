@@ -2,7 +2,7 @@
 layout: member
 title: Jiachen XI
 description: 2026 M.Sc. research intern, CityUHK (DG); B.Sc., TYUT
-img: assets/img/members/xi-jiachen.jpg
+img: assets/img/members/user-boy.png
 category: master
 start_year: 2026
 finish_year:

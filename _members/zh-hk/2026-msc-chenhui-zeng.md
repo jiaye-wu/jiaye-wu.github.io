@@ -2,7 +2,7 @@
 layout: member
 title: 曾晨匯
 description: 2026級碩士研究助理, CityUHK (DG); B.Sc., BUCT
-img: assets/img/members/zeng-chenhui.jpg
+img: assets/img/members/user-boy.png
 category: master
 start_year: 2026
 finish_year:
