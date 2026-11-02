@@ -16,4 +16,4 @@ John Doe is a Ph.D. student exploring light control in compact photonic structur
 
 **Current focus:** combining numerical modeling with device-level design for high-performance photonic components.
 
-**Related works in lab:** {% cite Wu2022a Wu2022b Wu2023 Wu2022 Wu2024a Wu2024b %}
+**Related works in lab:** {% cite Wu2022OL Wu2022CLEO Wu2023CP Wu2022LPR Wu2024NC Wu2024PIERS %}

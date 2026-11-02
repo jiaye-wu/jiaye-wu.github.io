@@ -16,7 +16,7 @@ thumbnail: assets/img/university_logos/PKU-H.png
 related_publications: true
 ---
 
-On **May 7th, 2024**, I was Invited by **OPTICA/IEEE Photonics Society PKUSZ & Tsinghua SIGS Student Chapters** to present a talk on _Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and nano-photonic platforms_ at **Peking University, Shenzhen Campus, Shenzhen, China**. {% cite Wu2022a Wu2022b Wu2023 Wu2022 Wu2024a Wu2024b %}
+On **May 7th, 2024**, I was Invited by **OPTICA/IEEE Photonics Society PKUSZ & Tsinghua SIGS Student Chapters** to present a talk on _Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and nano-photonic platforms_ at **Peking University, Shenzhen Campus, Shenzhen, China**. {% cite Wu2022OL Wu2022CLEO Wu2023CP Wu2022LPR Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-4 mt-3 mt-md-0">

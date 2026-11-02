@@ -21,9 +21,9 @@ By precisely governing the interference and coupling within these networks, we c
 
 ## research focus
 
-- **Hermitian waveguide networks:** investigating the band structures, photonic bandgaps, and defect states within conservative systems to achieve precise control over light propagation and localization. (e.g., {% cite Wu2019 %})
-- **non-Hermitian waveguide networks:** exploring parity-time ($$\mathcal{PT}$$) symmetry, exceptional points, and loss-gain dynamics to unveil anomalous wave phenomena and asymmetric light transport. (e.g., {% cite Li2020 Zhi2018 Wu2019f%})
-- **advanced applications:** translating the exotic properties of artificial superlattices into practical functional devices, such as robust optical isolators, topological lasers, and high-precision physical sensors. (e.g., {% cite Wu2019 %})
+- **Hermitian waveguide networks:** investigating the band structures, photonic bandgaps, and defect states within conservative systems to achieve precise control over light propagation and localization. (e.g., {% cite Wu2019AdP %})
+- **non-Hermitian waveguide networks:** exploring parity-time ($$\mathcal{PT}$$) symmetry, exceptional points, and loss-gain dynamics to unveil anomalous wave phenomena and asymmetric light transport. (e.g., {% cite Wu2017OE Zhi2018PR Wu2019PLA Wu2019CPB Li2020EPL%})
+- **advanced applications:** translating the exotic properties of artificial superlattices into practical functional devices, such as robust optical isolators, topological lasers, and high-precision physical sensors. (e.g., {% cite Wu2019AdP %})
 - **on-chip integration:** miniaturizing macroscopic waveguide network models into compact, scalable planar lightwave circuits to facilitate practical integrated photonic systems. (also see [project: integrated photonic devices and chips]({% link _projects/en-us/proj_integrated_optics.md %})
 
 <div class="row justify-content-sm-center">

@@ -14,7 +14,7 @@ thumbnail: assets/img/university_logos/THU-H.png
 related_publications: true
 ---
 
-On **April 10th, 2026**, I was Invited by **OPTICA/IEEE Photonics Society/SPIE Tsinghua SIGS Student Chapters** to present a talk on _Novel temporal Talbot effects and their on-chip integration_ at **Tsinghua Shenzhen International Graduate School (SIGS), Tsinghua University, Shenzhen, China**. {% cite Wu2022a Wu2022b Wu2023%}
+On **April 10th, 2026**, I was Invited by **OPTICA/IEEE Photonics Society/SPIE Tsinghua SIGS Student Chapters** to present a talk on _Novel temporal Talbot effects and their on-chip integration_ at **Tsinghua Shenzhen International Graduate School (SIGS), Tsinghua University, Shenzhen, China**. {% cite Wu2022OL Wu2022CLEO Wu2023CP%}
 
 <div class="row mt-3">
     <div class="col-4 mt-3 mt-md-0">

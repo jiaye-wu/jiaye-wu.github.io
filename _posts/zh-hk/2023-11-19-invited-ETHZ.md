@@ -16,7 +16,7 @@ thumbnail: assets/img/university_logos/ETHZ.png
 related_publications: true
 ---
 
-**2023年11月19日**，應**上海市外國專家局國際人才交流協會駐德國聯絡處 陸少鵬 主任**邀請，於**蘇黎世聯邦理工大學（ETH Zürich）**開展題為《光與物質相互作用：集成光芯片與微納薄膜器件中超快光脈衝串的腔外腔內操控新技術》的講座。{% cite Wu2022a Wu2022b Wu2023 Wu2022 Wu2024a Wu2024b %}
+**2023年11月19日**，應**上海市外國專家局國際人才交流協會駐德國聯絡處 陸少鵬 主任**邀請，於**蘇黎世聯邦理工大學（ETH Zürich）**開展題為《光與物質相互作用：集成光芯片與微納薄膜器件中超快光脈衝串的腔外腔內操控新技術》的講座。{% cite Wu2022OL Wu2022CLEO Wu2023CP Wu2022LPR Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-8 mt-3 mt-md-0">

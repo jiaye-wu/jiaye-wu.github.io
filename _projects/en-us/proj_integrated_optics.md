@@ -21,10 +21,10 @@ On-chip integration drastically reduces the footprint, power consumption, and ma
 
 ## research focus
 
-- **on-chip integration of novel phenomena:** translating emerging optical physics and fundamental principles into compact, chip-scale device architectures. (e.g., integrating {% cite Wu2022a %} on-chip {% cite Wu2023 %})
+- **on-chip integration of novel phenomena:** translating emerging optical physics and fundamental principles into compact, chip-scale device architectures. (e.g., integrating {% cite Wu2022OL %} on-chip {% cite Wu2023CP %})
 - **heterogeneous integration and chiplets:** combining disparate material platforms and functional photonic chiplets through advanced packaging to overcome the performance and fabrication limits of monolithic systems.
-- **exploratory integration of advanced materials:** investigating and evaluating the compatibility, stability, and potential of next-generation functional materials within standard on-chip fabrication processes. (e.g., {% cite Wu2021b Huang2023 Wu2024a %})
-- **prototype miniaturization and integration:** transforming bulky, macro-scale experimental setups and abstract theoretical models into highly integrated, portable physical devices.
+- **exploratory integration of advanced materials:** investigating and evaluating the compatibility, stability, and potential of next-generation functional materials within standard on-chip fabrication processes. (e.g., {% cite Wu2021SR Huang2023ACSAMI Wu2024NC %})
+- **prototype miniaturization and integration:** transforming bulky, macro-scale experimental setups and abstract theoretical models into highly integrated, portable physical devices. (e.g., {% cite Wu2023CP Wu2026ACP %})
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-7 mt-3 mt-md-0">

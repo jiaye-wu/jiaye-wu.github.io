@@ -96,6 +96,10 @@
   - firstname: ["Zimiao"]
     url: https://orcid.org/0000-0001-6225-2113  
 
+"wu":
+  - firstname: ["Zaifan"]
+    url: https://orcid.org/0009-0007-6148-9021
+
 "xie":
   - firstname: ["Ze Tao", "Zetao"]
     url: https://orcid.org/0000-0001-6489-4638
@@ -113,6 +117,8 @@
     url: https://orcid.org/0000-0002-1147-3271
 
 "zhang":
+  - firstname: ["Fan"]
+    url: https://orcid.org/0000-0001-6489-2480
   - firstname: ["Shengdong"]
     url: https://orcid.org/0000-0002-1815-8661
 
@@ -123,5 +129,7 @@
 "zhou":
   - firstname: ["Ji"]
     url: https://orcid.org/0000-0001-8044-4426
+  - firstname: ["Xian"]
+    url: https://orcid.org/0000-0001-5017-0356
   - firstname: ["Zhang-Kai","Zhangkai"]
     url: https://orcid.org/0000-0002-4341-3097

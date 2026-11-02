@@ -21,7 +21,7 @@ Algorithmic design eliminates human bias in structural engineering, enabling the
 
 ## research focus
 
-- **augmented algorithms:** integrating heuristic and gradient-based methods with statistical learning to accelerate convergence and escape local optima in complex landscape searches. (e.g., {% cite Wu2020d Wang2021 Huang2022%})
+- **augmented algorithms:** integrating heuristic and gradient-based methods with statistical learning to accelerate convergence and escape local optima in complex landscape searches. (e.g., {% cite Wu2020AdP Wang2021FiO Wang2021PJ Huang2022JOSAB%})
 - **photonic inverse design:** utilizing objective-first computational techniques to automatically map desired optical performance metrics directly into non-intuitive physical geometries.
 - **physics-informed neural networks:** embedding Maxwell's equations and physical boundary conditions into deep learning architectures to ensure mathematically rigorous and data-efficient predictions.
 - **AI-accelerated full-wave simulation:** developing surrogate models based on machine learning to predict complex electromagnetic fields with high accuracy while drastically reducing computational time.

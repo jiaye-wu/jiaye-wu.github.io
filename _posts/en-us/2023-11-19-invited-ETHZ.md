@@ -16,7 +16,7 @@ thumbnail: assets/img/university_logos/ETHZ.png
 related_publications: true
 ---
 
-On **November 19th, 2023**, I was Invited by **Director Shaopeng Lu, Shanghai University** to present a talk on _Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast optical pulses in integrated photonic chips and nanophotonic thin film devices_ at **Swiss Federal Institute of Technology Zürich (ETH Zürich), Switzerland**. {% cite Wu2022a Wu2022b Wu2023 Wu2022 Wu2024a Wu2024b %}
+On **November 19th, 2023**, I was Invited by **Director Shaopeng Lu, Shanghai University** to present a talk on _Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast optical pulses in integrated photonic chips and nanophotonic thin film devices_ at **Swiss Federal Institute of Technology Zürich (ETH Zürich), Switzerland**. {% cite Wu2022OL Wu2022CLEO Wu2023CP Wu2022LPR Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-8 mt-3 mt-md-0">

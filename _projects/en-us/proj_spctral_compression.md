@@ -21,7 +21,7 @@ Unlike traditional optical filtering which achieves narrow bandwidths at the cos
 
 ## research focus
 
-- **spectral compression in nonlinear cascaded fibers:** engineering cascaded fiber systems with carefully tailored dispersion and nonlinearity landscapes to achieve high-ratio adiabatic or self-similar spectral narrowing. (e.g. {% cite Wu2019d Wu2019e %})
+- **spectral compression in nonlinear cascaded fibers:** engineering cascaded fiber systems with carefully tailored dispersion and nonlinearity landscapes to achieve high-ratio adiabatic or self-similar spectral narrowing. (e.g. {% cite Wu2019JO Wu2019FiO-Compression %})
 - **on-chip spectral compression:** translating macroscopic time-frequency management schemes into compact integrated photonic circuits, leveraging the extreme confinement and high nonlinearity of nanophotonic waveguides for chip-scale narrowband pulse generation.
 
 The original project is maintained by Prof. Qian Li's group, Peking University.

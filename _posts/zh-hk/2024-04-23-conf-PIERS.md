@@ -17,7 +17,7 @@ thumbnail: assets/img/post_covers/PIERS2024.png
 related_publications: true
 ---
 
-今日在中國四川省成都市舉辦的[PhotonIcs and Electromagnetics Research Symposium (Progress In Electromagnetics Research Symposium, PIERS) 2024](https://opg.optica.org/conference.cfm?meetingid=124&yr=2022)[https://cd2024.piers.org/](https://cd2024.piers.org/)會議上作題為 _Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects_ 的學術報告。{% cite Wu2024b Wu2024a %}
+今日在中國四川省成都市舉辦的[PhotonIcs and Electromagnetics Research Symposium (Progress In Electromagnetics Research Symposium, PIERS) 2024](https://opg.optica.org/conference.cfm?meetingid=124&yr=2022)[https://cd2024.piers.org/](https://cd2024.piers.org/)會議上作題為 _Epsilon-near-zero Enhancement of Linear and Nonlinear Thermo-optic Effects_ 的學術報告。{% cite Wu2024PIERS Wu2024NC %}
 
 <div class="row mt-3">
     <div class="col-8 mt-3 mt-md-0">
