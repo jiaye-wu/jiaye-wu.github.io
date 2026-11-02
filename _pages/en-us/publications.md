@@ -26,4 +26,4 @@ nav_order: 2
 
 </div>
 
-Note: Journal covers shown on this page are featured cover arts of our paper (labeled with original art download link) or taken from the front cover of the very issue where our papers are published in (unlabeled). If the journal does not have article-related front cover, a general cover image of the journal is used. 
+Note: Journal covers shown on this page are either featured cover arts of our paper (labeled with original download link) or taken from the front cover of the very issue where our papers are published (unlabeled). A general cover image is used if the journal does not have article-related front cover. 

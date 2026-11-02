@@ -17,7 +17,7 @@ thumbnail: assets/img/post_covers/ICAIT.png
 related_publications: true
 ---
 
-**Best Presentation Award**. Oral presentation entitled _High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array_ at [2020 12th International Conference on Advanced Infocomm Technology (ICAIT)](https://ieeexplore.ieee.org/xpl/conhome/9315292/proceeding), Macau SAR, China. {% cite Wu2020b Wu2021a %}
+**Best Presentation Award**. Oral presentation entitled _High-Order Harmonic Generations in Epsilon-Near-Zero Aluminum-Doped Zinc Oxide Nanopyramid Array_ at [2020 12th International Conference on Advanced Infocomm Technology (ICAIT)](https://ieeexplore.ieee.org/xpl/conhome/9315292/proceeding), Macau SAR, China. {% cite Wu2020ICAIT Wu2021RinP %}
 
 <div class="row mt-3">
     <div class="col-8 mt-3 mt-md-0">

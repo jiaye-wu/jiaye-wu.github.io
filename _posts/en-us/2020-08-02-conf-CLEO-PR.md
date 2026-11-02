@@ -18,7 +18,7 @@ thumbnail: assets/img/post_covers/CLEOPR.png
 related_publications: true
 ---
 
-Oral presentation entitled _Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by Supercritical Carbon Dioxide_ at [2020 Conference on Lasers and Electro-Optics Pacific Rim (CLEO-PR)](https://ieeexplore.ieee.org/xpl/conhome/9255848/proceeding), Sydney, NSW, Australia. {% cite Wu2020c Wu2021b %}
+Oral presentation entitled _Precise Tuning of Epsilon-Near-Zero Properties in Indium Tin Oxide Nanolayer by Supercritical Carbon Dioxide_ at [2020 Conference on Lasers and Electro-Optics Pacific Rim (CLEO-PR)](https://ieeexplore.ieee.org/xpl/conhome/9255848/proceeding), Sydney, NSW, Australia. {% cite Wu2020CLEOPR Wu2021SR %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

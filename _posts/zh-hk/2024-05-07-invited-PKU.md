@@ -16,7 +16,7 @@ thumbnail: assets/img/university_logos/PKU-H.png
 related_publications: true
 ---
 
-**2024年5月7日**，應**OPTICA/IEEE光子學會北京大學深圳研究生院學生分會**和**清華大學深圳國際研究生院學生分會**邀請，於**北京大學 深圳校區**開展題為《基於集成光芯片和微納光器件平臺的超快光脈衝腔外腔內操控》的講座。{% cite Wu2022a Wu2022b Wu2023 Wu2022 Wu2024a Wu2024b %}
+**2024年5月7日**，應**OPTICA/IEEE光子學會北京大學深圳研究生院學生分會**和**清華大學深圳國際研究生院學生分會**邀請，於**北京大學 深圳校區**開展題為《基於集成光芯片和微納光器件平臺的超快光脈衝腔外腔內操控》的講座。{% cite Wu2022OL Wu2022CLEO Wu2023CP Wu2022LPR Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-4 mt-3 mt-md-0">

@@ -15,7 +15,7 @@ thumbnail: assets/img/university_logos/SIOM.png
 related_publications: true
 ---
 
-On **December 26th, 2023**, I was Invited by **The 2nd International Laser Forum for Young Scholars, Shanghai Institute of Optics and Fine Machines (SIOM), Chinese Academy of Sciences (CAS)** to present a talk on _Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions_ at **SIOM, CAS, Shanghai, China**. {% cite Wu2024a Wu2024b %}
+On **December 26th, 2023**, I was Invited by **The 2nd International Laser Forum for Young Scholars, Shanghai Institute of Optics and Fine Machines (SIOM), Chinese Academy of Sciences (CAS)** to present a talk on _Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions_ at **SIOM, CAS, Shanghai, China**. {% cite Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">

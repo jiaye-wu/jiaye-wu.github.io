@@ -14,7 +14,7 @@ thumbnail: assets/img/university_logos/THU-H.png
 related_publications: true
 ---
 
-**2026年4月10日**，應**OPTICA/IEEE光子學會/SPIE清華大學深圳國際研究生院學生分會**邀請，於**清華大學 清華國際深圳研究生院（SIGS）**開展題為《新型時域泰伯效應及其片上集成》的講座。{% cite Wu2022a Wu2022b Wu2023%}
+**2026年4月10日**，應**OPTICA/IEEE光子學會/SPIE清華大學深圳國際研究生院學生分會**邀請，於**清華大學 清華國際深圳研究生院（SIGS）**開展題為《新型時域泰伯效應及其片上集成》的講座。{% cite Wu2022OL Wu2022CLEO Wu2023CP%}
 
 <div class="row mt-3">
     <div class="col-4 mt-3 mt-md-0">

@@ -21,8 +21,8 @@ Passive radiative cooling presents a disruptive technology to combat global warm
 
 ## research focus
 
-- **sub-ambient daytime cooling:** engineering high-performance broadband solar reflectors and precise mid-infrared emitters to achieve highly efficient, continuous heat dissipation under direct outdoor sunlight. (e.g., {% cite Wu2017a %})
-- **thermal-aesthetic management for portable terminals:** developing multifunctional photonic structures that provide effective passive cooling for compact personal devices while simultaneously generating customizable structural colors for aesthetic integration and visual appeal. (e.g., {% cite Wu2020d %})
+- **sub-ambient daytime cooling:** engineering high-performance broadband solar reflectors and precise mid-infrared emitters to achieve highly efficient, continuous heat dissipation under direct outdoor sunlight. (e.g., {% cite Wu2017CPB %})
+- **thermal-aesthetic management for portable terminals:** developing multifunctional photonic structures that provide effective passive cooling for compact personal devices while simultaneously generating customizable structural colors for aesthetic integration and visual appeal. (e.g., {% cite Wu2020AdP %})
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-6 mt-3 mt-md-0">

@@ -15,7 +15,7 @@ thumbnail: assets/img/university_logos/SIOM.png
 related_publications: true
 ---
 
-**2023年12月26日**，应**第二届国际激光青年学者论坛**邀请，于**中国科学院上海光学精密机械研究所**开展题为《近零介电常数条件下的线性与非线性热光效应增强》的讲座。{% cite Wu2024a Wu2024b %}
+**2023年12月26日**，应**第二届国际激光青年学者论坛**邀请，于**中国科学院上海光学精密机械研究所**开展题为《近零介电常数条件下的线性与非线性热光效应增强》的讲座。{% cite Wu2024NC Wu2024PIERS %}
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
