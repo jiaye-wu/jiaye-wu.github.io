@@ -536,6 +536,7 @@ Phys. Scr.<br>
 
 <!--Elsevier -->
 {% capture EL %}
+_Materials & Design_ <br>
 _Optics & Laser Technology_<br>
 _Results in Physics_<br>
 _Surface & Coatings Technology_<br>
@@ -545,6 +546,7 @@ _Optics Communications_<br>
 {% endcapture %}
 
 {% capture ER %}
+Mater. Des.<br>
 Opt. Laser Technol.<br>
 Results Phys.<br>
 Surf. Coat. Technol.<br>
