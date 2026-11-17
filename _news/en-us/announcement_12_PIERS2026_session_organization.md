@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Organize conference session "_Near-Zero-Index Photonics: Physics, Devices, and Applications_" in PIERS 2026 
+Serve as conference **Session Organizer & Chair** for "_Near-Zero-Index Photonics: Physics, Devices, and Applications_" in **PIERS 2026** 
 <br>
 [PIERS 2026, Suzhou, China](https://suzhou2026.piers.org/)
 <br>
