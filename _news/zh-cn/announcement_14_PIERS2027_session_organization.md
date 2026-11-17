@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-担任PIERS 2027学术会议分会场（Session）组织："_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_"
+担任**PIERS 2027**学术会议**分会场（Session）组织者与主席**："_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_"
 <br>
 [PIERS 2027，韩国大田广域市](https://daejeon2027.piers.org/)
 <br>
