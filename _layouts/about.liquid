@@ -21,29 +21,62 @@ layout: default
   </header>
 
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
-          {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
-          {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
-        {% endif %}
+    {% if page.home_gallery and page.home_gallery.enabled %}
+      {% assign gallery_width = page.home_gallery.width | default: 4 %}
+      {% assign intro_width = 12 | minus: gallery_width %}
+      <div class="row home-intro align-items-start">
+        <div class="col-12 col-md-{{ intro_width }} home-intro-text clearfix">
+          {{ content }}
+        </div>
+        <div class="col-12 col-md-{{ gallery_width }} home-intro-gallery">
+          <swiper-container
+            class="home-gallery-swiper"
+            keyboard="true"
+            navigation="true"
+            pagination="true"
+            pagination-clickable="true"
+            pagination-dynamic-bullets="true"
+            rewind="true"
+            {% if page.home_gallery.autoplay.enabled %}
+              autoplay="true"
+              autoplay-delay="{{ page.home_gallery.autoplay.delay | default: 3500 }}"
+              autoplay-pause-on-mouse-enter="{{ page.home_gallery.autoplay.pause_on_mouse_enter | default: true }}"
+            {% endif %}
+          >
+            {% assign cover_images = site.data.home_gallery_images %}
+            {% for cover_path in cover_images %}
+              <swiper-slide>
+                {% include figure.liquid loading="eager" path=cover_path class="img-fluid rounded home-gallery-img" sizes="(min-width: 768px) 33vw, 95vw" zoomable=true %}
+              </swiper-slide>
+            {% endfor %}
+          </swiper-container>
+        </div>
       </div>
-    {% endif %}
+    {% else %}
+      {% if page.profile %}
+        <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if page.profile.image %}
+            {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+            {% if page.profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
+        30vw, 95vw"{% endcapture %}
+            {%
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              cache_bust=true
+            %}
+          {% endif %}
+          {% if page.profile.more_info %}
+            <div class="more-info">{{ page.profile.more_info }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+      <div class="clearfix">{{ content }}</div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}

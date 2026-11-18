@@ -4,15 +4,29 @@ layout: about
 title: 主頁
 permalink: /
 subtitle: <a href='https://www.cityu-dg.edu.cn/zh/home.html'>香港城市大學（東莞）</a> 先進集成波導納米光子學實驗室（ALIGN）
+images:
+  compare: true
+  slider: true
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>吳嘉野 助理教授 博士生導師</p>
-    <p>香港城市大學（東莞）</p>
-    <p>電機與電子工程學（系）</p>
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>吳嘉野 助理教授 博士生導師</p>
+#     <p>香港城市大學（東莞）</p>
+#     <p>電機與電子工程學（系）</p>
+
+# Two-column intro: lab introduction on the left, image carousel on the right.
+# Images are auto-discovered from assets/img/website_covers/ at build time.
+# Set enabled to false and restore the profile block above to go back to the classic layout.
+home_gallery:
+  enabled: true
+  width: 4 # carousel columns out of 12 (use 3 for one quarter)
+  autoplay:
+    enabled: true
+    delay: 3500
+    pause_on_mouse_enter: true
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,7 +51,7 @@ scholar:
 
 ## 實驗室簡介
 
-<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) 電機與電子工程學（系） **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺上線性與非線性光與物質相互作用的研究。
+<img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [香港城市大學（東莞）](https://www.cityu-dg.edu.cn/zh/home.html) [吳嘉野 助理教授]({% link _pages/zh-hk/profiles.md %}) 帶領的 **先進集成波導納米光子學實驗室（ALIGN）**專注集成和微納光子學平臺上線性與非線性光與物質相互作用的研究。
 
 **研究方向：**超快光與物質相互作用、近零介電常數和近零折射光學、光纖光學、光纖激光器、光波導網絡設計、功能性光學薄膜和超材料設計、非厄米光學、集成光子學、先進半導體光學材料等。
 

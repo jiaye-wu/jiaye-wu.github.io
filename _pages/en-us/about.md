@@ -4,15 +4,29 @@ layout: about
 title: about
 permalink: /
 subtitle: ALIGN at the <a href='https://www.cityu-dg.edu.cn/en/home.html'>City University of Hong Kong (Dongguan)</a>
+images:
+  compare: true
+  slider: true
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Assistant Professor Jiaye WU, P.I.</p>
-    <p>City University of Hong Kong</p>
-    <p>(Dongguan Campus)</p>
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>Assistant Professor Jiaye WU, P.I.</p>
+#     <p>City University of Hong Kong</p>
+#     <p>(Dongguan Campus)</p>
+
+# Two-column intro: lab introduction on the left, image carousel on the right.
+# Images are auto-discovered from assets/img/website_covers/ at build time.
+# Set enabled to false and restore the profile block above to go back to the classic layout.
+home_gallery:
+  enabled: true
+  width: 4 # carousel columns out of 12 (use 3 for one quarter)
+  autoplay:
+    enabled: true
+    delay: 3500
+    pause_on_mouse_enter: true
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,7 +51,7 @@ Welcome to the lab website!
 
 ## lab introduction
 
-The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at the <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
+The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by [Prof. Jiaye WU]({% link _pages/en-us/profiles.md %}) at the <img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 1.1em; "> [City University of Hong Kong (Dongguan)](https://www.cityu-dg.edu.cn/en/home.html), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
 
 **Research directions:** Ultrafast light-matter-interactions, epsilon-near-zero and near-zero-index photonics, fibre optics, fibre laser, optical waveguide network design, functional thin film and metadevice design, non-Hermitian optics, integrated optics, advanced semiconductor optical materials.
 
@@ -46,4 +60,3 @@ The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led b
 **Funding support:**
 
 [<img src="/assets/img/fundings/SNSF.png" style="height: 3em; ">](https://data.snf.ch/grants/grant/188605) &nbsp; [<img src="/assets/img/fundings/Innosuisse.png" style="height: 3em; ">](https://www.innosuisse.admin.ch/en) &nbsp; [<img src="/assets/img/fundings/NSFC-ENCN.png" style="height: 4em; ">](https://www.nsfc.gov.cn/) &nbsp; [<img src="/assets/img/university_logos/CityUHK-DG-Small.png" style="height: 4em; ">](https://www.cityu-dg.edu.cn/en/home.html)
-

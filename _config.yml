@@ -181,6 +181,7 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - bin/
+  - .workbuddy/
   - CONTRIBUTING.md
   - CONTRIBUTING.pt-br.md
   - CUSTOMIZE.md
@@ -509,26 +510,36 @@ third_party_libraries:
         dark: "https://gcore.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
     version: "11.9.0"
   imagesloaded:
+    # Vendored locally; original CDN URL kept below for reference.
     integrity:
       js: "sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc="
     url:
-      js: https://gcore.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
+      js: "/assets/js/imagesloaded/imagesloaded.pkgd.min.js"
+      # js: https://gcore.jsdelivr.net/npm/imagesloaded@{{version}}/imagesloaded.pkgd.min.js
     version: "5.0.0"
   img-comparison-slider:
+    # CSS is vendored locally; jsDelivr generates styles.min.css dynamically,
+    # so the template's original CSS SRI no longer matches upstream.
     integrity:
-      css: "sha256-3qTIuuUWIFnnU3LpQMjqiXc0p09rvd0dmj+WkpQXSR8="
+      css: "sha256-TiZ+dP2+WK4uhlHIF6KoaUzwRP1hFeBAWduw1glxhdI="
       js: "sha256-EXHg3x1K4oIWdyohPeKX2ZS++Wxt/FRPH7Nl01nat1o="
       map: "sha256-3wfqS2WU5kGA/ePcgFzJXl5oSN1QsgZI4/edprTgX8w="
     url:
-      css: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
-      js: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
-      map: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
+      css: "/assets/css/img-comparison-slider/styles.min.css"
+      js: "/assets/js/img-comparison-slider/index.min.js"
+      map: "/assets/js/img-comparison-slider/index.js.map"
+      # Original CDN URLs (kept for reference):
+      # css: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/styles.min.css"
+      # js: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.min.js"
+      # map: "https://gcore.jsdelivr.net/npm/img-comparison-slider@{{version}}/dist/index.js.map"
     version: "8.0.6"
   jquery:
+    # Vendored locally; original CDN URL kept below for reference.
     integrity:
       js: "sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
     url:
-      js: "https://gcore.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
+      js: "/assets/js/jquery/jquery.min.js"
+      # js: "https://gcore.jsdelivr.net/npm/jquery@{{version}}/dist/jquery.min.js"
     version: "3.6.0"
   leaflet:
     integrity:
@@ -552,37 +563,50 @@ third_party_libraries:
       js: "https://gcore.jsdelivr.net/npm/lightbox2@{{version}}/dist/js/lightbox.min.js"
     version: "2.11.5"
   mathjax:
+    # Vendored locally (JS + 23 CHTML woff fonts). Original CDN URLs kept below.
     integrity:
       js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
     local:
       fonts: "output/chtml/fonts/woff-v2/"
     url:
-      fonts: "https://gcore.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
-      js: "https://gcore.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+      fonts: "/assets/js/mathjax/output/chtml/fonts/woff-v2/"
+      js: "/assets/js/mathjax/tex-mml-chtml.js"
+      # fonts: "https://gcore.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      # js: "https://gcore.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
     version: "3.2.2"
   masonry:
+    # Vendored locally; original CDN URL kept below for reference.
     integrity:
       js: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
     url:
-      js: "https://gcore.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
+      js: "/assets/js/masonry/masonry.pkgd.min.js"
+      # js: "https://gcore.jsdelivr.net/npm/masonry-layout@{{version}}/dist/masonry.pkgd.min.js"
     version: "4.2.2"
   mdb:
+    # Vendored locally, including the CSS-referenced overlay/SVG images in
+    # assets/css/img/. Original CDN URLs kept below for reference.
     integrity:
       css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
       css_map: "sha256-iYYMNfsJdVZjvsebJulg09miBXM4/GMTJgv1u5EZFFM="
       js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
       js_map: "sha256-UPgyn4YNsT0khkBK5553QwhnlbTlU0aa+igyc6qP1bE="
     url:
-      css: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
-      css_map: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
-      js: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
-      js_map: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
+      css: "/assets/css/mdb/mdb.min.css"
+      css_map: "/assets/css/mdb/mdb.min.css.map"
+      js: "/assets/js/mdb/mdb.min.js"
+      js_map: "/assets/js/mdb/mdb.min.js.map"
+      # css: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css"
+      # css_map: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/css/mdb.min.css.map"
+      # js: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js"
+      # js_map: "https://gcore.jsdelivr.net/npm/mdbootstrap@{{version}}/js/mdb.min.js.map"
     version: "4.20.0"
   medium_zoom:
+    # Vendored locally; original CDN URL kept below for reference.
     integrity:
       js: "sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc="
     url:
-      js: "https://gcore.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
+      js: "/assets/js/medium-zoom.min.js"
+      # js: "https://gcore.jsdelivr.net/npm/medium-zoom@{{version}}/dist/medium-zoom.min.js"
     version: "1.1.0"
   mermaid:
     integrity:
@@ -629,14 +653,18 @@ third_party_libraries:
       js: "https://gcore.jsdelivr.net/npm/spotlight.js@{{version}}/dist/spotlight.bundle.min.js"
     version: "0.7.8"
   swiper:
+    # Vendored locally; SRI hashes are identical to the upstream 11.0.5 files.
     integrity:
       css: "sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
       js: "sha256-BPrwikijIybg9OQC5SYFFqhBjERYOn97tCureFgYH1E="
       map: "sha256-lbF5CsospW93otqvWOIbbhj80CjazrZXvamD7nC7TBI="
     url:
-      css: "https://gcore.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
-      js: "https://gcore.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
+      css: "/assets/css/swiper/swiper-bundle.min.css"
+      js: "/assets/js/swiper/swiper-element-bundle.min.js"
       map: "https://gcore.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js.map"
+      # Original CDN URLs (kept for reference):
+      # css: "https://gcore.jsdelivr.net/npm/swiper@{{version}}/swiper-bundle.min.css"
+      # js: "https://gcore.jsdelivr.net/npm/swiper@{{version}}/swiper-element-bundle.min.js"
     version: "11.0.5"
   swiper-map:
     integrity:
