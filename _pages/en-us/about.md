@@ -5,14 +5,25 @@ title: about
 permalink: /
 subtitle: ALIGN at <a href='https://www.sigs.tsinghua.edu.cn/en/7544/list.htm'>Institute of Data and Information (iDI)</a>, <a href='https://sigs.tsinghua.edu.cn/en/'>Shenhen International Graduate School (SIGS)</a>, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Assistant Professor Jiaye WU, P.I.</p>
-    <p>Institute of Data and Information</p>
-    <p>SIGS, Tsinghua University</p>
+# profile:
+#   align: right
+#   image: prof_pic.jpg
+#   image_circular: false # crops the image to make it circular
+#   more_info: >
+#     <p>Assistant Professor Jiaye WU, P.I.</p>
+#     <p>Institute of Data and Information</p>
+#     <p>SIGS, Tsinghua University</p>
+
+# Two-column intro: lab introduction on the left, image carousel on the right.
+# Images are auto-discovered from assets/img/website_covers/ at build time.
+# Set enabled to false and restore the profile block above to go back to the classic layout.
+home_gallery:
+  enabled: true
+  width: 4 # carousel columns out of 12 (use 3 for one quarter)
+  autoplay:
+    enabled: true
+    delay: 3500
+    pause_on_mouse_enter: true
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -37,7 +48,7 @@ Welcome to the lab website!
 
 ## lab introduction
 
-The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by Prof. Jiaye WU at iDI, SIGS, <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [Tsinghua University](https://www.tsinghua.edu.cn/en/), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
+The **Advanced Laboratory of Integrated and Guided Nanophotonics (ALIGN)** led by [Prof. Jiaye WU]({% link _pages/en-us/profiles.md %}) at iDI, SIGS, <img src="/assets/img/university_logos/THU-Alt.png" class="logo-light" style="height: 1.1em;"><img src="/assets/img/university_logos/THU-Alt-white.png" class="logo-dark" style="height: 1.1em;"> [Tsinghua University](https://www.tsinghua.edu.cn/en/), focuses on the linear and nonlinear light matter interactions in integrated and nanophotonic platforms.
 
 **Research directions:** Ultrafast light-matter-interactions, epsilon-near-zero and near-zero-index photonics, fibre optics, fibre laser, optical waveguide network design, functional thin film and metadevice design, non-Hermitian optics, integrated optics, advanced semiconductor optical materials.
 
