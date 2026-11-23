@@ -1,3 +1,22 @@
 # Force LF line endings, needed for Docker to work on Windows
 * text=auto
 *.sh text eol=lf
+
+# Vendored third-party assets must stay byte-identical to their upstream files:
+# SRI (integrity) hashes are computed from the LF bytes stored in the repo. On
+# Windows, `text=auto` + core.autocrlf rewrites them to CRLF on checkout, which
+# breaks the hash and makes the browser reject the script/style. Mark them as
+# binary so git never converts line endings. Do NOT add line-ending conversion
+# to these paths; keep the committed LF bytes on every platform.
+assets/js/swiper/** -text
+assets/js/jquery/** -text
+assets/js/mdb/** -text
+assets/js/masonry/** -text
+assets/js/imagesloaded/** -text
+assets/js/img-comparison-slider/** -text
+assets/js/mathjax/** -text
+assets/js/medium-zoom.min.js -text
+assets/css/swiper/** -text
+assets/css/mdb/** -text
+assets/css/img-comparison-slider/** -text
+assets/css/img/** -text
