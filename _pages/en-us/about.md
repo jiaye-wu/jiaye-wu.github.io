@@ -4,6 +4,8 @@ layout: about
 title: about
 permalink: /
 subtitle: ALIGN at <a href='https://www.sigs.tsinghua.edu.cn/en/7544/list.htm'>Institute of Data and Information (iDI)</a>, <a href='https://sigs.tsinghua.edu.cn/en/'>Shenhen International Graduate School (SIGS)</a>, <a href='https://www.tsinghua.edu.cn/en/'>Tsinghua University</a>
+images:
+  slider: true
 
 # profile:
 #   align: right

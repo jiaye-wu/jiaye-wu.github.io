@@ -4,6 +4,8 @@ layout: about
 title: 主页
 permalink: /
 subtitle: <a href='https://www.tsinghua.edu.cn/'>清华大学</a> <a href='https://sigs.tsinghua.edu.cn/'>深圳国际研究生院（SIGS）</a><a href='https://www.sigs.tsinghua.edu.cn/7696/list.htm'>数据与信息研究院（iDI）</a>先进集成波导纳米光子学实验室（ALIGN）
+images:
+  slider: true
 
 # profile:
 #   align: right

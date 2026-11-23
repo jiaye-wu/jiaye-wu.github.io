@@ -4,6 +4,8 @@ layout: about
 title: 主頁
 permalink: /
 subtitle: <a href='https://www.tsinghua.edu.cn/'>清華大學</a> <a href='https://sigs.tsinghua.edu.cn/'>深圳國際研究生院（SIGS）</a><a href='https://www.sigs.tsinghua.edu.cn/7696/list.htm'>數據與信息研究院（iDI）</a>先進集成波導納米光子學實驗室（ALIGN）
+images:
+  slider: true
 
 # profile:
 #   align: right
