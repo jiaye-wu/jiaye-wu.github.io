@@ -187,7 +187,8 @@ toc:
 ### 學術會議
 
 {% capture talk_piers %}
-- [2026年7月28日： _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, 中國 蘇州](/blog/)
+- [2027年5月某日： _Sub-picosecond and Picosecond Nonlinear Processes in Time-varying Epsilon-near-zero Interfaces_, PIERS 2027, 韓國 大田](/blog/2027/conf-PIERS/)
+- [2026年7月28日： _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, 中國 蘇州](/blog/2026/conf-PIERS/)
 {% endcapture %}
 
 {% include info_card_invited_talks.liquid 
@@ -196,6 +197,18 @@ toc:
    badge="PIERS" 
    image="/assets/img/publication_preview/PIERS.png"
    description=talk_piers
+%}
+
+{% capture talk_eiedp %}
+- [2027年1月某日：_Title To Be Decided_, EIEDP 2027, 中國 泉州](/blog/2027/conf-EIEDP/)
+{% endcapture %}
+
+{% include info_card_invited_talks.liquid 
+   name="International Conference on Electronic Information Engineering and Data Processing (EIEDP)" 
+   role="邀請報告" 
+   badge="EIEDP" 
+   image="/assets/img/publication_preview/EIEDP.png"
+   description=talk_eiedp
 %}
 
 <br>
@@ -375,6 +388,23 @@ toc:
    badge="PIERS" 
    description1=PIERSL
    description2=PIERSR
+%}
+
+<!--EIEDP-->
+{% capture EIEDPL %}
+[_Electronic Information Engineering, Optoelectronics and Photonics_](https://www.eiedp.net/wtokpwhs)<br>
+{% endcapture %}
+
+{% capture EIEDPR %}
+中國福建省泉州市，2027.01<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="International Conference on Electronic Information Engineering and Data Processing (EIEDP)" 
+   subtitle="技術議程委員會（TPC）成員" 
+   badge="EIEDP" 
+   description1=EIEDPL
+   description2=EIEDPR
 %}
 
 <br>

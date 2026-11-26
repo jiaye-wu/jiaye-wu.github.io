@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-Serve as conference **Session Co-chair** of topic "_Electronic Information Engineering, Optoelectronics and Photonics, Data Processing and Computing_" in **EIEDP 2027** 
+Serve as conference **Technical Program Committee (TPC) Member** of topics "_Electronic Information Engineering, Optoelectronics and Photonics_" in **EIEDP 2027** 
 <br>
 [EIEDP 2027, Quanzhou, Fujian, China](https://www.eiedp.net/)
 <br>

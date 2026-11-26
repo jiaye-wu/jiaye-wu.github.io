@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-担任**EIEDP 2027**学术会议**分会场（Session）共同主席**："_Electronic Information Engineering, Optoelectronics and Photonics, Data Processing and Computing_"
+担任**EIEDP 2027**学术会议**技术议程委员会（TPC）成员**："_Electronic Information Engineering, Optoelectronics and Photonics_"
 <br>
 [EIEDP 2027，中国福建泉州](https://www.eiedp.net/)
 <br>

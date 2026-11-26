@@ -187,7 +187,8 @@ toc:
 ### conferences
 
 {% capture talk_piers %}
-- [Jul. 28th, 2026: _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, Suzhou, China](/blog/)
+- [May XXth, 2027: _Sub-picosecond and Picosecond Nonlinear Processes in Time-varying Epsilon-near-zero Interfaces_, PIERS 2027, Daejeon, South Korea](/blog/2027/conf-PIERS/)
+- [Jul. 28th, 2026: _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, Suzhou, China](/blog/2026/conf-PIERS/)
 {% endcapture %}
 
 {% include info_card_invited_talks.liquid 
@@ -196,6 +197,18 @@ toc:
    badge="PIERS" 
    image="/assets/img/publication_preview/PIERS.png"
    description=talk_piers
+%}
+
+{% capture talk_eiedp %}
+- [Jan. XXth, 2027: _Title To Be Decided_, EIEDP 2027, Quanzhou, China](/blog/2027/conf-EIEDP/)
+{% endcapture %}
+
+{% include info_card_invited_talks.liquid 
+   name="International Conference on Electronic Information Engineering and Data Processing (EIEDP)" 
+   role="Invited Talks" 
+   badge="EIEDP" 
+   image="/assets/img/publication_preview/EIEDP.png"
+   description=talk_eiedp
 %}
 
 <br>
@@ -375,6 +388,27 @@ toc:
    badge="PIERS" 
    description1=PIERSL
    description2=PIERSR
+%}
+
+<br>
+
+<h3 style="color: #4378b1;" id="eiedpconf"><a href="https://www.eiedp.net/"><img src="/assets/img/publication_preview/EIEDP.png" style="height: 2.2em; "></a></h3>
+
+<!--EIEDP-->
+{% capture EIEDPL %}
+[_Electronic Information Engineering, Optoelectronics and Photonics_](https://www.eiedp.net/wtokpwhs)<br>
+{% endcapture %}
+
+{% capture EIEDPR %}
+2027.01, Quanzhou, China<br>
+{% endcapture %}
+
+{% include info_card_service.liquid 
+   name="International Conference on Electronic Information Engineering and Data Processing (EIEDP)" 
+   subtitle="Technical Program Committee (TPC) Member" 
+   badge="EIEDP" 
+   description1=EIEDPL
+   description2=EIEDPR
 %}
 
 <br>
