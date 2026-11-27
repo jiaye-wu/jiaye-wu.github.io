@@ -17,6 +17,10 @@ toc:
 <h3 style="color: #660974;" id="tsinghua"><a href="https://sigs.tsinghua.edu.cn/"><img src="/assets/img/university_logos/THU-SIGS.png" class="logo-light" style="height: 2em;"><img src="/assets/img/university_logos/THU-SIGS-white.png" class="logo-dark" style="height: 2em;"></a></h3>
 
 <!-- xyz -->
+
+#### 課程待分配，佔位標籤
+{: #card-nav-01 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="課程待分配，佔位標籤" 
    subtitle="教師（時間待定）" 
@@ -30,6 +34,9 @@ toc:
 <h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
+#### 光子學系統與技術
+{: #card-nav-02 .d-none data-toc-skip="" }
+
 {% capture EE440_coursebook %}
 [課程介紹](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
 {% endcapture %}
@@ -43,6 +50,9 @@ toc:
 %}
 
 <!-- BIOENG-445 -->
+#### 生物醫學光學
+{: #card-nav-03 .d-none data-toc-skip="" }
+
 {% capture BIOENG445_coursebook %}
 [課程介紹](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
 {% endcapture %}
@@ -60,6 +70,10 @@ toc:
 <h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/university_logos/PKU.png" style="height: 2em; "></a></h3>
 
 <!-- 04711202 -->
+
+#### 光纖通信
+{: #card-nav-04 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="光纖通信" 
    subtitle="教學助理（2019 春學期）" 
@@ -69,6 +83,10 @@ toc:
 %}
 
 <!-- 04711182 -->
+
+#### 光電子學
+{: #card-nav-05 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="光電子學" 
    subtitle="教學助理（2018 秋學期）" 
@@ -82,6 +100,10 @@ toc:
 <h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/university_logos/SCNU.png" style="height: 2em; "></a></h3>
 
 <!-- 41E42780 -->
+
+#### 高級英語
+{: #card-nav-06 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="高級英語" 
    subtitle="教學助理（2015 春學期）" 
@@ -96,6 +118,9 @@ toc:
 
 ### 科研院校
 
+#### 瑞士蘇黎世聯邦理工大學（ETH Zürich）
+{: #card-nav-07 .d-none data-toc-skip="" }
+
 {% capture talk_ethz %}
 - [2023年11月19日：光與物質相互作用：集成光芯片與微納薄膜器件中超快光脈衝串的腔外腔內操控新技術](/blog/2023/invited-ETHZ/)
 {% endcapture %}
@@ -107,6 +132,9 @@ toc:
    image="/assets/img/university_logos/ETHZ.png"
    description=talk_ethz
 %}
+
+#### 瑞士洛桑聯邦理工大學（EPFL）
+{: #card-nav-08 .d-none data-toc-skip="" }
 
 {% capture talk_epfl %}
 - [2025年04月10日：_Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains_](/blog/2025/news-EPFL-Public-Defence/)
@@ -121,6 +149,9 @@ toc:
    description=talk_epfl
 %}
 
+#### 清華大學
+{: #card-nav-09 .d-none data-toc-skip="" }
+
 {% capture talk_tsinghua %}
 - [2026年04月10日：新型時域泰伯效應及其片上集成](/blog/2026/invited-THU/)
 {% endcapture %}
@@ -132,6 +163,9 @@ toc:
    image="/assets/img/university_logos/THU-Alt.png"
    description=talk_tsinghua
 %}
+
+#### 北京大學
+{: #card-nav-10 .d-none data-toc-skip="" }
 
 {% capture talk_pku %}
 - [2024年05月07日：基於集成光芯片和微納光器件平臺的超快光脈衝腔外腔內操控](/blog/2024/invited-PKU/)
@@ -145,6 +179,9 @@ toc:
    description=talk_pku
 %}
 
+#### 香港科技大學（廣州）
+{: #card-nav-11 .d-none data-toc-skip="" }
+
 {% capture talk_hkustgz %}
 - [2025年08月12日： _Epsilon-Near-Zero Photonics: Crossroad of Multidisciplinary Research_](/blog/2025/invited-HKUSTGZ-AMAT/)
 {% endcapture %}
@@ -157,6 +194,9 @@ toc:
    description=talk_hkustgz
 %}
 
+#### 中國科學院上海光學精密機械研究所
+{: #card-nav-12 .d-none data-toc-skip="" }
+
 {% capture talk_siom %}
 - [2023年12月26日：近零介電常數條件下的線性與非線性熱光效應增強](/blog/2023/invited-SIOM/)
 {% endcapture %}
@@ -168,6 +208,9 @@ toc:
    image="/assets/img/university_logos/CAS.png"
    description=talk_siom
 %}
+
+#### 華南師範大學
+{: #card-nav-13 .d-none data-toc-skip="" }
 
 {% capture talk_scnu %}
 - [2017年10月11日：科學素養：科研學習經驗分享與SCI文獻檢索](/blog/2017/invited-SCNU2/)
@@ -186,6 +229,9 @@ toc:
 
 ### 學術會議
 
+#### PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)
+{: #card-nav-14 .d-none data-toc-skip="" }
+
 {% capture talk_piers %}
 - [2027年5月某日： _Sub-picosecond and Picosecond Nonlinear Processes in Time-varying Epsilon-near-zero Interfaces_, PIERS 2027, 韓國 大田](/blog/2027/conf-PIERS/)
 - [2026年7月28日： _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, 中國 蘇州](/blog/2026/conf-PIERS/)
@@ -198,6 +244,9 @@ toc:
    image="/assets/img/publication_preview/PIERS.png"
    description=talk_piers
 %}
+
+#### International Conference on Electronic Information Engineering and Data Processing (EIEDP)
+{: #card-nav-15 .d-none data-toc-skip="" }
 
 {% capture talk_eiedp %}
 - [2027年1月某日：_Title To Be Decided_, EIEDP 2027, 中國 泉州](/blog/2027/conf-EIEDP/)
@@ -224,6 +273,9 @@ toc:
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
 <!--OPTICA-->
+#### OPTICA（原美國光學學會）
+{: #card-nav-16 .d-none data-toc-skip="" }
+
 {% capture OPTICAL %}
 **分會成員**，OPTICA清華大學深圳國際研究生院分會<br>
 **導師（創始）**，OPTICA香港城市大學東莞校區學生分會<br>
@@ -259,6 +311,9 @@ toc:
 <h3 style="color: #000000;" id="spie"><a href="https://spie.org/membership"><img src="/assets/img/society_logos/SPIE.png" style="height: 1.8em; "></a></h3>
 
 <!--SPIE-->
+#### 國際光學工程學會
+{: #card-nav-17 .d-none data-toc-skip="" }
+
 {% capture SPIEL %}
 **分會成員**, SPIE清華大學深圳國際研究生院分會<br>
 {% endcapture %}
@@ -280,6 +335,9 @@ toc:
 <h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IEEE.png" style="height: 1.8em; "> <img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
 
 <!--IPS-->
+#### 電氣電子工程師協會、IEEE光子學會
+{: #card-nav-18 .d-none data-toc-skip="" }
+
 {% capture IPSL %}
 **分會成員**，IEEE光子學會清華大學深圳國際研究生院分會<br>
 **導師（創始）**，IEEE光子學會香港城市大學東莞校區學生分會<br>
@@ -307,6 +365,9 @@ toc:
 <h3 style="color: #ff7547;" id="elsevierap"><a href="https://www.elsevier.com/"><img src="/assets/img/society_logos/Elsevier.png" style="height: 2em; "></a></h3>
 
 <!--Elsevier-->
+#### 愛思唯爾
+{: #card-nav-19 .d-none data-toc-skip="" }
+
 {% capture ELSL %}
 **成員**，愛思唯爾顧問委員會<br>
 {% endcapture %}
@@ -328,6 +389,9 @@ toc:
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/zh/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
 <!--CAC-->
+#### 香港城市大學（東莞）
+{: #card-nav-20 .d-none data-toc-skip="" }
+
 {% capture CityUHKDGL %}
 **成員**, 香港城市大學（東莞）學術委員會<br>
 {% endcapture %}
@@ -349,6 +413,9 @@ toc:
 <h3 style="color: #ff0000;" id="edpo"><a href="https://www.epfl.ch/education/phd/edpo-photonics/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!--EDPO-->
+#### 瑞士洛桑聯邦理工大學光子學博士課程項目（EDPO）
+{: #card-nav-21 .d-none data-toc-skip="" }
+
 {% capture EDPOL %}
 **成員**，瑞士洛桑聯邦理工大學EDPO委員會<br>
 **博士代表**，瑞士洛桑聯邦理工大學EDPO項目<br>
@@ -372,6 +439,9 @@ toc:
 <h3 style="color: #a31953;" id="piersconf"><a href="https://piers.org/"><img src="/assets/img/publication_preview/PIERS.png" style="height: 2.2em; "></a></h3>
 
 <!--PIERS-->
+#### PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)
+{: #card-nav-22 .d-none data-toc-skip="" }
+
 {% capture PIERSL %}
 [_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_](https://daejeon2027.piers.org/session.html?sid=S014)<br>
 [_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
@@ -390,7 +460,14 @@ toc:
    description2=PIERSR
 %}
 
+<br>
+
+<h3 style="color: #4378b1;" id="eiedpconf"><a href="https://www.eiedp.net/"><img src="/assets/img/publication_preview/EIEDP.png" style="height: 2.2em; "></a></h3>
+
 <!--EIEDP-->
+#### International Conference on Electronic Information Engineering and Data Processing (EIEDP)
+{: #card-nav-23 .d-none data-toc-skip="" }
+
 {% capture EIEDPL %}
 [_Electronic Information Engineering, Optoelectronics and Photonics_](https://www.eiedp.net/wtokpwhs)<br>
 {% endcapture %}
@@ -412,6 +489,9 @@ toc:
 ## **同行評議**
 
 <!--Springer-Nature -->
+#### 施普林格-自然
+{: #card-nav-24 .d-none data-toc-skip="" }
+
 {% capture SNL %}
 _Nature (co-review)_<br>
 _Nature Nanotechnology_ (co-review)<br>
@@ -441,6 +521,9 @@ Opt. Quantum Electron.<br>
 %}
 
 <!--AAAS -->
+#### 美國科學促進會
+{: #card-nav-25 .d-none data-toc-skip="" }
+
 {% capture AAASL %}
 _Ultrafast Science_<br>
 {% endcapture %}
@@ -458,6 +541,9 @@ Ultrafast Sci.<br>
 %}
 
 <!--SPIE -->
+#### SPIE國際光學工程學會 x 中國激光雜誌社
+{: #card-nav-26 .d-none data-toc-skip="" }
+
 {% capture SPIEL %}
 _Advanced Photonics_<br>
 _Advanced Photonics Nexus_<br>
@@ -477,6 +563,9 @@ Adv. Photonics Nexus<br>
 %}
 
 <!--Wiley -->
+#### Wiley威立
+{: #card-nav-27 .d-none data-toc-skip="" }
+
 {% capture WL %}
 _Advanced Functional Materials_<br>
 _Laser & Photonics Reviews_<br>
@@ -500,6 +589,9 @@ Ann. Phys.-Berlin<br>
 %}
 
 <!--ACS -->
+#### 美國化學學會
+{: #card-nav-28 .d-none data-toc-skip="" }
+
 {% capture ACSL %}
 _ACS Photonics_<br>
 {% endcapture %}
@@ -517,6 +609,9 @@ ACS Photonics<br>
 %}
 
 <!--Optica Publishing Group -->
+#### Optica出版集團（原美國光學學會OSA）
+{: #card-nav-29 .d-none data-toc-skip="" }
+
 {% capture OSAL %}
 _Optics Letters_<br>
 _Optics Express_<br>
@@ -544,6 +639,9 @@ OSA Contin. (Opt. Contin.)<br>
 %}
 
 <!--Institute of Physics -->
+#### 英國物理學會
+{: #card-nav-30 .d-none data-toc-skip="" }
+
 {% capture IOPL %}
 _Journal of Physics: Photonics_<br>
 _Journal of Optics_<br>
@@ -565,6 +663,9 @@ Phys. Scr.<br>
 %}
 
 <!--Elsevier -->
+#### 愛思唯爾
+{: #card-nav-31 .d-none data-toc-skip="" }
+
 {% capture EL %}
 _Materials & Design_ <br>
 _Optics & Laser Technology_<br>
@@ -594,6 +695,9 @@ Opt. Commun.<br>
 %}
 
 <!--American Institute of Physics -->
+#### 美國物理學會
+{: #card-nav-32 .d-none data-toc-skip="" }
+
 {% capture AIPL %}
 _Applied Physics Letters_<br>
 _APL Quantum_<br>
@@ -613,6 +717,9 @@ APL Quantum<br>
 %}
 
 <!--Chinese Physical Society -->
+#### 中國物理學會
+{: #card-nav-33 .d-none data-toc-skip="" }
+
 {% capture CPSL %}
 _Acta Physica Sinica_<br>
 {% endcapture %}
@@ -630,6 +737,9 @@ Acta. Phys. Sin.<br>
 %}
 
 <!--Multidisciplinary Digital Publishing Institute -->
+#### 曼迪匹艾
+{: #card-nav-34 .d-none data-toc-skip="" }
+
 {% capture MDPIL %}
 _Sensors_<br>
 {% endcapture %}

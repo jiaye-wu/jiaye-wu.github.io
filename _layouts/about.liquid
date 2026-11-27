@@ -29,12 +29,9 @@ layout: default
   <article>
     {% if page.home_gallery and page.home_gallery.enabled %}
       {% assign gallery_width = page.home_gallery.width | default: 4 %}
-      {% assign intro_width = 12 | minus: gallery_width %}
-      <div class="row home-intro align-items-start">
-        <div class="col-12 col-md-{{ intro_width }} home-intro-text clearfix">
-          {{ content }}
-        </div>
-        <div class="col-12 col-md-{{ gallery_width }} home-intro-gallery">
+      {% assign gallery_percent = gallery_width | times: 100 | divided_by: 12.0 | round: 4 %}
+      <div class="home-intro" style="--home-gallery-width: {{ gallery_percent }}%">
+        <div class="home-intro-gallery">
           <swiper-container
             class="home-gallery-swiper"
             keyboard="true"
@@ -56,6 +53,9 @@ layout: default
               </swiper-slide>
             {% endfor %}
           </swiper-container>
+        </div>
+        <div class="home-intro-text">
+          {{ content }}
         </div>
       </div>
     {% else %}

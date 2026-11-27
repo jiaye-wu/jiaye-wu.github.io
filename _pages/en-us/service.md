@@ -17,6 +17,10 @@ toc:
 <h3 style="color: #660974;" id="tsinghua"><a href="https://sigs.tsinghua.edu.cn/en/"><img src="/assets/img/university_logos/THU-SIGS.png" class="logo-light" style="height: 2em;"><img src="/assets/img/university_logos/THU-SIGS-white.png" class="logo-dark" style="height: 2em;"></a></h3>
 
 <!-- xyz -->
+
+#### Course to be assigned, place holder
+{: #card-nav-01 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="Course to be assigned, place holder" 
    subtitle="Teacher (TBD)" 
@@ -30,6 +34,9 @@ toc:
 <h3 style="color: #ff0000;" id="epfl"><a href="https://www.epfl.ch/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!-- EE-440 -->
+#### Photonic Systems & Technology
+{: #card-nav-02 .d-none data-toc-skip="" }
+
 {% capture EE440_coursebook %}
 [Coursebook](https://edu.epfl.ch/coursebook/en/photonic-systems-and-technology-EE-440)
 {% endcapture %}
@@ -43,6 +50,9 @@ toc:
 %}
 
 <!-- BIOENG-445 -->
+#### Biomedical Optics
+{: #card-nav-03 .d-none data-toc-skip="" }
+
 {% capture BIOENG445_coursebook %}
 [Coursebook](https://edu.epfl.ch/coursebook/en/biomedical-optics-BIOENG-445)
 {% endcapture %}
@@ -60,6 +70,10 @@ toc:
 <h3 style="color: #94070a;" id="pku"><a href="https://www.pku.edu.cn/"><img src="/assets/img/university_logos/PKU.png" style="height: 2em; "></a></h3>
 
 <!-- 04711202 -->
+
+#### Optical Fiber Communications
+{: #card-nav-04 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="Optical Fiber Communications" 
    subtitle="Teaching Assistant (Spring 2019)" 
@@ -69,6 +83,10 @@ toc:
 %}
 
 <!-- 04711182 -->
+
+#### Photonics
+{: #card-nav-05 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="Photonics" 
    subtitle="Teaching Assistant (Autumn 2018)" 
@@ -82,6 +100,10 @@ toc:
 <h3 style="color: #124168;" id="scnu"><a href="https://www.scnu.edu.cn/"><img src="/assets/img/university_logos/SCNU.png" style="height: 2em; "></a></h3>
 
 <!-- 41E42780 -->
+
+#### Advanced English
+{: #card-nav-06 .d-none data-toc-skip="" }
+
 {% include info_card_service.liquid 
    name="Advanced English" 
    subtitle="Teaching Assistant (Spring 2015)" 
@@ -96,6 +118,9 @@ toc:
 
 ### universities & institutes
 
+#### Eidgenössische Technische Hochschule Zürich (ETH Zürich)
+{: #card-nav-07 .d-none data-toc-skip="" }
+
 {% capture talk_ethz %}
 - [Nov. 19th, 2023: _Light-matter interactions: Novel technologies for extra- and intra-cavity manipulations of ultrafast optical pulses in integrated photonic chips and nanophotonic thin film devices_](/blog/2023/invited-ETHZ/)
 {% endcapture %}
@@ -107,6 +132,9 @@ toc:
    image="/assets/img/university_logos/ETHZ.png"
    description=talk_ethz
 %}
+
+#### École Polytechnique Fédérale de Lausanne (EPFL)
+{: #card-nav-08 .d-none data-toc-skip="" }
 
 {% capture talk_epfl %}
 - [Apr. 10th, 2025: _Nanophotonic-enabled extra- and intra-cavity manipulation of ultrafast optical pulse trains_](/blog/2025/news-EPFL-Public-Defence/)
@@ -121,6 +149,9 @@ toc:
    description=talk_epfl
 %}
 
+#### Tsinghua University
+{: #card-nav-09 .d-none data-toc-skip="" }
+
 {% capture talk_tsinghua %}
 - [Apr. 10th, 2026: _Novel temporal Talbot effects and their on-chip integration_](/blog/2026/invited-THU/)
 {% endcapture %}
@@ -132,6 +163,9 @@ toc:
    image="/assets/img/university_logos/THU-Alt.png"
    description=talk_tsinghua
 %}
+
+#### Peking University
+{: #card-nav-10 .d-none data-toc-skip="" }
 
 {% capture talk_pku %}
 - [May 7th, 2024: _Extra- and intra-cavity manipulation of ultrashort optical pulses on integrated- and nano-photonic platforms_](/blog/2024/invited-PKU/)
@@ -145,6 +179,9 @@ toc:
    description=talk_pku
 %}
 
+#### Hong Kong University of Science and Technology (Guangzhou)
+{: #card-nav-11 .d-none data-toc-skip="" }
+
 {% capture talk_hkustgz %}
 - [Aug. 12th, 2025: _Epsilon-Near-Zero Photonics: Crossroad of Multidisciplinary Research_](/blog/2025/invited-HKUSTGZ-AMAT/)
 {% endcapture %}
@@ -157,6 +194,9 @@ toc:
    description=talk_hkustgz
 %}
 
+#### Shanghai Institute of Optics and Fine Machines (SIOM), Chinese Academy of Sciences (CAS)
+{: #card-nav-12 .d-none data-toc-skip="" }
+
 {% capture talk_siom %}
 - [Dec. 26th, 2023: _Enhancement of linear and nonlinear thermo-optic effects by epsilon-near-zero conditions_](/blog/2023/invited-SIOM/)
 {% endcapture %}
@@ -168,6 +208,9 @@ toc:
    image="/assets/img/university_logos/CAS.png"
    description=talk_siom
 %}
+
+#### South China Normal University
+{: #card-nav-13 .d-none data-toc-skip="" }
 
 {% capture talk_scnu %}
 - [Oct. 11th, 2017: _Science Literacy: Experiences in scientific research and literature search_](/blog/2017/invited-SCNU2/)
@@ -186,6 +229,9 @@ toc:
 
 ### conferences
 
+#### PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)
+{: #card-nav-14 .d-none data-toc-skip="" }
+
 {% capture talk_piers %}
 - [May XXth, 2027: _Sub-picosecond and Picosecond Nonlinear Processes in Time-varying Epsilon-near-zero Interfaces_, PIERS 2027, Daejeon, South Korea](/blog/2027/conf-PIERS/)
 - [Jul. 28th, 2026: _Ultrafast Thermo-optic Nonlinearity in Time-varying Epsilon-Near-Zero Interfaces_, PIERS 2026, Suzhou, China](/blog/2026/conf-PIERS/)
@@ -198,6 +244,9 @@ toc:
    image="/assets/img/publication_preview/PIERS.png"
    description=talk_piers
 %}
+
+#### International Conference on Electronic Information Engineering and Data Processing (EIEDP)
+{: #card-nav-15 .d-none data-toc-skip="" }
 
 {% capture talk_eiedp %}
 - [Jan. XXth, 2027: _Title To Be Decided_, EIEDP 2027, Quanzhou, China](/blog/2027/conf-EIEDP/)
@@ -224,6 +273,9 @@ toc:
 <h3 style="color: #000000;" id="optica"><a href="https://www.optica.org/membership/"><img src="/assets/img/society_logos/OPTICA.png" style="height: 1.8em; "></a></h3>
 
 <!--OPTICA-->
+#### OPTICA
+{: #card-nav-16 .d-none data-toc-skip="" }
+
 {% capture OPTICAL %}
 **Chapter Member**, OPTICA Tsinghua University SIGS Chapter<br>
 **Advisor (Founding)**, OPTICA City University of Hong Kong DG Campus Student Chapter<br>
@@ -259,6 +311,9 @@ toc:
 <h3 style="color: #000000;" id="spie"><a href="https://spie.org/membership"><img src="/assets/img/society_logos/SPIE.png" style="height: 1.8em; "></a></h3>
 
 <!--SPIE-->
+#### SPIE
+{: #card-nav-17 .d-none data-toc-skip="" }
+
 {% capture SPIEL %}
 **Chapter Member**, SPIE Tsinghua University SIGS Chapter<br>
 {% endcapture %}
@@ -280,6 +335,9 @@ toc:
 <h3 style="color: #031752;" id="ips"><a href="https://ieeephotonics.org/"><img src="/assets/img/society_logos/IEEE.png" style="height: 1.8em; "> <img src="/assets/img/society_logos/IPS.png" style="height: 2.2em; "></a></h3>
 
 <!--IPS-->
+#### IEEE & IEEE Photonics Society
+{: #card-nav-18 .d-none data-toc-skip="" }
+
 {% capture IPSL %}
 **Chapter Member**, IEEE Photonics Society Tsinghua University SIGS Branch Chapter<br>
 **Advisor (Founding)**, IEEE Photonics Society CityUHK DG Campus Student Branch Chapter<br>
@@ -307,6 +365,9 @@ toc:
 <h3 style="color: #ff7547;" id="elsevierap"><a href="https://www.elsevier.com/"><img src="/assets/img/society_logos/Elsevier.png" style="height: 2em; "></a></h3>
 
 <!--Elsevier-->
+#### Elsevier
+{: #card-nav-19 .d-none data-toc-skip="" }
+
 {% capture ELSL %}
 **Member**, Elsevier Advisory Panel<br>
 {% endcapture %}
@@ -328,6 +389,9 @@ toc:
 <h3 style="color: #660974;" id="cityu-dg"><a href="https://www.cityu-dg.edu.cn/en/home.html"><img src="/assets/img/university_logos/CityUHK-DG.png" style="height: 2em; "></a></h3>
 
 <!--CAC-->
+#### City University of Hong Kong (Dongguan)
+{: #card-nav-20 .d-none data-toc-skip="" }
+
 {% capture CityUHKDGL %}
 **Member**, CityUHK (DG) College Academic Committee (CAC)<br>
 {% endcapture %}
@@ -349,6 +413,9 @@ toc:
 <h3 style="color: #ff0000;" id="edpo"><a href="https://www.epfl.ch/education/phd/edpo-photonics/"><img src="/assets/img/university_logos/EPFL-long.png" style="height: 1.5em; "></a></h3>
 
 <!--EDPO-->
+#### EPFL Doctoral Programme in Photonics (EDPO)
+{: #card-nav-21 .d-none data-toc-skip="" }
+
 {% capture EDPOL %}
 **Member**, EPFL EDPO Commission<br>
 **PhD Representative**, EPFL EDPO Programme<br>
@@ -372,6 +439,9 @@ toc:
 <h3 style="color: #a31953;" id="piersconf"><a href="https://piers.org/"><img src="/assets/img/publication_preview/PIERS.png" style="height: 2.2em; "></a></h3>
 
 <!--PIERS-->
+#### PhotonIcs and Electromagnetics Research Symposium / Progress In Electromagnetics Research Symposium (PIERS)
+{: #card-nav-22 .d-none data-toc-skip="" }
+
 {% capture PIERSL %}
 [_Advances in Near-zero-index Metasurfaces, Nanodevices, and On-chip Integration_](https://daejeon2027.piers.org/session.html?sid=S014)<br>
 [_Near-Zero-Index Photonics: Physics, Devices, and Applications_](https://suzhou2026.piers.org/session.html?sid=S199)<br>
@@ -395,6 +465,9 @@ toc:
 <h3 style="color: #4378b1;" id="eiedpconf"><a href="https://www.eiedp.net/"><img src="/assets/img/publication_preview/EIEDP.png" style="height: 2.2em; "></a></h3>
 
 <!--EIEDP-->
+#### International Conference on Electronic Information Engineering and Data Processing (EIEDP)
+{: #card-nav-23 .d-none data-toc-skip="" }
+
 {% capture EIEDPL %}
 [_Electronic Information Engineering, Optoelectronics and Photonics_](https://www.eiedp.net/wtokpwhs)<br>
 {% endcapture %}
@@ -416,6 +489,9 @@ toc:
 ## **peer review**
 
 <!--Springer-Nature -->
+#### Springer-Nature
+{: #card-nav-24 .d-none data-toc-skip="" }
+
 {% capture SNL %}
 _Nature (co-review)_<br>
 _Nature Nanotechnology_ (co-review)<br>
@@ -445,6 +521,9 @@ Opt. Quantum Electron.<br>
 %}
 
 <!--AAAS -->
+#### American Association for the Advancement of Science
+{: #card-nav-25 .d-none data-toc-skip="" }
+
 {% capture AAASL %}
 _Ultrafast Science_<br>
 {% endcapture %}
@@ -462,6 +541,9 @@ Ultrafast Sci.<br>
 %}
 
 <!--SPIE -->
+#### The International Society for Optics and Photonics x Chinese Laser Press
+{: #card-nav-26 .d-none data-toc-skip="" }
+
 {% capture SPIEL %}
 _Advanced Photonics_<br>
 _Advanced Photonics Nexus_<br>
@@ -481,6 +563,9 @@ Adv. Photonics Nexus<br>
 %}
 
 <!--Wiley -->
+#### Wiley-VCH
+{: #card-nav-27 .d-none data-toc-skip="" }
+
 {% capture WL %}
 _Advanced Functional Materials_<br>
 _Laser & Photonics Reviews_<br>
@@ -504,6 +589,9 @@ Ann. Phys.-Berlin<br>
 %}
 
 <!--ACS -->
+#### American Chemical Society
+{: #card-nav-28 .d-none data-toc-skip="" }
+
 {% capture ACSL %}
 _ACS Photonics_<br>
 {% endcapture %}
@@ -521,6 +609,9 @@ ACS Photonics<br>
 %}
 
 <!--Optica Publishing Group -->
+#### Optica Publishing Group
+{: #card-nav-29 .d-none data-toc-skip="" }
+
 {% capture OSAL %}
 _Optics Letters_<br>
 _Optics Express_<br>
@@ -548,6 +639,9 @@ OSA Contin. (Opt. Contin.)<br>
 %}
 
 <!--Institute of Physics -->
+#### Institute of Physics
+{: #card-nav-30 .d-none data-toc-skip="" }
+
 {% capture IOPL %}
 _Journal of Physics: Photonics_<br>
 _Journal of Optics_<br>
@@ -569,6 +663,9 @@ Phys. Scr.<br>
 %}
 
 <!--Elsevier -->
+#### Elsevier BV
+{: #card-nav-31 .d-none data-toc-skip="" }
+
 {% capture EL %}
 _Materials & Design_ <br>
 _Optics & Laser Technology_<br>
@@ -598,6 +695,9 @@ Opt. Commun.<br>
 %}
 
 <!--American Institute of Physics -->
+#### American Institute of Physics
+{: #card-nav-32 .d-none data-toc-skip="" }
+
 {% capture AIPL %}
 _Applied Physics Letters_<br>
 _APL Quantum_<br>
@@ -617,6 +717,9 @@ APL Quantum<br>
 %}
 
 <!--Chinese Physical Society -->
+#### Chinese Physical Society
+{: #card-nav-33 .d-none data-toc-skip="" }
+
 {% capture CPSL %}
 _Acta Physica Sinica_<br>
 {% endcapture %}
@@ -634,6 +737,9 @@ Acta. Phys. Sin.<br>
 %}
 
 <!--Multidisciplinary Digital Publishing Institute -->
+#### Multidisciplinary Digital Publishing Institute
+{: #card-nav-34 .d-none data-toc-skip="" }
+
 {% capture MDPIL %}
 _Sensors_<br>
 {% endcapture %}
