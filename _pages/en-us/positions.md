@@ -10,7 +10,13 @@ nav_order: 6
 
 Please submit your curriculum vitae (CV) and personal statement to the P.I. by [email](mailto:jiaye_wu@outlook.com). <br>
 We offer open positions to excellent young scholars and students from the Chinese Mainland, Hong Kong SAR, Macau SAR, Taiwan Province, and overseas. <br>
-Additional information can be found [here](https://www.sigs.tsinghua.edu.cn/en/7383/list.htm).
+Additional information for **international students** can be found [here](https://www.sigs.tsinghua.edu.cn/en/international_students/list.htm).<br>
+For admission information list, please refer to [this page (Simplified Chinese)](https://www.sigs.tsinghua.edu.cn/7631/list.htm).<br>
+**Major to select in admission system:**
+- Master: `085400` `Electronic and Information Engineering`>`Integrated Circuits and Systems`
+- Doctorate: `0812J3` `Data Science and Information Technology`
+
+*Note that the aforementioned information might not be up-to-date. Please check for yourself before any action.
 
 ---
 

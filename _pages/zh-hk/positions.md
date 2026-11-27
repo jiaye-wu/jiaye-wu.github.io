@@ -10,7 +10,13 @@ nav_order: 6
 
 請將簡歷及個人陳述投遞至導師[電子郵箱](mailto:jiaye_wu@outlook.com)。<br>
 我們歡迎來自中國大陸、港澳臺地區，及海外的優秀青年學者及學生加盟實驗室。<br>
-招生信息可見[官網](https://www.sigs.tsinghua.edu.cn/7631/list.htm)。
+招生通知可見[官網](https://www.sigs.tsinghua.edu.cn/7631/list.htm)。<br>
+國際生相關資訊可見[官網（英文）](https://www.sigs.tsinghua.edu.cn/en/international_students/list.htm)。<br>
+**招生填報專業：**
+- 碩士：`085400` `電子信息`>`集成電路與系統`
+- 博士：`0812J3` `數據科學和信息技術`
+
+*注：以上招生信息可能隨時更新，請核實最新後再使用。本提示不負有任何相關責任。
 
 ---
 

@@ -10,7 +10,13 @@ nav_order: 6
 
 请将简历及个人陈述投递至导师[电子邮箱](mailto:jiaye_wu@outlook.com)。<br>
 我们欢迎来自中国大陆、港澳台地区，及海外的优秀青年学者及学生加盟实验室。<br>
-招生信息可见[官网](https://www.sigs.tsinghua.edu.cn/7631/list.htm)。
+招生通知可见[官网](https://www.sigs.tsinghua.edu.cn/7631/list.htm)。<br>
+国际生相关资讯可见[官网（英文）](https://www.sigs.tsinghua.edu.cn/en/international_students/list.htm)。<br>
+**招生填报专业：**
+- 硕士：`085400` `电子信息`>`集成电路与系统`
+- 博士：`0812J3` `数据科学和信息技术`
+
+*注：以上招生信息可能随时更新，请核实最新后再使用。本提示不负有任何相关责任。
 
 ---
 
